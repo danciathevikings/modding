@@ -1,0 +1,77 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_TUR_humiliation_from_egypt-796190"
+		texturefile = "gfx/interface/goals/GFX_TUR_humiliation_from_egypt-796190.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_TUR_humiliation_from_egypt-796190_shine"
+		texturefile = "gfx/interface/goals/GFX_TUR_humiliation_from_egypt-796190.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_TUR_humiliation_from_egypt-796190.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_TUR_humiliation_from_egypt-796190.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_TUR_legacy_of_the_great_turkish_war-259"
+		texturefile = "gfx/interface/goals/GFX_TUR_legacy_of_the_great_turkish_war-259.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_TUR_legacy_of_the_great_turkish_war-259_shine"
+		texturefile = "gfx/interface/goals/GFX_TUR_legacy_of_the_great_turkish_war-259.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_TUR_legacy_of_the_great_turkish_war-259.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_TUR_legacy_of_the_great_turkish_war-259.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

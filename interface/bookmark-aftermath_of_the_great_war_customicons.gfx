@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: Aftermath of The Great War
+	SpriteType = { 
+		name = "aftermath_of_the_great_war-797576"
+		texturefile = "gfx/interface/bookmarks/aftermath_of_the_great_war-bookmark/aftermath_of_the_great_war-797576.dds"
+	}
+

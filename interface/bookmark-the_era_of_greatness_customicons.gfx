@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Era of Greatness
+	SpriteType = { 
+		name = "the_era_of_greatness-797567"
+		texturefile = "gfx/interface/bookmarks/the_era_of_greatness-bookmark/the_era_of_greatness-797567.dds"
+	}
+

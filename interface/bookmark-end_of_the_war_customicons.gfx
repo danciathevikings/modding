@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: end of the war
+	SpriteType = { 
+		name = "end_of_the_war-796703"
+		texturefile = "gfx/interface/bookmarks/end_of_the_war-bookmark/end_of_the_war-796703.dds"
+	}
+

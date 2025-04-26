@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Great War
+	SpriteType = { 
+		name = "the_great_war-797573"
+		texturefile = "gfx/interface/bookmarks/the_great_war-bookmark/the_great_war-797573.dds"
+	}
+

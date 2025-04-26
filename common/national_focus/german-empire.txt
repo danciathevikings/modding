@@ -1,0 +1,371 @@
+focus_tree = {
+	id = german-empire
+	continuous_focus_position = { x = -40 y = 5600 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KSR
+		}
+	}
+	#Realpolitik
+	focus = {
+		id = KSR_realpolitik
+		icon = GFX_KSR_realpolitik-801671
+		x = 11
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 70
+			
+			add_war_support = 0.2
+			
+			add_stability = 0.3
+			
+			
+			add_popularity = {
+			    ideology = neutrality
+			    popularity = -0.5
+			}
+			
+			
+			
+		}
+	}
+
+	#Contain die Kaiser!
+	focus = {
+		id = KSR_containdiekaiser
+		icon = GFX_KSR_containdiekaiser-801673
+		x = 24
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = KSR_realpolitik  }
+	}
+
+	#Weltpolitik
+	focus = {
+		id = KSR_weltpolitik
+		icon = GFX_KSR_weltpolitik-801674
+		x = 34
+		y = 1
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Strengthen Support For Austria-Hungary
+	focus = {
+		id = KSR_strengthen_support_for_austriahungary
+		icon = GFX_KSR_strengthen_support_for_austriahungary-801731
+		x = 11
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_fan_prussian_militarism  }
+	}
+
+	#Relations With Asia
+	focus = {
+		id = KSR_relations_with_asia
+		icon = GFX_KSR_relations_with_asia-801701
+		x = 32
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_weltpolitik  }
+	}
+
+	#Colonial Expansion in Asia
+	focus = {
+		id = KSR_colonial_expansion_in_asia
+		icon = GFX_KSR_colonial_expansion_in_asia-801696
+		x = 36
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KSR_weltpolitik  }
+		mutually_exclusive = { focus = KSR_relations_with_asia  }
+	}
+
+	#Backstab The Austrians
+	focus = {
+		id = KSR_backstab_the_austrians
+		icon = GFX_KSR_backstab_the_austrians-801733
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_fan_prussian_militarism  }
+		mutually_exclusive = { focus = KSR_strengthen_support_for_austriahungary  }
+	}
+
+	#gott mits uns
+	focus = {
+		id = KSR_gott_mits_uns
+		icon = GFX_KSR_gott_mits_uns-646142
+		x = 17
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_ohl_authority  }
+	}
+
+	#German Industry
+	focus = {
+		id = KSR_german_industry
+		icon = GFX_KSR_german_industry-801804
+		x = 51
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#expand the horse motorization
+	focus = {
+		id = KSR_expand_the_horse_motorization
+		icon = GFX_goal_generic_army_motorized
+		x = 15
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = KSR_gott_mits_uns  }
+	}
+
+	#Fan Prussian Militarism
+	focus = {
+		id = KSR_fan_prussian_militarism
+		icon = GFX_KSR_fan_prussian_militarism-801782
+		x = 11
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = KSR_realpolitik  }
+	}
+
+	#OHL Authority
+	focus = {
+		id = KSR_ohl_authority
+		icon = GFX_KSR_ohl_authority-801805
+		x = 17
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = KSR_realpolitik  } prerequisite = { focus = KSR_realpolitik  }
+	}
+
+	#Anti-Austria Pakt
+	focus = {
+		id = KSR_antiaustria_pakt
+		icon = GFX_KSR_antiaustria_pakt-801806
+		x = 6
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_backstab_the_austrians  }
+	}
+
+	#Invite Italy
+	focus = {
+		id = KSR_invite_italy
+		icon = GFX_KSR_invite_italy-801807
+		x = 3
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_antiaustria_pakt  }
+	}
+
+	#Invite Serbia & Montenegro
+	focus = {
+		id = KSR_inviteserbiamontenegro
+		icon = GFX_KSR_inviteserbiamontenegro-801808
+		x = 5
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_antiaustria_pakt  }
+	}
+
+	#Invite Romania
+	focus = {
+		id = KSR_invite_romania
+		icon = GFX_KSR_invite_romania-801809
+		x = 7
+		y = 5
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_antiaustria_pakt  }
+	}
+
+	#Support Hungarian Revolution
+	focus = {
+		id = KSR_support_hungarian_revolution
+		icon = GFX_KSR_support_hungarian_revolution-801810
+		x = 4
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_antiaustria_pakt  }
+	}
+
+	#Support Balkan Revolution
+	focus = {
+		id = KSR_support_balkan_revolution
+		icon = GFX_KSR_support_balkan_revolution-801811
+		x = 6
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_antiaustria_pakt  }
+	}
+
+	#Anschluss
+	focus = {
+		id = KSR_anschluss
+		icon = GFX_KSR_anschluss-801812
+		x = 5
+		y = 7
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_invite_italy  } prerequisite = { focus = KSR_inviteserbiamontenegro  } prerequisite = { focus = KSR_invite_romania  } prerequisite = { focus = KSR_support_hungarian_revolution  } prerequisite = { focus = KSR_support_balkan_revolution  }
+		completion_reward = {
+			add_threat = 5
+			
+			
+		}
+	}
+
+	#Second Treaty of Björkö
+	focus = {
+		id = KSR_secondtreatyofbjorko
+		icon = GFX_KSR_secondtreatyofbjorko-801823
+		x = 5
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_anschluss  }
+	}
+
+	#Befriend the Hungarians
+	focus = {
+		id = KSR_befriend_the_hungarians
+		icon = GFX_focus_hun_elect_a_king
+		x = 2
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_secondtreatyofbjorko  }
+	}
+
+	#Destroy the Hungarians
+	focus = {
+		id = KSR_destroy_the_hungarians
+		icon = GFX_KSR_destroy_the_hungarians-801827
+		x = 6
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_secondtreatyofbjorko  }
+		mutually_exclusive = { focus = KSR_befriend_the_hungarians  }
+	}
+
+	#Interests in Bohemia
+	focus = {
+		id = KSR_interests_in_bohemia
+		icon = GFX_KSR_interests_in_bohemia-801831
+		x = 4
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KSR_destroy_the_hungarians  focus = KSR_befriend_the_hungarians  }
+	}
+
+	#Unite With Liechtenstein
+	focus = {
+		id = KSR_unite_with_liechtenstein
+		icon = GFX_KSR_unite_with_liechtenstein-801835
+		x = 4
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KSR_interests_in_bohemia  }
+	}
+
+	#Restore The Holy Roman Empire
+	focus = {
+		id = KSR_restore_the_holy_roman_empire
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 2
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = KSR_unite_with_liechtenstein  }
+	}
+
+	#Create the German Confederation
+	focus = {
+		id = KSR_create_the_german_confederation
+		icon = GFX_KSR_create_the_german_confederation-801836
+		x = 6
+		y = 12
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = KSR_unite_with_liechtenstein  }
+		mutually_exclusive = { focus = KSR_restore_the_holy_roman_empire  }
+	}
+
+}

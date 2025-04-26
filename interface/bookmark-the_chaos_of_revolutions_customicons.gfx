@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Chaos of Revolutions
+	SpriteType = { 
+		name = "the_chaos_of_revolutions-797566"
+		texturefile = "gfx/interface/bookmarks/the_chaos_of_revolutions-bookmark/the_chaos_of_revolutions-797566.dds"
+	}
+

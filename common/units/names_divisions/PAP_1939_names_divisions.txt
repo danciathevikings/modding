@@ -1,0 +1,9 @@
+PAP_DIV_0_5 = {
+	name = "Example Division"
+	for_countries = { PAP }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" 
+	}
+	fallback_name = "%d. Example Division"
+}

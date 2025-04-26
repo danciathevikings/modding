@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_dancias_characters_frederick_vi_large"
+		texturefile = "gfx/characters/dancias_characters/dancias_characters_frederick_vi_large.dds"
+	}
+	spriteType = {
+		name = "GFX_dancias_characters_frederick_vi_small"
+		texturefile = "gfx/characters/dancias_characters/dancias_characters_frederick_vi_small.dds"
+	}
+}

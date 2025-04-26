@@ -1,0 +1,13 @@
+bookmarks = {
+	bookmark = {
+		name = "nord_bund_name"
+		desc = "nord_bund_desc"
+		date = 1869.1.1.12
+	picture = "nord_bund-1"
+		default_country = "PRE"
+		"PRE" = {
+			history = "nord_bund_PRE"
+			ideology = neutrality
+		}
+	}
+}

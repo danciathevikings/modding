@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: Start of the Victorian Era
+	SpriteType = { 
+		name = "start_of_the_victorian_era-795312"
+		texturefile = "gfx/interface/bookmarks/start_of_the_victorian_era-bookmark/start_of_the_victorian_era-795312.dds"
+	}
+

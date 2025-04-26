@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Balkan Wars
+	SpriteType = { 
+		name = "the_balkan_wars-797570"
+		texturefile = "gfx/interface/bookmarks/the_balkan_wars-bookmark/the_balkan_wars-797570.dds"
+	}
+

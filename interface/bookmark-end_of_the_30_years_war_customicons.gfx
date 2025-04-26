@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: end of the 30 years war
+	SpriteType = { 
+		name = "end_of_the_30_years_war-1"
+		texturefile = "gfx/interface/bookmarks/end_of_the_30_years_war-bookmark/end_of_the_30_years_war-1.dds"
+	}
+

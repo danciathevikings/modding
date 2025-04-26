@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: Islamic Caliph
+	SpriteType = { 
+		name = "GFX_idea_jjedi09_islamic_caliph-795440"
+		texturefile = "gfx/interface/ideas/jjedi09s-ideasnational-spirits-ideas/jjedi09_islamic_caliph-795440.dds"
+	}
+
+	##Icon For: The owner of trade routes
+	SpriteType = { 
+		name = "GFX_idea_jjedi09_the_owner_of_trade_routes-796109"
+		texturefile = "gfx/interface/ideas/jjedi09s-ideasnational-spirits-ideas/jjedi09_the_owner_of_trade_routes-796109.dds"
+	}
+
+	##Icon For: Great rebellions
+	SpriteType = { 
+		name = "GFX_idea_jjedi09_great_rebellions-1061"
+		texturefile = "gfx/interface/ideas/jjedi09s-ideasnational-spirits-ideas/jjedi09_great_rebellions-1061.dds"
+	}
+
+	##Icon For: Prussian goose step
+	SpriteType = { 
+		name = "GFX_idea_jjedi09_prussian_goose_step-796703"
+		texturefile = "gfx/interface/ideas/jjedi09s-ideasnational-spirits-ideas/jjedi09_prussian_goose_step-796703.dds"
+	}
+
+	##Icon For: totaler Krieg
+	SpriteType = { 
+		name = "GFX_idea_jjedi09_totaler_krieg-1"
+		texturefile = "gfx/interface/ideas/jjedi09s-ideasnational-spirits-ideas/jjedi09_totaler_krieg-1.dds"
+	}
+
+ 
+ }

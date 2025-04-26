@@ -1,0 +1,16 @@
+characters = {
+	#frederick VI
+	dancias_characters_frederick_vi = {
+		name = dancias_characters_frederick_vi
+		portraits = {
+			civilian = {
+				large = GFX_dancias_characters_frederick_vi_large
+			}
+		}
+		country_leader = {
+			ideology = 
+			traits = {  }
+			expire = ""
+		}
+	}
+}

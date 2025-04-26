@@ -1,0 +1,70 @@
+bookmarks = {
+	bookmark = {
+		name = "the_great_war_name"
+		desc = "the_great_war_desc"
+		date = 1914.6.15.12
+	picture = "the_great_war-797573"
+		default_country = ""
+		"GER" = {
+			history = "the_great_war_GER"
+			ideology = neutrality
+		}
+		"FRA" = {
+			history = "the_great_war_FRA"
+			ideology = democratic
+		}
+		"AUS" = {
+			history = "the_great_war_AUS"
+			ideology = neutrality
+		}
+		"USA" = {
+			history = "the_great_war_USA"
+			ideology = democratic
+		}
+		"SOV" = {
+			history = "the_great_war_SOV"
+			ideology = neutrality
+		}
+		"ENG" = {
+			history = "the_great_war_ENG"
+			ideology = democratic
+		}
+		"ITA" = {
+			history = "the_great_war_ITA"
+			ideology = neutrality
+		}
+		"JAP" = {
+			history = "the_great_war_JAP"
+			ideology = neutrality
+		}
+		"TUR" = {
+			history = "the_great_war_TUR"
+			ideology = neutrality
+		}
+		"SER" = {
+			history = "the_great_war_SER"
+			ideology = democratic
+			minor = yes
+		}
+		"BUL" = {
+			history = "the_great_war_BUL"
+			ideology = neutrality
+			minor = yes
+		}
+		"ROM" = {
+			history = "the_great_war_ROM"
+			ideology = democratic
+			minor = yes
+		}
+		"MNT" = {
+			history = "the_great_war_MNT"
+			ideology = neutrality
+			minor = yes
+		}
+		"ALB" = {
+			history = "the_great_war_ALB"
+			ideology = neutrality
+			minor = yes
+		}
+	}
+}

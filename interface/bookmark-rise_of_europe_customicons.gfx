@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: rise of europe
+	SpriteType = { 
+		name = "rise_of_europe-795440"
+		texturefile = "gfx/interface/bookmarks/rise_of_europe-bookmark/rise_of_europe-795440.dds"
+	}
+

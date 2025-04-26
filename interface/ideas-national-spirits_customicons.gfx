@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Prussian Army
+	SpriteType = { 
+		name = "GFX_idea_prussian_army-1"
+		texturefile = "gfx/interface/ideas/national-spirits-ideas/prussian_army-1.dds"
+	}
+
+ 
+ }

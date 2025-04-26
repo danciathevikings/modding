@@ -1,0 +1,33 @@
+bookmarks = {
+	bookmark = {
+		name = "the_chaos_of_revolutions_name"
+		desc = "the_chaos_of_revolutions_desc"
+		date = 1848.1.1.12
+	picture = "the_chaos_of_revolutions-797566"
+		default_country = ""
+		"PRE" = {
+			history = "the_chaos_of_revolutions_PRE"
+			ideology = neutrality
+		}
+		"FRA" = {
+			history = "the_chaos_of_revolutions_FRA"
+			ideology = democratic
+		}
+		"USA" = {
+			history = "the_chaos_of_revolutions_USA"
+			ideology = democratic
+		}
+		"SOV" = {
+			history = "the_chaos_of_revolutions_SOV"
+			ideology = neutrality
+		}
+		"ENG" = {
+			history = "the_chaos_of_revolutions_ENG"
+			ideology = neutrality
+		}
+		"AUS" = {
+			history = "the_chaos_of_revolutions_AUS"
+			ideology = neutrality
+		}
+	}
+}

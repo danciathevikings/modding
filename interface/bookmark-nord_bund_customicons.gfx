@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: nord bund
+	SpriteType = { 
+		name = "nord_bund-1"
+		texturefile = "gfx/interface/bookmarks/nord_bund-bookmark/nord_bund-1.dds"
+	}
+

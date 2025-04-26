@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+
+		jjedi09_islamic_caliph = {
+			picture = jjedi09_islamic_caliph-795440
+			ledger = army
+			targeted_modifier = {
+				political_power_daily > 1
+
+research_speed_factor = 0.2
+
+
+			}
+		}
+
+		jjedi09_the_owner_of_trade_routes = {
+			picture = jjedi09_the_owner_of_trade_routes-796109
+			modifier = {
+				production_speed_buildings_factor = 0.5 
+
+production_speed_industrial_complex_factor = 0.5 
+
+
+			}
+		}
+
+		jjedi09_great_rebellions = {
+			picture = jjedi09_great_rebellions-1061
+			ledger = army
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.5
+
+
+			}
+		}
+
+		jjedi09_prussian_goose_step = {
+			picture = jjedi09_prussian_goose_step-796703
+			ledger = army
+			targeted_modifier = {
+				army_speed_factor_for_controller = 0.5
+
+
+			}
+		}
+
+	}
+	mobilization_laws = {
+
+		jjedi09_totaler_krieg = {
+			picture = jjedi09_totaler_krieg-1
+		}
+	}
+}

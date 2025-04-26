@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Victoria claims the British throne!
+	SpriteType = { 
+		name = "victoria_claims_the_british_throne-795376"
+		texturefile = "gfx/interface/events/the-victorian-era-event/victoria_claims_the_british_throne-795376.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,14 @@
+spriteTypes = { 
+	##Icon For: peace with the arabs
+	SpriteType = { 
+		name = "decision_icon_peace_with_the_arabs"
+		texturefile = "gfx/interface/decisions/decision_icon_peace_with_the_arabs.dds"
+	}
+
+	##Icon For: imperial claims in anhalt
+	SpriteType = { 
+		name = "decision_icon_imperial_claims_in_anhalt"
+		texturefile = "gfx/interface/decisions/decision_icon_imperial_claims_in_anhalt.dds"
+	}
+
+}

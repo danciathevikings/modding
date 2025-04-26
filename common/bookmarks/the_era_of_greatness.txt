@@ -1,0 +1,37 @@
+bookmarks = {
+	bookmark = {
+		name = "the_era_of_greatness_name"
+		desc = "the_era_of_greatness_desc"
+		date = 1860.5.28.12
+	picture = "the_era_of_greatness-797567"
+		default_country = ""
+		"PRE" = {
+			history = "the_era_of_greatness_PRE"
+			ideology = neutrality
+		}
+		"FRA" = {
+			history = "the_era_of_greatness_FRA"
+			ideology = neutrality
+		}
+		"USA" = {
+			history = "the_era_of_greatness_USA"
+			ideology = democratic
+		}
+		"SOV" = {
+			history = "the_era_of_greatness_SOV"
+			ideology = neutrality
+		}
+		"ENG" = {
+			history = "the_era_of_greatness_ENG"
+			ideology = neutrality
+		}
+		"AUS" = {
+			history = "the_era_of_greatness_AUS"
+			ideology = neutrality
+		}
+		"TUR" = {
+			history = "the_era_of_greatness_TUR"
+			ideology = neutrality
+		}
+	}
+}

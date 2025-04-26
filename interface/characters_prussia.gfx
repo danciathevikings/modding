@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_prussia_frederick_william_iii_large"
+		texturefile = "gfx/characters/prussia/prussia_frederick_william_iii_large.dds"
+	}
+	spriteType = {
+		name = "GFX_prussia_frederick_william_iii_small"
+		texturefile = "gfx/characters/prussia/prussia_frederick_william_iii_small.dds"
+	}
+}

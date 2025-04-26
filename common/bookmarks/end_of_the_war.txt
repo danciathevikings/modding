@@ -1,0 +1,13 @@
+bookmarks = {
+	bookmark = {
+		name = "end_of_the_war_name"
+		desc = "end_of_the_war_desc"
+		date = 1919.1.1.12
+	picture = "end_of_the_war-796703"
+		default_country = ""
+		"ENG" = {
+			history = "end_of_the_war_ENG"
+			ideology = democratic
+		}
+	}
+}

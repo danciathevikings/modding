@@ -1,0 +1,37 @@
+bookmarks = {
+	bookmark = {
+		name = "scramble_for_africa_name"
+		desc = "scramble_for_africa_desc"
+		date = 1884.3.20.12
+	picture = "scramble_for_africa-797568"
+		default_country = ""
+		"GER" = {
+			history = "scramble_for_africa_GER"
+			ideology = neutrality
+		}
+		"FRA" = {
+			history = "scramble_for_africa_FRA"
+			ideology = democratic
+		}
+		"SOV" = {
+			history = "scramble_for_africa_SOV"
+			ideology = neutrality
+		}
+		"USA" = {
+			history = "scramble_for_africa_USA"
+			ideology = democratic
+		}
+		"ENG" = {
+			history = "scramble_for_africa_ENG"
+			ideology = democratic
+		}
+		"AUS" = {
+			history = "scramble_for_africa_AUS"
+			ideology = neutrality
+		}
+		"TUR" = {
+			history = "scramble_for_africa_TUR"
+			ideology = neutrality
+		}
+	}
+}

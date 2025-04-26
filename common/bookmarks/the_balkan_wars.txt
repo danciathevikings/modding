@@ -1,0 +1,65 @@
+bookmarks = {
+	bookmark = {
+		name = "the_balkan_wars_name"
+		desc = "the_balkan_wars_desc"
+		date = 1910.1.1.12
+	picture = "the_balkan_wars-797570"
+		default_country = ""
+		"GER" = {
+			history = "the_balkan_wars_GER"
+			ideology = neutrality
+		}
+		"FRA" = {
+			history = "the_balkan_wars_FRA"
+			ideology = democratic
+		}
+		"ENG" = {
+			history = "the_balkan_wars_ENG"
+			ideology = democratic
+		}
+		"USA" = {
+			history = "the_balkan_wars_USA"
+			ideology = democratic
+		}
+		"SOV" = {
+			history = "the_balkan_wars_SOV"
+			ideology = neutrality
+		}
+		"AUS" = {
+			history = "the_balkan_wars_AUS"
+			ideology = neutrality
+		}
+		"ITA" = {
+			history = "the_balkan_wars_ITA"
+			ideology = neutrality
+		}
+		"JAP" = {
+			history = "the_balkan_wars_JAP"
+			ideology = neutrality
+		}
+		"TUR" = {
+			history = "the_balkan_wars_TUR"
+			ideology = neutrality
+		}
+		"SER" = {
+			history = "the_balkan_wars_SER"
+			ideology = democratic
+			minor = yes
+		}
+		"BUL" = {
+			history = "the_balkan_wars_BUL"
+			ideology = neutrality
+			minor = yes
+		}
+		"ROM" = {
+			history = "the_balkan_wars_ROM"
+			ideology = democratic
+			minor = yes
+		}
+		"MNT" = {
+			history = "the_balkan_wars_MNT"
+			ideology = neutrality
+			minor = yes
+		}
+	}
+}

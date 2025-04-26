@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_jjedi09scharaters_joseph_maria_von_radowitz_large"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_joseph_maria_von_radowitz_large.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_joseph_maria_von_radowitz_small"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_joseph_maria_von_radowitz_small.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_joseph_maria_von_radowitz_small"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_joseph_maria_von_radowitz_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_wilhelm_friedrich_ludwig_large"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_wilhelm_friedrich_ludwig_large.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_wilhelm_friedrich_ludwig_small"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_wilhelm_friedrich_ludwig_small.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_wilhelm_friedrich_ludwig_small"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_wilhelm_friedrich_ludwig_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_friedrich_wilhelm_iv_large"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_friedrich_wilhelm_iv_large.dds"
+	}
+	spriteType = {
+		name = "GFX_jjedi09scharaters_friedrich_wilhelm_iv_small"
+		texturefile = "gfx/characters/jjedi09scharaters/jjedi09scharaters_friedrich_wilhelm_iv_small.dds"
+	}
+}

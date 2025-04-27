@@ -1,0 +1,40 @@
+focus_tree = {
+	id = brandenbrug-prussia
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BDB
+		}
+	}
+	#unite the kingdom and electorate
+	focus = {
+		id = BDB_unite_the_kingdom_and_electorate
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 9
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+		completion_reward = { 
+		
+		
+		set_cosmetic_tag = BDB_PRE
+		
+DPU = {
+    every_owned_state = {
+        add_core_of = BDB
+    }
+}
+annex_country = { target = DPU
+  transfer_troops = yes
+ }
+		
+
+}
+
+}
+
+}
+}

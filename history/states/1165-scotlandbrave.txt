@@ -44,6 +44,12 @@ state={
 			add_core_of = PRE
 
 		}
+		
+						1648.1.1 = {
+			owner = BDB
+			remove_core_of = RIE
+			add_core_of = BDB}
+		
 		1871.1.1 = {
 			add_core_of = GER
 			owner = GER

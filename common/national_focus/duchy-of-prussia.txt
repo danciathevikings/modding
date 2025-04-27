@@ -1,0 +1,37 @@
+focus_tree = {
+	id = duchy-of-prussia
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DPU
+		}
+	}
+	#unite with brandenburg
+	focus = {
+		id = DPU_unite_with_brandenburg
+		icon = GFX_DPU_unite_with_brandenburg-262068
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+	
+			completion_reward = { 
+		
+				set_cosmetic_tag = DPU_PRE
+		
+BDB = {
+    every_owned_state = {
+        add_core_of = DPU
+    }
+}
+annex_country = { target = BDB
+  transfer_troops = yes
+ }
+}
+
+}
+}
+

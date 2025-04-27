@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  kingdom_of_dacia_fascism:0 "Kingdom of Dacia"
  kingdom_of_dacia_fascism_DEF:0 "the Kingdom of Dacia"
  kingdom_of_dacia_democratic:0 "Kingdom of Dacia"
@@ -4286,3 +4286,13 @@ RUS_federation_ADJ:0 "Russian"
  ITA_italian_empire_democratic_DEF:0 "the United Italian Empire"
  ITA_italian_empire_communism:0 "Grand Italian Union"
  ITA_italian_empire_communism_DEF:0 "the Grand Italian Union"
+
+
+
+
+BDB_BDP:0 "brandedburg-prussia"
+
+BDB_PRE:0 "kingdom in Prussia"
+BDB_PRE_DEF:0 "kingdom in Prussia"
+DPU_PRE:0 "kingdom in Prussia"
+DPU_PRE_DEF:0 " the kingdom in Prussia"

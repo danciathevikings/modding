@@ -1116,43 +1116,7 @@ KUR = {
 
 
 #Custom colours start here
-TUR = {
-	color = rgb { 148 36 0 }
-	color_ui = rgb { 148 36 0 }
-}
-BAY = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-PRE = {
-	color = rgb { 0 0 255 }
-	color_ui = rgb { 0 0 255 }
-}
-FRA = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-HAN = {
-	color = rgb { 110 255 138 }
-	color_ui = rgb { 110 255 138 }
-}
-SOV = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-GLC = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-HUN = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-CZE = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-PAP = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+NDB = {
+	color = rgb { 28 21 102 }
+	color_ui = rgb { 28 21 102 }
 }

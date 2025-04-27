@@ -1,0 +1,16 @@
+characters = {
+	#Frederick William
+	prussiahre_frederick_william = {
+		name = prussiahre_frederick_william
+		portraits = {
+			civilian = {
+				large = GFX_prussiahre_frederick_william_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = {  }
+			expire = "1688.4.29.1"
+		}
+	}
+}

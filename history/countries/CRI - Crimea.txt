@@ -3,10 +3,18 @@
 #oob = "CRI_1936"
 1444.11.11 = {
 set_cosmetic_tag = CRI_horde # Horde
-}
+
+OTO = { #Tag of the overlord
+    puppet = CRI
+}}
+
+
 1900.1.1 = {
 set_cosmetic_tag = CRI # Modern
 }
+
+
+
 
 set_research_slots = 3
 1936.1.1 = {

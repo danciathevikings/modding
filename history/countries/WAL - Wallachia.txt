@@ -1,12 +1,4 @@
 ﻿capital = 46
-
-1444.11.11 = {
-set_cosmetic_tag = CRI_horde # Horde
-
-OTO = { #Tag of the overlord
-    puppet = WAL
-}}
-
 1789.1.1 = {
 recruit_character=WAL_nicholas
 promote_character=WAL_nicholas
@@ -28,6 +20,13 @@ recruit_character=WAL_grigory_potemkin
 promote_character=WAL_alexander
 retire_character=WAL_grigory_potemkin
 }
+
+1648.1.1 = {
+
+OTO = { #Tag of the overlord
+    puppet = HUN
+}
+
 1812.1.1 = {
 promote_character=WAL_john
 }

@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: our king
+	SpriteType = { 
+		name = "our_king-1"
+		texturefile = "gfx/interface/events/events-event/our_king-1.dds"
+	}
+
+ 
+ }

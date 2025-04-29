@@ -22,10 +22,13 @@ state={
 			7005 1 
 		}
 		
-					1648.1.1 = {
+		1648.1.1 = {
 			owner = OTO
 			controller = OTO
-			add_core_of = OTO}
+			add_core_of = OTO
+			remove_core_of = EGY
+
+		}
 		
 		1936.1.1 = {
 					buildings = {

@@ -3555,8 +3555,8 @@
  BDB_fascism_DEF:0 "the Margraviate of Brandenburg"
  BDB_democratic:0 "Republic of Brandenburg"
  BDB_democratic_DEF:0 "the Republic of Brandenburg"
- BDB_neutrality:0 "duchy of brandenburg-prussia"
- BDB_neutrality_DEF:1 "The Margraviate of Brandenburg"
+ BDB_neutrality:0 "Margraviate of Brandenburg"
+ BDB_neutrality_DEF:0 "The Margraviate of Brandenburg"
  BDB_communism:0 "Republic of Brandenburg"
  BDB_communism_DEF:0 "the Republic of Brandenburg"
  BDB_fascism_ADJ:0 "Brandenburgian"
@@ -3747,8 +3747,8 @@
  DPU_fascism_DEF:0 "the Duchy of Prussia"
  DPU_democratic:0 "Republic of Prussia"
  DPU_democratic_DEF:0 "the Republic of Prussia"
- DPU_neutrality:1 "Duchy of Prussia"
- DPU_neutrality_DEF:1 "The Duchy of Prussia"
+ DPU_neutrality:0 "Duchy of Prussia"
+ DPU_neutrality_DEF:0 "The Duchy of Prussia"
  DPU_communism:0 "Republic of Prussia"
  DPU_communism_DEF:0 "the Republic of Prussia"
  DPU_fascism_ADJ:0 "Prussian"
@@ -10252,6 +10252,5 @@ DRF_ADJ:0 "Darfur"
  BLC: "Balochistan"
  BLC_DEF: "Balochistan"
  BLC_ADJ: "Baloch"
-
 
 

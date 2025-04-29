@@ -10,12 +10,6 @@ state={
         add_core_of = EFR
 		remove_core_of = FRI
         }
-		
-						1648.1.1 = {
-			owner = BDB
-			remove_core_of = RIE
-			add_core_of = BDB}
-		
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -27,6 +21,16 @@ state={
 		remove_core_of = DDR
 		remove_core_of = WGR
 		}
+		
+				1648.1.1 = {
+			owner = BDB
+			controller = BDB
+			add_core_of = BDB
+			
+
+		}
+		
+		
 				1600.1.1 = {
                 add_core_of = HOL
                 owner = HOL

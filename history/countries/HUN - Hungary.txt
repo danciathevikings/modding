@@ -38,6 +38,13 @@ AUS = { #Tag of the overlord
 }
 
 }
+
+1648.1.1 = {
+
+AUS = { #Tag of the overlord
+    puppet = HUN
+}
+
 1789.1.1 = {
 recruit_character=HUN_josephiihun
 recruit_character=HUN_leopoldiihun

@@ -10,10 +10,13 @@ state={
                 owner = FRA
                 }
 				
-							1648.1.1 = {
+		1648.1.1 = {
 			owner = OTO
 			controller = OTO
-			add_core_of = OTO}
+			add_core_of = OTO
+			remove_core_of = EGY
+
+		}
 				
 		1962.1.1 = {
                 owner = ALG

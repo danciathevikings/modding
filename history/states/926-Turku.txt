@@ -20,18 +20,19 @@ state={
 			3609 1
 		}
 		owner = SER
-		
-					1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-		
 		1919.1.1 = {
 			owner = YUG
 			controller = YUG
 			add_core_of = YUG
 
 		}
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		2007.1.1 = {
 			owner = SER
 			controller = SER

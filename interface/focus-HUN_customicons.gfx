@@ -1,0 +1,191 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HUN_under_austria_and_the_habsburgs_foolery-646353"
+		texturefile = "gfx/interface/goals/GFX_HUN_under_austria_and_the_habsburgs_foolery-646353.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HUN_under_austria_and_the_habsburgs_foolery-646353_shine"
+		texturefile = "gfx/interface/goals/GFX_HUN_under_austria_and_the_habsburgs_foolery-646353.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_under_austria_and_the_habsburgs_foolery-646353.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_under_austria_and_the_habsburgs_foolery-646353.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HUN_against_the_king-645811"
+		texturefile = "gfx/interface/goals/GFX_HUN_against_the_king-645811.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HUN_against_the_king-645811_shine"
+		texturefile = "gfx/interface/goals/GFX_HUN_against_the_king-645811.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_against_the_king-645811.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_against_the_king-645811.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HUN_with_the_king-645629"
+		texturefile = "gfx/interface/goals/GFX_HUN_with_the_king-645629.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HUN_with_the_king-645629_shine"
+		texturefile = "gfx/interface/goals/GFX_HUN_with_the_king-645629.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_with_the_king-645629.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_with_the_king-645629.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HUN_reclaim_our_hungary-646333"
+		texturefile = "gfx/interface/goals/GFX_HUN_reclaim_our_hungary-646333.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HUN_reclaim_our_hungary-646333_shine"
+		texturefile = "gfx/interface/goals/GFX_HUN_reclaim_our_hungary-646333.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_reclaim_our_hungary-646333.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_reclaim_our_hungary-646333.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_HUN_exploit_our_lumber_and_coal-645644"
+		texturefile = "gfx/interface/goals/GFX_HUN_exploit_our_lumber_and_coal-645644.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_HUN_exploit_our_lumber_and_coal-645644_shine"
+		texturefile = "gfx/interface/goals/GFX_HUN_exploit_our_lumber_and_coal-645644.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_exploit_our_lumber_and_coal-645644.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_HUN_exploit_our_lumber_and_coal-645644.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

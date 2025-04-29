@@ -1,54 +1,50 @@
 ideas = {
-	country = {
+	country = { 
 
-		jjedi09_islamic_caliph = {
-			picture = jjedi09_islamic_caliph-795440
-			ledger = army
-			targeted_modifier = {
-				political_power_daily > 1
+		PRE_prussia_goose_step = {
 
-research_speed_factor = 0.2
-
-
+			allowed = {
+				always = no
+				tag = PRE
+				tag = BDB
+				tag = DPU
 			}
-		}
 
-		jjedi09_the_owner_of_trade_routes = {
-			picture = jjedi09_the_owner_of_trade_routes-796109
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_disjointed_gov
 			modifier = {
-				production_speed_buildings_factor = 0.5 
-
-production_speed_industrial_complex_factor = 0.5 
-
-
+				political_power_factor = 0.05
+				    conscription = 0.02	
+					experience_gain_army = 0.1
 			}
 		}
+		
+		
+				PRE_landwher = {
 
-		jjedi09_great_rebellions = {
-			picture = jjedi09_great_rebellions-1061
-			ledger = army
+			allowed = {
+				always = no
+				tag = PRE
+				tag = BDB
+				tag = DPU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_disjointed_gov
 			modifier = {
-				resistance_growth_on_our_occupied_states = 0.5
+army_core_attack_factor = 0.1
+army_breakthrough_against_major_factor = 0.05
+army_morale_factor = 0.05
+army_org_regain = 0.05
 
-
-			}
-		}
-
-		jjedi09_prussian_goose_step = {
-			picture = jjedi09_prussian_goose_step-796703
-			ledger = army
-			targeted_modifier = {
-				army_speed_factor_for_controller = 0.5
 
 
 			}
 		}
+	
 
-	}
-	mobilization_laws = {
-
-		jjedi09_totaler_krieg = {
-			picture = jjedi09_totaler_krieg-1
-		}
-	}
 }

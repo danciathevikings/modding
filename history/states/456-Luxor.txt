@@ -4,6 +4,14 @@ state={
 	name="STATE_456"
 
 	history={
+		
+								1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		victory_points = {
 			11999 1 
 		}
@@ -16,14 +24,6 @@ state={
 			12071 3 
 		}
 		add_core_of = EGY
-		
-		
-					1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-
-
 
 	}
 

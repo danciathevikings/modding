@@ -12,12 +12,6 @@ state={
 		1836.1.1 = {
                 owner = FRA
                 }
-				
-							1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-				
 		1962.1.1 = {
                 owner = ALG
                 add_core_of = ALG
@@ -25,6 +19,15 @@ state={
 		victory_points = {
 			1145 20 
 		}
+		
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = EGY
+
+		}
+		
 		1936.1.1 = {
 					buildings = {
 			infrastructure = 2

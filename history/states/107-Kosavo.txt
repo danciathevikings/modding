@@ -10,12 +10,6 @@ state={
 			owner = SER
 
 		}
-		
-			1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-		
 		1919.1.1 = {
 			owner = YUG
 			controller = YUG
@@ -28,6 +22,14 @@ state={
 			remove_core_of = YUG
 
 		}
+		
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		1936.1.1 = {
 			buildings = {
 				infrastructure = 4

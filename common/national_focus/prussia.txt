@@ -1,6 +1,6 @@
 focus_tree = {
 	id = prussia
-	continuous_focus_position = { x = -40 y = 1050 } 
+	continuous_focus_position = { x = 340 y = 5990 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,4 +8,275 @@ focus_tree = {
 			tag = PRE
 		}
 	}
+	#Raise the Budget For the Army
+	focus = {
+		id = PRE_raise_the_budget_for_the_army
+		icon = GFX_PRE_raise_the_budget_for_the_army-796583
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_state_of_prussia  }
+		completion_reward = {
+			army_experience = 25
+			
+			
+			
+			add_war_support = 0.05
+			
+			
+		}
+	}
+
+	#State of Prussia
+	focus = {
+		id = PRE_state_of_prussia
+		icon = GFX_PRE_state_of_prussia-795392
+		x = 11
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_stability = .1
+			
+			
+			add_political_power = 100
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+
+	#Prussia's Economy
+	focus = {
+		id = PRE_prussiaseconomy
+		icon = GFX_PRE_prussiaseconomy-795598
+		x = 4
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+
+	#Strenghten the Support for the Deutscher Bund
+	focus = {
+		id = PRE_strenghten_the_support_for_the_deutscher_bund
+		icon = GFX_PRE_strenghten_the_support_for_the_deutscher_bund-796581
+		x = 13
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_state_of_prussia  }
+	}
+
+	#Prussian goose step
+	focus = {
+		id = PRE_prussian_goose_step
+		icon = GFX_PRE_prussian_goose_step-262068
+		x = 9
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = PRE_raise_the_budget_for_the_army  }
+	}
+
+	#found the zollverein
+	focus = {
+		id = PRE_found_the_zollverein
+		icon = GFX_PRE_found_the_zollverein-645935
+		x = 7
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PRE_prussiaseconomy  }
+	}
+
+	#industrialize the rhine
+	focus = {
+		id = PRE_industrialize_the_rhine
+		icon = GFX_focus_generic_industry_2
+		x = 6
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_prussiaseconomy  }
+	}
+
+	#adopt the Dreyse needle gun
+	focus = {
+		id = PRE_adopt_the_dreyse_needle_gun
+		icon = GFX_PRE_adopt_the_dreyse_needle_gun-645755
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PRE_prussian_goose_step  }
+	}
+
+	#found krupp
+	focus = {
+		id = PRE_found_krupp
+		icon = GFX_focus_generic_combined_arms
+		x = 9
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = PRE_prussian_goose_step  }
+	}
+
+	#totaler Krieg
+	focus = {
+		id = PRE_totaler_krieg
+		icon = GFX_PRE_totaler_krieg-645990
+		x = 7
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_raise_the_budget_for_the_army  focus = PRE_found_the_zollverein  }
+	}
+
+	#kleindeutsches kasierreich
+	focus = {
+		id = PRE_kleindeutsches_kasierreich
+		icon = GFX_focus_ger_return_of_the_kaiser
+		x = 14
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_strenghten_the_support_for_the_deutscher_bund  }
+		mutually_exclusive = { focus = PRE_grossedeutscheskaiserreich  }
+	}
+
+	#großedeutsches kaiserreich
+	focus = {
+		id = PRE_grossedeutscheskaiserreich
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_strenghten_the_support_for_the_deutscher_bund  }
+		mutually_exclusive = { focus = PRE_kleindeutsches_kasierreich  }
+	}
+
+	#Declare our Rivals!
+	focus = {
+		id = PRE_declareourrivals
+		icon = GFX_PRE_declareourrivals-796741
+		x = 18
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_state_of_prussia  }
+	}
+
+	#Potentional Allies
+	focus = {
+		id = PRE_potentional_allies
+		icon = GFX_PRE_potentional_allies-796743
+		x = 22
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_state_of_prussia  }
+	}
+
+	#Austria
+	focus = {
+		id = PRE_austria
+		icon = GFX_PRE_austria-259
+		x = 16
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_declareourrivals  }
+		mutually_exclusive = { focus = PRE_france  } mutually_exclusive = { focus = PRE_russia  }
+	}
+
+	#france
+	focus = {
+		id = PRE_france
+		icon = GFX_PRE_france-118
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_declareourrivals  }
+		mutually_exclusive = { focus = PRE_austria  } mutually_exclusive = { focus = PRE_russia  }
+	}
+
+	#russia
+	focus = {
+		id = PRE_russia
+		icon = GFX_focus_attack_soviet
+		x = 18
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_declareourrivals  }
+		mutually_exclusive = { focus = PRE_austria  } mutually_exclusive = { focus = PRE_france  }
+	}
+
+	#expand the Konigsberg dockyards
+	focus = {
+		id = PRE_expand_the_konigsberg_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_prussiaseconomy  }
+	}
+
+	#germany must be united
+	focus = {
+		id = PRE_germany_must_be_united
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 18
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = PRE_france  focus = PRE_austria  focus = PRE_russia  }
+	}
+
 }

@@ -33,11 +33,10 @@ state={
 
 		}
 		
-			1648.1.1 = {
+		1648.1.1 = {
 			owner = BDB
-		add_core_of = BDB
-		remove_core_of = BDB
-		}
+			controller = BDB
+			add_core_of = BDB}
 		
 		1871.1.1 = {
 			add_core_of = GER

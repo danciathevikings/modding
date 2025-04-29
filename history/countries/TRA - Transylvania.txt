@@ -4,14 +4,6 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 }
-
-1444.11.11 = {
-set_cosmetic_tag = CRI_horde # Horde
-
-OTO = { #Tag of the overlord
-    puppet = TRA
-}}
-
 1936.1.1 = {
 # Starting tech
 # clone of Yugoslavia
@@ -71,6 +63,12 @@ if = {
 		basic_torpedo = 1
 	}
 }
+}
+
+1648.1.1 = {
+
+OTO = { #Tag of the overlord
+    puppet = TRA
 }
 
 set_politics = {

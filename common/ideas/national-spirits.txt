@@ -1,8 +1,0 @@
-ideas = {
-	country = {
-
-		prussian_army = {
-			picture = prussian_army-1
-		}
-	}
-}

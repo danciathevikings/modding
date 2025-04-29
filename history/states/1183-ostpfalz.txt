@@ -30,6 +30,13 @@ state={
 			owner = GER
 
 		}
+		
+				1648.1.1 = {
+			add_core_of = BAY
+			owner = BAY
+
+		}
+		
 		1919.1.1 = {
 		owner = BAY
 		}

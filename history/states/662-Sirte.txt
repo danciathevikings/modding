@@ -19,6 +19,15 @@ state={
 			remove_core_of = EGY
 
 		}
+		
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = EGY
+
+		}
+		
 		1836.1.1 = {
 			owner = OTO
 			add_core_of = TRP
@@ -36,12 +45,6 @@ state={
 								1945.1.1 = {
                 owner = ENG
                 }
-				
-							1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-				
 		victory_points = {
 			4047 3 
 		}

@@ -9,16 +9,18 @@ state={
 			infrastructure = 0
 
 		}
+		
+								1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		victory_points = {
 			12002 1 
 		}
 		add_core_of = EGY
-
-			1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO}
-
 
 	}
 

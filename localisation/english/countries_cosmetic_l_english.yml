@@ -4289,10 +4289,7 @@ RUS_federation_ADJ:0 "Russian"
 
 
 
-
-BDB_BDP:0 "brandedburg-prussia"
-
-BDB_PRE:0 "kingdom in Prussia"
-BDB_PRE_DEF:0 "kingdom in Prussia"
-DPU_PRE:0 "kingdom in Prussia"
-DPU_PRE_DEF:0 " the kingdom in Prussia"
+DPU_PRE:0 "kingdom in prussia"
+DPU_PRE_DEF:0 " the kingdom in prussia"
+BDB_PRE:0 "kingdom in prussia"
+BDB_PRE_DEF:0 " the kingdom in prussia"

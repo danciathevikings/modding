@@ -1,0 +1,116 @@
+focus_tree = {
+	id = kingdom-of-hungry
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	#under Austria and the Habsburgs foolery
+	focus = {
+		id = HUN_under_austria_and_the_habsburgs_foolery
+		icon = GFX_HUN_under_austria_and_the_habsburgs_foolery-646353
+		x = 12
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#against the king
+	focus = {
+		id = HUN_against_the_king
+		icon = GFX_HUN_against_the_king-645811
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUN_under_austria_and_the_habsburgs_foolery  }
+		mutually_exclusive = { focus = HUN_with_the_king  }
+	}
+
+	#with the king
+	focus = {
+		id = HUN_with_the_king
+		icon = GFX_HUN_with_the_king-645629
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUN_under_austria_and_the_habsburgs_foolery  }
+		mutually_exclusive = { focus = HUN_against_the_king  }
+	}
+
+	#reclaim our hungary
+	focus = {
+		id = HUN_reclaim_our_hungary
+		icon = GFX_HUN_reclaim_our_hungary-646333
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = HUN_against_the_king  focus = HUN_with_the_king  }
+	}
+
+	#expand our economic independency
+	focus = {
+		id = HUN_expand_our_economic_independency
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 7
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HUN_with_the_king  focus = HUN_against_the_king  }
+	}
+
+	#claim inner hungary and slovokia
+	focus = {
+		id = HUN_claim_inner_hungary_and_slovokia
+		icon = GFX_focus_invite_yugoslavia
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = HUN_reclaim_our_hungary  }
+	}
+
+	#exploit our lumber and coal
+	focus = {
+		id = HUN_exploit_our_lumber_and_coal
+		icon = GFX_HUN_exploit_our_lumber_and_coal-645644
+		x = 7
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = HUN_expand_our_economic_independency  }
+	}
+
+	#our own landwehr
+	focus = {
+		id = HUN_our_own_landwehr
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = HUN_reclaim_our_hungary  }
+	}
+
+}

@@ -1542,20 +1542,12 @@ SWI_helvetic_republic = {
 }
 
 
-#mine
-
-BDB_BDP = {
-	color = rgb { 0 19 33 }
-	color_ui = rgb { 0  18  33 }
-}
-
-
 BDB_PRE = {
 	color = rgb { 0 19 33 }
-	color_ui = rgb { 0  18  33 }
+	color_ui = rgb { 225 225 225 }
 }
 
 DPU_PRE = {
 	color = rgb { 0 19 33 }
-	color_ui = rgb { 0  18  33 }
+	color_ui = rgb { 225 225 225 }
 }

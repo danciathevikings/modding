@@ -14,7 +14,7 @@ focus_tree = {
 	
 		focus = {
 		id = born_into_choas
-		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		icon = GFX_goal_unknown
 		x = 9
 		y = 3
 		cost = 5
@@ -25,7 +25,7 @@ focus_tree = {
 
 		focus = {
 		id = under_a_king
-		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		icon = GGFX_goal_unknown
 		x = 11
 		y = 4
 		cost = 5
@@ -37,7 +37,7 @@ focus_tree = {
 
 		focus = {
 		id = under_a_democracy
-		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		icon = GFX_goal_unknown
 		x = 13
 		y = 4
 		cost = 5
@@ -48,7 +48,7 @@ focus_tree = {
 }
 focus = {
 		id = build_an_industry
-		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		icon = GFX_goal_unknown
 		x = 13
 		y = 4
 		cost = 5

@@ -5,6 +5,10 @@ country_event = {
 	id = events.1
 	title = events.1.t
 	desc = events.1.d
+trigger = {
+original_tag=BDB
+has_completed_focus = BDB_unite_the_kingdom_and_electorate
+}
 
 	picture = our_king-1
 	option = {
@@ -14,6 +18,8 @@ country_event = {
 		hidden_effect = {
 			
 		}
+	
+	
 	}
 }
 

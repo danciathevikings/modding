@@ -45,6 +45,26 @@ army_org_regain = 0.05
 
 			}
 		}
+				PRE_neu_deutschbank = {
+
+			allowed = {
+				always = no
+				tag = PRE
+				tag = BDB
+				tag = DPU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_disjointed_gov
+			modifier = {
+			consumer_goods_factor = -.2
+				political_power_factor = 0.1
+				MONTHLY_POPULATION = 0.5
+
+			}
+		}
 	
 
 }

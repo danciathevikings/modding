@@ -18,18 +18,19 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL}
 		completion_reward = { 
-		
-		
+		 promote_character = DPU_frederick_william
+
 		set_cosmetic_tag = BDB_PRE
 		
 DPU = {
     every_owned_state = {
         add_core_of = BDB
     }
-}
-annex_country = { target = DPU
+	annex_country = { target = DPU
   transfer_troops = yes
  }
+}
+
 		
 
 }
@@ -128,6 +129,15 @@ annex_country = { target = DPU
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = BDB_unite_the_kingdom_and_electorate  }
+					completion_reward = {  add_extra_state_shared_building_slots = 2
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+    }
+}
+	
+	
 	}
 
 	#military unification
@@ -210,6 +220,8 @@ annex_country = { target = DPU
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = DPU_economic_unification  }
+	completion_reward = { add_ideas = PRE_neu_deutschbank	}
+	
 	}
 
 	#research into artillery
@@ -250,6 +262,14 @@ annex_country = { target = DPU
 			FOCUS_FILTER_RESEARCH
 		}
 		prerequisite = {  focus = DPU_neu_deutschbank }
+	completion_reward = {  add_extra_state_shared_building_slots = 2
+    add_building_construction = {
+        type = industrial_complex
+        level = 2
+        instant_build = yes
+    }
+}
+	
 	}
 
 

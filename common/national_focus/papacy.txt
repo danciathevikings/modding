@@ -11,7 +11,7 @@ focus_tree = {
 	
 		focus = {
 		id = chaos_of_religion
-		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		icon = GFX_goal_unknown
 		x = 9
 		y = 3
 		cost = 5

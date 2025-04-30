@@ -24,7 +24,7 @@ retire_character=WAL_grigory_potemkin
 1648.1.1 = {
 
 OTO = { #Tag of the overlord
-    puppet = HUN
+    puppet = WAL
 }
 
 1812.1.1 = {

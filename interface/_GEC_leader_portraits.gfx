@@ -1,0 +1,7 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_portrait_FRA_character"
+        texturefile = "gfx\leaders\FRA\Louis_XIV_of_France.dds"
+    }
+}

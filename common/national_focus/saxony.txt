@@ -18,22 +18,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL}
 		completion_reward = { 
-		 promote_character = DPU_frederick_william
-
-		set_cosmetic_tag = BDB_PRE
-		
-DPU = {
-    every_owned_state = {
-        add_core_of = BDB
-    }
-	annex_country = { target = DPU
-  transfer_troops = yes
- }
+		 
+ 
 }
 
 		
 
 }
 
-}
 }

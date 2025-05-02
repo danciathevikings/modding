@@ -24,12 +24,6 @@ state={
 			controller = PRC 
             add_core_of = PRC
 		}
-		
-						1648.1.1 = {
-        owner = QIN
-		add_core_of = QIN
-        }
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

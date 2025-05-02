@@ -25,12 +25,6 @@ state={
 				1816.1.1 = {
                 owner = FRA
                 }
-				
-										1648.1.1 = {
-        owner = MYS
-		add_core_of = MYS
-        }
-				
 		1960.1.1 = {
 		owner = RAJ
                 }

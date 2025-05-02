@@ -30,6 +30,12 @@ state={
 		1919.1.1 = {
 
 		}
+		
+						1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		
 		1946.1.1 = {
 			owner = PRC
 			controller = PRC

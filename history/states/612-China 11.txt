@@ -22,6 +22,13 @@ state={
 		1920.1.1 = {
             owner = MON
 		}
+		
+						1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		
+		
 		1933.1.1 = {
             add_core_of = MEN
             owner = MEN

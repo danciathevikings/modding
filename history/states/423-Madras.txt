@@ -14,6 +14,14 @@ state={
 		add_core_of = CTC
 		owner = CTC
 		}
+		
+						1648.1.1 = {
+        owner = MYS
+		add_core_of = MYS
+        }
+
+
+
 		1800.1.1 = {
 	    add_core_of = RAJ
 		owner = RAJ

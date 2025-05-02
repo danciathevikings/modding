@@ -80,6 +80,8 @@ focus = {
 
 }
 focus = {
+
+
 		id = expandsion_asti
 		icon = GFX_goal_unknown
 		x = 10

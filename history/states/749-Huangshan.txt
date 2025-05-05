@@ -31,6 +31,12 @@ state={
 		victory_points = {
 			12019 1 
 		}
+		
+						1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		
 		1938.10.25 = {
 			controller = JAP
 			CHI = {

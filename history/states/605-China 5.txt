@@ -21,6 +21,12 @@ state={
 			owner = CHI
 
 		}
+		
+						1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		
 		1933.1.1 = {
 
 		}

@@ -1,0 +1,177 @@
+focus_tree = { 
+id = tsardom-russia-focus-tree
+continuous_focus_position = { x = -40 y = 1050 }
+country = {
+factor = 0 
+modifier = { add = 10 tag = RUS  } } 
+
+
+	focus = {
+		id = rus_start_political_1
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus =   }
+		mutually_exclusive = { focus =  }
+	}
+	
+			focus = {
+		id = rus_political_4
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = rus_start_political_1  }
+		mutually_exclusive = { focus =  }
+	}
+	
+				focus = {
+		id = rus_political_5
+		icon = GFX_goal_unknown
+		x = 19
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus =  rus_start_political_1 }
+		mutually_exclusive = { focus =  }
+	}
+					focus = {
+		id = rus_political_6
+		icon = GFX_goal_unknown
+		x = 21
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = rus_start_political_1  }
+		mutually_exclusive = { focus =  }
+	}
+						focus = {
+		id = outward_politics
+		icon = GFX_goal_unknown
+		x = 11
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = rus_start_political_1  }
+		mutually_exclusive = { focus =  }
+	}
+	
+							focus = {
+		id = devople_our_lands
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = outward_politics  }
+		mutually_exclusive = { focus =  }
+	}
+	
+								focus = {
+		id = devople_Tsaritsyn 
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = devople_our_lands  }
+		mutually_exclusive = { focus =  }
+	}
+		
+								focus = {
+		id = devople_st_petersburg
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = devople_our_lands  }
+		mutually_exclusive = { focus =  }
+	}
+	
+									focus = {
+		id = devople_moscow
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = devople_our_lands  }
+		mutually_exclusive = { focus =  }
+	}
+	
+
+	
+	focus = {
+		id =  colonize_alaska
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = expand_siberia  }
+		prerequisite = { has_completed_focus =   }
+		mutually_exclusive = { focus =  }
+	}
+	
+		focus = {
+		id =  expand_siberia
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 	 }
+		prerequisite = { focus = outward_politics  }
+		mutually_exclusive = { focus =  }
+	}
+
+
+
+}

@@ -42,7 +42,7 @@ ideas = {
 				consumer_goods_expected_value = 0.26
 			    conversion_cost_civ_to_mil_factor = -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
-				generate_wargoal_tension = .10
+				generate_wargoal_tension = .10	
 				
 			}
 		}

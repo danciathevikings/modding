@@ -27,6 +27,12 @@ state={
 			remove_core_of = PER
 
 		}
+		
+						1444.1.1 = {
+			owner = AGQ
+		add_core_of = AGQ
+		}
+		
 				victory_points = {
 		14018 1 
 		}

@@ -17,6 +17,12 @@ state={
 		add_core_of = NAK
 		remove_core_of = SHI
 		}
+		
+						1444.1.1 = {
+			owner = AGQ
+		add_core_of = AGQ
+		}
+		
 				1600.1.1 = {
 		add_core_of = PER
 		}

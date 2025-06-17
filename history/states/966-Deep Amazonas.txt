@@ -27,6 +27,12 @@ state={
 			add_core_of = UKR
 
 		}
+		
+						1444.1.1 = {
+				owner = LIT
+                add_core_of = LIT
+		}
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

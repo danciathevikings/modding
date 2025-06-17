@@ -7,6 +7,9 @@ set_technology = {
 
 set_convoys = 20
 
+1444.1.1 = {
+
+BUR = {  puppet = FLA }
 
 1939.1.1 = {
 	

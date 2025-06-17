@@ -1,0 +1,16 @@
+characters = {
+	#Christina, Queen of Sweden
+	1648_christinaqueenofsweden = {
+		name = 1648_christinaqueenofsweden
+		portraits = {
+			civilian = {
+				large = GFX_1648_christinaqueenofsweden_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = { popular_queen }
+			expire = "1652.6.6"
+		}
+	}
+}

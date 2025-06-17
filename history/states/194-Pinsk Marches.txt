@@ -19,6 +19,12 @@ state={
 			remove_core_of = ZAP
 
 		}
+		
+						1444.1.1 = {
+				owner = LIT
+                add_core_of = LIT
+		}
+		
 		1900.1.1 = {
 			add_core_of = BLR
 

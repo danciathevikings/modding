@@ -51,13 +51,12 @@ transfer_state = 757
 transfer_state = 322	
 transfer_state = 758
 transfer_state = 434
-transfer_state = 935
 add_state_core = 757
 add_state_core = 322	
 add_state_core = 758
 add_state_core = 434
-add_state_core = 935
 add_state_core = 601
+
   }
 		prerequisite = { focus = QING_expandsion  }
 		mutually_exclusive = { focus =  }
@@ -181,6 +180,22 @@ add_state_core = 329
 		mutually_exclusive = { focus =  }
 	}
 	
+							focus = {
+		id = QING_expandsion_other_claims
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = { 
+
+		}
+		prerequisite = { focus =  QING_expandsion }
+		mutually_exclusive = { focus =  }
+	}
 	
 	
 	
@@ -207,7 +222,7 @@ add_state_core = 329
 			focus = {
 		id = QING_ecomony
 		icon = GFX_goal_unknown
-		x = 15
+		x = 17
 		y = 1
 		cost = 10
 		search_filters = {

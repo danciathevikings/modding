@@ -6,6 +6,11 @@ state={
 	history={
 		owner = GRZ
 		add_core_of = GRZ
+		
+						1444.1.1 = {
+			owner = AUS
+			add_core_of = AUS	}
+		
 		1501.1.1 = {
 		owner = AUS
 		add_core_of = AUS

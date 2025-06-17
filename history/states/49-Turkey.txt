@@ -37,6 +37,11 @@ state={
 			remove_core_of = OTO
 
 		}
+		
+							1444.1.1 = {
+			owner = CND
+			add_core_of = CND	}
+		
 		1936.1.1 = {
 			buildings = {
 				infrastructure = 2

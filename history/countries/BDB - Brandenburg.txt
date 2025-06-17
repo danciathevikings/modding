@@ -13,6 +13,7 @@ set_technology = {
 
 set_convoys = 20
 
+1444.1.1 { }
 
 1648.1.1 = { promote_character = BDB_frederick_william
 promote_character = DPU_frederick_william

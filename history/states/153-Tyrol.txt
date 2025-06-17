@@ -15,6 +15,11 @@ state={
 			remove_core_of = TRT
 
 		}
+		
+						1444.1.1 = {
+			owner = AUS
+			add_core_of = AUS	}
+		
 		1812.1.1 = {
 			owner = BAY
 			add_core_of = BAY

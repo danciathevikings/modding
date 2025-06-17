@@ -18,6 +18,14 @@ state={
 		remove_core_of = NOV
 		remove_core_of = POL
 		}
+		
+						1444.1.1 = {
+				owner = NOV
+                add_core_of = NOV
+		}
+		
+		
+		
 		buildings = {
 			infrastructure = 0
 

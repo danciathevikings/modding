@@ -29,6 +29,10 @@ set_technology = {
 set_convoys = 20
 
 
+1444.1.1 = {
+
+BUR = {  puppet = LIE }
+
 1939.1.1 = {
 	
 	#generic focuses

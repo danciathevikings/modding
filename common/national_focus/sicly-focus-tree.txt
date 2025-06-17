@@ -1,8 +1,1 @@
 
-
-focus_tree = { 
-id = sicily-focus-tree
-continuous_focus_position = { x = -40 y = 1050 }
-country = {
-factor = 0 
-modifier = { add = 10 tag = SIC} } }

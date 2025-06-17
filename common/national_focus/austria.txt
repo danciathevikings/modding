@@ -15,12 +15,152 @@ focus_tree = {
 		id = end_of_the_30_year_war
 		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
 		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+			completion_reward = {	 }
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus =   }
+
+}
+####################################austria_union
+
+	focus = {
+		id = AUS_union
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 15
 		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL}
+         completion_reward = {	 }
+		prerequisite = { focus =  end_of_the_30_year_war }
+        mutually_exclusive = { focus =   }
+}
 
+	focus = {
+		id = AUS_union_BOH
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 17
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+         completion_reward = {	
+annex_country  = { target = BOH transfer_troops = yes }
+every_state = {
+			limit = { is_core_of = BOH }
+			add_core_of = AUS
+		}		 }
+		prerequisite = { focus = AUS_union  }
+
+        mutually_exclusive = { focus =   }
+			available = {
+   has_subject = BOH
+}
+}
+
+	focus = {
+		id = AUS_union_SIL
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+         completion_reward = {	annex_country  = { target = SIL transfer_troops = yes }
+every_state = {
+			limit = { is_core_of = SIL }
+			add_core_of = AUS
+		}		 }
+		prerequisite = { focus = AUS_union  }
+        mutually_exclusive = { focus =   }
+					available = {
+   has_subject = SIL
+}
+}
+
+	focus = {
+		id = AUS_union_CRO
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 15
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+         completion_reward = {
+transfer_state = 956
+add_state_core = 956
+transfer_state = 930
+add_state_core = 930
+transfer_state = 109
+add_state_core = 109	 }
+		prerequisite = { focus = AUS_union  }
+        mutually_exclusive = { focus =   }
+}
+
+	focus = {
+		id = AUS_union_burgenland
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 14
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+         completion_reward = {
+transfer_state = 886
+add_state_core = 886
+transfer_state = 860
+add_state_core = 860	
+ }
+		prerequisite = { focus = AUS_union_CRO  focus =  AUS_union_SIL  focus =  AUS_union_BOH }
+        mutually_exclusive = { focus =   }
+}
+	focus = {
+		id = AUS_union_salzburg
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+         completion_reward = {
+		declare_war_on = {
+    target = SAL
+    type = annex_everything
+}
+add_state_core = 882
+
+ }
+		prerequisite = { focus = AUS_union_CRO  focus =  AUS_union_SIL focus =  AUS_union_BOH }
+        mutually_exclusive = { focus =   }
 }
 
 
+
+
+
+		declare_war_on = {
+    target = SRD
+    type = annex_everything
+}
+
+###########################austria_expandsion
+
+
+
+	focus = {
+		id = austria_proclaim_empire
+		icon = GFX_BDB_unite_the_kingdom_and_electorate-646216
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL}
+			completion_reward = {	add_cosmetic_tag =  }
+		prerequisite = { focus = end_of_the_30_year_war  }
+        mutually_exclusive = { focus =   }
+
+}
 }

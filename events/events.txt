@@ -1,54 +1,33 @@
 add_namespace = events
 
-#our king
+#hanover annex ons
 country_event = {
-	id = events.1
-	title = events.1.t
-	desc = events.1.d
-trigger = {
-original_tag=BDB
-has_completed_focus = BDB_unite_the_kingdom_and_electorate
-}
+	id = jjedi09_1648.1
+	title = jjedi09_1648.1.t
+	desc = jjedi09_1648.1.d
 
-	picture = our_king-1
+	picture = hanover_annex_ons-525
+
+	mean_time_to_happen = { days = 4 }
 	option = {
-		name = events.1.a
-		trigger_only_once = yes
-		ai_chance = { factor = 1 }
-		hidden_effect = {
-			
-		}
+		name = jjedi09_1648.1.a
+			is_triggered_only = yes
+        fire_only_once = yes
+		ai_chance = { factor = 100 }
+		
+        SIC= {annex_country = { target = KNI transfer_troops = yes }}
+        every_state={
+        limit={
+        or={
+        is_core_of=KNI
+        }
+        }
+        add_core_of=SIC
+       remove_core_of=KNI
+        }
+
 	
-	
-	}
-}
-
-country_event = {
-	id = events.2
-	title = events.2.t
-	desc = events.2.d
-
-	picture = our_king-1
-	option = {
-		name = events.1.a
-		trigger_only_once = yes
-		ai_chance = { factor = 1 }
-		hidden_effect = {
-			
-		}
-	}
-}
-
-country_event = {
-	id = events.3
-	title = events.3.t
-	desc = events.3.d
-
-	picture = our_king-1
-	option = {
-		name = events.1.a
-		trigger_only_once = yes
-		ai_chance = { factor = 1 }
+		
 		hidden_effect = {
 			
 		}

@@ -25,6 +25,12 @@ state={
 			remove_core_of = RUS
 
 		}
+		
+														1444.1.1 = {
+				owner = TIM
+                add_core_of = TIM
+		}
+		
 		1993.1.1 = {
 			owner = TAJ
 			controller = TAJ

@@ -1,2 +1,3 @@
 KDJ = "countries/kingdom of jerusalem.txt"
 NDB = "countries/nord deutsches bund.txt"
+SWE = "countries/sweden.txt"

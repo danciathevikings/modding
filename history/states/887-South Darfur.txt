@@ -51,7 +51,9 @@ state={
 			remove_claim_by = HUN
 
 		}
-
+				1444.1.1 = {
+			owner = TRA
+			add_core_of = TRA	}
 	}
 
 	provinces={

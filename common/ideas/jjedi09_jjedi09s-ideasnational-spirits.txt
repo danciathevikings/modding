@@ -29,6 +29,7 @@ ideas = {
 				tag = PRE
 				tag = BDB
 				tag = DPU
+				tag = SWE
 			}
 
 			allowed_civil_war = {
@@ -37,9 +38,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			modifier = {
 army_core_attack_factor = 0.1
-army_breakthrough_against_major_factor = 0.05
 army_morale_factor = 0.05
-army_org_regain = 0.05
 
 
 
@@ -65,6 +64,37 @@ army_org_regain = 0.05
 
 			}
 		}
-	
+		
+		SWE_Caroleans = {
+					allowed = {
+				always = no
+				tag = LIV
+				tag = FIN
+				tag = SWE
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = generic_disjointed_gov
+			modifier = { 
+			}
+			}
+			
+			
+			
+					SWE_lion_of_north = {
+					allowed = {
+				always = no
+				tag = LIV
+				tag = FIN
+				tag = SWE
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = generic_disjointed_gov
+			modifier = { 
+			} }
+
 
 }

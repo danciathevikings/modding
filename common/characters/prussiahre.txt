@@ -1,6 +1,6 @@
 characters = {
 	#Frederick William
-	DPU_frederick_william = {
+	prussiahre_frederick_william = {
 		name = prussiahre_frederick_william
 		portraits = {
 			civilian = {
@@ -8,23 +8,37 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
-			traits = { autocratic_imperialist  }
+			ideology = neutrality
+			traits = {  }
 			expire = "1688.4.29.1"
 		}
 	}
-	
-		BDB_frederick_william = {
-		name = prussiahre_frederick_william
+	#knights of the high templars
+	prussiahre_knights_of_the_high_templars = {
+		name = prussiahre_knights_of_the_high_templars
 		portraits = {
 			civilian = {
-				large = GFX_prussiahre_frederick_william_large
+				large = GFX_prussiahre_knights_of_the_high_templars_large
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
-			traits = { autocratic_imperialist  }
-			expire = "1688.4.29.1"
+			ideology = neutrality
+			traits = {  }
+			expire = "20000.1.1"
+		}
+	}
+	#Christina, Queen of Sweden
+	prussiahre_christinaqueenofsweden = {
+		name = prussiahre_christinaqueenofsweden
+		portraits = {
+			civilian = {
+				large = GFX_prussiahre_christinaqueenofsweden_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = { crown_regent }
+			expire = "1652.6.6"
 		}
 	}
 }

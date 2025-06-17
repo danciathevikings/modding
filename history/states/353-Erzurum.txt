@@ -19,6 +19,12 @@ state={
 			remove_core_of = EGY
 
 		}
+		
+								1444.1.1 = {
+				owner = QAR
+                add_core_of = QAR
+		}
+		
 		1920.1.1 = {
 			owner = TUR
 			controller = TUR

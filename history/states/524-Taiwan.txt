@@ -16,6 +16,13 @@ state=
 		add_core_of = CHI
 		remove_core_of = MNG
         }
+
+		1648.1.1 = {
+			owner = QIN
+		add_core_of = QIN
+		remove_core_of = POR
+        }
+
 		1900.1.1 = {
                 owner = JAP
                 }

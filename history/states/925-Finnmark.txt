@@ -37,6 +37,11 @@ state={
                         add_core_of = CRO
                         add_core_of = AUH
 		}
+		
+						1444.1.1 = {
+			owner = SLA
+			add_core_of = SLA			}
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -25,6 +25,12 @@ state={
 			remove_core_of = RUS
 
 		}
+		
+														1444.1.1 = {
+				owner = UZB
+                add_core_of = UZB
+		}
+		
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

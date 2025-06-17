@@ -23,6 +23,12 @@ state={
 		owner = SOV
 		add_core_of=SOV
 		}
+		
+						1444.1.1 = {
+				owner = LIT
+                add_core_of = LIT
+		}
+		
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

@@ -24,6 +24,12 @@ state={
 		remove_core_of = POL
 		remove_core_of = RUS
 		}
+		
+						1444.1.1 = {
+				owner = LIT
+                add_core_of = LIT
+		}
+		
 		1800.1.1 = {
 			owner = RUS
 		add_core_of = RUS

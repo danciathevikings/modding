@@ -1,4 +1,4 @@
-MAL_UK = {
+﻿MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
@@ -1542,6 +1542,8 @@ SWI_helvetic_republic = {
 }
 
 
+####################
+
 BDB_PRE = {
 	color = rgb { 0 19 33 }
 	color_ui = rgb { 225 225 225 }
@@ -1549,5 +1551,10 @@ BDB_PRE = {
 
 DPU_PRE = {
 	color = rgb { 0 19 33 }
+	color_ui = rgb { 225 225 225 }
+}
+
+AUS_HRE = {
+	color = rgb { 255, 204, 51 }
 	color_ui = rgb { 225 225 225 }
 }

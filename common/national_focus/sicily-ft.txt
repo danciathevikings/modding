@@ -1,0 +1,410 @@
+focus_tree = {
+	id = sicily-ft
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIC
+		}
+	}
+	#adopt line infantry
+	focus = {
+		id = SIC_adopt_line_infantry
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_army_expansion  }
+		mutually_exclusive = { focus = SIC_adopt_the_prussian_goosestep  }
+	}
+
+	#adopt the prussian goose-step
+	focus = {
+		id = SIC_adopt_the_prussian_goosestep
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_army_expansion  }
+		mutually_exclusive = { focus = SIC_adopt_line_infantry  }
+	}
+
+	#expand our dockyards
+	focus = {
+		id = SIC_expand_our_dockyards
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_expand_our_farms  } prerequisite = { focus = SIC_expand_our_mines  }
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = dockyard
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = dockyard
+			level = 3
+			instant_build = yes
+			}
+			set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+			}
+			
+			
+		}
+	}
+
+	#Muslim caliphate
+	focus = {
+		id = SIC_muslim_caliphate
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SIC_our_own_way  } mutually_exclusive = { focus = SIC_restore_byzantine_empire  } mutually_exclusive = { focus = SIC_mediterranean_empire  }
+	}
+
+	#our own way
+	focus = {
+		id = SIC_our_own_way
+		icon = GFX_goal_unknown
+		x = 24
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SIC_muslim_caliphate  } mutually_exclusive = { focus = SIC_restore_byzantine_empire  } mutually_exclusive = { focus = SIC_mediterranean_empire  }
+	}
+
+	#restore byzantine empire
+	focus = {
+		id = SIC_restore_byzantine_empire
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SIC_muslim_caliphate  } mutually_exclusive = { focus = SIC_our_own_way  } mutually_exclusive = { focus = SIC_mediterranean_empire  }
+	}
+
+	#Mediterranean empire
+	focus = {
+		id = SIC_mediterranean_empire
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = SIC_muslim_caliphate  } mutually_exclusive = { focus = SIC_our_own_way  } mutually_exclusive = { focus = SIC_restore_byzantine_empire  }
+	}
+
+	#sicly eco
+	focus = {
+		id = SIC_sicly_eco
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SIC_muslim_caliphate  focus = SIC_our_own_way  focus = SIC_restore_byzantine_empire  focus = SIC_mediterranean_empire  }
+	}
+
+	#army expansion
+	focus = {
+		id = SIC_army_expansion
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_muslim_caliphate  focus = SIC_our_own_way  focus = SIC_restore_byzantine_empire  focus = SIC_mediterranean_empire  }
+	}
+
+	#expand our farms
+	focus = {
+		id = SIC_expand_our_farms
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SIC_sicly_eco  }
+	}
+
+	#expand our mines
+	focus = {
+		id = SIC_expand_our_mines
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_sicly_eco  }
+	}
+
+	#develop our new territories
+	focus = {
+		id = SIC_develop_our_new_territories
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_sicly_eco  }
+	}
+
+	#into the emirate of sicily
+	focus = {
+		id = SIC_into_the_emirate_of_sicily
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_muslim_caliphate  }
+	}
+
+	#into the fire
+	focus = {
+		id = SIC_into_the_fire
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_restore_byzantine_empire  }
+	}
+
+	#embrace our traditions
+	focus = {
+		id = SIC_embrace_our_traditions
+		icon = GFX_goal_unknown
+		x = 26
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_mediterranean_empire  }
+	}
+
+	#the rise of the two sicilys
+	focus = {
+		id = SIC_the_rise_of_the_two_sicilys
+		icon = GFX_goal_unknown
+		x = 24
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_our_own_way  }
+	}
+
+	#deal with the pope
+	focus = {
+		id = SIC_deal_with_the_pope
+		icon = GFX_goal_unknown
+		x = 19
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_into_the_fire  }
+	}
+
+	#claim greater Constantinople
+	focus = {
+		id = SIC_claim_greater_constantinople
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_into_the_fire  }
+	}
+
+	#make the theme of italy
+	focus = {
+		id = SIC_make_the_theme_of_italy
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_into_the_fire  }
+	}
+
+	#take the islands
+	focus = {
+		id = SIC_take_the_islands
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_make_the_theme_of_italy  } prerequisite = { focus = SIC_claim_greater_constantinople  }
+	}
+
+	#annex crete
+	focus = {
+		id = SIC_annex_crete
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_take_the_islands  }
+	}
+
+	#adopt Greek-byzantine culture
+	focus = {
+		id = SIC_adopt_greekbyzantine_culture
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_deal_with_the_pope  }
+	}
+
+	#sneak into cyprus
+	focus = {
+		id = SIC_sneak_into_cyprus
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_claim_greater_constantinople  } prerequisite = { focus = SIC_make_the_theme_of_italy  }
+	}
+
+	#byzantine REBORN
+	focus = {
+		id = SIC_byzantine_reborn
+		icon = GFX_goal_unknown
+		x = 17
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_arab_spring_aginst_the_ottomans  }
+	}
+
+	#arab spring aginst the ottomans
+	focus = {
+		id = SIC_arab_spring_aginst_the_ottomans
+		icon = GFX_goal_unknown
+		x = 17
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_annex_crete  } prerequisite = { focus = SIC_adopt_greekbyzantine_culture  }
+	}
+
+	#nostru granni asèrcitu
+	focus = {
+		id = SIC_nostrugranniasercitu
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_adopt_line_infantry  focus = SIC_adopt_the_prussian_goosestep  }
+	}
+
+	#expand recruitment
+	focus = {
+		id = SIC_expand_recruitment
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = SIC_nostrugranniasercitu  }
+	}
+
+	#organization training
+	focus = {
+		id = SIC_organization_training
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = SIC_nostrugranniasercitu  }
+	}
+
+	#annex the ottoman Europe below Transylvania
+	focus = {
+		id = SIC_annex_the_ottoman_europe_below_transylvania
+		icon = GFX_goal_unknown
+		x = 19
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SIC_byzantine_reborn  }
+	}
+
+}

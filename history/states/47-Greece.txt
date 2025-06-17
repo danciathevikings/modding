@@ -15,6 +15,11 @@ state={
 				1600.1.1 = {
 		owner = OTO
 		}
+		
+									1444.1.1 = {
+			owner = BYZ
+			add_core_of = BYZ	}
+		
 		1800.1.1 = {
 		add_core_of = GRE
 		remove_core_of = ATH

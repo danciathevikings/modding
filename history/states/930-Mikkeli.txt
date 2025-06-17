@@ -10,6 +10,11 @@ state={
 		victory_points = {
 			3592 2 
 		}
+		
+							1444.1.1 = {
+			owner = CRO
+			add_core_of = CRO	}
+		
 		owner = CRO
 		add_core_of = CRO
 								1945.1.1 = {

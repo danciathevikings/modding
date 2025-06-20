@@ -5,6 +5,9 @@ recruit_character=ENG_rothschildiii
 1848.1.1 = {
 retire_character=ENG_rothschildiii
 }
+1444.1.1 = {
+add_ideas = 100_year_war
+}
 1815.1.1 = {
 			if = {
 		limit = { has_start_date < 1864.1.1 }

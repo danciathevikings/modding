@@ -8,6 +8,7 @@ focus_tree = {
 			tag = TEU 
 		}
 	}
+
 	
 		focus = {
 		id = TEU_our_order
@@ -48,6 +49,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL}
 			completion_reward = {	
 TEU = {
+    every_owned_state = {
+        add_core_of = DPU
+    } } 
+	WRM = {
     every_owned_state = {
         add_core_of = DPU
     } } 
@@ -122,7 +127,7 @@ TEU = {
 			completion_reward = {	
 
 
-
+    WRM = {release = DPU}
 release = DPU
 DPU = { change_tag_from = TEU }
 

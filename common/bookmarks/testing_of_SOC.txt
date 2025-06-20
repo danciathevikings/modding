@@ -1,0 +1,43 @@
+bookmarks = {
+	bookmark = {
+		name = "1965 - The Vietnam War"
+		desc = 1965_bookmark_desc
+		date = 1965.3.1.12
+		picture = "GFX_1965_bookmark"
+		default_country = "FRA"
+		default = yes
+
+		"FRA"={
+			history = "FRA_1965_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

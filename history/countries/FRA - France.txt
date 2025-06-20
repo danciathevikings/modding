@@ -31,7 +31,8 @@ add_ideas = {
 	civilian_economy
 }
 
-1444.1.1 = { set_cosmetic_tag = FRA_formable_neutrality }
+1444.1.1 = { set_cosmetic_tag = FRA_formable_neutrality 
+add_ideas = 100_year_war}
 
 1848.1.1 = {
 	oob = "FRA_1848"

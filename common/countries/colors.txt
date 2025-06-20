@@ -1116,15 +1116,7 @@ KUR = {
 
 
 #Custom colours start here
-KDJ = {
-	color = rgb { 255 187 156 }
-	color_ui = rgb { 255 187 156 }
-}
-NDB = {
-	color = rgb { 28 21 102 }
-	color_ui = rgb { 28 21 102 }
-}
-SWE = {
+TFO = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }

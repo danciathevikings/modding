@@ -16,6 +16,13 @@ state={
 			7822 1
 		}
                 }
+				
+				
+												1444.1.1 = {
+        owner = TFO
+		add_core_of = TFO
+        }
+				
 		1700.1.1 = {
 		add_core_of = RUS
                 owner = RUS

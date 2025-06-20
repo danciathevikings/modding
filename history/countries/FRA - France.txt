@@ -31,6 +31,8 @@ add_ideas = {
 	civilian_economy
 }
 
+1444.1.1 = { set_cosmetic_tag = FRA_formable_neutrality }
+
 1848.1.1 = {
 	oob = "FRA_1848"
 	starting_train_buffer = 0

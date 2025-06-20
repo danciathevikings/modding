@@ -8,8 +8,8 @@ state={
 		add_core_of = GRZ
 		
 						1444.1.1 = {
-			owner = TYR
-			add_core_of = TYR	}
+			owner = STY
+			add_core_of = STY		}
 		
 		1501.1.1 = {
 		owner = AUS

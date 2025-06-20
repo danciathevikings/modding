@@ -17,6 +17,10 @@ state={
 		owner = CRE
         add_core_of = CRE
 		}
+				1444.1.1 = {
+		owner = VNT
+        add_core_of = VNT
+		}
 		1914.1.1 = {
 		owner = GRE
         add_core_of = GRE

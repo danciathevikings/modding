@@ -16,6 +16,14 @@ set_politics = {
 	elections_allowed = no
 }
 }
+
+1444.1.1 = {
+
+ARA = {  puppet = NAP } 
+
+
+}
+
 1765.1.1 = {
 recruit_character=NAP_ferdinandi
 promote_character=NAP_ferdinandi

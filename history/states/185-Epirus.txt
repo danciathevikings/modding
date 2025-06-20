@@ -9,13 +9,13 @@ state={
 
 	history={
 		victory_points = {
-			3914 3 
+			3844 3 
 		}
 		owner = OTO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			9805 = {
+			3844 = {
 				naval_base = 1
 
 			}
@@ -43,7 +43,7 @@ state={
 				infrastructure = 2
 				industrial_complex = 1
 				air_base = 3
-				9805 = {
+				3844 = {
 					naval_base = 1
 
 				}
@@ -55,7 +55,8 @@ state={
 	}
 
 	provinces={
-		841 966 3844 3914 3980 9805 9916 13800 13802 13803 13804 13805 
+
+	841 966 3844  3980    13802  13804 13805 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

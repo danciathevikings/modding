@@ -18,6 +18,9 @@
 	}
 	}
 }
+
+1444.1.1 = { set_cosmetic_tag = OTO_one }
+
 1689.1.1 = {
 recruit_character=OTO_suleimanii
 promote_character=OTO_suleimanii

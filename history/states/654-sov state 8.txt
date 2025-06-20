@@ -13,6 +13,12 @@ state={
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
                 }
+				
+												1444.1.1 = {
+        owner = TFO
+		add_core_of = TFO
+        }
+				
 		1776.1.1 = {
 		add_core_of=MON
                 owner = QIN

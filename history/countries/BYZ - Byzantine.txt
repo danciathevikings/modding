@@ -2,6 +2,8 @@
 1789.1.1 = {
 recruit_character=BYZ_konstantinpavlovich
 }
+1444.1.1 = {set_oob = BZY_1444}
+
 1836.1.1 = {
 retire_character=BYZ_konstantinpavlovich
 }

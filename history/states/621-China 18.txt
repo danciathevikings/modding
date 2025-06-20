@@ -13,6 +13,12 @@ state={
 		add_core_of = CHI
 		remove_core_of = MNG
         }
+		
+								1444.1.1 = {
+        owner = MON
+		add_core_of = MON
+        }
+		
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI

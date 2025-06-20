@@ -12,7 +12,7 @@ focus_tree = {
 		focus = {
 		id = BDB_1444_start
 		icon = GFX_goal_unknown
-		x = 0
+		x = 12
 		y = 0
 		cost = 10
 		search_filters = {
@@ -20,8 +20,28 @@ focus_tree = {
 		}
 		
 		completion_reward = {    	 }
-		
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus =   }
 		available = { }
 	}
+	
+			focus = {
+		id = BDB_1444_union_with_duchy_of_prussia
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus = BDB_1444_start  }
+        mutually_exclusive = { focus =   }
+		available = { DPU = { has_completed_focus = DPU_king_BDB }  }
+	}
+	
+	
+	
 
 }

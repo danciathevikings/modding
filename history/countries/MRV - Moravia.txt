@@ -7,7 +7,12 @@ set_technology = {
 
 set_convoys = 20
 
+1444.1.1 = {
 
+BOH = { #Tag of the overlord
+    puppet = MRV
+}
+}
 1939.1.1 = {
 	
 	#generic focuses

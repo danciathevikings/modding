@@ -25,6 +25,8 @@ if = {
 	}
 }
 }
+
+
 set_research_slots = 3
 1936.1.1 = {
 if = {
@@ -44,6 +46,11 @@ set_variable = {
 	var = iron_wolf_days_var
 	value = 100
 }
+}
+1444.1.1 = {
+set_cosmetic_tag = LIT_FRA
+
+
 }
 recruit_character = LIT_antanas_smetona
 recruit_character = LIT_antanas_snieckus

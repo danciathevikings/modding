@@ -18,6 +18,9 @@ state={
 		
 		1836.1.1 = {owner = BOH
 		add_core_of = BOH}
+				1444.1.1 = 
+		{owner = BOH
+		add_core_of = BOH}
 		
 		1919.1.1 = {
 			owner = CZE

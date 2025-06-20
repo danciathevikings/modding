@@ -1,4 +1,10 @@
 ﻿capital = 4
+
+1444.1.1 = { 
+
+ create_faction = "hause von habsburg"
+ }
+
 1789.1.1 = {
 recruit_character=AUS_metternich
 }

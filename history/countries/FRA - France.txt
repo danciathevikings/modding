@@ -62,10 +62,10 @@ add_ideas = 100_year_war}
 
 	# Politics for 1854.1.1
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
 }
 1866.8.1 = {
@@ -79,10 +79,10 @@ add_ideas = 100_year_war}
 
 	# Politics for 1866.8.1
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
 }
 1890.1.1 = {

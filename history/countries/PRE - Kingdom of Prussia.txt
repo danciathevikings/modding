@@ -43,10 +43,10 @@ add_ideas = {
 
 	# Politics for 1848.1.1
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 1854.1.1 = {
@@ -60,10 +60,10 @@ add_ideas = {
 
 	# Politics for 1854.1.1
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 1866.8.1 = {
@@ -77,10 +77,10 @@ add_ideas = {
 
 	# Politics for 1866.8.1
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 1890.1.1 = {
@@ -94,10 +94,10 @@ add_ideas = {
 
 	# Politics for 1890.1.1
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 1936.1.1 = {
@@ -110,11 +110,11 @@ add_ideas = {
 	set_convoys = 0
 
 	# Politics for 1936.1.1
-	set_politics = {
-		ruling_party = democratic
+	set_politics = { 
+		ruling_party = fascism
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 1939.1.1 = {
@@ -128,9 +128,9 @@ add_ideas = {
 
 	# Politics for 1939.1.1
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = fascism
 		last_election = "1934.1.1"
 		election_frequency = 48
-		elections_allowed = yes
-	}
-}
+		elections_allowed = no
+ }
+} 

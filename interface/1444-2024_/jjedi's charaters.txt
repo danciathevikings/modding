@@ -1,0 +1,13 @@
+spriteTypes = {
+    spriteType = {
+        name = Frederick_II
+        texturefile = gfx/1444-2024_/Frederick_II.png
+    }
+	
+	
+	
+	
+	
+	
+	
+}

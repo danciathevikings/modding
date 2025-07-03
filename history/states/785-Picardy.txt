@@ -14,6 +14,14 @@ state={
 		victory_points = {
 			13473 2 
 		}
+		
+		1444.1.1 = {
+		owner = ENG
+		add_core_of = FRA
+		remove_core_of = BUR
+		
+		}
+		
 		owner = BUR
 		add_core_of = BUR
 		1600.1.1 = {

@@ -18,6 +18,10 @@ set_oob = "HUN_1789"
 }
 1444.1.1 = {
 
+
+
+load_focus_tree = {
+  tree = hungary_1444 }
 AUS = { #Tag of the overlord
     puppet = HUN
 }

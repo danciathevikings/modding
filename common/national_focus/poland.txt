@@ -1,0 +1,143 @@
+focus_tree = {
+	id = polish_focus_1
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+			focus = {
+		id = POL_aftermath_of_varrna		
+		icon = GFX_unkown_goal
+		x = 20
+		y = 0	
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus =   }
+
+}
+#################################################################### sejm
+focus = {
+		id = POL_sejm_regent		
+		icon = GFX_unkown_goal
+		x = 35	
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+
+
+
+			}
+		prerequisite = { focus =  POL_aftermath_of_varrna  }
+        mutually_exclusive = { focus =   }
+
+}
+
+##################################################################### new king
+			
+focus = {
+		id = POL_a_new_king		
+		icon = GFX_unkown_goal
+		x = 30
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_aftermath_of_varrna  }
+        mutually_exclusive = { focus =   }
+
+}
+focus = {
+		id = POL_who_shall_lead		
+		icon = GFX_unkown_goal
+		x = 30
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_a_new_king  }
+        mutually_exclusive = { focus =   }
+
+}
+			focus = {
+		id = POL_Jagielon		
+		icon = GFX_unkown_goal
+		x = 32
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_who_shall_lead  }
+        mutually_exclusive = { focus =  POL_Wittelsbach  }
+		 mutually_exclusive = { focus = POL_Hohenzollern    }
+		 mutually_exclusive = { focus = POL_Habsburg  }
+
+}
+			focus = {
+		id = POL_Wittelsbach	
+		icon = GFX_unkown_goal
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_who_shall_lead  }		
+        mutually_exclusive = { focus = POL_Hohenzollern    }
+		 mutually_exclusive = { focus = POL_Jagielon   }
+		 mutually_exclusive = { focus = POL_Habsburg  }
+
+}
+			focus = {
+		id = POL_Hohenzollern
+		icon = GFX_unkown_goal
+		x = 28
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_who_shall_lead  }		
+        mutually_exclusive = { focus = POL_Wittelsbach  }
+		mutually_exclusive = { focus = POL_Jagielon  }
+		mutually_exclusive = { focus = POL_Habsburg  }
+		
+
+
+}
+			focus = {
+		id = POL_Habsburg
+		icon = GFX_unkown_goal
+		x = 34
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS}
+			completion_reward = {	
+			}
+		prerequisite = { focus =  POL_who_shall_lead  }		
+        mutually_exclusive = { focus = POL_Wittelsbach  }
+		mutually_exclusive = { focus = POL_Jagielon  }
+		mutually_exclusive = { focus = POL_Hohenzollern  }
+		
+
+
+}
+		
+	}			

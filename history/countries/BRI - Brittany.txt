@@ -22,6 +22,10 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 }
+1444.1.1 = {
+
+ENG = {  puppet = BRI  } 
+
 
 if = {
 	limit = {

@@ -4,14 +4,15 @@ country_event = {
 	id = jjedi09_1444.1
 	title = jjedi09_1444.1.t
 	desc = jjedi09_1444.1.d
-
+		
+		is_triggered_only = yes
+        fire_only_once = yes
 	picture = hanover_annex_ons-525
 
 	mean_time_to_happen = { days = 4 }
 	option = {
 		name = jjedi09_1444.1.a
-			is_triggered_only = yes
-        fire_only_once = yes
+
 		ai_chance = { factor = 100 }
 		
 
@@ -24,3 +25,31 @@ country_event = {
 	}
 		
 }
+country_event = {
+        id = BDB.1
+        
+        is_triggered_only = yes
+
+        option = {
+
+            Frederick_II = {
+                add_country_leader_role = {
+                    country_leader = {
+                        ideology = despotism
+                        traits = { generic_trait_mental_illness }
+                    }
+                }
+                add_advisor_role = {
+                    advisor = {
+                        slot = political_advisor
+                        traits = { emperor_showa }
+                        cost = 150
+                    }
+                }
+            }
+            promote_character = Frederick_II
+            set_politics = {
+                ruling_party = Despotism
+            }
+        }
+    }

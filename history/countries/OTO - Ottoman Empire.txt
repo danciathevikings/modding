@@ -19,7 +19,8 @@
 	}
 }
 
-1444.1.1 = { set_cosmetic_tag = OTO_one }
+1444.1.1 = { set_cosmetic_tag = OTO_one 
+create_faction = "house of osman"}
 
 1689.1.1 = {
 recruit_character=OTO_suleimanii

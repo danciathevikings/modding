@@ -1,4 +1,10 @@
 ﻿capital = 949
+
+
+1444.1.1 = {
+create_faction = "House of Branković"
+
+}
 1789.1.1 = {
 recruit_character=SER_matijanenadovic
 }

@@ -50,7 +50,7 @@ ideas = {
 
 
 			allowed = {
-			no
+
 			}
 			removal_cost = -1
 

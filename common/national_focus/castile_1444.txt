@@ -9,22 +9,60 @@ focus_tree = {
 		}
 	}
 
-		focus = {
-		id = SPR_1444_start
+	
+			focus = {
+		id = CST_dawn_of_espania
 		icon = GFX_goal_unknown
-		x = 12
+		x = 22
 		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+				completion_reward = {	SPR = { add_political_power = 150 }}
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus = }
+		available = { always = no }
 
+	
+	
+	
+}
+			focus = {
+		id = CST_unite_our_house_lands
+		icon = GFX_goal_unknown
+		x = 10
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+				completion_reward = {	}
+		prerequisite = { focus = CST_dawn_of_espania  }
+        mutually_exclusive = { focus = }
+		available = { always = no }
 
+	
+	
+	
+}
+focus = {
+		id = CST_unite_our_house_lands_
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+				completion_reward = {	}
+		prerequisite = { focus = CST_unite_our_house_lands  }
+        mutually_exclusive = { focus = }
+		available = { always = no }
 
-
-
-
-
-
+	
+	
+	
+}
 
 }

@@ -95,6 +95,38 @@ army_morale_factor = 0.05
 				picture = generic_disjointed_gov
 			modifier = { 
 			} }
+			
+			        100_year_war = {
+				allowed = {
+				always = no
+				tag = ENG
+				tag = FRA
+				tag = BUR
+			}
+					
+            picture = generic_disjointed_gov        
+            modifier = {	
+			
+			ai_focus_defense_factor = 0.5 
+			ai_focus_aggressive_factor = -0.5 
+			army_core_attack_factor = 0.2
+			dig_in_speed_factor = -0.25
+			initiative_factor = -0.3
+			experience_loss_factor = 0.3 }
+				}
+
+							        legacy_of_timurid_empire = {
+				allowed = {
+				always = no
+				tag = TIM
+
+			}
+					
+            picture = generic_disjointed_gov        
+            modifier = {	
+			
+ }
+				}
 
 
 }

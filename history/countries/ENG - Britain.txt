@@ -6,6 +6,9 @@ recruit_character=ENG_rothschildiii
 retire_character=ENG_rothschildiii
 }
 1444.1.1 = {
+	create_faction = "house of york	"
+load_focus_tree = {
+  tree = ENG_1444 }
 add_ideas = 100_year_war
 }
 1815.1.1 = {

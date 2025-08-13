@@ -22,8 +22,6 @@ promote_character=MOL_constantine
 promote_character=MOL_ypsilantis
 }
 1444.1.1 = { 
-
-	create_faction = "House of Bogdan-Musat"
 set_politics = {
     ruling_party = neutrality
 }           

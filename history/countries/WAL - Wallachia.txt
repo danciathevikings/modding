@@ -21,7 +21,6 @@ promote_character=WAL_alexander
 retire_character=WAL_grigory_potemkin
 }
 1444.1.1 = { 
-	create_faction = "House of Basarab"
 set_politics = {
     ruling_party = neutrality
 }           

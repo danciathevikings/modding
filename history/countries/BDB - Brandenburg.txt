@@ -5,7 +5,6 @@ recruit_character = BDB_frederick_william
 recruit_character = BDB_frederick_william
 recruit_character = BDB_frederick_william
 recruit_character = BDB_frederick_william
-recruit_character = Frederick_II
 
 # Starting tech
 set_technology = {
@@ -14,11 +13,7 @@ set_technology = {
 
 set_convoys = 20
 
-1444.1.1 = {
-
-promote_character = Frederick_II
-
-}
+1444.1.1 { }
 
 1648.1.1 = { promote_character = BDB_frederick_william
 promote_character = DPU_frederick_william
@@ -72,10 +67,9 @@ promote_character = DPU_frederick_william
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1444.1.1"
+	last_election = "1444.11.11"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {

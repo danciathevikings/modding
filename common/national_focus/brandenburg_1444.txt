@@ -9,7 +9,7 @@ focus_tree = {
 		}
 	}
 
-		focus = {	
+		focus = {
 		id = BDB_1444_start
 		icon = GFX_goal_unknown
 		x = 12
@@ -19,125 +19,16 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		
-		completion_reward = { }  	 
+		completion_reward = {    	 }
 		prerequisite = { focus =   }
         mutually_exclusive = { focus =   }
 		available = { }
 	}
 	
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			###prussia path 
 			focus = {
 		id = BDB_1444_union_with_duchy_of_prussia
 		icon = GFX_goal_unknown
-		x = 34
+		x = 16
 		y = 1
 		cost = 10
 		search_filters = {

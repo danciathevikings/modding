@@ -16,13 +16,7 @@ guerrillaspain
 }
 }
 
-1444.1.1 = {set_cosmetic_tag = SPR_castille
-create_faction = "House of Trastámara"
-
-add_to_faction = ARA
-add_to_faction = NAV	
-
-}
+1444.1.1 = {set_cosmetic_tag = SPR_castille }
 
 1776.1.1 = {
 			if = {
@@ -46,7 +40,7 @@ add_to_faction = NAV
         target = ARG
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
-	}		
+	}
 		set_autonomy = {
         target = CAS
         autonomous_state = autonomy_protectorate

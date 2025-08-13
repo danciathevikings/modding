@@ -3,13 +3,6 @@
 recruit_character=LIT_frederickaugustusi
 promote_character=LIT_frederickaugustusi
 }
-
-
-
-1444.1.1 = {
-create_faction = "House of Jagiellon"
-
-}
 1836.1.1 = {
 retire_character=LIT_frederickaugustusi
 }

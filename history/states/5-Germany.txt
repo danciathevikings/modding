@@ -32,8 +32,8 @@ state={
 		}
 		
 						1444.1.1 = {
-		owner = WRM
-        add_core_of = WRM
+			owner = TEU
+			add_core_of = TEU
 			remove_core_of = PRE
 			remove_core_of = WRM
 

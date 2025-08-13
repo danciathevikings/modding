@@ -1,0 +1,47 @@
+focus_tree = {
+	id = austria_focus_tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+
+		focus = {
+		id = AUS_1444_start
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+			focus = {
+		id = AUS_1444_the_empire
+		icon = GFX_goal_unknown
+		x = 22
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus =  AUS_1444_start }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+	
+
+	
+	
+
+}

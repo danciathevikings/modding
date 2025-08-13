@@ -1,10 +1,10 @@
-bookmarks = { 	
+bookmarks = {
 	bookmark = {
 		name = "end_of_the_30_years_war_name"
 		desc = "end_of_the_30_years_war_desc"
 		date = 1648.1.1.12
 	picture = "end_of_the_30_years_war-1"
-		default_country = "OTO"
+		default_country = ""
 		"PRE" = {
 			history = "end_of_the_30_years_war_PRE"
 			ideology = neutrality

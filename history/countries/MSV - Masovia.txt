@@ -6,11 +6,6 @@ promote_character=MSV_tadeusz
 1818.1.1 = {
 retire_character=MSV_tadeusz
 }
-
-1444.1.1 = {
-
-POL = {  puppet = MSV } 
-
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1836.1.1 }

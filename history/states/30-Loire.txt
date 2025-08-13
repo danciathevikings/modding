@@ -14,12 +14,6 @@ state={
 
 		}
 		add_core_of = FRA
-				1444.1.1 = {
-		owner = ENG
-		add_core_of = FRA
-		remove_core_of = BUR
-		
-		}
 
 	}
 

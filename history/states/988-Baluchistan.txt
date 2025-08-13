@@ -13,14 +13,6 @@ state={
 			industrial_complex = 1
 
 		}
-				1444.1.1 = {
-		owner = ENG
-		add_core_of = FRA
-		remove_core_of = BUR
-		
-		}
-		
-		
 		add_core_of = FRA
 
 	}

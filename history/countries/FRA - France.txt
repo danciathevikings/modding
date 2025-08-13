@@ -32,11 +32,8 @@ add_ideas = {
 }
 
 1444.1.1 = { set_cosmetic_tag = FRA_formable_neutrality 
-add_ideas = 100_year_war
-load_focus_tree = {
-  tree = france_1444 } 
-create_faction = "House of Capet"
-}	
+create_faction = "house of Capetian"
+}
 
 1848.1.1 = {
 	oob = "FRA_1848"

@@ -5,12 +5,6 @@ recruit_character=ENG_rothschildiii
 1848.1.1 = {
 retire_character=ENG_rothschildiii
 }
-1444.1.1 = {
-	create_faction = "house of york	"
-load_focus_tree = {
-  tree = ENG_1444 }
-add_ideas = 100_year_war
-}
 1815.1.1 = {
 			if = {
 		limit = { has_start_date < 1864.1.1 }
@@ -21,6 +15,23 @@ add_ideas = 100_year_war
 	}
 }
 }
+
+
+1444.1.1 = {
+create_faction = "house of Lancaster"
+
+}
+
+
+
+
+
+
+
+
+
+
+
 1789.1.1 = {
 			if = {
 		limit = { has_start_date < 1837.1.1 }

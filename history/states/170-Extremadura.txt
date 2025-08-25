@@ -1,4 +1,3 @@
-
 state={
 	id=170
 	name="STATE_170"
@@ -9,22 +8,57 @@ state={
 	history={
 		owner = SPR
 		victory_points = {
-			11851 1 
+			6902 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 5
 			industrial_complex = 1
-
 		}
 		add_core_of = SPR
-
+		1812.6.24.12 = {
+			FRA = {
+				set_province_controller = 809
+				set_province_controller = 931
+				set_province_controller = 985
+				set_province_controller = 3930
+				set_province_controller = 6866
+				set_province_controller = 6902
+				set_province_controller = 6948
+				set_province_controller = 9839
+				set_province_controller = 9877
+				set_province_controller = 9917
+				set_province_controller = 9925
+				set_province_controller = 11756
+				set_province_controller = 11780
+				set_province_controller = 13230
+			}
+		}
+		1848.1.1.12 = {
+			SPR = {
+				set_province_controller = 809
+				set_province_controller = 931
+				set_province_controller = 985
+				set_province_controller = 3930
+				set_province_controller = 6866
+				set_province_controller = 6902
+				set_province_controller = 6948
+				set_province_controller = 9839
+				set_province_controller = 9877
+				set_province_controller = 9917
+				set_province_controller = 9925
+				set_province_controller = 11756
+				set_province_controller = 11780
+				set_province_controller = 13230
+			}
+		}
 	}
 
 	provinces={
-		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11756 11780 11798 11851 13230 13274 13275 13276 13285 13288 13290 14473 
+		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11756 11780 11798 11851 13230 
 	}
-	manpower=1152170
+	manpower=1417652
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

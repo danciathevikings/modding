@@ -1,66 +1,56 @@
-
 state={
 	id=191
 	name="STATE_191"
+	manpower=225840
 
 	history={
-		owner = OSE
-		add_core_of = OSE
-				1600.1.1 = {
-			add_core_of = LIV
-		remove_core_of = DRP
-		remove_core_of = OSE
-		remove_core_of = KRL
-		remove_core_of = RGA
+		owner = LIV
+		add_core_of = LIV
+		victory_points = {
+			9221 1 
 		}
-		1900.1.1 = {
-		add_core_of = EST
+		victory_points = {
+			592 1 #Voru
 		}
-				1789.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-				remove_core_of = LIV
-                }
-		1600.1.1 = {
-                owner = SWE
-                }
-		1776.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3 #was: 5
 		}
-		1919.1.1 = {
-			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = RUS
-
+		add_core_of = EST
+		1566.6.1.12 = {
+			owner = POL
+			remove_core_of = LIV
 		}
-		1945.1.1 = {
+		1754.5.1.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = SOV
+			SOV = {
+				set_province_controller = 9485
+				set_province_controller = 9221
+				set_province_controller = 592
+			}
+		}
+		1933.1.30.12 = {
+			EST = {
+				set_province_controller = 9485
+				set_province_controller = 9221
+				set_province_controller = 592
+			}
 
 		}
-
+		1945.9.2.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = EST
+		}
 	}
 
 	provinces={
-		6201 
+		592 6178 6408 9221 9485 
 	}
-	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=small_island
-	local_supplies=0.000
+	local_supplies=0.0 
+	state_category=rural
 }

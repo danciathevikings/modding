@@ -1,0 +1,46 @@
+state = {
+	id = 1264
+	name = "STATE_1264"
+	manpower = 327000
+
+	history = {
+		owner = TIM
+		add_core_of = TIM
+		victory_points = {
+			1632 1
+		}
+		add_core_of = SOV
+		add_core_of = TMS
+		buildings = {
+			infrastructure = 1
+		}
+		1524.1.1.12 = {
+			owner = KHI
+		}
+		1861.3.1.12 = {
+			owner = TMS
+		}
+		1900.1.1.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = TKS
+			add_core_of = TKS
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = TMS
+		}
+	}
+
+	provinces = {
+		756 1632 4482 4549 4958 5003 7491 7560 7924 9605 10357 10414 10742
+	}
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 4.0
+}

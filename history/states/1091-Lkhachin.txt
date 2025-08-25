@@ -1,0 +1,23 @@
+state = {
+	id = 1091
+	name = "STATE_1091"
+	manpower = 147934
+
+	history = {
+		owner = MON
+		add_core_of = MON
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1796 13511 13510 13512
+	}
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

@@ -1,33 +1,26 @@
-
 state = {
 	id = 824
+	name = "STATE_824" # Yamalia
 	manpower = 21974
-	name = "STATE_824" # Yamalia	
-	state_category = wasteland
-      impassable = yes
+	
+	state_category = pastoral
+
 	history = {
-		owner = ZZZ
-		1700.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
-		1936.1.1 = {
-                add_core_of = YAM
-                }
+		owner = YAM
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+		add_core_of = YAM
+		1618.4.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
 		}
 	}
 

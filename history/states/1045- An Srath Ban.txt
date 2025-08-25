@@ -1,0 +1,29 @@
+state={
+	id=1045
+	name="STATE_1045"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = TYC
+		add_core_of = TYC
+		add_core_of = TYR
+		add_claim_by = ULS
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		1618.4.1.12 = {
+			owner = ENG
+			add_core_of = ENG
+			add_core_of = NIR
+		}
+	}
+
+	provinces={
+		13389 11257
+	}
+
+	local_supplies=0.0 
+}

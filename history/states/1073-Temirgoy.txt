@@ -1,0 +1,43 @@
+state = {
+	id = 1073
+	name = "STATE_1073"
+	manpower = 63486
+	
+	state_category = town
+	resources = {
+		tungsten = 2
+		oil = 1
+	}
+
+	history = {
+		owner = CIR
+		add_core_of = TMG
+		buildings = {
+			infrastructure = 1
+		}
+		1492.7.1.12 = {
+			owner = TMG
+		}
+		1789.7.14.12 = {
+			owner = CIR
+		}
+		1870.7.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = KUB
+			add_core_of = RSS
+			add_core_of = KUB
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+	}
+
+	provinces = {
+		13478
+	}
+
+	local_supplies = 2.0 
+}

@@ -1,49 +1,38 @@
-
 state={
 	id=803
 	name="STATE_803"
 
 	history={
 		owner = SER
-		1500.1.1 = {
-                owner = OTO
-		add_core_of = BUL
-		remove_core_of = SER
-                }
-		1900.1.1 = {
-                owner = SER
-		add_core_of = SER
-		remove_core_of=BUL
-                }
-								victory_points = {
-			13777 1
-		}
-		1919.1.1 = {
-			owner = YUG
-			controller = YUG
-		remove_core_of = BUL
-			add_core_of = YUG
-
-		}
-		2007.1.1 = {
-			owner = SER
-			controller = SER
-			remove_core_of = YUG
-
+		victory_points = {
+			11857 1 
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
 		}
 		add_core_of = SER
-
+		add_claim_by = BUL
+		1492.7.1.12 = {
+			owner = TUR
+		}
+		1900.1.1.12 = {
+			owner = SER
+		}
+		1919.1.1.12 = {
+			owner = YUG
+			add_core_of = YUG
+		}
+		2022.2.23.12 = {
+			owner = SER
+		}
 	}
 
 	provinces={
-		11832 11868 13766 13777 
+		11832 11857 11868 
 	}
-	manpower=90000
+	manpower=210000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

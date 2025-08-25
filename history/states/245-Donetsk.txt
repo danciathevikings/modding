@@ -1,77 +1,43 @@
+state = {
+	id = 245
+	name = "STATE_245" # Millerovo
+	manpower = 761769
+	
+	state_category = rural
 
-state={
-	id=245
-	name="STATE_245"
-
-	history={
-		owner = KAL
-		add_core_of = KAL
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = KAL
-
-		}
+	history = {
+		owner = GOL
+		add_core_of = GOL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #was: 5
 
+			# Tsimlyanskoye Hydroelectric Station
+			#6490 = { dam = 1 }
 		}
-						1919.1.1 = {
-		owner = DON
-		add_core_of=DON
+		victory_points = {
+			11476 1 # Millerovo
 		}
-						1789.1.1 = {
-			owner = DON
-		add_core_of = DON
-		remove_core_of = ZAP
-		remove_core_of = POL
-		remove_core_of = RUS
+		1524.1.1.12 = {
+			owner = CRI
+			add_core_of = CRI
 		}
-		1800.1.1 = {
-			owner = RUS
-		add_core_of = RUS
-		remove_core_of = ZAP
-		remove_core_of = DON
-		remove_core_of = POL
-		}
-		1920.1.1 = {
-		remove_core_of = CRI
-		remove_core_of = DON
-		remove_core_of = KUB
-		remove_core_of = DAG
-		}
-		1920.1.1 = {
+		1618.4.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
+		1919.1.1.12 = {
+			owner = DON
+			add_core_of = DON
+			add_core_of = RSS
 		}
-		victory_points = {
-			11476 1 
+		1933.1.30.12 = {
+			owner = SOV
 		}
-		victory_points = {
-			775 1 
-		}
-		victory_points = {
-			6490 1 
-		}
-
 	}
 
-	provinces={
-		426 449 484 498 500 509 533 775 3417 3443 3464 3478 3489 3505 3519 3540 3587 3777 3779 6417 6468 6490 6503 6527 6544 6566 9415 9459 9474 9488 9516 9540 9565 9581 11400 11416 11447 11459 11476 11501 11527 
+	provinces = {
+		449 484 500 509 533 3478 3489 3505 3519 3540 6544 6566 9488 9516 9540 9565 11418 11434 11450 11459 11476 11501
 	}
-	manpower=800000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies = 8.0 
 }

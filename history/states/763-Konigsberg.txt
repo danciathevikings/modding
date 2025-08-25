@@ -1,101 +1,51 @@
+state = {
+	id = 763
+	name = "STATE_763"
+	manpower = 2140234
+	state_category = city
 
-state={
-	id=763
-	name="STATE_763"
-
-	history={
+	history = {
 		owner = TEU
-        add_core_of = TEU
-		1950.1.1 = {
-		owner = SOV
-		add_core_of = SOV
-		remove_core_of = GER
-		remove_claim_by=GER
-		}
-		2000.1.1 = {
-		owner = RUS
-		add_core_of = RUS
-		remove_core_of = SOV
-		remove_claim_by=GER
-		}
-		1500.1.1 = {
-		add_core_of = DPU
-		owner = DPU
-		remove_core_of = TEU
-		}
-		1701.1.1 = {
+		add_core_of = TEU
+		add_core_of = GER
 		add_core_of = PRE
-		owner = PRE
-		remove_core_of = DPU
+		
+		victory_points = {
+			6332 10 # Königsberg
 		}
-		1871.1.1 = {
-                add_core_of = GER
-                owner = GER
-                }
-		1919.1.1 = {
-                remove_core_of = WUR
-                remove_core_of = SAX
-                remove_core_of = OLD
-                remove_core_of = HAN
-                remove_core_of = MEK
-                remove_core_of = SHL
-                remove_core_of = BAD
-                remove_core_of = BAY
-                remove_core_of = HES
-                remove_core_of = THU
-                remove_core_of = PRE
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			6332 = {
-				bunker = 1
 
-			}
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
 			anti_air_building = 2
 			6332 = {
+				bunker = 1
 				naval_base = 5
-
 			}
 			air_base = 6
-
 		}
-                }
-		victory_points = {
-			6332 10 
+		1566.6.1.12 = {
+			owner = PRE
+			remove_core_of = TEU
 		}
-		victory_points = {
-			14214 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			6332 = {
-				bunker = 1
-
-			}
-			6332 = {
-				naval_base = 5
-
-			}
-
+		1870.7.1.12 = {
+			owner = GER
 		}
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5
-
 			}
-
 		}
-
+		1945.9.2.12 = {
+			owner = SOV
+			remove_core_of = GER
+			remove_core_of = PRE
+		}
 	}
 
-	provinces={
-		281 348 395 3384 6332 11265 14205 14206 14207 14208 14213 14214 14215 
+	provinces = {
+		281 348 395 3384 6332 11265
 	}
-	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

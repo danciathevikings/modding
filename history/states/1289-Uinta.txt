@@ -1,0 +1,28 @@
+state={
+	id=1289
+	name="STATE_1289"
+	history={
+		owner = JWB
+		buildings = {
+			infrastructure = 2
+		}
+		1789.7.14.12 = {
+			owner = MEX
+		}
+		1812.1.1.12 = {
+			owner = JWB
+		}
+		1812.1.1.12 = {
+			owner = USA
+			add_core_of = USA
+		}
+	}
+
+	provinces={
+		7688 
+	}
+	manpower=0
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

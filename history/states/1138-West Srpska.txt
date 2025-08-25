@@ -1,0 +1,43 @@
+state={
+	id=1138
+	name="STATE_1138"
+	manpower=500000
+
+	state_category = town
+
+	resources={
+		aluminium=7
+	}
+
+	history={
+		owner = BOS
+		victory_points = {
+			6983 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BOS
+		1524.1.1.12 = {
+			owner = TUR
+		}
+		1900.1.1.12 = {
+			owner = AUS
+		}
+		1919.1.1.12 = {
+			owner = YUG
+			add_core_of = YUG
+		}
+		2000.1.1.12 = {
+			owner = BOS
+			add_core_of = SRP
+		}
+	}
+
+	provinces={
+		6619 6983 9588 9591 11574
+	}
+
+	local_supplies=7.0 
+}

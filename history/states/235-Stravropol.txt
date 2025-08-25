@@ -1,74 +1,68 @@
+state = {
+	id = 235
+	name = "STATE_235"
+	manpower = 1086516
+	
+	state_category = rural
 
-state={
-	id=235
-	name="STATE_235"
-	resources={
-		chromium=14.000
+	resources = {
+		chromium = 14
 	}
 
-	history={
-		owner = KAL
-		add_core_of = KAL
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = KAL
-
-		}
+	history = {
+		owner = GOL
+		add_core_of = GOL
 		buildings = {
 			infrastructure = 2
-
+			air_base = 2
 		}
-						1789.1.1 = {
-			owner = DON
-		add_core_of = DON
-		remove_core_of = ZAP
-		remove_core_of = POL
-		remove_core_of = RUS
-		}
-		1800.1.1 = {
-			owner = RUS
-		add_core_of = RUS
-		remove_core_of = ZAP
-		remove_core_of = DON
-		remove_core_of = POL
-		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 2
-				air_base = 2
-
-			}
-
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
-		}
-		1789.1.1 = {
 		victory_points = {
-			11696 3 
+			11696 3
 		}
+		1524.1.1.12 = {
+			owner = ASK
+			add_core_of = ASK
 		}
-
+		1566.6.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = SOV
+		add_core_of = KUB
+		add_core_of = RSS
+			KUB = {
+				set_province_controller = 9742
+				set_province_controller = 9726
+				set_province_controller = 9694
+				set_province_controller = 11696
+				set_province_controller = 748
+				set_province_controller = 6753
+				set_province_controller = 3748
+				set_province_controller = 9707
+				set_province_controller = 11694
+				set_province_controller = 9688
+			}
+		}
+		1933.1.30.12 = {
+			SOV = {
+				set_province_controller = 9742
+				set_province_controller = 9726
+				set_province_controller = 9694
+				set_province_controller = 11696
+				set_province_controller = 748
+				set_province_controller = 6753
+				set_province_controller = 3748
+				set_province_controller = 9707
+				set_province_controller = 11694
+				set_province_controller = 9688
+			}
+		}
 	}
 
-	provinces={
-		731 748 3748 6750 6753 9688 9705 9707 9722 9726 9742 11678 11693 11694 11696 11727 
+	provinces = {
+		731 748 3748 6702 6718 6733 6750 6753 9688 9694 9705 9707 9726 9742 11661 11690 11693 11694 11696
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

@@ -1,67 +1,40 @@
-
-state={
-	id=821
-	name="STATE_821"
+state = {
+	id = 821
+	name = "STATE_821"
+	manpower = 731985
+	
+	state_category = rural
+	
 	resources={
-		oil=9.000
+		oil = 9
 	}
 
-	history={
+	history = {
 		owner = CIN
-		add_core_of = CIN
-		1836.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
 		}
-		1818.1.1 = {
 		victory_points = {
 			3672 5 
 		}
-		}
-				1919.1.1 = {
-		owner = DAG
-		add_core_of=DAG
-		}
-		1920.1.1 = {
-		remove_core_of = CRI
-		remove_core_of = DON
-		remove_core_of = KUB
-		remove_core_of = DAG
-		}
-		1920.1.1 = {
+		add_core_of = CIN
+		1861.3.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
-			owner = CIN
-			controller = CIN
-			add_core_of = CIN
-			add_core_of = RUS
-			remove_core_of = SOV
-
+		1919.1.1.12 = {
+			owner = MRC
+			add_core_of = MRC
+			add_core_of = RSS
 		}
-		2001.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
+		1933.1.30.12 = {
+			owner = SOV
 		}
-
 	}
 
-	provinces={
-		666 683 3667 3672 6702 11632 14074 14075 14076 
+	provinces = {
+		666 670 1455 3667 3672 6689
 	}
-	manpower=600000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

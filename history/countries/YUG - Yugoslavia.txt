@@ -1,5 +1,5 @@
-﻿capital = 107
-1936.1.1 = {
+﻿capital = 1267
+
 if = {
 	limit = {
 		NOT = {
@@ -27,14 +27,15 @@ if = {
 		set_technology = {
 			iw_small_airframe = 1
 			basic_small_airframe = 1
+			bba_early_transport_plane = 1
 			engines_1 = 1
 			aa_lmg = 1
 			aa_cannon_1 = 1
 		}
 	else = {
 		set_air_oob = "YUG_1936_air_legacy"
+		set_technology = { early_transport_plane = 1 }
 	}
-}
 }
 
 set_research_slots = 3
@@ -65,8 +66,10 @@ recruit_character = YUG_ivan_ribar
 recruit_character = YUG_dimitrije_ljotic
 recruit_character = YUG_ivo_lola_ribar
 recruit_character = YUG_peter_ii
+recruit_character = SOV_vasily_flug
+recruit_character = SOV_boris_shteifon
 
-1936.1.1 = {
+
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -107,25 +110,20 @@ if = {
 		modifier = BFTB_balkan_pact_enemy
 	}
 }
-}
-set_technology = {
-	infantry_weapons = 1
-}
-1936.1.1 = {
+
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_trucks = 1
 	interwar_antitank = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	superior_firepower = 1
 	basic_train = 1
 }
-}
-1936.1.1 = {
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -175,32 +173,32 @@ if = {
 		coastal_defense_ships = 1
 	}
 }
-}
 
 1939.1.1 = {
 
 	add_ideas = {
 		limited_conscription
 	}
+
 	if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		YUG_idea_foreign_capital
-		YUG_idea_expanded_mining_industry
-		YUG_license_production
-		YUG_idea_orthodox_church_support
-	}
-}
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
+		add_ideas = {
+			YUG_idea_foreign_capital
+			YUG_idea_expanded_mining_industry
+			YUG_license_production
+			YUG_idea_orthodox_church_support
+		}
+	}	
 
 	add_political_power = 1198
 	add_command_power = 100
 	
 	if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
 		complete_national_focus = YUG_western_focus
 		complete_national_focus = YUG_industrialization_program
 		complete_national_focus = YUG_friendship_treaty_with_italy
@@ -214,29 +212,30 @@ if = {
 		complete_national_focus = YUG_purchase_foreign
 		complete_national_focus = YUG_license_production 
 		complete_national_focus = YUG_fighter_license 
-		complete_national_focus = YUG_rare_minerals_exploitation
 		complete_national_focus = YUG_establish_the_banovina_of_croatia
 		complete_national_focus = YUG_ban_slovene_nationalist_parties
 		complete_national_focus = YUG_concessions_for_macedonians
 		complete_national_focus = YUG_small_arms 
 		complete_national_focus = YUG_domestic_artillery_production
 		complete_national_focus = YUG_expand_the_serbian_shipyards
+
+		unlock_national_focus = YUG_rare_minerals_exploitation
 	}
 	
 	if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+		limit = {
+			NOT = { has_dlc = "Death or Dishonor" }
+		}
+		#generic focuses
+		complete_national_focus = army_effort
+		complete_national_focus = equipment_effort
+		complete_national_focus = motorization_effort
+		complete_national_focus = aviation_effort
+		complete_national_focus = naval_effort
+		complete_national_focus = flexible_navy
+		complete_national_focus = industrial_effort
+		complete_national_focus = construction_effort
+		complete_national_focus = production_effort
 	}
 	if = {
 		limit = { NOT = { has_dlc = "No Step Back" } }
@@ -286,7 +285,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -298,6 +296,9 @@ if = {
 		oil_processing = 1
 		construction1 = 1
 		concentrated_industry = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
@@ -314,6 +315,7 @@ if = {
 }
 
 set_convoys = 10
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.5.3"
@@ -341,35 +343,8 @@ set_popularities = {
 		neutrality = 60
 	}
 }
-1945.1.1 = {
-set_politics = {
-	ruling_party = communism
-	last_election = "1943.9.8"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 41
-	fascism = 6
-	communism = 45
-	neutrality = 8
-}
-}
-1993.1.1 = {
-set_politics = {
-	ruling_party = democratic
-	last_election = "1993.9.8"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 79
-	fascism = 7
-	communism = 7
-	neutrality = 7
-}
-}
-set_stability = 1
+
+set_stability = 0.6
 
 ### VARIANTS ###
 # 1936 Start #
@@ -401,6 +376,17 @@ if = {
 			ship_anti_air_upgrade = 1
 		}
 	}
+	create_equipment_variant = {
+		name = "Dalmacija Class"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 1
+		}
+	}
+
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }

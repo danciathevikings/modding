@@ -1,0 +1,46 @@
+state={
+	id=1262
+	name="STATE_1262"
+	manpower=10000
+
+	state_category=rural
+
+	history={
+		owner = JWB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		1566.6.1.12 = {
+			owner = TUR
+			remove_core_of = ETH
+		}
+		1812.6.24.12 = {
+			owner = EGY
+		}
+		1848.1.1.12 = {
+			owner = TUR
+		}
+		1870.7.1.12 = {
+			owner = EGY
+		}
+		1900.1.1.12 = {
+			owner = ITA
+		}
+		1945.9.2.12 = {
+			owner = ETH
+			add_core_of = ETH
+			add_core_of = ERI
+		}
+		2000.1.1.12 = {
+			owner = ERI
+			remove_core_of = ETH
+		}
+	}
+
+	provinces={
+		8043 13408 13449 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

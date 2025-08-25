@@ -1,0 +1,30 @@
+state={
+	id=1148
+	name="STATE_1148"
+	manpower=57000
+
+	history={
+		owner = CZE
+		victory_points = {
+			9412 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = POL
+		1566.6.1.12 = {
+			owner = AUS
+		}
+		1919.1.1.12 = {
+			owner = POL
+		}
+	}
+
+	provinces={
+		9412 13205
+	}
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=1.0 
+}

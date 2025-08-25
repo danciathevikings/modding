@@ -1,13 +1,9 @@
-﻿capital = 31
+﻿capital = 26
 
 #oob = ""
 
 set_research_slots = 3
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-1936.1.1 = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -111,7 +107,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-}
+
 set_convoys = 20
 
 recruit_character = OCC_ncm
@@ -174,7 +170,6 @@ recruit_character = OCC_ncs
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 		basic_encryption = 1
@@ -192,6 +187,9 @@ recruit_character = OCC_ncs
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {

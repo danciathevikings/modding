@@ -1,0 +1,53 @@
+state = {
+	id = 1222
+	name = "STATE_1222"
+	manpower = 726000
+	buildings_max_level_factor = 1
+
+	state_category = megalopolis
+
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			anti_air_building = 2
+		}
+		1618.4.1.12 = {
+			owner = PRE
+		}
+		1870.7.1.12 = {
+			owner = GER
+		}
+		1939.1.1 = {
+			buildings = {
+				anti_air_building = 5
+				arms_factory = 5
+				industrial_complex = 4
+			}
+		}
+		1945.9.2.12 = {
+			owner = DDR
+			victory_points = {
+				13590 20
+			}
+		}
+		2000.1.1.12 = {
+			owner = GER
+			victory_points = {
+				13590 0
+			}
+		}
+	}
+
+	provinces = {
+		13590
+	}
+
+	local_supplies = 10.0 
+}

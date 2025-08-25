@@ -2,61 +2,46 @@ state={
 	id=839
 	name="STATE_839"
 
-	history={
-		owner = EGY
-		add_core_of = EGY
-		1600.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO
-			remove_core_of = ALY
-			remove_core_of = KRM
-			remove_core_of = RAM
-			remove_core_of = CND
-			remove_core_of = DUL
-			remove_core_of = QAR
-			remove_core_of = AGQ
-			remove_core_of = EGY
-
+	history = {
+		set_variable = { ETH_state_development_production_speed = -0.3 }
+		set_variable = { ETH_state_development_local_building_slots_factor = -0.3 }
+		#set_variable = { ETH_state_decentralization_defence = 0.2 }
+		#set_variable = { ETH_state_decentralization_infrastructure = -0.3 }
+		#set_variable = { ETH_state_decentralization_resources = -0.3 }
+		add_dynamic_modifier = {
+			modifier = ETH_state_development_dynamic_modifier
 		}
-		2020.1.1 = {
-		owner = HAM
-		add_core_of = HAM
+		add_dynamic_modifier = {
+			modifier = ETH_state_decentralization_dynamic_modifier
+			scope = ETH
 		}
+		
 		buildings = {
-			infrastructure = 0
+			# infrastructure = 1
 		}
-		victory_points = {
-			4088  1 
+		
+		victory_points = { 
+			2009 2 
 		}
-		add_core_of = PAL
-		add_claim_by = ISR
-		1919.1.1 = {
-			owner = ENG
-			controller = ENG
-			remove_core_of = OTO
+		victory_points = { 
+			13243 1 
+		}
+		
+		owner = ETH
+		add_core_of = ETH
+		add_core_of = BEG
+		add_core_of = ORO
 
-		}
-						1936.1.1 = {
-			owner = ISR
-            }
-		1946.1.1 = {
-			owner = ISR
-			controller = ISR
-            remove_core_of = SPR
-		}
-		1947.1.1 = {
-			owner = PAL
-			controller = PAL
-            add_core_of = PAL
-            remove_core_of = OTO
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
 		}
 	}
 
 	provinces={
-		4088 
+		2009 12856 13243 13425 13440 13446 
 	}
-	manpower=75300
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

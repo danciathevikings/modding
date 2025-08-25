@@ -1,0 +1,48 @@
+state = {
+	id = 1085
+	name = "STATE_1085"
+	manpower = 179000
+
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		add_core_of = GUR
+		victory_points = {
+			3653 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		1492.7.1.12 = {
+			owner = GUR
+		}
+		1848.1.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = ENG
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = GEO
+			remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		3653
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

@@ -1,46 +1,28 @@
-
 state={
 	id=257
 	name="STATE_257" # Tambov
 	manpower = 1779583
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
-		chromium=7 # was: 10
+		chromium=7
 	}
-
 	history={
-		owner = KAL
-		add_core_of = KAL
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = KAL
-
-		}
+		owner = GOL
+		add_core_of = GOL
 		buildings = {
 			infrastructure = 2
 		}
-						1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
-		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
-		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
-		}
 		victory_points = {
 			11351 1
+		}
+		1524.1.1.12 = {
+			owner = CRI
+		}
+		1618.4.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 

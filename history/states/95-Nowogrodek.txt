@@ -1,76 +1,52 @@
-
 state={
 	id=95
 	name="STATE_95"
+	manpower=1598900
 
 	history={
-		victory_points = {
-			3393 10 
-		}
 		owner = LIT
-                add_core_of = LIT
-		1600.1.1 = {
-                add_core_of = POL
-                owner = POL
-                }
-		1800.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
-                }
-		1900.1.1 = {
-                add_core_of = BLR
-                }
-		1936.1.1 = {
+		victory_points = {
+			9304 1
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 3
-
 		}
-                }
-		buildings = {
-			infrastructure = 2
-		}
-								1919.1.1 = {
-			owner = BLR
-			controller = BLR
-			add_core_of = BLR
-			remove_core_of = RUS
-			remove_core_of = GLL
-
-		}
-		1920.1.1 = {
+		add_core_of = POL
+		add_core_of = BLR
+		1618.4.1.12 = {
 			owner = POL
-			controller = POL
-			add_core_of = SOV
-			add_core_of = BLR
-                        remove_core_of = POL
-			remove_core_of = RUS
 		}
-		1945.1.1 = {
+		1812.6.24.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-                        add_core_of = BLR
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = BLR
-			controller = BLR
-			add_core_of = BLR
-			remove_core_of = SOV
-
+			SOV = {
+				set_province_controller = 6413
+				set_province_controller = 9236
+				set_province_controller = 9304
+				set_province_controller = 9359
+				set_province_controller = 11341
+			}
 		}
-
+		1933.1.30.12 = {
+			owner = POL
+		}
+		1945.9.2.12 = {
+			owner = SOV
+			remove_core_of = POL
+		}
+		2000.1.1.12 = {
+			owner = BLR
+		}
 	}
 
 	provinces={
-		3281 3366 3393 
+		3366 6359 6413 9236 9304 9359 11341
 	}
-	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=6.000
+	state_category=rural
+
+	local_supplies=6.0 
 }

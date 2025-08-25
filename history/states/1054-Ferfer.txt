@@ -1,0 +1,43 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	manpower = 124200
+	
+	state_category = wasteland
+
+	history={
+		owner = JWB
+		add_core_of = SOM
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 1
+		}
+		1900.1.1.12 = {
+			owner = SOM
+		}
+		1933.1.30.12 = {
+			owner = ETH
+			remove_core_of = SOM
+		}
+		1936.1.1.12 = {
+		ITA = {	
+			set_province_controller = 13463
+			set_province_controller = 12812
+			set_province_controller = 13451
+		}
+               }
+		1939.8.14.12 = {
+			owner = ITA
+	}
+		1945.9.2.12 = {
+			owner = ETH
+	}
+}
+
+	provinces={
+		4995 13416 13463 12812 13451 13437 13474
+	}
+
+	local_supplies=0.0 
+}

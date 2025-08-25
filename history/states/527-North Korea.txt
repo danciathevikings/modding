@@ -2,40 +2,39 @@
 state={
 	id=527
 	name="STATE_527"
+	manpower = 6774200
+	state_category = town
 	resources={
-		steel=18.000
-		tungsten=28.000
+		steel=18 # was: 30
+		tungsten=28 # was: 52
 	}
 
 	history={
-		owner = KOR
-		1946.1.1 = {
-		add_core_of = NKO
-		owner = NKO
-		remove_core_of = KOR
-        }
+		owner = JAP
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+		}
+			
 
-		}
-		victory_points = {
-			4052 20 
-		}
 		add_core_of = KOR
-		1911.1.1 = {
-			owner = JAP
-			controller = JAP
-			remove_core_of = RUS
-
+		add_core_of = NKO
+		1945.9.2.12 = {
+			owner = SOV
 		}
+		1949.12.7.12 = {
+			owner = NKO
+		}
+		1965.3.1.12 = {
+			owner = KOR
+		}
+
+	        
 	}
 
 	provinces={
-		848 852 898 906 912 959 978 1003 3803 3852 3860 3904 3912 3981 4052 4107 6822 6922 6928 6944 6963 7070 7155 7171 9790 9795 9899 9918 9981 10065 10083 11770 11775 11828 11835 11878 11896 11915 11958 12040 
+		848 9981 10083
 	}
-	manpower=6774200
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

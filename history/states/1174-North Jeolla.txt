@@ -1,0 +1,29 @@
+state={
+	id=1174
+	name="STATE_1174"
+	state_category = town
+	manpower=800000
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		add_core_of = KOR
+		1945.9.2.12 = {
+			owner = USA
+		}
+		1949.12.7.12 = {
+			owner = KOR
+		}
+
+	}
+	
+	provinces={
+		4126 10085 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

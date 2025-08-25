@@ -1,62 +1,52 @@
-
 state={
 	id=11
 	name="STATE_11"
+	manpower=971940
 
 	history={
 		owner = LIT
-		add_core_of = LIT
-		1600.1.1 = {
-			owner = POL
-                add_core_of = POL
-		}
-		1800.1.1 = {
-			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-				remove_core_of = LIT
-		}
-		1900.1.1 = {
-                add_core_of = LIT
+		victory_points = {
+			6296 5
 		}
 		victory_points = {
-			6296 10
+			9357 1 #Ukmerge
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 1
-
+			industrial_complex = 3
 		}
-		1919.1.1 = {
-			owner = LIT
-			controller = LIT
-			add_core_of = LIT
-			remove_core_of = RUS
-
+		add_core_of = LIT
+		1618.4.1.12 = {
+			owner = POL
 		}
-		1945.1.1 = {
+		1812.6.24.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = LIT
-			controller = LIT
-			add_core_of = LIT
-			remove_core_of = SOV
-
+			SOV = {
+				set_province_controller = 9404
+			}
 		}
-
+		1933.1.30.12 = {
+			LIT = {
+				set_province_controller = 9404
+			}
+		}
+		1945.9.2.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = LIT
+		}
 	}
 
 	provinces={
-		6296 
+		327 6296 6360 9357 9404 
 	}
-	manpower=1000000
+
+	local_supplies=10.0 
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=10.000
 }

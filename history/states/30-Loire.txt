@@ -2,26 +2,28 @@
 state={
 	id=30
 	name="STATE_30"
+	manpower = 1388400
+
+	state_category = city
 
 	history={
 		owner = FRA
 		victory_points = {
-			9478 3 
+			11465 5
 		}
+		
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
 		}
 		add_core_of = FRA
-
 	}
 
 	provinces={
-		3495 3509 3523 9478 11463 11521 13339 13344 13457 13458 13459 
+		503 527 3495 3509 3523 9478 9867 11463 11465 11613 11616 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

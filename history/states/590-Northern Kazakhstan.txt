@@ -1,51 +1,42 @@
-
 state={
 	id=590
-	name="STATE_590"
+	name="STATE_590" # Akmolinsk
+	manpower = 980533
+	
+	state_category = pastoral
 
 	history={
 		owner = UZB
 		add_core_of = UZB
-		1500.1.1 = {
-			owner = KAZ
-			controller = KAZ
-			add_core_of = KAZ
-			remove_core_of = UZB
-
-		}
-		1848.1.1 = {
-                owner = RUS
-                }
-						1919.1.1 = {
-		owner = KAZ
-		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
-		}
-		1993.1.1 = {
-		owner = KAZ
-		controller = KAZ
 		add_core_of = KAZ
-            remove_core_of = SOV
-		}
 		victory_points = {
-			4333 10 
+			4333 1
 		}
 		buildings = {
 			infrastructure = 2
-
 		}
-
+		1524.1.1.12 = {
+			owner = KAZ
+		}
+		1861.3.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = KAZ
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = KAZ
+		}
 	}
 
 	provinces={
-		1229 1309 1375 1391 1418 1662 1680 4232 4238 4281 4309 4333 7298 7326 7741 7874 10211 10239 10308 10633 12619 
+		1223 1229 1309 1375 1391 1418 1662 1680 1694 4232 4238 4281 4309 4333 4850 7298 7326 7383 7407 7425 7741 7874 10211 10239 10308 10633 12152 12619 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

@@ -1,0 +1,43 @@
+state={
+	id=1053
+	name="STATE_1053"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = MOL
+		add_core_of = MOL
+		buildings = {
+			infrastructure = 1
+		}
+		1566.6.1.12 = {
+			owner = TUR
+		}
+		1812.6.24.12 = {
+			owner = SOV
+			add_core_of = UKR
+		}
+		1861.3.1.12 = {
+			owner = ROM
+		}
+		1900.1.1.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = ROM
+		}
+		1945.9.2.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = UKR
+		}
+	}
+
+	provinces={
+		13393 13394
+	}
+
+	local_supplies=0.0 
+}

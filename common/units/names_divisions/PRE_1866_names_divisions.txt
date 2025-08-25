@@ -1,9 +1,0 @@
-PRE_DIV_0_3 = {
-	name = "Example Division"
-	for_countries = { PRE }
-	can_use = { always = yes }
-	division_types = { 
-		"infantry" 
-	}
-	fallback_name = "%d. Example Division"
-}

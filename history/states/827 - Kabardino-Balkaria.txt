@@ -1,58 +1,44 @@
-
-state={
-	id=827
-	name="STATE_827"
-	resources={
-		chromium=17.000
+state = {
+	id = 827
+	name = "STATE_827"
+	resources = {
+		chromium = 17
 	}
 
-	history={
+	history = {
 		owner = KBK
-		add_core_of = KBK
-		1836.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-
-		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
 		}
-				1919.1.1 = {
-		owner = DAG
-		add_core_of=DAG
-		}
-		1920.1.1 = {
-		remove_core_of = CRI
-		remove_core_of = DON
-		remove_core_of = KUB
-		remove_core_of = DAG
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
-		}
+		add_core_of = SOV
+		add_core_of = KBK
 		victory_points = {
-			685 1 
+			11614 1
 		}
-
+		1789.7.14.12 = {
+			owner = CIR
+			add_core_of = CIR
+		}
+		1870.7.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = MRC
+			add_core_of = MRC
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
 	}
 
-	provinces={
-		685 9647 9649 
+	provinces = {
+		685 6674 9632 11614
 	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	manpower = 387990
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
 }

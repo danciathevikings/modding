@@ -1,58 +1,16 @@
-
 state={
 	id=621
 	name="STATE_621"
 
 	history={
-		owner = ZZZ
-		1700.1.1 = {
-        owner = QIN
-		add_core_of = QIN
-        }
-		1900.1.1 = {
+		owner = SUI
+		add_core_of = SUI
 		add_core_of = CHI
-		remove_core_of = MNG
-        }
-		
-								1444.1.1 = {
-        owner = MON
-		add_core_of = MON
-        }
-		
-		1913.1.1 = {
-			owner = CHI
-			controller = CHI
-			remove_core_of = QIN
-
-		}
-        1919.1.1 = {
-        }
-		1920.1.1 = {
-			owner = MON
-			controller = MON
-			remove_core_of = QIN
-
-		}
-		1933.1.1 = {
-			owner = SHX
-			controller = SHX
-			add_core_of = XSM
-
-		}
-		1946.1.1 = {
-			owner = CHI
-			controller = CHI
-
-		}
-		1950.1.1 = {
-			owner = PRC
-			controller = PRC
-			remove_core_of = XSM
 		add_core_of = PRC
-
-		}
+		add_core_of = MEN
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
+			industrial_complex = 1
 
 		}
 		1939.1.1 = {
@@ -61,7 +19,7 @@ state={
 				level = 1
 
 			}
-			owner = XSM
+			owner = PRC
 			controller = MEN
 
 		}
@@ -69,10 +27,11 @@ state={
 	}
 
 	provinces={
-		4525 10629 12331 12609 12880 
+		2087 7631 10629 12609 12880 13492 13506 13495
 	}
-	manpower=400000
+	manpower=1583700
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-	local_supplies=4.000
+
+	local_supplies=4.0 
 }

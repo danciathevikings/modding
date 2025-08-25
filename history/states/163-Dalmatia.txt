@@ -1,80 +1,45 @@
-
-state={
-	id=163
-	name="STATE_163"
-
-	history={
-                owner = VNT
-                add_core_of = VNT
-        1804.1.1 = {
-                owner = AUS
-                add_core_of = AUS
-                remove_core_of = VNT
-				remove_core_of = RAG
-        }
-		1812.1.1 = {
-        owner = FRA
-        }
-		1816.1.1 = {
-        owner = AUS
-        add_core_of = AUS
-        }
-		1900.1.1 = {
-		owner = AUH
-                add_core_of = AUH
-                remove_core_of = AUS
-                }
-						1945.1.1 = {
-		owner = GER
-		}
-						1814.1.1 = {
-        controller = AUS
-		}
-		1946.1.1 = {
-		owner = ITA
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 18000
+	
+	state_category = enclave
+	
+	history = {
+		owner = VNR
+		victory_points = { #Zara/Zadar
+			3943 5 
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			11735 1
-		}
-		1900.1.1 = {
 		add_core_of = CRO
-                }
-		1919.1.1 = {
+		add_core_of = LBV
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = AUS
+		}
+		1919.1.1.12 = {
 			owner = ITA
-			controller = ITA
-			add_core_of = ITA
-            remove_core_of = CRO
-            remove_core_of = SLV
-			remove_core_of = AUH
-
+			add_core_of = YUG
+			start_resistance = CRO
+			set_compliance = 70
 		}
-		1950.1.1 = {
+		1945.9.2.12 = {
 			owner = YUG
-			controller = YUG
-			remove_core_of = ITA
-			remove_core_of = LBV
-                 add_core_of = CRO
-                 add_core_of = YUG
-
 		}
-		1992.1.1 = {
+		2000.1.1.12 = {
 			owner = CRO
-			controller = CRO
-			remove_core_of = YUG
-
 		}
-
+	}
+	provinces = {	
+		3943 
 	}
 
-	provinces={
-		11735 13322 
-	}
-	manpower=233333
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	local_supplies = 0.0 
 }

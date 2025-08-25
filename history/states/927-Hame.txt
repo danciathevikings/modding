@@ -1,56 +1,40 @@
+state = {
+	id = 927
+	name = "STATE_927"
+	manpower = 404500
+	
+	state_category = rural
+	
+	history = {
+		owner = SWE
+		add_core_of = FIN
 
-state={
-	id=927
-	name="STATE_927"
-
-	history={
-		owner = MOD
-		add_core_of = MOD
-		1800.1.1 = {
-			owner = ITA
-			add_core_of = ITA
-
+		victory_points = { #Tampere
+			3137 3
 		}
-		1816.1.1 = {
-			remove_core_of = ITA
-			owner = MOD
-			add_core_of = MOD
 
+		victory_points = { #Lahti
+			67 2
 		}
-		1871.1.1 = {
-			owner = ITA
-			add_core_of = ITA
 
+		victory_points = { #Hämeenlinna
+			9167 1
 		}
-		1919.1.1 = {
-			remove_core_of = SPM
-			remove_core_of = PAP
-			remove_core_of = TOS
-			remove_core_of = TTS
-			remove_core_of = LBV
-			remove_core_of = VNT
-			remove_core_of = PRM
-			remove_core_of = MOD
-			remove_core_of = MAS
-			remove_core_of = LUC
-
-		}
-		victory_points = {
-			13875 10 
-		}
+	
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-
+			infrastructure = 1
 		}
-
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = FIN
+		}
 	}
 
-	provinces={
-		6985 13874 13875 
+	provinces = {
+		67 3025 3137 6047 6163 9160 9167 11066 11172 13100 13102 13103 13106 13107
 	}
-	manpower=600000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies = 0.0
 }

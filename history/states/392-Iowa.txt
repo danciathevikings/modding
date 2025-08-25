@@ -7,54 +7,29 @@ state={
 	state_category = city
 
 	history={
-		owner = ZZZ
-		1700.1.1 = {
-		victory_points = {
-			1770 3 
-		}
-                }
-		1700.1.1 = {
-                owner = FRA
-                }
-		1776.1.1 = {
-        owner = LOU
-		add_core_of = LOU
-        }
-		1803.1.1 = {
-        owner = MRI
-        add_core_of = MRI
-		remove_core_of = LOU
-        }
-				1813.1.1 = {
-        owner = UNO
-        add_core_of = UNO
-		remove_core_of = MRI
-        }
-				1835.1.1 = {
-        owner = MCH
-        add_core_of = MCH
-		remove_core_of = UNO
-        }
-				1837.1.1 = {
-        owner = USA
-        add_core_of = USA
-		remove_core_of = MCH
-        }
-		1803.1.1 = {
-		buildings = {
-			infrastructure = 1 #was: 6
-			industrial_complex = 2
-		}
-                }
-		1936.1.1 = {
+		owner = SPR
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 4
 		}
-                }
-		buildings = {
-			infrastructure = 0
+		add_core_of = USA
+		1789.7.14.12 = {
+			owner = MEX
 		}
+		1812.6.24.12 = {
+			owner = USA
+		}
+
+		victory_points = {
+			1770 3 
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+			}
+		}
+
 	}
 
 	provinces={

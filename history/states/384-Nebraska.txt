@@ -4,53 +4,26 @@ state={
 	name="STATE_384"
 	manpower = 1377962
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
-		owner = ZZZ
-		1789.1.1 = {
+		owner = SPR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		1789.7.14.12 = {
+			owner = MEX
+		}
+		1812.6.24.12 = {
+			owner = USA
+		}
+
 		victory_points = {
 			12586 1 
 		}
-                }
-						1776.1.1 = {
-        owner = LOU
-		add_core_of = LOU
-        }
-		1789.1.1 = {
-        owner = LOU
-		add_core_of = LOU
-        }
-		1803.1.1 = {
-        owner = MRI
-        add_core_of = MRI
-		remove_core_of = LOU
-        }
-				1813.1.1 = {
-        owner = UNO
-        add_core_of = UNO
-		remove_core_of = MRI
-        }
-				1837.1.1 = {
-        owner = USA
-        add_core_of = USA
-		remove_core_of = UNO
-        }
-		1803.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-                }
-		buildings = {
-			infrastructure = 0
-		}
+
 	}
 
 	provinces={

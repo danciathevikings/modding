@@ -1,0 +1,26 @@
+capital = 525
+
+add_ideas = {
+	The_Korean_Economy
+	Legacy_Of_The_Korean_War
+	Past_Leader_Corruption
+	Costco
+	Resentment_Of_The_Japanese
+	Mind_Numbingly_Low_Birthrates
+	Low_Chaebol_Rule
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "2022.4.9"
+	election_frequency = 5
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 90
+	fascism = 2
+	communism = 5
+	neutrality = 3
+}
+
+set_stability = 0.82
+set_war_support = 0.71

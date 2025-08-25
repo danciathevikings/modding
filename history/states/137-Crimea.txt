@@ -1,80 +1,51 @@
+state = {
+	id = 137
+	name = "STATE_137"
+	manpower = 721507
+	
+	state_category = city
 
-state={
-	id=137
-	name="STATE_137"
-
-	history={
-		owner = THE
-		add_core_of = THE
-		1600.1.1 = {
-		add_core_of = CRI
-		owner = OTO
-		remove_core_of = THE
-		}
-				1776.1.1 = {
-		remove_core_of = CRI
-		owner = RUS
-		add_core_of = RUS
-		}
-		victory_points = {
-			3686 20 
-		}
-		buildings = {
-			infrastructure = 3
-			3686 = {
-				naval_base = 10
-
-			}
-		}
-		1919.1.1 = {
-		buildings = {
-			infrastructure = 3
-			air_base = 3
-			3686 = {
-				naval_base = 10
-				coastal_bunker = 3
-
-			}
-		}
-		}
-				1919.1.1 = {
+	history = {
 		owner = CRI
-		add_core_of=CRI
+		victory_points = {
+			705 3 # Simferopol
 		}
-		1920.1.1 = {
-		remove_core_of = CRI
-		remove_core_of = DON
-		remove_core_of = KUB
-		remove_core_of = DAG
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			air_base = 3
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+		add_core_of = CRI
+		1789.7.14.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		1954.1.1 = {
-		add_core_of = UKR
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
 		}
-		1993.1.1 = {
-		owner = UKR
-		controller = UKR
-		add_core_of = UKR
-            remove_core_of = SOV
+		1933.1.30.12 = {
+			owner = SOV
 		}
-		2014.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
+			}
+		}
+		2000.1.1.12 = {
+			owner = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+		}
+		2022.2.23.12 = {
+			owner = SOV
 		}
 	}
 
-	provinces={
-		3686 
+	provinces = {
+		705 3722 6724 9718 11649 
 	}
-	manpower=400000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=10.000
+
+	local_supplies = 10.0 
 }

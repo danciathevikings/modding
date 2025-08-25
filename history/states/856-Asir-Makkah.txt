@@ -1,59 +1,46 @@
-state={
-	id=856
-	name="STATE_856"
-	history={
-                owner = VNT
-                add_core_of = VNT
-		1812.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-        }
-        1816.1.1 = {
-                owner = LBV
-                add_core_of = LBV
-                remove_core_of = VNT
-				remove_core_of = MIL
-				remove_core_of = MNT
-				remove_core_of = ITA
-        }
-								1814.1.1 = {
-        controller = AUS
-		}
-        1871.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-        }
-        1919.1.1 = {
-                remove_core_of = SPM
-                remove_core_of = PAP
-                remove_core_of = TOS
-                remove_core_of = TTS
-                remove_core_of = LBV
-        }
-				1945.1.1 = {
-		owner = GER
-		}
-		1946.1.1 = {
-		owner = ITA
-		}
+state= { 
+	id = 856
+	name = "STATE_856"
+	manpower = 500000
+	
+	history = {
+		owner = EGY
+		add_core_of	= SAU
+
 		victory_points = {
-			13329 2 
+			12883 1 
 		}
+
 		victory_points = {
-			628 3
+			5037 5
 		}
+
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-
-
+			infrastructure = 1
+			arms_factory = 1
+			12883 = {
+				naval_base = 5
+			}
 		}
+		1524.1.1.12 = {
+			owner = TUR
 		}
-	provinces={
-		628 9613 13329 13332 
+		1812.6.24.12 = {
+			owner = EGY
+		}
+		1848.1.1.12 = {
+			owner = TUR
+		}
+		1919.1.1.12 = {
+			owner = SAU
+		}
 	}
-	manpower=400000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	state_category = pastoral
+
+	provinces = {
+		1923 5037 8073 12883 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

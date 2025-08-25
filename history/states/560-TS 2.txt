@@ -1,54 +1,40 @@
+state = {
+	id = 560
+	name = "STATE_560" # Nikolayevsk
+	manpower = 97663
 
-state={
-	id=560
-	name="STATE_560"
+	state_category = rural
+
 	resources={
-		steel=18.000
+		steel=18 # was: 24
 	}
 
 	history={
-		owner = ZZZ
-		1700.1.1 = {
-		add_core_of = QIN
-                owner = QIN
-                }
-	    1859.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-		remove_core_of=QIN
-        }
-		1936.1.1 = {
-		add_core_of = FER
-                }
-		1936.1.1 = {
+		owner = NIV
+		add_core_of = NIV
 		buildings = {
 			infrastructure = 2
 		}
-                }
-		buildings = {
-			infrastructure = 0
-
+		add_core_of = FER
+		1754.5.1.12 = {
+			owner = CHI
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+		1861.3.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
 		}
-
+		1933.1.30.12 = {
+			owner = SOV
+		}
 	}
 
-	provinces={
-		1724 1772 1807 1842 3664 4290 4701 4844 7748 7871 9659 10571 10577 10590 12559 12569 12638 
+	provinces = {
+		1724 1772 1807 1842 3664 4290 4844 7748 7871 9659 10571 10577 10590 12559 12569 12638 
 	}
-	manpower=93658
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

@@ -1,0 +1,53 @@
+state = {
+	id = 1212
+	name = "STATE_1212"
+	manpower = 225000
+	
+	
+	state_category = town
+
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = PRE
+
+		victory_points = {
+			9388 1 # Stralsund
+		}
+		
+		buildings = {
+			infrastructure = 2
+			fuel_silo = 1
+		}
+		1754.5.1.12 = {
+			owner = SWE
+		}
+		1848.1.1.12 = {
+			owner = PRE
+		}
+		1870.7.1.12 = {
+			owner = GER
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 8
+				9388 = {
+					air_facility = 1
+				}
+			}
+		}
+		1945.9.2.12 = {
+			owner = DDR
+		}
+		2000.1.1.12 = {
+			owner = GER
+		}
+	}
+
+	provinces = {
+		349 3340 9388 13257
+	}
+
+	local_supplies = 3.0 
+}

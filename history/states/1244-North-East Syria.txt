@@ -1,0 +1,39 @@
+state={
+	id=1244
+	name="STATE_1244"
+	manpower = 119000
+	
+	state_category = wasteland
+
+	history={
+		owner = AQQ
+		add_core_of = AQQ
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+		1524.1.1.12 = {
+			owner = TUR
+			add_core_of = TUR
+			remove_core_of = AQQ
+		}
+		1919.1.1.12 = {
+			owner = SYR
+			remove_core_of = TUR
+		}
+	}
+
+
+	provinces={
+		901 1549 1578 1606 1634 6883 10882
+	}
+
+	local_supplies=4.0 
+}

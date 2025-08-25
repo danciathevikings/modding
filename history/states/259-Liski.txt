@@ -1,72 +1,42 @@
-
 state={
 	id=259
-	name="STATE_259"
+	name="STATE_259" # Poltava
+	manpower = 1442584
+	
+	state_category = rural
 
 	history={
+		owner = LIT
 		victory_points = {
-			11504 10 
-		}
-		owner = CHE
-		add_core_of = CHE
-		1600.1.1 = {
-			owner = POL
-			add_core_of = ZAP
-			remove_core_of = CHE
-
-		}
-		1689.1.1 = {
-			owner = ZAP
-			add_core_of = ZAP
-			remove_core_of = LIT
-			remove_core_of = POL
-
-		}
-		1776.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-			remove_core_of = ZAP
-			remove_core_of = POL
-
+			11504 3
 		}
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 3 #was: 5
 		}
-		1900.1.1 = {
-			add_core_of = UKR
-
+		add_core_of = UKR
+		1618.4.1.12 = {
+			owner = POL
 		}
-						1919.1.1 = {
-			owner = UKR
-			controller = UKR
-			add_core_of = UKR
-			remove_core_of = RUS
-			remove_core_of = GLL
-
-		}
-		1920.1.1 = {
+		1754.5.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = UKR
-			controller = UKR
-			add_core_of = UKR
-			remove_core_of = SOV
-
+			add_core_of = RSS
 		}
-
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = UKR
+			remove_core_of = SOV
+		}
 	}
 
 	provinces={
-		511 1243 3557 4389 4752 6507 6578 9413 11504 12121 12551 
+		511 559 3557 6495 6507 6578 6605 9413 9519 11504 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=10.000
+
+	local_supplies=10.0 
 }

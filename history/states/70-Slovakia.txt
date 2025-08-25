@@ -1,87 +1,69 @@
-
-state={
-	id=70
-	name="STATE_70"
-	resources={
-		tungsten=1.000
+state = {
+	id = 70
+	name = "STATE_70"
+	manpower = 1230500
+	
+	state_category = city
+	
+	resources = {
+		tungsten = 1
 	}
 
-	history={
-                owner = HUN
-                add_core_of = HUN
-		1600.1.1 = {
-			owner = HUN
-		}
-		1700.1.1 = {
-			owner = HUN
-                remove_core_of = TRA
-		}
-		1804.1.1 = {
-			owner = AUS
-                add_core_of = AUS
-		}
-		
-		1836.1.1 = {owner = HUN add_core_of = HUN}
-		
-		1900.1.1 = {
-			owner = AUH
-                        remove_core_of = AUS
-                        remove_core_of = HUN
-                        add_core_of = AUH
-						add_core_of = SLO
-		}
-		1936.1.1 = {
+	history = {
+		owner = HUN
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 3
+			arms_factory = 2
 			air_base = 3
-
 		}
-                }
+
 		victory_points = {
-			9692 20 
+			9692 10 # Bratislava
 		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
 
+		victory_points = {
+			11539 5 # Zilina
 		}
-		1919.1.1 = {
+
+		victory_points = {
+			541 2 # Nitra
+		}
+
+		add_core_of = CZE
+		add_core_of = SLO
+		1566.6.1.12 = {
+			owner = AUS
+		}
+		1861.3.1.12 = {
+			owner = HUN
+		}
+		1919.1.1.12 = {
 			owner = CZE
-			controller = CZE
-			add_core_of = CZE
-			remove_core_of = AUH
-			remove_core_of = SLO
-
+			HUN = {
+				set_province_controller = 3537
+			}
+		}
+		1933.1.30.12 = {
+			CZE = {
+				set_province_controller = 3537
+			}
 		}
 		1939.3.14 = {
 			owner = SLO
-			controller = SLO
-			add_core_of = SLO
-
 		}
-		1946.1.1 = {
+		1945.9.2.12 = {
 			owner = CZE
-			controller = CZE
-			add_core_of = CZE
-			remove_core_of = HUN
-
 		}
-		1993.1.1 = {
+		2000.1.1.12 = {
 			owner = SLO
-			controller = SLO
-			remove_core_of = CZE
-			remove_core_of = HUN
-
 		}
-
 	}
 
-	provinces={
-		9692 
+	provinces = {
+		541 3484 3537 9539 9692 11522 11539 
 	}
-	manpower=230500
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=3.000
+
+	local_supplies = 3.0 
 }

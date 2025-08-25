@@ -1,0 +1,36 @@
+state = {
+	id = 1156
+	name = "STATE_1156"
+	manpower = 371000
+
+	history={
+		owner = UTR
+		add_core_of = UTR
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		1566.6.1.12 = {
+			owner = SPR
+			remove_core_of = HOL
+		}
+		1618.4.1.12 = {
+			owner = HOL
+		}
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = HOL
+		}
+	}
+
+	provinces = {
+		6286 9309 9403
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 12.0 
+}

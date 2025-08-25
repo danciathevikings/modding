@@ -1,79 +1,41 @@
-
 state={
 	id=109
-	name="STATE_109"
-	resources={
-		oil=3.000
-	}
+	name="STATE_109" # Croatia
+	manpower = 2224400
+	
+	state_category = large_town
 
 	history={
-		owner = SLA
-		add_core_of = SLA
-								
-							1444.1.1 = {
-			owner = HUN
-			add_core_of = HUN	}						
-								
-								1945.1.1 = {
 		owner = CRO
-		}
-		1946.1.1 = {
-		owner = YUG
-		}
-		1600.1.1 = {
-	        owner = HUN
-                add_core_of = HUN
-                remove_core_of = SLA
-
-		}
-		1700.1.1 = {
-			owner = HUN
-                remove_core_of = TRA
-		}
-		1789.1.1 = {
-		add_core_of = CRO
-        remove_core_of = HUN
-		}
-		1804.1.1 = {
-			owner = AUS
-                add_core_of = AUS
-		}
-		1900.1.1 = {
-			owner = AUH
-                        remove_core_of = AUS
-                        remove_core_of = HUN
-                        add_core_of = CRO
-                        add_core_of = AUH
-		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-
+			industrial_complex = 3
 		}
 		victory_points = {
-			11581 20 
+			11581 3 
 		}
-		1919.1.1 = {
+		add_core_of = CRO
+		1566.6.1.12 = {
+			owner = TUR
+		}
+		1754.5.1.12 = {
+			owner = AUS
+		}
+		1861.3.1.12 = {
+			owner = HUN
+		}
+		1919.1.1.12 = {
 			owner = YUG
-			controller = YUG
 			add_core_of = YUG
-			remove_core_of = AUH
-
 		}
-		1992.1.1 = {
+		2000.1.1.12 = {
 			owner = CRO
-			controller = CRO
-			remove_core_of = YUG
-
 		}
-
 	}
 
 	provinces={
-		11581 
+		624 3592 3596 3627 6647 9595 9611 11581 11594 13404 13405
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

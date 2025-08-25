@@ -1,13 +1,13 @@
-
 state={
 	id=522
 	name="STATE_522"
 
 	history={
-		owner = ZZZ
-		1828.1.1 = {
+		owner = JWB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
 			1652 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -15,39 +15,24 @@ state={
 			}
 
 		}
-		}
-		1829.1.1 = {
 		victory_points = {
-			1652 20 
+			1652 10 
 		}
+		1848.1.1.12 = {
+			owner = ENG
 		}
-		1836.1.1 = {
+		1914.1.1.12 = {
 			owner = AST
-			controller = AST
-            add_core_of = AST
+		add_core_of = AST
 		}
-		1899.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			air_base = 1
-		}
-                }
-		buildings = {
-			infrastructure = 0
-		}
+
 	}
 
 	provinces={
-		1498 1511 1540 1652 2139 2157 2177 2186 2187 2191 2205 2223 4630 5170 5175 5198 7453 7579 7608 7623 8130 8155 8206 8228 8230 8237 8243 10336 10937 10955 10958 10979 10983 11011 12904 12906 12912 12915 12936 12948 12949 12962 12976 12990 
+		1498 1511 1540 1652 2157 4630 4645 5125 5170 5175 7453 7579 7608 8130 8228 8243 10950 10971 10983 12323 
 	}
-	manpower=300000
+	manpower=317200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

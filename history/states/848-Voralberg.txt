@@ -2,53 +2,34 @@
 state={
 	id=848
 	name="STATE_848"
-
+	manpower = 154354
+	state_category = pastoral
 	history={
-		owner = MIL
-		add_core_of = MIL
-		1750.1.1 = {
-		add_core_of = SPM
-		owner = SPM
-		remove_core_of = MIL
-		}
-		1800.1.1 = {
-		add_core_of = SAV
-		owner = SAV
-		}
-		1812.1.1 = {
-		remove_core_of = SAV
-		owner = FRA
-		}
-		1816.1.1 = {
-		add_core_of = SPM
-		owner = SPM
-		remove_core_of = ITA
-		}
-		1871.1.1 = {
-			owner = ITA
-			add_core_of = ITA
-
-		}
-		1919.1.1 = {
-			remove_core_of = SPM
-			remove_core_of = PAP
-			remove_core_of = TOS
-			remove_core_of = TTS
-			remove_core_of = LBV
-
-		}
+		owner = AUS
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
 		}
-
+		add_core_of = AUS
+		add_claim_by = SWI
+		1812.6.24.12 = {
+			owner = RHI
+		}
+		1848.1.1.12 = {
+			owner = AUS
+		}
+		1938.3.12 = {
+			owner = GER
+			add_core_of = GER
+		}
+		1945.9.2.12 = {
+			owner = AUS
+			remove_core_of = GER
+		}
 	}
-
 	provinces={
-		11726 
+		6678 6680 
 	}
-	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

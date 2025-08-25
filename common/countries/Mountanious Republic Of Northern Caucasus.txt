@@ -1,0 +1,4 @@
+color = { 100 85 60 }
+    graphical_culture = middle_eastern_gfx
+    graphical_culture_2d = middle_eastern_2d
+}

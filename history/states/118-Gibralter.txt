@@ -1,53 +1,39 @@
-
 state={
 	id=118
 	name="STATE_118"
+	manpower=21372
+	
+	state_category = enclave
 
 	history={
-		owner = ADU
-                add_core_of = ADU
-		1500.1.1 = {
-                owner = SPR
-                add_core_of = SPR
-                remove_core_of = NAV
-                remove_core_of = ADU
+		owner = GRA
+		add_core_of = GRA
+		victory_points = {
+			4135 10
 		}
-		1701.1.1 = {
-                add_core_of = ENG
-                remove_core_of = SPR
-                owner = ENG
-		}
-		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 			4135 = {
 				naval_base = 5
 				coastal_bunker = 2
-
 			}
-
 		}
+		1492.7.1.12 = {
+			owner = SPR
+			add_core_of = SPR
+			remove_core_of = GRA
 		}
-		victory_points = {
-			4135 15 
+		1754.5.1.12 = {
+			owner = ENG
+			add_core_of = ENG
+			remove_core_of = SPR
+			add_claim_by = SPR
 		}
-		buildings = {
-			infrastructure = 2
-			4135 = {
-				naval_base = 5
-
-			}
-
-		}
-
 	}
-
 	provinces={
-		4135 
+		4135
 	}
-	manpower=21372
-	buildings_max_level_factor=1.000
-	state_category=enclave
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

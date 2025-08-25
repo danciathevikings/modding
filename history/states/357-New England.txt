@@ -1,83 +1,26 @@
-
-state={
-	id=357
-	name="STATE_357"
-	resources={
-		steel=12.000
+state = {
+	id = 357
+	name = "STATE_357"
+	manpower = 8404713
+	resources = {
+		steel = 12
 	}
 
-	history={
-		owner = ZZZ
-		1700.1.1 = {
-			owner = USA
-			add_core_of = USA
+	state_category = metropolis
 
-		}
-		1700.1.1 = {
-			buildings = {
-				infrastructure = 2
-				6732 = {
-					naval_base = 8
 
-				}
-
-			}
-
-		}
-		1700.1.1 = {
-			victory_points = {
-				6732 20 
-			}
-		}
-		1700.1.1 = {
-
-		}
-		1789.1.1 = {
-			owner = USA
-			add_core_of = USA
-
-		}
-		1800.1.1 = {
-			buildings = {
-				infrastructure = 4
-				arms_factory = 1
-				industrial_complex = 4
-				dockyard = 4
-				6732 = {
-					naval_base = 8
-
-				}
-
-			}
-
-		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 4
-				arms_factory = 1
-				industrial_complex = 4
-				dockyard = 4
-				air_base = 10
-				6732 = {
-					naval_base = 8
-
-				}
-
-			}
-
-		}
+	history = {
+		owner = USA
+		add_core_of = USA
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 4
 		}
-
 	}
 
-	provinces={
-		3906 6732
+	provinces = {
+1338 1619 3732 6719 7462 12202 12221 12459
 	}
-	manpower=3000000
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.000
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
 }

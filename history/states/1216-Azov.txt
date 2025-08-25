@@ -1,0 +1,43 @@
+state={
+	id=1216
+	name="STATE_1216"
+	manpower = 131000
+	
+	state_category = city
+
+	history={
+		owner = GNO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			13588 ={
+				naval_base = 5
+			}
+		}
+		1492.7.1.12 = {
+			owner = TUR
+			victory_points = {
+				13588 5 
+			}
+		}
+		1789.7.14.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = DON
+			add_core_of = DON
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+	}
+
+	provinces={
+		13588
+	}
+
+	local_supplies=3.0 
+}

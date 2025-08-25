@@ -1,27 +1,32 @@
-state={
-	id=1016
-	name="STATE_1016"
-	history={
-		owner = ZZZ
-		1900.1.1 = {
-		add_core_of = SAF
-                owner = ENG
-                }
-		1911.1.1 = {
-			owner = SAF
-			controller = SAF
-            add_core_of = SAF
-		}
+state = {
+	id = 1016
+	name = "STATE_1016"
+	manpower = 85000
+	
+	state_category = pastoral
+
+	history = {
+		owner = SAU
+		add_core_of = OMA
+
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
+			2103 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			2103 1 # Salalah
+		}
+		1848.1.1.12 = {
+			owner = OMA
 		}
 	}
 
-	provinces={
-		2213 10668
+	provinces = {
+		2059 2103
 	}
-	manpower=400000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

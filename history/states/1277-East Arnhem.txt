@@ -1,0 +1,26 @@
+state={
+	id=1277
+	name="STATE_1277"
+	manpower=31000
+
+	state_category=wasteland
+
+	history={
+		owner = JWB
+		buildings = {
+			infrastructure = 1
+		}
+		1789.7.14.12 = {
+			owner = ENG
+		}
+		1914.1.1.12 = {
+			owner = AST
+			add_core_of = AST
+		}
+	}
+	provinces={
+		1410 1422 2139 4462 7457 7481 12499 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

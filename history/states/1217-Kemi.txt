@@ -1,0 +1,42 @@
+state = {
+	id = 1217
+	name = "STATE_1217"
+	manpower = 41000
+	
+	state_category = rural
+	
+	resources = {
+		steel = 1
+	}
+
+	history = {
+		owner = SWE
+		add_core_of = FIN
+
+		victory_points = { 
+			11164 2 # Kemi
+		}
+
+		victory_points = { 
+			11125 1 # Tornio
+		}
+
+		buildings = {
+			infrastructure = 1
+			# Kemijoki
+			#11164 = { dam = 1 }	
+		}
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = FIN
+		}
+	}
+
+	provinces = {
+		30 124 162 3193 11125 11164
+	}
+
+	local_supplies = 3.0 
+}

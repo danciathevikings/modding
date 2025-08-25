@@ -1,62 +1,49 @@
-
 state={
 	id=459
-	name="STATE_459"
+	name="STATE_459" # Algiers
+	manpower = 3089944
+
+	state_category = town
+	
 	resources={
-		steel=26.000
+		steel=65
 	}
 
 	history={
-		owner = ALG
+		owner = TLE
+		add_core_of = TLE
 		add_core_of = ALG
-		1836.1.1 = {
-                owner = FRA
-                }
-		1962.1.1 = {
-                owner = ALG
-                add_core_of = ALG
-                }
+
 		victory_points = {
-			1145 20 
+			1145 5 
 		}
-		
-		1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO
-			remove_core_of = EGY
-
-		}
-		
-		1936.1.1 = {
-					buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			air_base = 5
-			1145 = {
-				naval_base = 2
-
-			}
-
-		}
+		victory_points = {
+			7132 5 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			air_base = 5
 			1145 = {
 				naval_base = 2
-
 			}
-
+			7132 = {
+				naval_base = 6
+			}
 		}
-
+		1524.1.1.12 = {
+			owner = TUR
+		}
+		1848.1.1.12 = {
+			owner = FRA
+		}
+		1965.3.1.12 = {
+			owner = ALG
+		}
 	}
 
 	provinces={
-		1145 
+		1013 1145 4116 4131 4146 7132 9964 11923 11939 12760
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

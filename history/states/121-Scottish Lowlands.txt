@@ -1,65 +1,37 @@
-
 state={
 	id=121
-	name="STATE_121"
-	resources={
-		steel=21.000
-	}
+	name="STATE_121" # Lothian
+	manpower = 1431624
+	
+	state_category = city
+
 	history={
 		add_core_of = SCO
 		owner = SCO
-		1707.1.1 = {
-			owner = ENG
-			controller = ENG
-                add_core_of = ENG
+		victory_points = {
+			9392 10
 		}
-		1936.1.1 = {
+		victory_points = {
+			6300 1
+		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4 #was: 7
 			industrial_complex = 1
-			dockyard = 5
+			dockyard = 1
 			air_base = 3
 			6300 = {
 				naval_base = 5
-
-			}
-			6395 = {
-				naval_base = 2
-
 			}
 		}
-                }
-		victory_points = {
-			9392 20 
+		1754.5.1.12 = {
+			owner = ENG
+			add_core_of = ENG
 		}
-		victory_points = {
-			6300 1 
-		}
-		victory_points = {
-			11218 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			dockyard = 5
-			6300 = {
-				naval_base = 5
-
-			}
-			6395 = {
-				naval_base = 2
-
-			}
-
-		}
-
 	}
 
 	provinces={
-		6300 6320 6350 6395 9237 9314 9350 9383 9392 11218 11378 
+		159 6300 9314 9383 9392 11378 
 	}
-	manpower=3189347
-	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=5.000
+
+	local_supplies=0.0 
 }

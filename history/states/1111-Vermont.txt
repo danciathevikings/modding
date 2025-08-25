@@ -1,0 +1,18 @@
+state={
+	id=1111
+	name="STATE_1111"
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		4445 7629 9675 
+	}
+	manpower=2
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,77 +1,68 @@
-
-state={
-	id=52
-	name="STATE_52"
-	resources={
-		aluminium=30.000
+state = {
+	id = 52
+	name = "STATE_52"
+	manpower = 2679413
+	resources = {
+		aluminium = 18 # was: 30
 	}
+	
+	state_category = city
 
-	history={
-		owner = BYM
-		add_core_of = BYM
-		1600.1.1 = {
-			owner = BAY
-			add_core_of = BAY
-			remove_core_of = BYM
+	history = {
 
-		}
-		1950.1.1 = {
-			owner = WGR
-			add_core_of = WGR
-			remove_core_of = GER
+		owner = GER
+		add_core_of = GER
+		add_core_of = BAY
 
-		}
-		2000.1.1 = {
-			owner = GER
-			add_core_of = GER
-			remove_core_of = DDR
-			remove_core_of = WGR
-
-		}
-		1871.1.1 = {
-			add_core_of = GER
-			owner = GER
-
-		}
-		1919.1.1 = {
-			owner = BAY
-
-		}
-		1920.1.1 = {
-			owner = GER
-			remove_core_of = BAY
-
+		victory_points = {
+			692 20 # Munich
 		}
 		victory_points = {
-			692 20 
+			708 3 # Augsburg
 		}
-		victory_points = {
-			9652 1 
-		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 4
-				arms_factory = 2
-				industrial_complex = 1
-				air_base = 6
 
-			}
-
-		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
 			industrial_complex = 1
-
+			air_base = 6
 		}
-
+		1754.5.1.12 = {
+			owner = BAY
+		}
+		1812.6.24.12 = {
+			owner = RHI
+		}
+		1848.1.1.12 = {
+			owner = BAY
+		}
+		1900.1.1.12 = {
+			owner = GER
+		}
+		1919.1.1.12 = {
+			owner = BAY
+		}
+		1933.1.30.12 = {
+			owner = GER
+		}
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+			}
+		}
+		1945.9.2.12 = {
+			owner = WGR
+			add_core_of = WGR
+		}
+		2000.1.1.12 = {
+			owner = GER
+			remove_core_of = WGR
+		}
 	}
 
-	provinces={
-		692 707 3688 6693 9636 9652 11620 11653 14605 14625 14633 14635 14649 
+	provinces = {
+		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
 	}
-	manpower=1500000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=8.000
+
+	local_supplies = 8.0 
 }

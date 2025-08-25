@@ -1,0 +1,39 @@
+state={
+	id=1229
+	name="STATE_1229"
+	manpower = 570000
+
+	state_category = city
+
+	resources={
+		aluminium=5
+	}
+
+	history={
+		owner = PAP
+		add_core_of = PAP
+		add_core_of = PRO
+		victory_points = {
+			958 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			fuel_silo = 1
+			air_base = 10
+		}
+		add_core_of = OCC
+		add_core_of = FRA
+		1812.6.24.12 = {
+			owner = FRA
+			remove_core_of = PAP
+		}
+	}
+
+	provinces={
+		958
+	}
+
+	local_supplies=0.0 
+}

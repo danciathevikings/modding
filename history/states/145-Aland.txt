@@ -1,34 +1,39 @@
-state=
-{
+state={
 	id=145
-	name="STATE_145"
-	manpower = 27400
+	name="STATE_145" #ÅLAND
+	manpower = 28139
 	
 	state_category = small_island
 	
-	history=
-	{
+	history = {
 		owner = SWE
-		add_core_of = SWE
-		1809.1.1 = {
-                owner = FIN
-		add_core_of = FIN
-                }
+		victory_points = { #Mariehman
+			9228 1
+		}
+
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #MM: Was 3
 			9228 = {
 				naval_base = 1
 			}
 		}
-		1920.1.1 = {
-		owner = FIN
-		controller = FIN
 		add_core_of = FIN
-            remove_core_of = RUS
+		1444.11.11.12 = {
+			set_demilitarized_zone = no
+		}
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = FIN
+			set_demilitarized_zone = yes
+		}
+		1945.9.2.12 = {
+			set_demilitarized_zone = no
 		}
 	}
 	
-	provinces=	{
+	provinces={
 		9228
 	}
 

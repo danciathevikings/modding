@@ -1,54 +1,42 @@
-state={
-	id=970
-	name="STATE_970"
-	history={
-		owner = LUX
-		1600.1.1 = {
-		add_core_of = BEL
-		owner = BEL
-		remove_core_of = HLL
-		remove_core_of = FLA
-		remove_core_of = BRB
-		remove_core_of = FRI
-		remove_core_of = GEL
-		remove_core_of = UTR
-		remove_core_of = LUX
-		}
-		1800.1.1 = {
-	    add_core_of = FRA
-		owner = FRA
-		remove_core_of = LIE
-		remove_core_of = BRB
-		remove_core_of = FLA
-		remove_core_of = LUX
-		remove_core_of = BEL
-		}
-		1821.1.1 = {
-                remove_core_of = FRA
-                owner = LUX
-				add_core_of=LUX
-                }
-				1831.1.1 = {
-                add_core_of = BEL
-                remove_core_of = FRA
-				remove_core_of=LUX
-                owner = BEL
-                }
-		victory_points = {
-			13468 2 
-		}
+state = {
+	id = 970
+	name = "STATE_970"
+	resources = {
+		chromium = 20
+		aluminium = 6
+	}
+
+	history = {
+		owner = TUR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
 		}
-		add_core_of = LUX
-
+		victory_points = {
+			833 2
+		}
+		victory_points = {
+			867 1
+		}
+		add_core_of = MAC
+		1914.1.1.12 = {
+			owner = SER
+		}
+		1919.1.1.12 = {
+			owner = YUG
+			add_core_of = YUG
+		}
+		2000.1.1.12 = {
+			owner = MAC
+		}
 	}
 
-	provinces={
-		9418 11407 13468 13479 
-	}
-	manpower=100000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	provinces = {
+		833 867 11856
+	} 
+	manpower = 343550
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
 }

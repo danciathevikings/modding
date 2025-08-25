@@ -1,61 +1,42 @@
-
-state={
-	id=569
-	name="STATE_569" # Kemerovo
+state = {
+	id = 569
+	name = "STATE_569" # Khakassia
 	manpower = 1567322
 	
-	state_category = rural
+	state_category = town
 
-	history={
-		owner = ZZZ
-		1700.1.1 = {
+	history = {
+		owner = KHA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 		victory_points = {
 			7757 1
 		}
 		victory_points = {
 			7822 1
 		}
-                }
-				
-				
-												1444.1.1 = {
-        owner = TFO
-		add_core_of = TFO
-        }
-				
-		1700.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                }
-		1936.1.1 = {
+		victory_points = {
+			10580 2
+		}
 		add_core_of = KHA
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+		1754.5.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-                }
-		buildings = {
-			infrastructure = 0
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
-		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1933.1.30.12 = {
+			owner = SOV
 		}
 	}
 
-	provinces={
+	provinces = {
 		1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 
 	}
 
-	local_supplies=0.0 
+	local_supplies = 0.0 
 }

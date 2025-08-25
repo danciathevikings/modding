@@ -1,59 +1,38 @@
-
-state={
-	id=177
-	name="STATE_177"
-
-	history={
-				owner = ARA
+state = {
+	id = 177
+	name = "STATE_177"
+	manpower = 365500
+	
+	state_category = rural
+	
+	history = {
+		owner = ARA
 		add_core_of = ARA
-				1500.1.1 = {
-                owner = SPR
-                add_core_of = SPR
-                remove_core_of = NAV
-                remove_core_of = ADU
-				remove_core_of = ARA
-		}
+		add_claim_by = CAT
+
 		victory_points = {
-			9793 5
+			9793 1
 		}
-		victory_points = {
-			7114 2 
-		}
-				1936.1.1 = {
-							buildings = {
-			infrastructure = 3
+
+		buildings = {
+			infrastructure = 3 #was: 6
 			air_base = 1
 			9793 = {
 				naval_base = 2
-
 			}
 			7114 = {
 				naval_base = 1
-
 			}
-
 		}
-				}
-		buildings = {
-			infrastructure = 3
-			9793 = {
-				naval_base = 2
-
-			}
-			7114 = {
-				naval_base = 1
-
-			}
-
+		1524.1.1.12 = {
+			owner = SPR
+			add_core_of = SPR
+			remove_core_of = ARA
 		}
-
 	}
-
-	provinces={
-		7114 9793 9845 14084 
+	
+	provinces = {
+		7114 9793 9845
 	}
-	manpower=311649	
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	local_supplies = 0.0 
 }

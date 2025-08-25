@@ -1,0 +1,33 @@
+state={
+	id=1142
+	name="STATE_1142"
+	manpower = 95000
+	
+	state_category = rural
+
+	history={
+		owner = VNR
+		victory_points = {
+			10203 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GRE
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = ENG
+		}
+		1870.7.1.12 = {
+			owner = GRE
+		}
+	}
+
+	provinces = {
+		10203
+	}
+
+	local_supplies=9.0 
+}

@@ -2,64 +2,35 @@
 state={
 	id=364
 	name="STATE_364"
-	manpower = 1340316	
+	manpower = 1738764
 	
-	state_category = town
+	state_category = city
 
 	history={
-            owner = ZZZ
-		1700.1.1 = {
-                owner = USA
-		add_core_of = USA
-                }
-		1700.1.1 = {
+		owner = USA
 		buildings = {
-			infrastructure = 2 #was: 5
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
 			7202 = {
 				naval_base = 2
 
 			}
 		}
-                }
-		1700.1.1 = {
+		add_core_of = USA
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+
+
 		victory_points = {
 			7202 1 
 		}
-		victory_points = {
-			7527 1 
-		}
-                }
-		1700.1.1 = {
-                }
-		1789.1.1 = {
-                owner = USA
-		add_core_of = USA
-                }
-		1800.1.1 = {
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			7202 = {
-				naval_base = 2
 
-			}
-
-		}
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			7202 = {
-				naval_base = 2
-
-			}
-
-		}
-                }
-		buildings = {
-			infrastructure = 0
-		}
 	}
 
 	provinces={

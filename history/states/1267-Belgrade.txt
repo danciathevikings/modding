@@ -1,0 +1,39 @@
+state={
+	id=1267
+	name="STATE_1267"
+	manpower=472000
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			11586 15
+		}
+		add_core_of = SER
+		1524.1.1.12 = {
+			owner = TUR
+		}
+		1848.1.1.12 = {
+			owner = SER
+		}
+		1919.1.1.12 = {
+			owner = YUG
+			add_core_of = YUG
+		}
+		2022.2.23.12 = {
+			owner = SER
+		}
+	}
+
+	provinces={
+		3609 11586
+	}
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=4.0 
+}

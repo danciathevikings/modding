@@ -1,0 +1,44 @@
+state={
+	id=1272
+	name="STATE_1272"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = GEO
+		add_core_of = GEO
+		add_core_of = SMT
+		victory_points = {
+			7454 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1492.7.1.12 = {
+			owner = SMT
+			add_core_of = SMT
+		}
+		1754.5.1.12 = {
+			owner = TUR
+			add_core_of = TUR
+		}
+		1900.1.1.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = GEO
+		}
+		1933.1.30.12 = {
+			owner = TUR
+			remove_core_of = GEO
+			add_claim_by = GEO
+		}
+	}
+
+	provinces={
+		7454 10403
+	}
+
+	local_supplies=0.0 
+}

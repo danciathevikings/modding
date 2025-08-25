@@ -1,68 +1,36 @@
-state={
-	id=929
-	name="STATE_929"
-	history={
-		owner = HUN
-		add_core_of = SLA
-								1945.1.1 = {
-		owner = CRO
+state = {
+	id = 929
+	name = "STATE_929"
+	manpower = 202000
+	
+	state_category = rural
+
+	history = {
+		owner = SWE
+		add_core_of = FIN
+
+		victory_points = { 
+			158 2 # Oulu
 		}
-		1946.1.1 = {
-		owner = YUG
-		}
-		1600.1.1 = {
-		owner = OTO
-                add_core_of = HUN
-                remove_core_of = SLA
-                }
-		1700.1.1 = {
-			owner = HUN
-                remove_core_of = TRA
-		}
-		1789.1.1 = {
-		add_core_of = CRO
-        remove_core_of = HUN
-		}
-		1804.1.1 = {
-			owner = AUS
-                add_core_of = AUS
-		}
-		1900.1.1 = {
-			owner = AUH
-                        remove_core_of = AUS
-                        remove_core_of = HUN
-                        add_core_of = CRO
-                        add_core_of = AUH
-		}
+		
 		buildings = {
-			infrastructure = 3
-		}
-		victory_points = {
-			11580 3 
-		}
-		1919.1.1 = {
-			owner = YUG
-			controller = YUG
-            add_core_of = YUG
-            remove_core_of = AUH
-		}
-		1945.1.1 = {
-                add_core_of = SER
-                remove_core_of = CRO
-                }
-		2007.1.1 = {
-			owner = SER
-			controller = SER
-            remove_core_of = YUG
-		}
+			infrastructure = 1
 
+			# Merikoski Power Plant
+			#158 = { dam = 1 }
+		}
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = FIN
+		}
 	}
 
-	provinces={
-		11577 11580 13657 
+
+	provinces = {
+		120 132 158 195 6078 6081 6212 9106 11041 11081 11121 11132 11199
 	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	
+	local_supplies = 0.0
 }

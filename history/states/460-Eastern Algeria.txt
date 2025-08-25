@@ -1,52 +1,40 @@
-
 state={
 	id=460
-	name="STATE_460"
+	name="STATE_460" # Constantine
+	manpower = 2343837
+	
+	state_category = town
 
 	history={
-		owner = ALG
+		owner = TLE
+		add_core_of = TLE
 		add_core_of = ALG
-		1848.1.1 = {
-                owner = FRA
-                }
-				
-		1648.1.1 = {
-			owner = OTO
-			controller = OTO
-			add_core_of = OTO
-			remove_core_of = EGY
-
-		}
-				
-		1962.1.1 = {
-                owner = ALG
-                add_core_of = ALG
-                }
 		victory_points = {
 			7081 1 
 		}
 		victory_points = {
 			12051 3 
 		}
-		victory_points = {
-			12034 1 
-		}
 		buildings = {
 			infrastructure = 2
 			7081 = {
 				naval_base = 1
-
 			}
-
 		}
-
+		1524.1.1.12 = {
+			owner = TUR
+		}
+		1848.1.1.12 = {
+			owner = FRA
+		}
+		1965.3.1.12 = {
+			owner = ALG
+		}
 	}
 
 	provinces={
-		1058 1128 1141 1160 3991 4018 4046 4131 4146 7008 7033 7040 7065 7081 7149 7166 9960 9976 10045 10059 10078 11939 11953 12018 12020 12034 12051 12760 13074 13077 
+		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 13077
 	}
-	manpower=4433781
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

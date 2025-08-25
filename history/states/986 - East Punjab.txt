@@ -1,41 +1,25 @@
-
 state={
 	id=986
-	name="STATE_986"
+	name="STATE_986" #
+	manpower = 16959758 
+	
+	state_category = town
 
 	history={
-		owner = FLA
-		add_core_of = FLA
-		1600.1.1 = {
-		add_core_of = BEL
-		owner = BEL
-		remove_core_of = HLL
-		remove_core_of = FLA
-		remove_core_of = BUR
-		remove_core_of = FRI
-		remove_core_of = GEL
-		remove_core_of = UTR
-		}
-		1689.1.1 = {
-		owner=FRA
-		add_core_of = FRA
-		remove_core_of = BEL
-		}
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = KHL 
 		victory_points = {
-			11483 20 
+			10772 15
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-
+			infrastructure = 1
 		}
 	}
 
 	provinces={
-		11483 
+		1129 2002 2076 3989 7106 10729 10772 12005 12708 12822 12868
 	}
-	manpower=1500000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

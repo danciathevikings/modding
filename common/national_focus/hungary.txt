@@ -1,34 +1,114 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
 focus_tree = {
 	id = hungarian_focus
-	continuous_focus_position = { x = -40 y = 1050 } 
+	
 	country = {
 		factor = 0
+		
 		modifier = {
 			add = 10
 			tag = HUN
+			#always = no
+			has_dlc = "Death or Dishonor"
+			has_dlc = "Gotterdammerung"
 		}
+	}
+	initial_show_position = {
+    x = 16
+    y = 0
+    offset = {
+        x = 16
+        y = 1
+        trigger = {
+            tag = HUN
+        }
+    }
+}
 
+	default = no
 
-			focus = {
+	continuous_focus_position = { x = 50 y = 1600 }
+
+		focus = {
 		id = HUN_1444_start
 		icon = GFX_goal_unknown
-		x = 12
-		y = 0	
+		x = 16
+		y = 0
 		cost = 10
+
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-				completion_reward = {	GER = { add_political_power = 150 }}
+		
+		completion_reward = {    	 }
 		prerequisite = { focus =   }
-        mutually_exclusive = { focus = }
-		available = {  }
-
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+		
+####austrian path
+		focus = {
+		id = HUN_1444_under_AUS
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = HUN_1444_start
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus = HUN_1444_start  }
+        mutually_exclusive = { focus = HUN_1444_inspired_Bobâlna_revolt  }
+		available = { }
+	}
+	
+#################### freedom path	
+			focus = {
+		id = HUN_1444_inspired_Bobâlna_revolt
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = HUN_1444_start
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus = HUN_1444_start  }
+        mutually_exclusive = { focus = HUN_1444_under_AUS   }
+		available = { }
+	}
 	
 	
 	
-}
-
-
-
-
+	
+	
+	
+	
+				focus = {
+		id = HUN_1444_result_of_varna
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		relative_position_id = HUN_1444_start
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {    	 }
+		prerequisite = { focus = HUN_1444_start  }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
 }

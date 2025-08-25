@@ -1,94 +1,42 @@
+state = {
+	id = 736
+	name = "STATE_736"
+	manpower = 1038159
+	
+	state_category = rural
 
-state={
-	id=736
-	name="STATE_736"
-
-	history={
-		owner = GRZ
-		add_core_of = GRZ
-		
-						1444.1.1 = {
-			owner = STY
-			add_core_of = STY		}
-		
-		1501.1.1 = {
+	history = {
 		owner = AUS
-		add_core_of = AUS
-		remove_core_of = STY
-		remove_core_of = CRN
-		remove_core_of = TYR
-		remove_core_of = CEL
-		remove_core_of = GRZ
-		}
-				        1804.1.1 = {
-                owner = AUS
-                add_core_of = AUS
-                remove_core_of = VNT
-				remove_core_of = RAG
-        }
-				1945.1.1 = {
-		owner = GER
-		}
-						1814.1.1 = {
-        controller = AUS
-		}
-		1946.1.1 = {
-		owner = ITA
-		}
-		1812.1.1 = {
-        owner = FRA
-        }
-		1816.1.1 = {
-        owner = AUS
-        add_core_of = AUS
-        }
-		1900.1.1 = {
-		owner = AUH
-                add_core_of = AUH
-                remove_core_of = AUS
-                }
-		buildings = {
-			infrastructure = 2
-
-		}
-		victory_points = {
-			13325 1
-		}
-		1900.1.1 = {
+		add_core_of = ITA
 		add_core_of = SLV
-                }
-		1919.1.1 = {
+		add_core_of = LBV
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			arms_factory = 1
+		}
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = AUS
+		}
+		1919.1.1.12 = {
 			owner = ITA
-			controller = ITA
-			add_core_of = ITA
-            remove_core_of = CRO
-            remove_core_of = SLV
-			remove_core_of = AUH
-
+			add_core_of = YUG
 		}
-		1950.1.1 = {
+		1945.9.2.12 = {
 			owner = YUG
-			controller = YUG
-			remove_core_of = ITA
-			remove_core_of = LBV
-                 add_core_of = SLV
-                 add_core_of = YUG
-
 		}
-		1992.1.1 = {
+		2000.1.1.12 = {
 			owner = SLV
-			controller = SLV
-			remove_core_of = YUG
-
 		}
-
 	}
 
-	provinces={
-		11595 13325 13844 
+	provinces = {
+		599 11595 
 	}
-	manpower=416666
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
 }

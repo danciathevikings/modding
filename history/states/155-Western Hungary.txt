@@ -1,63 +1,44 @@
+state = {
+	id = 155
+	name = "STATE_155"
+	manpower = 1465070
+	
+	state_category = large_town # was city
 
-state={
-	id=155
-	name="STATE_155"
-	resources={
-		oil=3.000
+	resources = {
+		aluminium = 40
 	}
 
-	history={
-                owner = HUN
-                add_core_of = HUN
-		1600.1.1 = {
-			owner = OTO
-		}
-		1700.1.1 = {
-			owner = HUN
-		}
-		1804.1.1 = {
-			owner = AUS
-                add_core_of = AUS
-		}
-		
-		1836.1.1 = {owner = HUN add_core_of = HUN}
-		
-		1900.1.1 = {
-			owner = AUH
-                        remove_core_of = AUS
-                        add_core_of = AUH
-		}
+	history = {
+
+		owner = HUN
+		add_core_of = HUN
+
 		victory_points = {
-			11610 5 
-		}
-		buildings = {
-			infrastructure = 2
-			arms_factory = 2
+			6720 10 # Györ
+		} 
 
-		}
-		1936.1.1 = {
+		victory_points = {
+			686 1 # Sopron
+		} 
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 1
-			air_base = 3
-
+			air_base = 1
 		}
-                }
-		1919.1.1 = {
+		1566.6.1.12 = {
+			owner = AUS
+		}
+		1861.3.1.12 = {
 			owner = HUN
-			controller = HUN
-			add_core_of = HUN
-			remove_core_of = AUH
-
 		}
-
 	}
 
-	provinces={
-		682 3680 6685 9624 9643 11610 14232 14233 14246 14248 
+	provinces = {
+		686 701 3670 3683 6703 6720 9676 11627 11663 13125 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

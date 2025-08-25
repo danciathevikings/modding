@@ -12,43 +12,40 @@ state={
 
 
 	history={
-                owner = ZZZ
-		1700.1.1 = {
-		victory_points = {
-			12489 1 
+		owner = SPR
+		1789.7.14.12 = {
+			owner = MEX
 		}
-                }
-		1700.1.1 = {
-                owner = FRA
-                }
-		1776.1.1 = {
-        owner = LOU
-		add_core_of = LOU
-        }
-		1812.1.1 = {
-        owner = MRI
-		add_core_of = MRI
-		remove_core_of=LOU
-        }
-		1815.1.1 = {
-        owner = ARK
-		add_core_of = ARK
-		remove_core_of = MRI
-        }
-		1837.1.1 = {
-        owner = USA
-		add_core_of = USA
-		remove_core_of = ARK
-        }
-		1803.1.1 = {
+		1812.6.24.12 = {
+			owner = USA
+		}
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 		}
-                }
-		buildings = {
-			infrastructure = 0
+		add_core_of = USA
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
 		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+
+
+		victory_points = {
+			12489 1 
+		}
+
 	}
 
 	provinces={

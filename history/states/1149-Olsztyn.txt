@@ -1,0 +1,43 @@
+state = {
+	id = 1149
+	name = "STATE_1149"
+	manpower = 342563
+	state_category = town
+
+	history = {
+		owner = TEU
+		add_core_of = TEU
+		add_core_of = GER
+		add_core_of = PRE
+
+		victory_points = {
+			11245 3 # Allenstein
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		1492.7.1.12 = {
+			owner = POL
+			remove_core_of = TEU
+		}
+		1789.7.14.12 = {
+			owner = PRE
+		}
+		1870.7.1.12 = {
+			owner = GER
+		}
+		1945.9.2.12 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
+			remove_core_of = PRE
+		}
+	}
+
+	provinces={
+		3380 6402 11245
+	}
+
+	local_supplies=1.0 
+}

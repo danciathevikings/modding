@@ -1,0 +1,30 @@
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 784600
+	
+	state_category = city
+
+	history={
+		owner = MOL
+	    victory_points = {
+			6761 2 
+		}
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 1
+		}
+		1812.6.24.12 = {
+			owner = AUS
+		}
+		1919.1.1.12 = {
+			owner = ROM
+		}
+	}
+
+	provinces={
+		6761 11689
+	}
+
+	local_supplies=0.0 
+}

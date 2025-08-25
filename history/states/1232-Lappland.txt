@@ -1,0 +1,43 @@
+state = {
+	id = 1232
+	name = "STATE_1232"
+	manpower = 41000
+	state_category = rural
+
+	resources = {
+		tungsten = 30
+		steel = 40
+		chromium = 18
+	}
+
+	history = { 
+		owner = SMI
+		add_core_of = SWE
+		add_core_of = SMI
+
+		victory_points = {
+			3095 1 # Kiruna
+		}
+
+		victory_points = {
+			11155 1 # Gällivare
+		}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+			# Harsprånget
+			#3054 = { dam = 1 }
+		}
+		1566.6.1.12 = {
+			owner = SWE
+		}
+	}
+
+	provinces = {
+		58 61 101 148 151 190 3054 3095 3179 6055 6074 6155 6168 6170 6206 6208 9083 9178 9211 11058 11060 11102 11155 11208 11112 11152 13119
+	}
+	
+	local_supplies = 0.0
+}

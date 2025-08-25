@@ -1,78 +1,46 @@
+state = {
+	id = 8
+	name = "STATE_8"
+	manpower = 294748
+	
+	state_category = town
 
-state={
-	id=8
-	name="STATE_8"
-	resources={
-		steel=5.000
+	resources = {
+		steel = 14 # was: 5
 	}
 
-	history={
-		owner = LUX
+	history = {
+		owner = BUR
 		add_core_of = LUX
-				1789.1.1 = {
-		buildings = {
-		6583 = {bunker = 2}
-        }
-		}
-		1800.1.1 = {
-		buildings = {
-		6583 = {bunker = 0}
-        }
-		}
-				1600.1.1 = {
-		add_core_of = BEL
-		owner = BEL
-		remove_core_of = HLL
-		remove_core_of = FLA
-		remove_core_of = BRB
-		remove_core_of = FRI
-		remove_core_of = GEL
-		remove_core_of = UTR
-		remove_core_of = LUX
-		}
-		1800.1.1 = {
-	    add_core_of = FRA
-		owner = FRA
-		remove_core_of = LIE
-		remove_core_of = BRB
-		remove_core_of = FLA
-		remove_core_of = LUX
-		remove_core_of = BEL
-		}
-		1816.1.1 = {
-		owner = LUX
-		add_core_of = LUX
-		remove_core_of = FRA
-		}
-		1831.1.1 = {
-                add_core_of = BEL
-                remove_core_of = HOL
-                remove_core_of = LUX
-                owner = BEL
-                }
-		1840.1.1 = {
-                add_core_of = LUX
-                remove_core_of = BEL
-                owner = LUX
-                }
+
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-
+			arms_factory = 1
+			industrial_complex = 3
 		}
-		victory_points = {
-			6583 5 
+		victory_points = { 
+			6583 5 # Luxembourg City
 		}
-		victory_points = {
-			13476 1
+		1492.7.1.12 = {
+			owner = AUS
+		}
+		1566.6.1.12 = {
+			owner = SPR
+		}
+		1754.5.1.12 = {
+			owner = AUS
+		}
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = LUX
 		}
 	}
 
-	provinces={
-		6583 13476 
+	provinces = {
+		6583 13375
 	}
-	manpower=294748
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

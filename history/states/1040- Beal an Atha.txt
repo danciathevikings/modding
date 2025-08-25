@@ -1,0 +1,29 @@
+state={
+	id=1040
+	name="STATE_1040"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = SLI
+		add_core_of = SLI
+		add_claim_by = CLA
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		1566.6.1.12 = {
+			owner = ENG
+		}
+		1919.1.1.12 = {
+			owner = IRE
+		}
+	}
+
+	provinces={
+		9255 11287
+	}
+
+	local_supplies=0.0 
+}

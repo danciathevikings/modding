@@ -1,4 +1,3 @@
-
 state={
 	id=7
 	name="STATE_7"
@@ -7,69 +6,51 @@ state={
 	}
 
 	history={
-		owner = HLL
-		add_core_of = HLL
-		1600.1.1 = {
-			add_core_of = HOL
-			owner = HOL
-			remove_core_of = HLL
-			remove_core_of = FLA
-			remove_core_of = BRB
-			remove_core_of = FRI
-			remove_core_of = GEL
-			remove_core_of = UTR
-
-		}
-		1816.1.1 = {
-			owner = HOL
-
-		}
-				1945.1.1 = {
-		owner = RHO
-		}
-		1946.1.1 = {
-		owner = HOL
-		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 4
-				arms_factory = 1
-				air_base = 5
-				3314 = {
-					naval_base = 5
-
-				}
-
-			}
-
-		}
+		owner = HLN
+		add_core_of = HLN
+		add_core_of = HOL
 		victory_points = {
 			391 40 
 		}
 		victory_points = {
-			68 5 
+			3211 10 
 		}
 		victory_points = {
-			3314 2 
+			9498 20 
 		}
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 2
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
 			3314 = {
 				naval_base = 5
-
 			}
-
+			9498 = {
+				naval_base = 10
+			}
 		}
-
+		1566.6.1.12 = {
+			owner = SPR
+		}
+		1618.4.1.12 = {
+			owner = HOL
+		}
+		1812.6.24.12 = {
+			owner = FRA
+		}
+		1848.1.1.12 = {
+			owner = HOL
+		}
 	}
 
 	provinces={
-		68 391 3314 
+		68 391 3211 3314 9498 
 	}
-	manpower=2000000
+	manpower=4123000
 	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+	state_category=metropolis
+
+	local_supplies=0.0 
 }

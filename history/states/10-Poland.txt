@@ -1,65 +1,41 @@
-
 state={
 	id=10
 	name="STATE_10"
+	manpower = 3089000
+
+	state_category = large_city
 
 	history={
-		owner = MSV
-		add_core_of = MSV
-		1500.1.1 = {
-			owner = POL
-			add_core_of = POL
-			remove_core_of = MSV
-			remove_core_of = PCK
-
-		}
-		1800.1.1 = {
-			owner = PRE
-
-		}
-																1945.1.1 = {
-		owner = RPO
-		}
-		1946.1.1 = {
-		owner = POL
-		}
-		1810.1.1 = {
-			owner = POL
-
-		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 4
-				arms_factory = 3
-				anti_air_building = 2
-				air_base = 5
-
-			}
-
+		owner = MAZ
+		add_core_of = MAZ
+		victory_points = {
+			3544 25
 		}
 		victory_points = {
-			3544 50 
+			402 1
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 3
-
+			infrastructure = 4
+			arms_factory = 6
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
 		}
-		1919.1.1 = {
+		add_core_of = POL
+		1566.6.1.12 = {
 			owner = POL
-			controller = POL
-			add_core_of = POL
-			remove_core_of = RUS
-
 		}
-
+		1848.1.1.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = POL
+		}
 	}
 
 	provinces={
-		524 3544 9400 11385 11492 13410 13415 
+		402 467 524 3482 3544 6511 9400 11492 12562 
 	}
-	manpower=3000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=7.000
+
+	local_supplies=7.0 
 }

@@ -1,0 +1,31 @@
+state={
+	id=1017
+	name="STATE_1017"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+		1919.1.1.12 = {
+			controller = ENG
+		}
+		1933.1.30.12 = {
+			controller = TUR
+		}
+	}
+
+	provinces={
+		849 3879 6895 922
+	}
+
+	local_supplies=0.0 
+}

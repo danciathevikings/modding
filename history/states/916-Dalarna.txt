@@ -1,48 +1,27 @@
 state={
 	id=916
 	name="STATE_916"
-	history={
-		owner = NAP
-        add_core_of = NAP
-		1817.1.1 = {
-		remove_core_of = NAP
-		remove_core_of = SIC
-		add_core_of = TTS
-		owner = TTS
-		}
-		1871.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-		}
-		1919.1.1 = {
-                remove_core_of = SPM
-                remove_core_of = PAP
-                remove_core_of = TOS
-                remove_core_of = TTS
-                remove_core_of = LBV
-		}
-				1945.1.1 = {
-		controller = ENG
-		}
-		1946.1.1 = {
-		controller = ITA
-		}
-		victory_points = {
-			3923 1
-		}
-		victory_points = {
-			3966 2 
-		}
-		buildings = {
-			infrastructure = 2
-		}
+	manpower = 249717
+	state_category = rural
+
+	resources = {
+		steel = 20
 	}
 
-	provinces={
-		3923 3966 13704 
+
+	history = {
+		victory_points = {
+			156 1
+		}
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 3
+		}
 	}
-	manpower=388000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=1.000
+	provinces={
+		77 114 156 202 3005 3070 3191 6093 6123 6147 9068 9148 9173 9182 11197 13099
+	}
+
+	local_supplies=0.0
 }

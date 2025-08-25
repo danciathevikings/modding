@@ -1,0 +1,30 @@
+state={
+	id=1101
+	name="STATE_1101"
+	manpower=61000
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			air_base = 3
+		}
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+	}
+
+	provinces={
+		7558 9779 13514 
+	}
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

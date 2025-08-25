@@ -1,4 +1,3 @@
-
 state={
 	id=41
 	name="STATE_41"
@@ -11,34 +10,58 @@ state={
 		victory_points = {
 			3938 30 
 		}
-		1936.1.1 = {
+		victory_points = {
+			858 1
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 2
 			air_base = 6
-
-		}
-                }
-		1812.1.1 = {
-        controller = FRA
-		}
-		1813.1.1 = {
-        controller = SPR
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
 		}
 		add_core_of = SPR
-
+		1812.6.24.12 = {
+			FRA = {	
+				set_province_controller = 858
+				set_province_controller = 896
+				set_province_controller = 939
+				set_province_controller = 977
+				set_province_controller = 3794
+				set_province_controller = 3845
+				set_province_controller = 3938
+				set_province_controller = 3986
+				set_province_controller = 6914
+				set_province_controller = 9767
+				set_province_controller = 9800
+				set_province_controller = 11820
+				set_province_controller = 13224
+			}
+		}
+		1848.1.1.12 = {
+			SPR = {	
+				set_province_controller = 858
+				set_province_controller = 896
+				set_province_controller = 939
+				set_province_controller = 977
+				set_province_controller = 3794
+				set_province_controller = 3845
+				set_province_controller = 3938
+				set_province_controller = 3986
+				set_province_controller = 6914
+				set_province_controller = 9767
+				set_province_controller = 9800
+				set_province_controller = 11820
+				set_province_controller = 13224
+			}
+		}
 	}
 
 	provinces={
-		3938 
+		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 
 	}
-	manpower=1000000
+	manpower=2064659
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	state_category=city
+
+	local_supplies=0.0 
 }

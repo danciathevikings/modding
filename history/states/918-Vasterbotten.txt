@@ -1,70 +1,35 @@
-state={
-	id=918
-	name="STATE_918"
-	history={
-		owner = NAP
-        add_core_of = NAP
-		1817.1.1 = {
-		remove_core_of = NAP
-		remove_core_of = SIC
-		add_core_of = TTS
-		owner = TTS
-		}
-				1945.1.1 = {
-		controller = ENG
-		}
-		1946.1.1 = {
-		controller = ITA
-		}
-		1871.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-		}
-		1919.1.1 = {
-                remove_core_of = SPM
-                remove_core_of = PAP
-                remove_core_of = TOS
-                remove_core_of = TTS
-                remove_core_of = LBV
+state = { 
+	id = 918
+	name = "STATE_918" # Västerbotten
+	manpower = 315105
+
+	state_category = rural
+	resources = {
+		tungsten = 35
+		steel = 39
+		chromium = 15
+	}
+
+	history = {
+		owner = SWE
+		victory_points = {
+			6132 2
 		}
 		victory_points = {
-			883 2
+			109 1
 		}
-		victory_points = {
-			11837 20 
-		}
-		victory_points = {
-			13698 10
-		}
+		add_core_of = SWE
+		add_core_of = SMI
+		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			11837 = {
-				naval_base = 10
-
-			}
-			11998 = {
-				naval_base = 2
-
-			}
-
 		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 2
-
-			}
-
-		}
-
 	}
 
-	provinces={
-		883 6843 6939 6979 6980 9784 11837 11998 13693 13696 13698 13699 13703 
+	provinces = {
+		11 109 118 145 182 3003 3062 3100 3113 3138 3173 6024 6083 6132 6161 6200 9093 9143 9220 11067 11069 11190 11201
 	}
-	manpower=2642000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=1.000
+
+	local_supplies=0.0
 }

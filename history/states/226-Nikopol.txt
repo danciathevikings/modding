@@ -1,94 +1,60 @@
-
 state={
 	id=226
-	name="STATE_226"
+	name="STATE_226" # Dnipropertovsk
+	manpower = 2391047
+	
+	state_category = town
+	
 	resources={
-		oil=4.000
+		oil=4 # was: 6
 	}
 
 	history={
-		owner = WDF
-		add_core_of = WDF
-		1600.1.1 = {
-			owner = POL
-			remove_core_of = WDF
-			remove_core_of = POD
-			remove_core_of = SMG
-			remove_core_of = SMO
-			remove_core_of = KIE
-			remove_core_of = CHE
-			add_core_of = ZAP
-
-		}
-		1689.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-			remove_core_of = ZAP
-
-		}
-		1900.1.1 = {
-			add_core_of = UKR
-
-		}
-		1777.1.1 = {
+		owner = LIT
 		victory_points = {
-			11437 20 
+			11437 10 
 		}
-		}
-		1639.1.1 = {
 		victory_points = {
-			9419 1 
-		}
-		}
-		1750.1.1 = {
-		victory_points = {
-			9433 1 
-		}
+			11561 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 5
 			industrial_complex = 2
-
+			air_base = 2
 		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 3
-				industrial_complex = 2
-				air_base = 2
-
-			}
-
+		add_core_of = UKR
+		1618.4.1.12 = {
+			owner = POL
 		}
-				1919.1.1 = {
-			owner = UKR
-			controller = UKR
-			add_core_of = UKR
-			remove_core_of = RUS
-			remove_core_of = GLL
-
-		}
-		1920.1.1 = {
+		1754.5.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
+			owner = MAK
+		add_core_of = RSS
+		add_core_of = MAK
+			UKR = {
+				set_province_controller = 11437
+				set_province_controller = 9433
+				set_province_controller = 11422
+				set_province_controller = 6423
+				set_province_controller = 9419
+				set_province_controller = 11561
+			}
+		}
+		1933.1.30.12 = {
+			owner = SOV
+			remove_core_of = MAK
+		}		2000.1.1.12 = {
 			owner = UKR
-			controller = UKR
-			add_core_of = UKR
 			remove_core_of = SOV
-
 		}
-
 	}
 
 	provinces={
-		434 6423 9419 9433 10508 11422 11437 12487 
+		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
 	}
-	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

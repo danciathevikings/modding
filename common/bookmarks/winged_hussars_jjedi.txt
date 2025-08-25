@@ -1,11 +1,11 @@
 bookmarks = { 	
 	bookmark = {
-		name = "winged hussars"
-		desc = "winged hussars"
-		date = 1683.1.1.12
+		name = "war of the league of cognac"
+		desc = "war of the league of cognac"
+		date = 1527.4.6.1
 	picture = "end_of_the_30_years_war-1"
 		default_country = "OTO"
-		"PRE" = {
+		"PAP" = {
 			history = "end_of_the_30_years_war_PRE"
 			ideology = neutrality
 		}

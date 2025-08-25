@@ -1,0 +1,23 @@
+state = {
+	id = 1089
+	name = "STATE_1089"
+	manpower = 647934
+
+	history = {
+		owner = NEA
+		add_core_of = NEA
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		531 556 1985 7911 7397 13501 13505 13507
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

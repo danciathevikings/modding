@@ -1,76 +1,45 @@
-
 state={
 	id=96
 	name="STATE_96"
-
+	manpower = 726000
+	
+	state_category = rural
+	
 	history={
-		victory_points = {
-			406 2 
-		}
-		victory_points = {
-			9304 2 
-		}
-		victory_points = {
-		        6413 1 
-		}
 		owner = LIT
-                add_core_of = LIT
-		1600.1.1 = {
-                add_core_of = POL
-                owner = POL
-                }
-		1800.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
-                }
-		1900.1.1 = {
-                add_core_of = BLR
-                }
+		victory_points = {
+			406 1
+		}
 		buildings = {
 			infrastructure = 2
-
 		}
-								1919.1.1 = {
-			owner = BLR
-			controller = BLR
-			add_core_of = BLR
-			remove_core_of = RUS
-			remove_core_of = GLL
-
-		}
-		1920.1.1 = {
+		add_core_of = POL
+		add_core_of = BLR
+		1618.4.1.12 = {
 			owner = POL
-			controller = POL
-			add_core_of = SOV
-			add_core_of = BLR
-                        remove_core_of = POL
-			remove_core_of = RUS
 		}
-		1945.1.1 = {
+		1812.6.24.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-                        add_core_of = BLR
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = BLR
-			controller = BLR
-			add_core_of = BLR
-			remove_core_of = SOV
-
+			controller = SOV
 		}
-
+		1933.1.30.12 = {
+			owner = POL
+		}
+		1945.9.2.12 = {
+			owner = SOV
+			remove_core_of = POL
+		}
+		2000.1.1.12 = {
+			owner = BLR
+		}
 	}
 
 	provinces={
-		233 277 358 406 3309 6340 6359 6413 9236 9304 9341 9359 11341 11391 
+		233 277 358 406 6340 9341 11391
 	}
-	manpower=1400000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

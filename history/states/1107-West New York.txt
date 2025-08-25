@@ -1,0 +1,20 @@
+state={
+	id=1107
+	name="STATE_1107"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4 #was: 8
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		598 734 3602 3702 3733 3747 6707 6778 6795 6916 9664 9754 10381 11650 11654 11662 11665 11680 11722 
+	}
+	manpower=4
+	state_category = megalopolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

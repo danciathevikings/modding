@@ -1,78 +1,39 @@
-
 state={
 	id=811
 	name="STATE_811"
 
 	history={
-		owner = OSE
-		add_core_of = OSE
-				1600.1.1 = {
-			add_core_of = LIV
-		remove_core_of = DRP
-		remove_core_of = OSE
-		remove_core_of = KRL
-		remove_core_of = RGA
-		}
-		1900.1.1 = {
-		add_core_of = EST
-		}
-				1789.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-				remove_core_of = LIV
-                }
-		1600.1.1 = {
-                owner = DEN
-                }
-				
-										1648.1.1 = {
-                owner = SWE
-                add_core_of = SWE
-                }
-				
-		1689.1.1 = {
-                owner = SWE
-                }
-		1776.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
+		owner = LIV
+		add_core_of = LIV
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
-			185 1 
+			185 1
 		}
-		1919.1.1 = {
-			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = RUS
-
+		add_core_of = EST
+		1566.6.1.12 = {
+			owner = DEN
+			remove_core_of = LIV
 		}
-		1945.1.1 = {
+		1754.5.1.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = SOV
-
 		}
-
+		1945.9.2.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = EST
+		}
 	}
 
 	provinces={
-		185 14450 14457 
+		185 6201 
 	}
-	manpower=22370
+	manpower=32370
 	buildings_max_level_factor=1.000
 	state_category=small_island
-	local_supplies=0.000
 }

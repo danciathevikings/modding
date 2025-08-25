@@ -35,6 +35,13 @@ add_ideas = {
 	civilian_economy
 }
 
+1444.1.1 = {
+
+add_ideas =
+add_ideas = 
+
+}
+
 1648.1.1 = {
 	oob = "SWE_1648"
 	starting_train_buffer = 0

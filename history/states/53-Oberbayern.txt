@@ -1,62 +1,55 @@
+state = {
+	id = 53
+	name = "STATE_53"
+	manpower = 1453365
+	
+	state_category = city
 
-state={
-	id=53
-	name="STATE_53"
+	history = {
 
-	history={
-		owner = BYL
-		add_core_of = BYL
-				1600.1.1 = {
-                add_core_of = BAY
-                owner = BAY
-                remove_core_of = BYL
-				remove_core_of = BYM
-				remove_core_of = BYI
-                }
-		1950.1.1 = {
+		owner = GER
+		add_core_of = GER
+		add_core_of = BAY
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			9515 3 # Regensburg
+		}
+		1754.5.1.12 = {
+			owner = BAY
+		}
+		1812.6.24.12 = {
+			owner = RHI
+		}
+		1848.1.1.12 = {
+			owner = BAY
+		}
+		1900.1.1.12 = {
+			owner = GER
+		}
+		1919.1.1.12 = {
+			owner = BAY
+		}
+		1933.1.30.12 = {
+			owner = GER
+		}
+		1945.9.2.12 = {
 			owner = WGR
 			add_core_of = WGR
-			remove_core_of = GER
-
 		}
-		2000.1.1 = {
+		2000.1.1.12 = {
 			owner = GER
-			add_core_of = GER
-			remove_core_of = DDR
 			remove_core_of = WGR
-
 		}
-		1871.1.1 = {
-			add_core_of = GER
-			owner = GER
-
-		}
-		1919.1.1 = {
-		owner = BAY
-		}
-		1920.1.1 = {
-		owner = GER
-		remove_core_of = BAY
-		}
-		buildings = {
-			infrastructure = 2
-			arms_factory = 2
-
-		}
-		victory_points = {
-			6725 2 
-		}
-		victory_points = {
-			14664 1
-		}
-
 	}
 
-	provinces={
-		3541 6725 14650 14663 14664 
+	provinces = {
+		532 571 586 3299 3541 3571 6725 9515 9681 11497 
 	}
-	manpower=700000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=7.000
+
+	local_supplies = 7.0 
 }

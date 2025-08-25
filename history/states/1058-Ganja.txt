@@ -1,0 +1,59 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 137830
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = QAR
+		add_core_of = QAR
+		add_core_of = AZR
+		add_claim_by = GEO
+		victory_points = {
+			11674 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1492.7.1.12 = {
+			owner = AQQ
+			add_core_of = AQQ
+			remove_core_of = QAR
+		}
+		1524.1.1.12 = {
+			owner = PER
+			remove_core_of = AQQ
+		}
+		1754.5.1.12 = {
+			owner = AZR
+		}
+		1812.6.24.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = AZR
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		1945.9.2.12 = {
+			remove_claim_by = GEO
+		}
+		2000.1.1.12 = {
+			owner = AZR
+			remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		11645 11674 13596
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 1.0 
+}

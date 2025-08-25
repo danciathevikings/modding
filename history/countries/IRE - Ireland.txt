@@ -1,53 +1,16 @@
-﻿capital = 113
-1533.1.1 = {
-recruit_character=IRE_elizabethi
-promote_character=IRE_elizabethi
+﻿capital = 1038
+
+1919.1.1 = {
+		set_capital = {
+  state = 113
+  remember_old_capital = no
 }
-1603.1.1 = {
-recruit_character=IRE_jamesi
-promote_character=IRE_jamesi
-retire_character=IRE_elizabethi
-}
-1626.1.1 = {
-recruit_character=IRE_charlesi
-promote_character=IRE_charlesi
-retire_character=IRE_jamesi
-}
-1650.1.1 = {
-recruit_character=IRE_charlesii
-promote_character=IRE_charlesii
-retire_character=IRE_charlesi
-}
-1685.1.1 = {
-recruit_character=IRE_jamesii
-promote_character=IRE_jamesii
-retire_character=IRE_charlesii
-}
-1789.1.1 = {
-retire_character=IRE_jamesii
-}
-1789.1.1 = {
-recruit_character=IRE_henrybenedict
-promote_character=IRE_henrybenedict
-}
-1812.1.1 = {
-retire_character=IRE_henrybenedict
-}
-1938.1.1 = {
-set_cosmetic_tag = IRE_free # 
-}
-1936.1.1 = {
-oob = "IRE_1936"
 }
 
+oob = "IRE_1936"
+
 set_research_slots = 3
-set_technology = {
-	infantry_weapons = 1
-	transport = 1
-	early_submarine = 1
-        gw_artillery = 1
-}
-1936.1.1 = {
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -55,9 +18,9 @@ set_technology = {
 	fuel_silos = 1
 	basic_train = 1
 }
-}
+
 set_convoys = 10
-1936.1.1 = {
+
 recruit_character = IRE_Éamon_de_valera
 recruit_character = IRE_eoin_oduffy
 recruit_character = IRE_james_larkin
@@ -78,7 +41,8 @@ recruit_character = IRE_john_byrne
 recruit_character = IRE_sean_lemass
 recruit_character = IRE_douglas_hyde
 recruit_character = IRE_sean_ceallaigh
-}
+recruit_character = IRE_ernest_walton
+
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -112,7 +76,6 @@ recruit_character = IRE_sean_ceallaigh
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -126,18 +89,11 @@ recruit_character = IRE_sean_ceallaigh
 		dispersed_industry2 = 1
 		fuel_refining = 1
 	}
+	complete_special_project = {
+		project = sp:sp_air_radar
+	}
 }
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1444.11.11"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 50
-    neutrality = 50
-}
-1936.1.1 = {
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.1.24"
@@ -149,7 +105,7 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 }
-}
+
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

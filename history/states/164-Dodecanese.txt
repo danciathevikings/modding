@@ -2,36 +2,16 @@ state={
 	id=164
 	name="STATE_164"
 	manpower = 120000
-	state_category = pastoral
-	history={
-		owner = KNI
-		add_core_of = KNI
-		1530.1.1 = {
-		owner = OTO
-		}
-		1800.1.1 = {
-		add_core_of = GRE
-		remove_core_of = KNI
-		}
+	
+	state_category = small_island
+	
+	history = {
+		owner = HOS
 		victory_points = {
 			10007 1 
 		}
 		buildings = {
-			infrastructure = 1 #was: 5
-			10007 = {
-				naval_base = 4
-			}
-			7003 = {
-				naval_base = 1
-			}
-		}
-		1912.1.1 = {
-			owner = ITA
-			controller = ITA
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 1 #was: 5
+			infrastructure = 3 #was: 5
 			air_base = 1
 			10007 = {
 				naval_base = 4
@@ -40,13 +20,21 @@ state={
 				naval_base = 1
 			}
 		}
-		}
-		1945.1.1 = {
-        owner = GRE
 		add_core_of = GRE
-        }
+		1524.1.1.12 = {
+			owner = TUR
+		}
+		1914.1.1.12 = {
+			owner = ITA
+		}
+		1945.9.2.12 = {
+			owner = GRE
+		}
 	}
-	provinces={7003 10007}
+
+	provinces = {
+		7003 10007
+	}
 
 	local_supplies=0.0 
 }

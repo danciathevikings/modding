@@ -1,29 +1,33 @@
-
 state={
 	id=24
 	name="STATE_24"
+	manpower = 1546300
+
+	state_category = large_town
 
 	history={
 		owner = FRA
 		victory_points = {
-			3671 10 
+			3671 10
 		}
 		victory_points = {
-			512 20 
+			512 15
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
-
+			industrial_complex = 2
 		}
 		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
 	}
 
 	provinces={
-		512 3493 3671 6518 6533 6547 6688 9492 9507 11611 11631 14592 14609 14611 14614 14617 14626 14631 14639 14658 
+		512 648 667 3493 3671 3681 6518 6533 6688 9492 9609 9625 9644 11611 11631
 	}
-	manpower=1200000
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=15.000
+
+	local_supplies=15.0 
 }

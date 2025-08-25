@@ -1,52 +1,35 @@
-
 state={
 	id=243
 	name="STATE_243"
+	manpower = 576210
+	
+	state_category = rural
 
 	history={
-		owner = KAL
-		add_core_of = KAL
-		1789.1.1 = {
-add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
-}
-1900.1.1 = {
-remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
-}
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = KAL
-
-		}
+		owner = LIT
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #was: 5
+			air_base = 2
 		}
-				1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
+		1524.1.1.12 = {
+			owner = MUS
+			add_core_of = MUS
 		}
-		1920.1.1 = {
+		1566.6.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
+		1789.7.14.12 = {
+			owner = SOV
+		}
+		victory_points = {
+			11336 1
 		}
 	}
 
 	provinces={
-		520 3503 3517 6479 6541 6575 9530 11395 11474 11484 
+		223 236 352 3210 3278 3297 6243 9253 9351 11336 
 	}
-	manpower=200000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

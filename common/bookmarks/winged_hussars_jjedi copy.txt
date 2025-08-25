@@ -1,0 +1,13 @@
+bookmarks = { 	
+	bookmark = {
+		name = "winged hussars"
+		desc = "winged hussars"
+		date = 1683.1.1.12
+	picture = "end_of_the_30_years_war-1"
+		default_country = "OTO"
+		"PRE" = {
+			history = "end_of_the_30_years_war_PRE"
+			ideology = neutrality
+		}
+	}
+}

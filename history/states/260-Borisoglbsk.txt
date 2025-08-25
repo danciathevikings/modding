@@ -1,4 +1,3 @@
-
 state={
 	id=260
 	name="STATE_260" # Voronezh
@@ -7,44 +6,45 @@ state={
 	state_category = town
 
 	history={
-		owner = KAL
-		add_core_of = KAL
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = KAL
-
-		}
+		owner = GOL
+		add_core_of = GOL
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 1
-		}
-		1936.1.1 = {
-				buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
 			synthetic_refinery = 1 #NSB
 		}
-		}
 		victory_points = {
-			413 20
+			413 5
 		}
-						1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
+		1524.1.1.12 = {
+			owner = CRI
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+		1618.4.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1919.1.1.12 = {
+			owner = RSS
+		add_core_of = RSS
+			SOV = {
+				set_province_controller = 6477
+				set_province_controller = 3469
+				set_province_controller = 11475
+				set_province_controller = 3527
+				set_province_controller = 413
+				set_province_controller = 11396
+				set_province_controller = 9552
+			}
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		1939.1.1 = {
+			buildings = {
+				9448 = {
+					air_facility = 1
+				}
+			}
 		}
 	}
 

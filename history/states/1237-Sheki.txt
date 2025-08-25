@@ -1,0 +1,49 @@
+state = {
+	id = 1237
+	name = "STATE_1237"
+	manpower = 57000
+
+	history = {
+		owner = GEO
+		add_core_of = AZR
+		add_claim_by = GEO
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			6763 1 
+		}
+		1492.7.1.12 = {
+			owner = KAK
+		}
+		1754.5.1.12 = {
+			owner = AZR
+		}
+		1812.6.24.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = AZR
+			controller = GEO
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+			controller = SOV
+			remove_claim_by = GEO
+		}
+		2000.1.1.12 = {
+			owner = AZR
+			remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		1539 6763
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 1.0 
+}

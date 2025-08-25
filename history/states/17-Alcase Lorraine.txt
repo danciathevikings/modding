@@ -1,50 +1,44 @@
-
 state={
 	id=17
-	name="STATE_17"
+	name="STATE_17" # Lorraine
+	manpower = 1517500
+	
+	state_category = city
+	
 	resources={
-		steel=28.000
+		steel=28
 	}
 
 	history={
-		owner = CMT
-		add_core_of = CMT
-		1689.1.1 = {
-			owner = FRA
-			add_core_of = FRA
-			remove_core_of = CMT
-
-		}
-				1444.1.1 = {
-			owner = CMT
-			add_core_of = CMT
-
-		}
+		owner = BUR
+		add_core_of = BUR
 		victory_points = {
 			9642 5 
 		}
-		1936.1.1 = {
-			buildings = {
-				infrastructure = 4
-				industrial_complex = 1
-				air_base = 5
-
-			}
-
+		victory_points = {
+			11516 5 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
+			air_base = 5
 		}
-
+		add_core_of = FRA
+		1492.7.1.12 = {
+			owner = FRA
+			remove_core_of = BUR
+		}
+		1566.6.1.12 = {
+			owner = SPR
+		}
+		1754.5.1.12 = {
+			owner = FRA
+		}
 	}
 
 	provinces={
-		698 3646 3666 6698 9642 14584 14585 14600 14620 
+		521 698 3646 3666 6698 9642 9658 11488 11516 11642
 	}
-	manpower=700000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

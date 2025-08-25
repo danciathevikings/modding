@@ -1,0 +1,40 @@
+state={
+	id=1266
+	name="STATE_1266"
+	manpower=301000
+
+	state_category=rural
+
+	history={
+		owner = AQQ
+		add_core_of = AQQ
+		add_core_of = ARM
+		add_core_of = KUR
+		victory_points = {
+			11853 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1524.1.1.12 = {
+			owner = TUR
+			add_core_of = TUR
+		}
+		1919.1.1.12 = {
+			owner = ARM
+			add_claim_by = ARM
+			controller = TUR
+		}
+		1933.1.30.12 = {
+			owner = TUR
+			remove_core_of = ARM
+		}
+	}
+
+	provinces={
+		9858 9954 10399 11853
+	}
+	buildings_max_level_factor=1.000
+
+	local_supplies=9.0 
+}

@@ -1,62 +1,39 @@
-
 state={
 	id=719
-	name="STATE_719"
+	name="STATE_719" # Natal
+	manpower = 3962157
 	resources={
-		chromium=60.000
+		chromium=60 # was: 116
 	}
+	
+	state_category = city
+
 
 	history={
-		owner = ZZZ
-		1890.1.1 = {
-		victory_points = {
-			1468 3 
-		}
-                }
-		1900.1.1 = {
+		owner = JWB
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			1468 = {
-				naval_base = 2
-
-			}
-
-		}
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			air_base = 1
 			1468 = {
 				naval_base = 2
-
 			}
-
 		}
-                }
-		1900.1.1 = {
-		add_core_of = SAF
-                owner = ENG
-                }
-		owner = ZZZ
-		1911.1.1 = {
+		victory_points = {
+			1468 3 
+		}
+		1900.1.1.12 = {
+			owner = ENG
+		}
+		1914.1.1.12 = {
 			owner = SAF
-			controller = SAF
-			add_core_of = SAF
-
-		}
-		buildings = {
-			infrastructure = 0
+		add_core_of = SAF
 		}
 	}
 
 	provinces={
-		1468 1494 8178 14117 
+		1468 1494 1833 4584 7576 8178 
 	}
-	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

@@ -1,0 +1,27 @@
+state={
+	id=1169
+	name="STATE_1169"
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+		1789.7.14.12 = {
+			owner = MEX
+		}
+		1848.1.1.12 = {
+			owner = USA
+		}
+
+	}
+
+	provinces={
+		3867 12720 12791 13571 
+	}
+	manpower=12
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

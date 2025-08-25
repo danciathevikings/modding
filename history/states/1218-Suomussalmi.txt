@@ -1,0 +1,39 @@
+state = {
+	id = 1218
+	name = "STATE_1218"
+	manpower = 103000
+	
+	state_category = rural
+
+	history = {
+		owner = SMI
+		add_core_of = FIN
+		add_core_of = SMI
+
+		victory_points = { 
+			3073 1 # Suomussalmi
+		}
+		
+		buildings = {
+			infrastructure = 1
+
+			# Merikoski Power Plant
+			#158 = { dam = 1 }
+		}
+		1618.4.1.12 = {
+			owner = SWE
+		}
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = FIN
+		}
+	}
+
+	provinces = {
+		7 82 3026 3073 3115 3149 3153 3156 6045 6134 6179 9233 11024 11079 13118
+	}
+	
+	local_supplies = 0.0
+}

@@ -1,0 +1,43 @@
+state = {
+	id = 1071
+	name = "STATE_1071"
+	manpower = 51000
+	
+	state_category = town
+	resources = {
+		tungsten = 2
+		oil = 1
+	}
+
+	history = {
+		owner = GNO
+		add_core_of = ZHN
+		buildings = {
+			infrastructure = 1
+		}
+		1492.7.1.12 = {
+			owner = ZHN
+		}
+		1789.7.14.12 = {
+			owner = CIR
+		}
+		1870.7.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = KUB
+			add_core_of = RSS
+			add_core_of = KUB
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+	}
+
+	provinces = {
+		6741
+	}
+
+	local_supplies = 2.0 
+}

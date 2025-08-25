@@ -1,53 +1,40 @@
-
 state={
 	id=589
 	name="STATE_589"
+	manpower=316191
+
+	state_category=pastoral
 
 	history={
-		owner = UZB
-		add_core_of = UZB
-		1500.1.1 = {
-			owner = KAZ
-			controller = KAZ
-			add_core_of = KAZ
-			remove_core_of = UZB
-
-		}
-		1848.1.1 = {
-                owner = RUS
-                }
+		owner = OIR
+		add_core_of = OIR
+		add_core_of = KAZ
 		victory_points = {
-			1668 1 
-		}
-				1919.1.1 = {
-		owner = KAZ
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = KAZ
-			controller = KAZ
-			add_core_of = KAZ
-			remove_core_of = SOV
-
+			1668 1
 		}
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 2
+			industrial_complex = 1
 		}
-
+		1754.5.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = KAZ
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = KAZ
+		}
 	}
 
 	provinces={
-		1668 1840 4651 4845 7711 7784 7795 7856 10146 10547 10550 10619 10680 12529 12662 13148 13149 13197 
+		1239 1668 4764 7332 7405 7784 10290 12662
 	}
-	manpower=400000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=3.000
+	local_supplies=3.0 
 }

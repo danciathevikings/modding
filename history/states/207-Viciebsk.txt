@@ -1,71 +1,39 @@
-
 state={
 	id=207
 	name="STATE_207"
+	manpower = 1217854
+	
+	state_category = town
 
 	history={
 		owner = LIT
-                add_core_of = LIT
-		1600.1.1 = {
-                add_core_of = POL
-                owner = POL
-                }
-		1776.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
-                }
-		1900.1.1 = {
-                add_core_of = BLR
-                }
-						1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
-		}
 		victory_points = {
-			11241 10 
+			11241 5
 		}
-		victory_points = {
-		        11230 1 
-		}
-		victory_points = {
-		        6249 1 
-		}
-		1936.1.1 = {
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 3 #was: 5
 			air_base = 5
-
 		}
-                }
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+		add_core_of = BLR
+		1618.4.1.12 = {
+			owner = POL
 		}
-		1920.1.1 = {
+		1789.7.14.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1945.9.2.12 = {
+			remove_core_of = POL
+		}
+		2000.1.1.12 = {
 			owner = BLR
-			controller = BLR
-			add_core_of = BLR
 			remove_core_of = SOV
-
 		}
-
 	}
 
 	provinces={
-		289 323 3219 6233 6249 6326 6344 6354 9247 9323 9371 9396 11220 11230 11241 11271 11355 11383 
+		323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 
 	}
-	manpower=1500000
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=5.000
+
+	local_supplies=5.0 
 }

@@ -1,77 +1,38 @@
-
-state={
+state = {
 	id=182
 	name="STATE_182"
-
-	history={
-		owner = CRE
-		add_core_of = CRE
-		1700.1.1 = {
-		owner = OTO
-		}
-		1800.1.1 = {
-		add_core_of = GRE
-		remove_core_of = CRE
-		}
-		1900.1.1 = {
-		owner = CRE
-        add_core_of = CRE
-		}
-				1444.1.1 = {
-		owner = VNT
-        add_core_of = VNT
-		}
-		1914.1.1 = {
-		owner = GRE
-        add_core_of = GRE
-		remove_core_of=CRE
+	manpower = 387900
+	
+	state_category = town
+	history = {
+		owner = VNR
+		victory_points = {
+			9940 5
 		}
 		victory_points = {
-			9940 5 
+			12058 3
 		}
-		victory_points = {
-			12058 3 
-		}
-		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			air_base = 2
 			12058 = {
 				naval_base = 1
-
 			}
 			9940 = {
 				naval_base = 3
-
 			}
-
 		}
-                }
-		buildings = {
-			infrastructure = 2
-			12058 = {
-				naval_base = 1
-
-			}
-			9940 = {
-				naval_base = 3
-
-			}
-
+		add_core_of = GRE
+		1754.5.1.12 = {
+			owner = TUR
 		}
-		1900.1.1 = {
+		1914.1.1.12 = {
 			owner = GRE
-			controller = GRE
-            add_core_of = GRE
 		}
-
+	}
+	provinces = {
+		1164 4170 9940 12058
 	}
 
-	provinces={
-		1164 4170 9940 12058 13675 
-	}
-	manpower=387900
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	local_supplies=0.0 
 }

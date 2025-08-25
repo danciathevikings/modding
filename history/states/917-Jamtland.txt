@@ -1,48 +1,38 @@
-state={
-	id=917
-	name="STATE_917"
-	history={
-		owner = NAP
-        add_core_of = NAP
-		1817.1.1 = {
-		remove_core_of = NAP
-		remove_core_of = SIC
-		add_core_of = TTS
-		owner = TTS
+state = {
+	id = 917
+	name = "STATE_917"
+	
+	manpower = 65000
+	state_category = rural
+
+	resources = {
+		steel = 20
+	}
+
+	history = {
+		owner = NOR
+		victory_points = {	
+			11148 1
 		}
-				1945.1.1 = {
-		controller = ENG
-		}
-		1946.1.1 = {
-		controller = ITA
-		}
-		1871.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-		}
-		1919.1.1 = {
-                remove_core_of = SPM
-                remove_core_of = PAP
-                remove_core_of = TOS
-                remove_core_of = TTS
-                remove_core_of = LBV
-		}
-		victory_points = {
-			13697 3 
-		}
-		victory_points = {
-			9856 2
-		}
+		add_core_of = SWE
+		add_core_of = SMI
+		
 		buildings = {
 			infrastructure = 2
+
+			# Krångede Hydroelectric Power Station
+			11129 = { dam = 1 }
+		}
+		1524.1.1.12 = {
+			owner = DEN
+		}
+		1754.5.1.12 = {
+			owner = SWE
 		}
 	}
 
-	provinces={
-		3958 3968 6972 9856 13692 13697 
+	provinces = {
+		46 113 168 184 3039 3044 3108 3111 3162 6010 6126 6129 6152 6185 6207 9066 9095 9134 9141 9154 9171 9175 9229 11026 11049 11052 11053 11116 11120 11123 11129 11148 11187 13117
 	}
-	manpower=543000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=1.000
+	local_supplies=0.0
 }

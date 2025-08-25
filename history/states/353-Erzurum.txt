@@ -1,76 +1,40 @@
-
 state={
 	id=353
 	name="STATE_353"
+	manpower=222537
+
+	state_category=rural
 
 	history={
-		owner = AGQ
-		add_core_of = AGQ
-		1500.1.1 = {
-			owner = OTO
-			controller = OTO
-			remove_core_of = ALY
-			remove_core_of = KRM
-			remove_core_of = RAM
-			remove_core_of = CND
-			remove_core_of = DUL
-			remove_core_of = QAR
-			remove_core_of = AGQ
-			remove_core_of = EGY
-
-		}
-		
-								1444.1.1 = {
-				owner = QAR
-                add_core_of = QAR
-		}
-		
-		1920.1.1 = {
-			owner = TUR
-			controller = TUR
-			remove_core_of = ARM
-
+		owner = AQQ
+		add_core_of = AQQ
+		add_core_of = ARM
+		add_core_of = KUR
+		victory_points = {
+			9860 1
 		}
 		victory_points = {
-			9860 1 
+			876 1
 		}
 		victory_points = {
-			876 1 
-		}
-		victory_points = {
-			4512 5 
+			9868 1
 		}
 		buildings = {
 			infrastructure = 1
-
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-
-			}
-			add_core_of = KUR
-
+		1524.1.1.12 = {
+			owner = TUR
+			add_core_of = TUR
 		}
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "Battle for the Bosporus"
-
-				}
-
-			}
-			add_core_of = KUR
-
+		1919.1.1.12 = {
+			remove_core_of = ARM
 		}
-
 	}
 
 	provinces={
-		876 4512 9860 11759 11797 
+		876 9860 9868 11739 11797
 	}
-	manpower=900000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=9.000
+
+	local_supplies=9.0 
 }

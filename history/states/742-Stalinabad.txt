@@ -1,51 +1,52 @@
+state = {
+	id = 742
+	name = "STATE_742"
+	manpower = 230000
 
-state={
-	id=742
-	name="STATE_742"
+	resources = {
+		steel = 3
+	}
 
-	history={
+	history = {
 		owner = TIM
+		add_core_of = TIM
 		victory_points = {
-			1384 1 
+			1384 1
 		}
-		buildings = {
-			infrastructure = 0
-
-		}
+		add_core_of = SOV
+		add_core_of = TAJ
 		add_core_of = BUK
-		1936.1.1 = {
-                add_core_of = TAJ
-                remove_core_of = BUK
-                }
-		1600.1.1 = {
+		buildings = {
+			infrastructure = 1
+		}
+		1524.1.1.12 = {
 			owner = BUK
-			controller = BUK
-			add_core_of = BUK
-			remove_core_of = RUS
-
 		}
-		1920.1.1 = {
+		1754.5.1.12 = {
+			owner = UZB
+		}
+		1900.1.1.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
+			owner = TKS
+			add_core_of = TKS
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
 			owner = TAJ
-			controller = TAJ
-			add_core_of = TAJ
-			remove_core_of = SOV
-
 		}
-
 	}
 
-	provinces={
-		1384 7224 12218 12250 
+	provinces = {
+		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805
 	}
-	manpower=100000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+
+	local_supplies = 0.0 
 }

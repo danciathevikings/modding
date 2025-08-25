@@ -1,0 +1,36 @@
+state = {
+	id = 1253
+	name = "STATE_1253"
+	manpower = 189000
+	
+	state_category = wasteland
+
+	history = {
+		owner = TAF
+		add_core_of = TAF
+		add_core_of = MOR
+
+		victory_points = {
+			4933 2
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+		1524.1.1.12 = {
+			owner = MOR
+		}
+		1914.1.1.12 = {
+			owner = FRA
+		}
+		1965.3.1.12 = {
+			owner = MOR
+		}
+	}
+
+	provinces = {
+		1989 4933 7908 8046
+	}
+
+	local_supplies = 0.0 
+}

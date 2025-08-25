@@ -1,0 +1,67 @@
+state = {
+	id = 1209
+	name = "STATE_1209"
+	manpower = 126293
+	
+	state_category = city
+
+	history = {
+		owner = GNO
+
+		victory_points = {
+			9680 1 # Kerch
+		}
+
+		victory_points = {
+			6704 1 # Yalta
+		}
+
+		victory_points = {
+			9677 1
+		}
+
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = CRI
+		1492.7.1.12 = {
+			owner = TUR
+		}
+		1789.7.14.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+			}
+		}
+		2000.1.1.12 = {
+			owner = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+		}
+		2022.2.23.12 = {
+			owner = SOV
+		}
+	}
+
+	provinces = {
+		6704 9677 9680
+	}
+
+	local_supplies = 10.0 
+}

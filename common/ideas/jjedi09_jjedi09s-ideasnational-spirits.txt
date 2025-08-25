@@ -64,6 +64,7 @@ army_morale_factor = 0.05
 
 			}
 		}
+########################################SWE		
 		
 		SWE_Caroleans = {
 					allowed = {
@@ -100,6 +101,8 @@ army_morale_factor = 0.05
 			
 			
 			}
+			
+			################################################################### BYZ
 			
 			
 			
@@ -143,6 +146,118 @@ army_morale_factor = 0.05
 		
 		} 
 		}
+		######################################################## CHRISTAN END 1444
+					battle_of_varna_loss = {
+					allowed = {
+				always = no
+				tag = BZY
+				tag = PAP
+				tag = POL
+				tag = AUS
+				tag = HUN
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = ARG_state_atheism
+			modifier = { 
+		conscription_factor = -0.3
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		army_attack_factor = -0.2
+		army_defence_factor = -0.2
+		
+		
+		
+		
+		
+		} 
+		}
+							battle_of_varna_win = {
+					allowed = {
+				always = no
+				tag = OTO
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = raj_marginalized_muslim_community_angry
+			modifier = { 
+		
+		
+		
+		
+		
+		
+		} 
+		}
+									THE_LAST_CRUSADE = {
+					allowed = {
+				always = yes
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+			picture = ARG_state_atheism
+
+			modifier = { 
+		army_defence_factor = 0.2
+		army_attack_factor = 0.5
+		planning_speed = 0.2
+		consumer_goods_expected_value = 0.3
+		industrial_capacity_dockyard = -0.15
+		production_speed_buildings_factor = -0.33 
+
+		
+		
+		
+		
+		
+		} 
+		}
+		
+##############################################################################poland 
+							the_lose_of_Wladyslaw  = {
+					allowed = {
+				always = no
+				tag = OTO
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = SWE_neither_death_nor_dishonor
+			modifier = { 
+		
+		
+		
+		
+		
+		
+		} 
+		}
+
+############################################################################### pope
+							PAP_Declared_Heretic  = {
+					allowed = {
+				always = no
+				tag = OTO
+			}
+						allowed_civil_war = {
+				always = yes
+			}
+				picture = SWE_neither_death_nor_dishonor
+			modifier = { 
+		
+		
+		
+		
+		
+		
+		} 
+		}
+
+
+
 
 }
 }

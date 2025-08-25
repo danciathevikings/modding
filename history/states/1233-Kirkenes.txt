@@ -1,0 +1,38 @@
+state = {
+	id = 1233
+	name = "STATE_1233"
+	manpower = 23000
+	
+	state_category = pastoral
+	
+	resources = {
+		tungsten = 2
+	}
+
+	history = {
+		owner = SMI
+		victory_points = {
+			9116 1
+		}
+		add_core_of = NOR
+		add_core_of = SMI
+		buildings = {
+			infrastructure = 1
+			9116 = {
+				naval_base = 3
+			}
+		}
+		1618.4.1.12 = {
+			owner = DEN
+		}
+		1848.1.1.12 = {
+			owner = NOR
+		}
+	}
+
+	provinces = {
+		64 6092 9116 11034 11063
+	}
+
+	local_supplies = 0.0
+}

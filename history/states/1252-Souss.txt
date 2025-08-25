@@ -1,0 +1,36 @@
+state = {
+	id = 1252
+	name = "STATE_1252"
+	manpower = 295000
+	
+	state_category = rural
+
+	history = {
+		owner = SUS
+		add_core_of = SUS
+		add_core_of = MOR
+
+		victory_points = {
+			7203 2
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+		1524.1.1.12 = {
+			owner = MOR
+		}
+		1914.1.1.12 = {
+			owner = FRA
+		}
+		1965.3.1.12 = {
+			owner = MOR
+		}
+	}
+
+	provinces = {
+		4022 5046 7203
+	}
+
+	local_supplies = 0.0 
+}

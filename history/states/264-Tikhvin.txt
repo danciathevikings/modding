@@ -1,59 +1,33 @@
-
 state={
 	id=264
 	name="STATE_264"
+	manpower = 185559
+	
+	state_category = rural
 
 	history={
-		owner = MUS
-		add_core_of = MUS
-		1550.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = MUS
-			remove_core_of = NOV
-			remove_core_of = PSK
-			remove_core_of = RYA
+		owner = NOV
+		add_core_of = NOV
+		victory_points = {
+			3140 1 
 		}
-												1936.1.1 = {
-				buildings = {
-			infrastructure = 2
-			air_base = 1
-}
-}
 		buildings = {
 			infrastructure = 2
-
+			air_base = 1
 		}
-				1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
+		1492.7.1.12 = {
+			owner = MUS
+			add_core_of = MUS
 		}
-		1920.1.1 = {
+		1566.6.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
-		}
-		victory_points = {
-			378 10 
-		}
-
 	}
 
 	provinces={
-		214 280 378 3202 3268 3339 3370 6231 6316 6362 6392 9278 9311 9356 11295 11362 
+		39 57 60 93 152 172 194 3140 3142 3163 6131 6169 9060 9082 9107 9111 9153 9177 9184 9190 11048 11059 11062 11083 11093 11165
 	}
-	manpower=1321140
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=9.000
+
+	local_supplies=9.0 
 }

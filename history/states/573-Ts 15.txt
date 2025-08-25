@@ -1,51 +1,39 @@
-
 state={
 	id=573
-	name="STATE_573"
+	name="STATE_573" # Zlatoust
+	manpower = 556677
+	
+	state_category = pastoral
+
 	resources={
-		chromium=23.000
+		chromium=23
 	}
 
 	history={
-		owner = PEM
-		add_core_of = PEM
-		1550.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = PEM
-			remove_core_of = NOV
-			remove_core_of = PSK
-			remove_core_of = RYA
+		owner = SIB
+		add_core_of = SIB
+		victory_points = {
+			10329 1
 		}
 		buildings = {
 			infrastructure = 2
-
 		}
-				1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
+		1618.4.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+		1919.1.1.12 = {
+			owner = RSS
+			add_core_of = RSS
 		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1933.1.30.12 = {
+			owner = SOV
 		}
-
 	}
 
 	provinces={
-		237 278 3280 4758 4874 7320 10216 11307 12659 
+		237 278 361 3280 4758 7320 10136 10329 11223 11307 
 	}
-	manpower=556677
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=7.000
+
+	local_supplies=7.0 
 }

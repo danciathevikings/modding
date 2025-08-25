@@ -1,68 +1,47 @@
-
 state={
 	id=237
 	name="STATE_237"
+	manpower = 169620
+	
+	state_category = rural
 
 	history={
-		owner = KAL
-		add_core_of = KAL
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-
-		}
+		owner = GOL
+		add_core_of = GOL
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
 		}
-		1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
-		}
-						1789.1.1 = {
-			owner = DON
-		add_core_of = DON
-		remove_core_of = ZAP
-		remove_core_of = POL
-		remove_core_of = RUS
-		}
-		1800.1.1 = {
-			owner = RUS
-		remove_core_of = ZAP
-		remove_core_of = DON
-		remove_core_of = POL
-		}
-		1801.1.1 = {
-		add_core_of = RUS
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
-		}
-		1865.1.1 = {
+		add_core_of = KAL
 		victory_points = {
-			11724 1 
+			11724 1
 		}
+		1524.1.1.12 = {
+			owner = ASK
+			add_core_of = ASK
+		}
+		1566.6.1.12 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		1919.1.1.12 = {
+			add_core_of = RSS
+			DON = {
+				set_province_controller = 9722
+				set_province_controller = 11727
+			}
+		}
+		1933.1.30.12 = {
+			SOV = {
+				set_province_controller = 9722
+				set_province_controller = 11727
+			}
 		}
 
 	}
 
 	provinces={
-		481 742 745 759 3413 3439 3475 3597 3726 3746 3774 6463 6758 6760 6765 6791 6794 6796 9426 9442 9720 9739 11566 11724 
+		481 742 745 759 3413 3439 3475 3597 3726 3746 3774 6463 6758 6760 6791 6794 9426 9442 9594 9720 9722 9735 9739 11416 11566 11706 11724 11727 
 	}
-	manpower=169620
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

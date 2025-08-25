@@ -1,0 +1,22 @@
+state={
+	id=1173
+	name="STATE_1173"
+history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+
+
+	}
+
+	provinces={
+		1738 10588 12627 13576 
+	}
+	manpower=12
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

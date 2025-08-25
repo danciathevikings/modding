@@ -1,0 +1,34 @@
+state={
+	id=1192
+	name="STATE_1192"
+	manpower=800000
+
+	state_category = town
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+			
+
+		add_core_of = KOR
+		add_core_of = NKO
+		1945.9.2.12 = {
+			owner = USA
+		}
+		1949.12.7.12 = {
+			owner = KOR
+		}
+		1965.3.1.12 = {
+			owner = NKO
+		}
+	}
+
+	provinces={
+		13585 13586 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

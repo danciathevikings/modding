@@ -1,64 +1,32 @@
+state = {
+	id = 397
+	name = "STATE_397"
+	manpower = 137203
+	state_category = pastoral
 
-state={
-	id=397
-	name="STATE_397"
-	resources={
-		oil=7.000
-	}
-	history={
-				1500.1.1 = {
+	history = {
+		owner = NOV
+		add_core_of = NOV
 		victory_points = {
-			99 1 
+			108 1 
 		}
-				}
-		owner = ZZZ
-		1500.1.1 = {
-			owner = RUS
-		add_core_of = RUS
-		remove_core_of = NOV
-		remove_core_of = POL
-		}
-		
-						1444.1.1 = {
-				owner = NOV
-                add_core_of = NOV
-		}
-		
-		
-		
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
 		}
-		1936.1.1 = {
 		add_core_of = KOM
-                }
-						1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
+		1492.7.1.12 = {
+			owner = MUS
+			add_core_of = MUS
 		}
-		1920.1.1 = {
+		1566.6.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
-		}
-
 	}
 
-	provinces={
-		6 99 154 1295 3000 3155 4298 4314 4802 6016 6121 6177 6202 6538 7318 7712 7898 9121 9145 9155 9225 9230 10579 10723 11098 11179 11182 11200 11203 12393 12558 12587 
+	provinces = {
+		6 99 108 186 1295 1307 3000 3155 4298 6121 6202 7318 7330 7712 7898 9145 9225 10579 11179 11200 11203 12558 
 	}
-	manpower=158998
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

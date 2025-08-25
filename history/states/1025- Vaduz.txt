@@ -1,0 +1,35 @@
+state={
+	id=1025
+	name="STATE_1025"
+	manpower = 324400
+	
+	state_category = rural
+
+	history={
+		owner = VDZ
+		add_core_of = VDZ
+	    victory_points = {
+			13402 3 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1754.5.1.12 = {
+			owner = LIC
+			add_core_of = LIC
+			remove_core_of = VDZ
+		}
+		1812.6.24.12 = {
+			owner = RHI
+		}
+		1848.1.1.12 = {
+			owner = LIC
+		}
+	}
+
+	provinces={
+		13402
+	}
+
+	local_supplies=0.0 
+}

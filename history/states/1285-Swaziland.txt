@@ -1,0 +1,27 @@
+state={
+	id=1285
+	name="STATE_1285"
+	manpower=1132000
+
+	history = {
+		owner = JWB
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		1900.1.1.12 = {
+			owner = ENG
+		}
+		1914.1.1.12 = {
+			owner = SAF
+			add_core_of = SAF
+		}
+	}
+	provinces={
+		7900 
+	}
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.000
+}

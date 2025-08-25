@@ -1,45 +1,26 @@
-
 state={
 	id=220
 	name="STATE_220"
 	manpower = 1680086
-	state_category = town
+	state_category = city
 
 	history={
-		owner = CHE
-		add_core_of = CHE
-		1600.1.1 = {
-		owner = RUS
-        add_core_of = RUS
-	    remove_core_of = CHE
-		}
+		owner = LIT
 		victory_points = {
 			3580 5
 		}
-		1936.1.1 = {
-					buildings = {
+		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1
 		}
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-		}
-						1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
-		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
 		add_core_of = SOV
-            remove_core_of = RUS
+		1524.1.1.12 = {
+			owner = MUS
+			add_core_of = MUS
 		}
-		1993.1.1 = {
-		owner = RUS
-		controller = RUS
-		add_core_of = RUS
-            remove_core_of = SOV
+		1566.6.1.12 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 

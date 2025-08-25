@@ -1,47 +1,14 @@
+state = {
+	id = 162
+	name = "STATE_162"
+	manpower = 2363213
+	
+	state_category = large_city
 
-state={
-	id=162
-	name="STATE_162"
-	resources={
-		steel=15.000
-	}
-
-	history={
-		owner = FLC
-		add_core_of = FLC
-				1571.1.1 = {
-		add_core_of = TOS
+	history = {
 		owner = TOS
-		remove_core_of = FLC
-		remove_core_of = SNA
-		}
-				1812.1.1 = {
-        owner = FRA
-        }
-				1945.1.1 = {
-		controller = ENG
-		}
-		1946.1.1 = {
-		controller = ITA
-		}
-		1816.1.1 = {
-        owner = TOS
-        add_core_of = TOS
-		remove_core_of = ITA
-        }
-		1871.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-		}
-		1919.1.1 = {
-                remove_core_of = SPM
-                remove_core_of = PAP
-                remove_core_of = TOS
-                remove_core_of = TTS
-                remove_core_of = LBV
-		}
 		victory_points = {
-			9907 20 
+			9907 3 
 		}
 		victory_points = {
 			11833 1 
@@ -49,39 +16,38 @@ state={
 		victory_points = {
 			6946 1 
 		}
-		1936.1.1 = {		
-			buildings = {
-			infrastructure = 4
+		buildings = {
+			infrastructure = 4 #was: 8
 			arms_factory = 1
 			industrial_complex = 1
-			dockyard = 1
+			dockyard = 3
 			air_base = 2
 			11833 = {
 				naval_base = 4
-
 			}
-
 		}
+		add_core_of = ITA
+		add_core_of = TOS
+		1812.6.24.12 = {
+			owner = FRA
 		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-			dockyard = 1
-			11833 = {
-				naval_base = 4
-
+		1848.1.1.12 = {
+			owner = TOS
+		}
+		1861.3.1.12 = {
+			owner = ITA
+		}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 2
 			}
-
 		}
-
 	}
 
-	provinces={
-		1616 6946 9879 9907 11833 11889 13863 13866 13871
+	provinces = {
+		910 1616 3885 6875 6946 9750 9879 9907 11833 11889 
 	}
-	manpower=2250000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

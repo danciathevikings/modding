@@ -1,68 +1,25 @@
+state = {
+	id = 1010
+	name = "STATE_1010"
+	state_category = rural
+	manpower = 479801
 
-state={
-	id=1010
-	name="STATE_1010"
-
-	history={
-		owner = IME
-		add_core_of = IME
-		add_core_of = GEO
-		1811.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-			remove_core_of = IME
-
-		}
-		victory_points = {
-			6689 5
-		}
-		buildings = {
-			infrastructure = 2
-
-		}
-		1919.1.1 = {
-			add_core_of = GEO
-			owner = GEO
-			remove_core_of = RUS
-			remove_core_of = PER
-
-		}
-		
-						1444.1.1 = {
-				owner = GEO
-                add_core_of = GEO
-		}
-		
-		1789.1.1 = {
-			remove_core_of = GEO
-
-		}
-		1812.1.1 = {
-			add_core_of = GEO
-
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = GEO
-			controller = GEO
-			add_core_of = GEO
-			remove_core_of = SOV
-
-		}
-
+	resources = {
+		oil = 3
 	}
 
-	provinces={
-		654 3656 6669 6689 9632 14066 
+	history = {
+		owner = SAU
+		add_core_of = IRQ
+		1919.1.1.12 = {
+			owner = IRQ
+		}
 	}
-	manpower=500000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	provinces = {
+		1631 4951 
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

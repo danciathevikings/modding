@@ -1,0 +1,26 @@
+state={
+	id=1127
+	name="STATE_1127"
+	manpower=383471
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = GRE
+		1914.1.1.12 = {
+			owner = GRE
+			add_claim_by = BUL
+		}
+	}
+
+	provinces={
+		3936 6990 9791 9930
+	}
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

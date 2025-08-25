@@ -1,0 +1,37 @@
+state={
+	id=1133
+	name="STATE_1133"
+	manpower = 128293
+	
+	state_category = town
+	
+	history= {
+		owner = MOL
+		add_core_of = MOL
+		add_core_of = TNS
+		victory_points = {
+			13557 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ROM
+		1812.6.24.12 = {
+			owner = SOV
+		}
+		1919.1.1.12 = {
+			owner = UKR
+		}
+		1933.1.30.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = TNS
+		}
+	}
+	provinces={
+		13557 13558 13559 13560 13561
+	}
+
+	local_supplies=4.0 
+}

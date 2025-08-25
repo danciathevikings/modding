@@ -1,74 +1,55 @@
-
 state={
 	id=241
-	name="STATE_241"
+	name="STATE_241" # Gomel
+	manpower = 943422
+	
+	state_category = rural
 
 	history={
-		owner = CHE
-		add_core_of = CHE
-		1600.1.1 = {
-		owner = POL
-        add_core_of = POL
-		add_core_of = LIT
-	    remove_core_of = CHE
-		}
-		
-						1444.1.1 = {
-				owner = LIT
-                add_core_of = LIT
-		}
-		
-		1776.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
-                }
-		1900.1.1 = {
-                add_core_of = BLR
-                }
+		owner = LIT
 		victory_points = {
 			9288 10 
 		}
-		1936.1.1 = {
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 5
 			air_base = 3
-
 		}
-                }
-		buildings = {
-			infrastructure = 3
+		add_core_of = BLR
+		1618.4.1.12 = {
+			owner = POL
 		}
-				1919.1.1 = {
-			owner = UKR
-			add_core_of = UKR
-			remove_core_of = RUS
-			remove_core_of = GLL
-
-		}
-		1920.1.1 = {
+		1789.7.14.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = UKR
+		}
+		1919.1.1.12 = {
+			owner = SOV
+			add_core_of = RSS
+			UKR = {
+				set_province_controller = 9288
+				set_province_controller = 9342
+			}
 
 		}
-		1993.1.1 = {
+		1933.1.30.12 = {
+			SOV = {
+				set_province_controller = 9288
+				set_province_controller = 9342
+			}
+
+		}
+		1945.9.2.12 = {
+			remove_core_of = POL
+		}
+		2000.1.1.12 = {
 			owner = BLR
-			controller = BLR
-			add_core_of = BLR
 			remove_core_of = SOV
-
 		}
-
 	}
 
 	provinces={
-		9288 9342 
+		289 6233 6344 6354 9247 9288 9342 9371 9396 11230 11271 11355 11383 
 	}
-	manpower=100000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

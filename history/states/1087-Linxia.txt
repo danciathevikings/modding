@@ -1,0 +1,23 @@
+state = {
+	id = 1087
+	name = "STATE_1087"
+	manpower = 447934
+
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		10787 10903 
+	}
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

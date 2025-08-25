@@ -1,0 +1,32 @@
+state={
+	id=1033
+	name="STATE_1033"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = DES
+		add_core_of = DES
+		add_claim_by = MUN
+	    victory_points = {
+			6289 2
+		}
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		1618.4.1.12 = {
+			owner = ENG
+		}
+		1919.1.1.12 = {
+			owner = IRE
+		}
+	}
+
+	provinces={
+		6289 13380
+	}
+
+	local_supplies=0.0 
+}

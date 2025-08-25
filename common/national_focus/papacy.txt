@@ -1,0 +1,287 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = papacy_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAP
+		}
+	}
+	default = no
+		initial_show_position = {
+		x = 12
+		y = 0 
+		center = yes
+	}
+				focus = {
+		id = PAP_1444_failure_of_varna_crusade
+		icon = GFX_goal_unknown
+		x = 24
+		y = 0
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		
+		completion_reward = {   PAP={ country_event= fff_gec.1} 
+ 	 }
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+	########################################## giving up
+						focus = {
+		id = PAP_1444_a_new_view
+		icon = GFX_goal_unknown
+		x = -8
+		y = 1
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = {    	 }
+		prerequisite = { focus = PAP_1444_failure_of_varna_crusade  }
+        mutually_exclusive = { focus = PAP_1444_ROME_a_old_path  }
+		available = { always = no }
+	}
+	
+#######################################     ROME
+					focus = {
+		id = PAP_1444_ROME_a_old_path
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { remove_ideas = battle_of_varna_loss
+
+
+	}
+		prerequisite = { focus = PAP_1444_failure_of_varna_crusade  }
+        mutually_exclusive = { focus = PAP_1444_a_new_view  }
+		available = { }
+	}
+	############# united under christ
+						focus = {
+		id = PAP_1444_ROME_forget_our_diffrences
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { 
+			give_guarantee = BYZ
+
+
+	}
+		prerequisite = { focus = PAP_1444_ROME_a_old_path  }
+        mutually_exclusive = { focus = PAP_1444_ROME_only_us  }
+		available = { }
+	}
+	######################### rome under our image
+							focus = {
+		id = PAP_1444_ROME_only_us
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { 
+
+
+	}
+		prerequisite = { focus = PAP_1444_ROME_a_old_path  }
+        mutually_exclusive = { focus = PAP_1444_ROME_forget_our_diffrences  }
+		available = { }
+	}
+							focus = {
+		id = PAP_1444_ROME_only_us_deal_with_oto
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { 
+
+
+	}
+		prerequisite = { focus = PAP_1444_ROME_only_us  }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+	###########united branch
+								focus = {
+		id = PAP_1444_ROME_raise_a_new_crusade
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { 
+		set_division_template_lock = {
+    division_template = "the holy cruaders"
+    is_locked = yes
+	}
+    
+	set_division_force_allow_recruiting = {
+    division_template = "the holy cruaders"
+}}
+
+	
+		prerequisite = { focus = PAP_1444_ROME_forget_our_diffrences focus = PAP_1444_ROME_only_us  }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+									focus = {
+		id = PAP_1444_ROME_treatys_with_argon
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { }
+
+	
+		prerequisite = { focus = PAP_1444_ROME_forget_our_diffrences focus = PAP_1444_ROME_only_us }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+										focus = {
+		id = PAP_1444_ROME_treatys_with_argon_naples
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { }
+
+	
+		prerequisite = { focus =  PAP_1444_ROME_treatys_with_argon }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+											focus = {
+		id = PAP_1444_ROME_treatys_with_argon_sicily
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { }
+
+	
+		prerequisite = { focus =  PAP_1444_ROME_treatys_with_argon }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+												focus = {
+		id = PAP_1444_ROME_treatys_with_argon_sardinia
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { }
+
+	
+		prerequisite = { focus =  PAP_1444_ROME_treatys_with_argon }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+													focus = {
+		id = PAP_1444_ROME_treatys_with_argon_sardinia_KNI_trade
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = { 
+
+			PAP = {  puppet = KNI } 
+			KNI = { set_state_owner = (115) }
+
+		}
+		prerequisite = { focus = PAP_1444_ROME_treatys_with_argon_naples }
+		prerequisite = {  focus =  PAP_1444_ROME_treatys_with_argon_sicily  }
+		prerequisite = { focus = PAP_1444_ROME_treatys_with_argon_sardinia  }
+        mutually_exclusive = { focus =   }
+		available = { controls_state = 115}
+	}
+													focus = {
+		id = PAP_1444_ROME_THE_CRUSADE_TO_END_ALL_CRUSADES
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		cost = 10
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PAP_1444_failure_of_varna_crusade
+		completion_reward = {
+
+			add_ideas = THE_LAST_CRUSADE
+		 }
+
+	
+		prerequisite = { focus =  PAP_1444_ROME_raise_a_new_crusade }
+        mutually_exclusive = { focus =   }
+		available = { }
+	}
+
+	
+
+}

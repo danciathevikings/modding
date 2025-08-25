@@ -1,0 +1,32 @@
+state={
+	id=1034
+	name="STATE_1034"
+	manpower = 24200
+	
+	state_category = rural
+
+	history={
+		owner = DES
+		add_core_of = DES
+		add_claim_by = MUN
+	    victory_points = {
+			7394 3
+		}
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		1618.4.1.12 = {
+			owner = ENG
+		}
+		1919.1.1.12 = {
+			owner = IRE
+		}
+	}
+
+	provinces={
+		9284 7394
+	}
+
+	local_supplies=0.0 
+}

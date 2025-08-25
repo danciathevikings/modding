@@ -1,0 +1,32 @@
+state={
+	id=1079
+	name="STATE_1079"
+	history={
+		owner = JWB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = USA
+		1754.5.1.12 = {
+			owner = USA
+		}
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+
+	}
+
+	provinces={
+		968 5090 7583 9996 13490 13491 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

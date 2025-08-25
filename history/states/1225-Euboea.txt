@@ -1,0 +1,30 @@
+state={
+	id=1225
+	name="STATE_1225"
+	manpower=87000
+	
+	state_category = town
+
+	history={
+		owner = VNR
+		victory_points = {
+			7127 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GRE
+		1492.7.1.12 = {
+			owner = TUR
+		}
+		1848.1.1.12 = {
+			owner = GRE
+		}
+	}
+
+	provinces={
+		7127
+	}
+
+	local_supplies=0.0 
+}

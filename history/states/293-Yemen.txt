@@ -1,49 +1,45 @@
-
 state={
 	id=293
 	name="STATE_293"
+	manpower = 2489500
+	
+	state_category = rural
+	
 	resources={
-		oil=1.000
+		oil=1 # was: 1
 	}
 
 	history={
-		owner = ZZZ
-		1600.1.1 = {
-		owner = OTO
-		}
-		1900.1.1 = {
-		add_core_of = YEM
-		}
-				buildings = {
-			infrastructure = 0
-		}
-				1600.1.1 = {
+		owner = YEM
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			10840 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
 			10840 3 
 		}
-				}
-		1919.1.1 = {
-			owner = YEM
-			controller = YEM
-            add_core_of = YEM
-            remove_core_of = OTO
+		add_core_of = YEM
+		1566.6.1.12 = {
+			owner = TUR
 		}
-
+		1754.5.1.12 = {
+			owner = YEM
+		}
+		1848.1.1.12 = {
+			owner = TUR
+		}
+		1919.1.1.12 = {
+			owner = YEM
+		}
 	}
 
 	provinces={
-		1920 1973 4924 10752 10840 12740 13709 13711 
+		1920 1973 4924 10752 10840
 	}
-	manpower=2489500
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

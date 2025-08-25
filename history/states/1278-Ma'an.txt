@@ -1,0 +1,25 @@
+state={
+	id=1278
+	name="STATE_1278"
+	manpower=14500
+
+	state_category=wasteland
+
+	history = {
+		owner = SAU
+		add_core_of = JOR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		1919.1.1.12 = {
+			owner = JOR
+		}
+	}
+	provinces={
+		4440 4562 11976 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

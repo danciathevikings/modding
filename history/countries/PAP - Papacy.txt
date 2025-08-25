@@ -1,0 +1,30 @@
+capital = 984
+
+recruit_character = PAP_papa_pio_xi
+
+promote_character = {
+	character = PAP_papa_pio_xi
+	ideology = despotism
+}
+
+recruit_character = PAP_papa_pio_xii
+
+set_popularities = {
+	neutrality = 100
+	democratic = 0
+	fascism = 0
+	communism = 0
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = 1936.1.1
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_party_name = {
+	ideology = neutrality
+	long_name = PAP_neutrality_party_long_name
+	name = PAP_neutrality_party_name
+}

@@ -1,0 +1,37 @@
+state={
+	id=1240
+	name="STATE_1240"
+	manpower=50000
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 9
+		}
+		add_core_of = USA
+		1789.7.14.12 = {
+			owner = MEX
+			add_core_of = CSA
+		}
+		1812.6.24.12 = {
+			owner = USA
+			add_core_of = CSA
+		}
+		1861.3.1.12 = {
+			owner = CSA
+			add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+	}
+
+	provinces={
+		2055 2082 3875 3972 5001 5085 6968 9829 9908 12848 12893 
+	}
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

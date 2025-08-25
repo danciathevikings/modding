@@ -1,56 +1,37 @@
-
 state={
 	id=211
 	name="STATE_211"
+	manpower = 815036
+
+	state_category = town
 
 	history={
-		owner = BYZ
-		add_core_of = BYZ
-		1453.1.1 = {
+		owner = TUR
+		victory_points = { #Burgas
+			9902 3
+		}
+		victory_points = { #Sliven
+			6967 3
+		}
+		victory_points = { #Yambol
+			9888 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			9902 = {
+				naval_base = 1
+			}
+		}
 		add_core_of = BUL
-		owner = OTO
-		remove_core_of = BYZ
-		}
-		1880.1.1 = {
+		1914.1.1.12 = {
 			owner = BUL
-			controller = BUL
 		}
-		1900.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			9902 = {
-				naval_base = 1
-
-			}
-		}
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			9902 = {
-				naval_base = 1
-
-			}
-
-		}
-		}
-		victory_points = {
-			9902 3 
-		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-		}
-
 	}
 
 	provinces={
-		9902 9919 
+		6967 9888 9902 9919
 	}
-	manpower=200000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	local_supplies=4.0 
 }

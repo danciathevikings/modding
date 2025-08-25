@@ -1,69 +1,55 @@
+state = {
+	id = 762
+	name = "STATE_762"
+	
+	manpower = 1000000
 
-state={
-	id=762
-	name="STATE_762"
-	resources={
-		steel=19.000
-		aluminium=7.000
+	resources = {
+		steel = 19
+		aluminium = 7
 	}
 
-	history={
+	state_category = city
+
+	history = {
+		owner = CZE
+		add_core_of = POL
+		add_core_of = SIL
+		add_claim_by = PRE
+
 		victory_points = {
-			6464 5 
+			6464 5 # Katovice
 		}
-		owner = SIL
-                add_core_of = SIL
-		1748.1.1 = {
-			owner = PRE
-                add_core_of = PRE
-                remove_core_of = AUS
-                remove_core_of = CZE
-                remove_core_of = BOH
-                remove_core_of = SIL
-		}
-												1945.1.1 = {
-		owner = GER
-		}
-		1946.1.1 = {
-		owner = POL
-		}
-		1871.1.1 = {
-                add_core_of = GER
-                owner = GER
-                }
-		1919.1.1 = {
-                remove_core_of = WUR
-                remove_core_of = SAX
-                remove_core_of = OLD
-                remove_core_of = HAN
-                remove_core_of = MEK
-                remove_core_of = SHL
-                remove_core_of = BAD
-                remove_core_of = BAY
-                remove_core_of = HES
-                remove_core_of = THU
-                remove_core_of = PRE
-                }
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
-		1920.1.1 = {
+		1566.6.1.12 = {
+			owner = AUS
+		}
+		1754.5.1.12 = {
+			owner = PRE
+		}
+		1870.7.1.12 = {
+			owner = GER
+		}
+		1919.1.1.12 = {
+			owner = GER
+			set_demilitarized_zone = yes
+		}
+		1933.1.30.12 = {
 			owner = POL
-			add_core_of = POL
-			remove_core_of = GER
-			controller = POL
-
+			set_demilitarized_zone = no
 		}
-
+		1945.9.2.12 = {
+			remove_claim_by = PRE
+		}
 	}
 
-	provinces={
-		506 6464 
+	provinces = {
+		506 6464
 	}
-	manpower=900000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

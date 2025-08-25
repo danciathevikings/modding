@@ -1,99 +1,63 @@
-
 state={
 	id=813
 	name="STATE_813"
 
 	history={
-		owner = DRP
-		add_core_of = DRP
-		1600.1.1 = {
-			add_core_of = LIV
-		remove_core_of = DRP
-		remove_core_of = OSE
-		remove_core_of = KRL
-		remove_core_of = RGA
-		}
-		
-						1444.1.1 = {
-			owner = LIV
-			add_core_of = LIV
-
-		}
-		
-		1900.1.1 = {
-			add_core_of = EST
-
-		}
-				1789.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-				remove_core_of = LIV
-                }
-		1600.1.1 = {
-			owner = POL
-
-		}
-		1689.1.1 = {
-			owner = SWE
-
-		}
-		
-						1648.1.1 = {
-                owner = SWE
-                add_core_of = SWE
-                }
-		
-		1776.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-
-		}
-				victory_points = {
-			592 1 
+		owner = LIV
+		add_core_of = LIV
+		victory_points = {
+			4640 1 #Narva
 		}
 		victory_points = {
-			9221 5 
+			11127 1 #Rakvere
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3
+			4640 = {
+				naval_base = 1
+			}
 		}
-		1919.1.1 = {
-			owner = EST
-			controller = SOV
-			add_core_of = EST
-			remove_core_of = RUS
-
+		add_core_of = EST
+		1566.6.1.12 = {
+			owner = SWE
+			remove_core_of = LIV
 		}
-		1920.1.1 = {
-			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = RUS
-
-		}
-		1945.1.1 = {
+		1754.5.1.12 = {
 			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
 		}
-		1993.1.1 = {
+		1919.1.1.12 = {
 			owner = EST
-			controller = EST
-			add_core_of = EST
-			remove_core_of = SOV
-
+			SOV = {
+				set_province_controller = 6099
+				set_province_controller = 11057
+				set_province_controller = 11127
+				set_province_controller = 11443
+				set_province_controller = 4640
+				set_province_controller = 13127
+			}
 		}
-
+		1933.1.30.12 = {
+			EST = {
+				set_province_controller = 6099
+				set_province_controller = 11057
+				set_province_controller = 11127
+				set_province_controller = 11443
+				set_province_controller = 4640
+				set_province_controller = 13127
+			}
+		}
+		1945.9.2.12 = {
+			owner = SOV
+		}
+		2000.1.1.12 = {
+			owner = EST
+		}
 	}
 
 	provinces={
-		592 6099 9221 9485 14445 14447 14448 14451 14456 14461 
+		4640 6099 9079 11057 11127 11443 13127 
 	}
-	manpower=199470
+	manpower=150560
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	state_category=rural
 }

@@ -1,0 +1,40 @@
+state={
+	id=1027
+	name="STATE_1027"
+	manpower = 784600
+	
+	state_category = city
+
+	history={
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = CRO
+		add_core_of = SER
+		buildings = {
+			infrastructure = 1
+		}
+		1566.6.1.12 = {
+			owner = TUR
+		}
+		1754.5.1.12 = {
+			owner = AUS
+		}
+		1861.3.1.12 = {
+			owner = HUN
+		}
+		1919.1.1.12 = {
+			owner = YUG
+			add_core_of = YUG
+			remove_core_of = HUN
+		}
+		2022.2.23.12 = {
+			owner = SER
+		}
+	}
+
+	provinces={
+		11577 11580 
+	}
+
+	local_supplies=0.0 
+}

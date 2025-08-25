@@ -1,0 +1,27 @@
+state={
+	id=1046
+	name="STATE_1046"
+	manpower = 24200
+	
+	state_category = city
+
+	history={
+		owner = ULS
+		add_core_of = ULS
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		1618.4.1.12 = {
+			owner = ENG
+			add_core_of = ENG
+			add_core_of = NIR
+		}
+	}
+
+	provinces={
+		3329
+	}
+
+	local_supplies=0.0 
+}

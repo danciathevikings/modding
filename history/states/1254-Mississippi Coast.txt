@@ -1,0 +1,35 @@
+state={
+	id=1254
+	name="STATE_1254"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = USA
+		1789.7.14.12 = {
+			owner = MEX
+		}
+		1812.6.24.12 = {
+			owner = USA
+		}
+		1861.3.1.12 = {
+			owner = CSA
+		add_core_of = CSA
+		}
+		1870.7.1.12 = {
+			owner = USA
+			remove_core_of = CSA
+		}
+
+
+	}
+
+	provinces={
+		4464 7668 
+	}
+	manpower=12
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

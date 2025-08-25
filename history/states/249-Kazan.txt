@@ -1,60 +1,38 @@
-
 state={
 	id=249
 	name="STATE_249"
+	manpower = 2761291
+	
+	state_category = town
+
 	resources={
-		steel=25.000
+		steel=25
 	}
 
 	history={
 		owner = TAT
 		add_core_of = TAT
-		1552.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 6
 			arms_factory = 1
-
 		}
 		victory_points = {
-			6338 20 
+			6338 10
 		}
-				1919.1.1 = {
-		owner = SOV
-		add_core_of=SOV
-		}
-		1920.1.1 = {
+		1566.6.1.12 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = RUS
-			controller = RUS
-			add_core_of = RUS
-			remove_core_of = SOV
-
 		}
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		228 260 372 404 3365 6323 6338 9336 9354 11243 11292 
+		228 260 292 355 372 403 404 3214 3251 3328 3348 3365 6308 6323 6338 6352 6368 9336 9354 9385 9401 9514 10301 11243 11292 11339 11389 11496 
 	}
-	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

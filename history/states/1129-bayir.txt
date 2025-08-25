@@ -9,7 +9,7 @@ state={
 
 		}
 		1900.1.1 = {
-		owner = OTO
+		owner = SAU
 		add_core_of = JOR
                 }
 						1919.1.1 = {

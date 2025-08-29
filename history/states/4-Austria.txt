@@ -46,7 +46,7 @@ state = {
 			}
 		}
 		1945.9.2.12 = {
-			owner = AUS
+			owner = SOV
 			remove_core_of = GER
 		}
 	}

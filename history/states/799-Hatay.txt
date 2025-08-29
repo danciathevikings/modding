@@ -15,7 +15,11 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		1524.1.1.12 = {
+
+		1444.1.1.12 = {
+			owner = EGY
+        }
+        1516.08.1.12 = {
 			owner = TUR
 		}
 		1919.1.1.12 = {

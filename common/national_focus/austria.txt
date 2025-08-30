@@ -77,57 +77,6 @@ initial_show_position = { focus = AUS_1444_start}
         mutually_exclusive = { focus = AUS_1444_we_need_to_unite  }
 		available = { }
 	}
-						focus = {
-		id = AUS_1444_revoke_the_other_prince_claims_AUS
-		icon = GFX_goal_unknown
-		x = 10
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		relative_position_id = AUS_1444_start
-		completion_reward = {  set_stability = 0.25 set_war_support = 0.30		}
-		prerequisite = { focus = AUS_1444_consolidate_our_lands  }
-        mutually_exclusive = { focus =   }
-		available = { }
-	}
-	
-	
-	
-	
-					focus = {
-		id = AUS_1444_unite_lower_and_upper_AUS 
-		icon = GFX_goal_unknown
-		x = 10
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		relative_position_id = AUS_1444_start
-		completion_reward = {  
-		
-		every_state = {
-    limit = { is_core_of = STY }
-    add_core_of = AUS
-}
-annex_country = { target = STY }
-		every_state = {
-    limit = { is_core_of = TYR  }
-    add_core_of = AUS
-}
-annex_country = { target = TYR }
-add_named_threat = {
-    threat = 5
-    name = "austrian consolidation of the mainland"
-}
-
-		}
-		prerequisite = { focus =  AUS_1444_revoke_the_other_prince_claims_AUS }
-        mutually_exclusive = { focus =   }
-		available = { has_war_support > 0.4 has_stability > 0.5}
-	}
 
 
 	

@@ -1,0 +1,11 @@
+﻿capital = 4 # Vienna
+
+1444.11.11.1 ={
+
+AUS = {  puppet = HUN } 
+AUS = {  puppet = BOH }
+AUS = {  puppet = CRO }
+AUS = {  puppet = SIL }   
+
+
+}

@@ -1,2 +1,3 @@
-HRE = "countries/Holy Roman Empire.txt"
+BYZ = "countries/Byzantine Empire.txt"
 BOH = "countries/Bohemia.txt"
+HRE = "countries/Holy Roman Empire.txt"

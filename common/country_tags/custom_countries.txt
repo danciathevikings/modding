@@ -1,1 +1,2 @@
-TFO = "countries/the four Oirats.txt"
+HRE = "countries/Holy Roman Empire.txt"
+BOH = "countries/Bohemia.txt"

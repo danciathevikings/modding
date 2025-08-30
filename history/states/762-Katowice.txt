@@ -45,6 +45,10 @@ state = {
 		1945.9.2.12 = {
 			remove_claim_by = PRE
 		}
+						1444.11.11.1 = {
+			owner = SIL
+			add_core_of = SIL
+		}
 	}
 
 	provinces = {

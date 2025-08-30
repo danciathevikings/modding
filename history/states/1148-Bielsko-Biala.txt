@@ -18,6 +18,10 @@ state={
 		1919.1.1.12 = {
 			owner = POL
 		}
+						1444.11.11.1 = {
+			owner = SIL
+			add_core_of = SIL
+		}
 	}
 
 	provinces={

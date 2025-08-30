@@ -27,12 +27,12 @@ state={
 			owner = AUS
 		}
 		1945.9.2.12 = {
-			owner = FRA
+			owner = AUS
 			remove_core_of = GER
 		}
-	
-	provinces = {
-	 73 9633 9636 11618 11634
+	}
+	provinces={
+		673 9633 9636 11618 11634
 	}
 	buildings_max_level_factor=1.000
 	state_category=town

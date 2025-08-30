@@ -32,7 +32,7 @@ state = {
 			add_core_of = GER
 		}
 		1945.9.2.12 = {
-			owner = SOV
+			owner = AUS
 			remove_core_of = GER
 		}
 	}

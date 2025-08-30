@@ -1116,7 +1116,11 @@ KUR = {
 
 
 #Custom colours start here
-TFO = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+HRE = {
+	color = rgb { 255 207 0 }
+	color_ui = rgb { 255 207 0 }
+}
+BOH = {
+	color = rgb { 157 31 50 }
+	color_ui = rgb { 157 31 50 }
 }

@@ -24,6 +24,10 @@ state={
 		1945.9.2.12 = {
 			owner = CZE
 		}
+						1444.11.11.1 = {
+			owner = BOH
+			add_core_of = BOH
+		}
 	}
 
 	provinces={

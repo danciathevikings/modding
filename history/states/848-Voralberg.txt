@@ -23,11 +23,11 @@ state={
 			add_core_of = GER
 		}
 		1945.9.2.12 = {
-			owner = FRA
+			owner = AUS
 			remove_core_of = GER
 		}
 	}
-	provinces = {
+	provinces={
 		6678 6680 
 	}
 	buildings_max_level_factor=1.000

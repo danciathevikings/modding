@@ -49,6 +49,10 @@ state = {
 			remove_core_of = GER
 			remove_core_of = PRE
 		}
+				1444.11.11.1 = {
+			owner = SIL
+			add_core_of = SIL
+		}
 	}
 
 	provinces = {

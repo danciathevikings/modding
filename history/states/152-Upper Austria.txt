@@ -25,12 +25,13 @@ state = {
 			add_core_of = GER
 		}
 		1945.9.2.12 = {
-			owner = USA
+			owner = AUS
 			remove_core_of = GER
 		}
+	}
 
 	provinces = {
-		3684 6691 6708 9665 3703
+		3684 3703 6691 6708 9665
 	}
 
 	local_supplies = 0.0 

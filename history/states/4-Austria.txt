@@ -46,13 +46,13 @@ state = {
 			}
 		}
 		1945.9.2.12 = {
-			owner = SOV
+			owner = AUS
 			remove_core_of = GER
 		}
 	}
 
 	provinces = {
-		704 732 3718 6552 6690 6723 6739 9527 11651 11666 
+		704 732 3718 6552 6690 6723 6739 9527 11651  
 	}
 
 	local_supplies = 0.0 

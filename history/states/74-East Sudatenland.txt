@@ -36,6 +36,10 @@ state = {
 			owner = CZE
 			remove_core_of = GER
 		}
+				1444.11.11.1 = {
+			owner = BOH
+			add_core_of = BOH
+		}
 	}
 
 	provinces = {

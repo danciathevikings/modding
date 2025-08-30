@@ -28,7 +28,6 @@ state = {
 			owner = USA
 			remove_core_of = GER
 		}
-	}
 
 	provinces = {
 		3684 6691 6708 9665 3703

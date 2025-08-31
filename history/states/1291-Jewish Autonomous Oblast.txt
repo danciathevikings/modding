@@ -1,13 +1,12 @@
 state={
-    id = 657
-    name = "STATE_657"
-    manpower = 308380
-
-    state_category = pastoral
-
-    resources = {
-        steel=18
+    id=1291
+    name="STATE_1291"
+    provinces={
+        4805 7672 10722 12678 
     }
+    manpower=144389
+    buildings_max_level_factor=1.000
+    local_supplies=0.000
     history = {
         owner = UDE
         add_core_of = UDE
@@ -32,9 +31,8 @@ state={
             owner = SOV
         }
    }
-    provinces={
-        675 1802 4246 4701 4725 4779 4829 7616 7763 7801 10655 12192 12261 12263 12654 
-    }
-
+    
+    
+    state_category = rural
     local_supplies = 0.0 
 }

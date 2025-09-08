@@ -1,0 +1,51 @@
+ideas = {
+
+    country = {
+        OTO_autonomous_pashas = {
+
+            allowed = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            picture = generic 
+
+            modifier = {
+                political_power_gain = 0.10
+                compliance_growth_on_our_occupied_states = 0.075
+                resistance_activity = -0.075
+            }
+        }
+        OTO_law_code_of_suleiman = {
+
+            allowed = {
+                always = no
+            }
+
+            removal_cost -1
+
+            picture = generic
+
+            modifier = {
+                consumer_goods_factor = -0.15
+                research_speed_factor = 0.05
+            }
+        }
+        OTO_ghazi = {
+
+            allowed = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            picture = generic 
+
+            modifier = {
+                army_morale_factor = 0.2
+                recruitable_population_factor = 0.1
+            }
+        }
+    }
+}

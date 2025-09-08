@@ -1,0 +1,135 @@
+focus_tree = {
+    id = ottoman_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = OTO
+
+            default = no
+        }
+    }
+    focus = {
+        id = OTO_rising_empire
+        icon = GFX_goal
+        x = 20
+        y = 2
+
+        cost = 10
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+
+        }
+
+        bypass = {
+
+        }
+
+        completion_award = {
+            add_political_power = 120
+        }
+    }
+    focus = {
+        id = OTO_focus_on_balkans
+        icon = GFX_goal
+        relative_position_id = OTO_rising_empire
+        x = -3
+        y = 1
+        prerequisite = {
+            focus = OTO_rising_empire
+        }
+
+        cost = 10
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+
+        }
+
+        bypass = {
+
+        }
+
+        completion_award = {
+            add_state_claim = 211
+            add_state_claim = 971
+            add_state_claim = 47
+            add_state_core = 797
+        }
+    }
+    focus = {
+        id = focus_on_asia
+        icon = generic
+        relative_position_id = OTO_rising_empire
+        x = 0
+        y = 1
+        prerequisite = {
+            focus = OTO_rising_empire
+        }
+        
+        cost = 10
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+
+        }
+
+        bypass = {
+
+        }
+
+        completion_award = {
+            add_state_claim = 342
+            add_state_claim = 345
+            add_state_claim = 346
+            add_state_claim = 356
+        }
+    }
+    focus = {
+        id = focus_on_africa
+        icon = generic
+        relative_position_id = OTO_rising_empire
+        x = 3
+        y = 1
+        prerequisite = {
+            focus = OTO_rising_empire
+        }
+
+        cost = 10
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+            has_subject = EGY
+            OR = {
+                NOT = { country_exists = EGY}
+            }
+        }
+
+        bypass = {
+            NOT = { country_exists = EGY}
+        }
+
+        completion_award = {
+            add_state_claim = 450
+            add_state_claim = 662
+            add_state_claim = 448
+            add_state_claim = 661
+        }
+    }
+
+}

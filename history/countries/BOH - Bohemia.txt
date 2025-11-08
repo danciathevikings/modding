@@ -8,6 +8,16 @@ set_oob = "BOH_1789"
 1600.1.1 = {
 set_cosmetic_tag = BOH_AUS #austrian puppet
 }
+1444.1.1 = {
+
+AUS = { #Tag of the overlord
+    puppet = BOH
+}
+}
+
+
+
+
 1805.1.1 = {
 set_cosmetic_tag = BOH #independent
 }

@@ -1116,7 +1116,15 @@ KUR = {
 
 
 #Custom colours start here
-NDB = {
-	color = rgb { 28 21 102 }
-	color_ui = rgb { 28 21 102 }
+BYZ = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+BOH = {
+	color = rgb { 180 33 0 }
+	color_ui = rgb { 180 33 0 }
+}
+HRE = {
+	color = rgb { 255 198 0 }
+	color_ui = rgb { 255 198 0 }
 }

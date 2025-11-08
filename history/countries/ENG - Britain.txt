@@ -15,6 +15,23 @@ retire_character=ENG_rothschildiii
 	}
 }
 }
+
+
+1444.1.1 = {
+create_faction = "house of Lancaster"
+
+}
+
+
+
+
+
+
+
+
+
+
+
 1789.1.1 = {
 			if = {
 		limit = { has_start_date < 1837.1.1 }

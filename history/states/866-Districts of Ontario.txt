@@ -17,6 +17,13 @@ state={
 		remove_core_of = DDR
 		remove_core_of = WGR
 		}
+		
+		1444.1.1 = { 
+		owner = BDB
+		add_core_of = BDB
+		}
+		
+		
 		1525.1.1 = {
 			owner = BDB
 			add_core_of = BDB

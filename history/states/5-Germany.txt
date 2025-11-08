@@ -22,6 +22,25 @@ state={
 			remove_core_of = WRM
 
 		}
+		
+				1500.1.1 = {
+			owner = TEU
+			add_core_of = TEU
+			remove_core_of = PRE
+			remove_core_of = WRM
+
+		}
+		
+						1444.1.1 = {
+			owner = TEU
+			add_core_of = TEU
+			remove_core_of = PRE
+			remove_core_of = WRM
+
+		}
+		
+		
+		
 		1776.1.1 = {
                 owner = PRE
                 add_core_of = PRE

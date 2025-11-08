@@ -11,6 +11,12 @@ state={
         owner = QIN
 		add_core_of = MON
         }
+		
+								1444.1.1 = {
+        owner = MON
+		add_core_of = MON
+        }
+		
 		1900.1.1 = {
         owner = QIN
 		remove_core_of = MNG

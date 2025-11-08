@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1648_christinaqueenofsweden_large"
+		texturefile = "gfx/characters/1648/1648_christinaqueenofsweden_large.dds"
+	}
+	spriteType = {
+		name = "GFX_1648_christinaqueenofsweden_small"
+		texturefile = "gfx/characters/1648/1648_christinaqueenofsweden_small.dds"
+	}
+}

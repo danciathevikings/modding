@@ -11,6 +11,12 @@ state={
                 add_core_of = ZAP
 	    remove_core_of = KIE
 		}
+		
+				1444.1.1 = {
+			owner = LIT
+            add_core_of = LIT
+		}
+		
 		1689.1.1 = {
 			owner = ZAP
 		add_core_of = ZAP

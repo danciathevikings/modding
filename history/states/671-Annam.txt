@@ -23,6 +23,12 @@ state={
 			4075 1 
 		}
                 }
+
+		1648.1.1 = {
+		owner = VIN
+		add_core_of = VIN
+		}
+
 		1900.1.1 = {
 		buildings = {
 			infrastructure = 2

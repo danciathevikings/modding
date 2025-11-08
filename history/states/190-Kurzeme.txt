@@ -12,6 +12,11 @@ state={
 		}
 		owner = KRL
 		add_core_of = KRL
+				1444.1.1 = {
+			owner = LIV
+			add_core_of = LIV
+
+		}
 		1600.1.1 = {
 			remove_core_of = DRP
 			remove_core_of = OSE

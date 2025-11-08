@@ -20,6 +20,16 @@ state={
 			remove_core_of = TEU
 
 		}
+		
+				1444.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = POM
+			remove_core_of = TEU
+
+		}
+		
 		1700.1.1 = {
 			owner = BDB
 			add_core_of = BDB

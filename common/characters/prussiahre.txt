@@ -13,4 +13,32 @@ characters = {
 			expire = "1688.4.29.1"
 		}
 	}
+	#knights of the high templars
+	prussiahre_knights_of_the_high_templars = {
+		name = prussiahre_knights_of_the_high_templars
+		portraits = {
+			civilian = {
+				large = GFX_prussiahre_knights_of_the_high_templars_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = {  }
+			expire = "20000.1.1"
+		}
+	}
+	#Christina, Queen of Sweden
+	prussiahre_christinaqueenofsweden = {
+		name = prussiahre_christinaqueenofsweden
+		portraits = {
+			civilian = {
+				large = GFX_prussiahre_christinaqueenofsweden_large
+			}
+		}
+		country_leader = {
+			ideology = neutrality
+			traits = { crown_regent }
+			expire = "1652.6.6"
+		}
+	}
 }

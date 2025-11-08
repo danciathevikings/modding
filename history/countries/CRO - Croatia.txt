@@ -10,8 +10,11 @@
 retire_character=HUN_koharyhun
 AUS = { #Tag of the overlord
     puppet = HUN
-}
+} }
 
+1444.1.1 = { 
+HUN = {  puppet = CRO } 
+}
 
 
 set_research_slots = 2
@@ -21,6 +24,7 @@ oob = "CRO_1936"
 set_technology = {
 	infantry_weapons = 1
 }
+
 1936.1.1 = {
 set_technology = {
 	infantry_weapons = 1

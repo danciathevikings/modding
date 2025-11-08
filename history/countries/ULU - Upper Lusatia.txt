@@ -2,6 +2,11 @@
 1600.1.1 = {
 set_cosmetic_tag = ULU_AUS #austrian puppet
 }
+
+1444.1.1 = { 
+BOH = {  puppet = ULU } 
+}
+
 1700.1.1 = {
 set_cosmetic_tag = ULU #independent
 }
@@ -11,7 +16,13 @@ set_technology = {
 }
 
 set_convoys = 20
+1444.1.1 = {
 
+1444.1.1 = { 
+BOH = {  puppet = ULU } 
+}
+}
+}
 
 1939.1.1 = {
 	

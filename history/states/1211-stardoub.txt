@@ -28,6 +28,12 @@ state={
 			infrastructure = 2
 
 		}
+		
+						1444.1.1 = {
+				owner = LIT
+                add_core_of = LIT
+		}	
+		
 				1919.1.1 = {
 			owner = UKR
 			add_core_of = UKR

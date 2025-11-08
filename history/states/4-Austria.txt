@@ -54,8 +54,13 @@ state={
 
 	}
 
+<<<<<<< HEAD
+	provinces = {
+		704 732 3718 6552 6690 6723 6739 9527 11651  
+=======
 	provinces={
 		11666 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 	manpower=1634571
 	buildings_max_level_factor=1.000

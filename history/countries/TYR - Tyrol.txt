@@ -13,7 +13,12 @@ set_technology = {
 set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 set_convoys = 20
+1444.1.1 = {
 
+AUS = { #Tag of the overlord
+    puppet = TYR
+}
+}
 
 1939.1.1 = {
 	

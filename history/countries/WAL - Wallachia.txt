@@ -20,11 +20,15 @@ recruit_character=WAL_grigory_potemkin
 promote_character=WAL_alexander
 retire_character=WAL_grigory_potemkin
 }
-
+1444.1.1 = { 
+set_politics = {
+    ruling_party = neutrality
+}           
+}       
 1648.1.1 = {
 
 OTO = { #Tag of the overlord
-    puppet = HUN
+    puppet = WAL
 }
 
 1812.1.1 = {

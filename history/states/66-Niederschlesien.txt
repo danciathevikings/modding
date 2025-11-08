@@ -73,7 +73,20 @@ state={
 			}
 
 		}
+<<<<<<< HEAD
+		1945.9.2.12 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
+			remove_core_of = PRE
+		}
+				1444.11.11.1 = {
+			owner = SIL
+			add_core_of = SIL
+		}
+=======
 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={

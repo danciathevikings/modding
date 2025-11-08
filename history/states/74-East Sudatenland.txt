@@ -18,6 +18,9 @@ state={
 		
 		1836.1.1 = {owner = BOH
 		add_core_of = BOH}
+				1444.1.1 = 
+		{owner = BOH
+		add_core_of = BOH}
 		
 		1919.1.1 = {
 			owner = CZE
@@ -60,7 +63,14 @@ state={
 			remove_core_of = GER
 
 		}
+<<<<<<< HEAD
+				1444.11.11.1 = {
+			owner = BOH
+			add_core_of = BOH
+		}
+=======
 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={

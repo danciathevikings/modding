@@ -2,6 +2,19 @@
 1789.1.1 = {
 recruit_character=BYZ_konstantinpavlovich
 }
+1444.1.1 = {set_oob = BZY_1444
+
+load_focus_tree = byzantine_focus_tree
+create_faction = "eastern rome"
+
+
+add_ideas = BZY_all_alone
+add_ideas = BZY_no_help_from_varna_crusades
+}
+
+
+
+
 1836.1.1 = {
 retire_character=BYZ_konstantinpavlovich
 }

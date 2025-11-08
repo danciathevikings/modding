@@ -37,6 +37,7 @@ retire_character=POR_paulageneral
 }
 1900.1.1 = {
 }
+1444.1.1 = { set_cosmetic_tag = POR_empire }
 
 
 1776.1.1 = {

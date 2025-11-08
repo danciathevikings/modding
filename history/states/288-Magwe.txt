@@ -27,6 +27,13 @@ state={
 			controller = ENG
 
 		}
+
+		1648.1.1 = {
+			owner = BRM
+			controller = BRM
+
+		}
+
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 1

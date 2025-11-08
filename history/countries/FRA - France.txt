@@ -31,6 +31,10 @@ add_ideas = {
 	civilian_economy
 }
 
+1444.1.1 = { set_cosmetic_tag = FRA_formable_neutrality 
+create_faction = "house of Capetian"
+}
+
 1848.1.1 = {
 	oob = "FRA_1848"
 	starting_train_buffer = 0
@@ -130,6 +134,15 @@ add_ideas = {
 		ruling_party = democratic
 		last_election = "1934.1.1"
 		election_frequency = 48
+        elections_allowed = yes          
+    }
+# Politics for 1949.1.1
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1947.1.1"
+		election_frequency = 48
 		elections_allowed = yes
-	}
+
+
+
 }

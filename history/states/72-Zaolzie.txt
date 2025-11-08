@@ -62,7 +62,14 @@ state={
 			remove_core_of = POL
 
 		}
+<<<<<<< HEAD
+						1444.11.11.1 = {
+			owner = BOH
+			add_core_of = BOH
+		}
+=======
 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={

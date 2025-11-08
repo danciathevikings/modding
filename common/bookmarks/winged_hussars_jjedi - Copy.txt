@@ -1,0 +1,13 @@
+bookmarks = { 	
+	bookmark = {
+		name = "nukes"
+		desc = "nukes"
+		date = 1949.1.1.12
+	picture = "end_of_the_30_years_war-1"
+		default_country = "SOV"
+		"AUS" = {
+			history = "end_of_the_30_years_war_PRE"
+			ideology = neutrality
+		}
+	}
+}

@@ -55,7 +55,14 @@ state={
 		victory_points = {
 			9375 1 
 		}
+<<<<<<< HEAD
+				1444.11.11.1 = {
+			owner = BOH
+			add_core_of = BOH
+		}
+=======
 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={

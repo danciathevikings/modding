@@ -25,6 +25,12 @@ state={
 		owner = SIA
 		add_core_of = SIA
 		}
+
+		1648.1.1 = {
+		owner = SIA
+		add_core_of = SIA
+		}
+
 	}
 	
 	provinces={

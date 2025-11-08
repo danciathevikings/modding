@@ -13,6 +13,12 @@ state={
         owner = KUM
 		add_core_of = KUM
         }
+		
+						1444.1.1 = {
+        owner = TFO
+		add_core_of = TFO
+        }
+		
 		1920.1.1 = {
 			owner = SIK
 			controller = SIK

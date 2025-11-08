@@ -9,6 +9,11 @@ state={
 								1945.1.1 = {
 		owner = CRO
 		}
+		
+							1444.1.1 = {
+			owner = CRO
+			add_core_of = CRO	}
+		
 		1946.1.1 = {
 		owner = YUG
 		}

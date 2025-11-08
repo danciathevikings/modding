@@ -69,7 +69,14 @@ if = {
 
 OTO = { #Tag of the overlord
     puppet = TRA
-}
+} }
+
+1444.1.1 = {
+
+HUN = { #Tag of the overlord
+    puppet = TRA
+} }
+
 
 set_politics = {
 	ruling_party = neutrality

@@ -17,6 +17,11 @@ state={
 			}
 
 		}
+		
+							1444.1.1 = {
+			owner = OTO
+			add_core_of = OTO	}
+		
 		add_core_of = OTO
 		1920.1.1 = {
 			owner = TUR

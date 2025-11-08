@@ -11,6 +11,12 @@ state = {
                 add_core_of = ABK
 				remove_core_of = IME
                 }
+				
+										1444.1.1 = {
+				owner = GEO
+                add_core_of = GEO
+		}
+				
 		1870.1.1 = {
                 owner = RUS
                 add_core_of = RUS

@@ -21,13 +21,20 @@ promote_character=MOL_constantine
 1812.1.1 = {
 promote_character=MOL_ypsilantis
 }
+1444.1.1 = { 
+set_politics = {
+    ruling_party = neutrality
+}           
+}     
+
+
 
 1648.1.1 = {
 
 OTO = { #Tag of the overlord
     puppet = MOL
 }
-
+}
 
 1836.1.1 = {
 promote_character=MOL_mihail

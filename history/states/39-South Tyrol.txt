@@ -27,6 +27,11 @@ state={
 				1945.1.1 = {
 		owner = GER
 		}
+		
+						1444.1.1 = {
+			owner = TYR
+			add_core_of = TYR	}
+		
 		1946.1.1 = {
 		owner = ITA
 		}

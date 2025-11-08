@@ -26,6 +26,12 @@ state={
 		add_core_of = FER
                 add_core_of = VLA
                 }
+				
+								1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+				
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 2

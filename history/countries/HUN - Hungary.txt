@@ -16,6 +16,14 @@ set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long 
 set_oob = "HUN_1789"
 }
 }
+1444.1.1 = {
+
+AUS = { #Tag of the overlord
+    puppet = HUN
+}
+}
+
+
 1600.1.1 = {
 set_cosmetic_tag = HUN_AUS #austrian puppet
 }
@@ -28,6 +36,11 @@ set_cosmetic_tag = HUN_AUS #independent
 1915.1.1 = {
 set_cosmetic_tag = HUN #independent
 }
+
+1444.1.1 = {
+set_cosmetic_tag = HUN_MON
+}
+
 1789.1.1 = {
 recruit_character=HUN_koharyhun
 }

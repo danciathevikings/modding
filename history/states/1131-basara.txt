@@ -23,6 +23,12 @@ state={
 			owner = OTO
 		add_core_of = OTO
 		}
+		
+				1444.1.1 = {
+			owner = AGQ
+		add_core_of = AGQ 
+		}
+		
 		victory_points = {
 			2089 5 
 		}

@@ -50,7 +50,29 @@ state={
 			infrastructure = 3
 
 		}
+<<<<<<< HEAD
+		1566.6.1.12 = {
+			owner = AUS
+		}
+		1754.5.1.12 = {
+			owner = PRE
+		}
+		1870.7.1.12 = {
+			owner = GER
+		}
+		1945.9.2.12 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
+			remove_core_of = PRE
+		}
+						1444.11.11.1 = {
+			owner = SIL
+			add_core_of = SIL
+		}
+=======
 
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={

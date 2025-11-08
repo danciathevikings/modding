@@ -1,0 +1,29 @@
+bookmarks = {
+	bookmark = {
+		name = "rise_of_europe_name"
+		desc = "rise_of_europe_desc"
+		date = 1444.11.11.1
+	picture = "rise_of_europe-795440"
+		default_country = "ENG"
+		"TUR" = {
+			history = "rise_of_europe_TUR"
+			ideology = neutrality
+		}
+				"BYZ" = {
+			history = "rise_of_europe_BYZ"
+			ideology = neutrality
+		}
+						"SPR" = {
+			history = "rise_of_europe_SPR"
+			ideology = neutrality
+		}
+								"FRA" = {
+			history = "rise_of_europe_FRA"
+			ideology = neutrality
+		}
+										"ENG" = {
+			history = "rise_of_europe_ENG"
+			ideology = neutrality
+		}
+		}
+}

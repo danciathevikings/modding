@@ -7,4 +7,20 @@ spriteTypes = {
 		name = "GFX_prussiahre_frederick_william_small"
 		texturefile = "gfx/characters/prussiahre/prussiahre_frederick_william_small.dds"
 	}
+	spriteType = {
+		name = "GFX_prussiahre_knights_of_the_high_templars_large"
+		texturefile = "gfx/characters/prussiahre/prussiahre_knights_of_the_high_templars_large.dds"
+	}
+	spriteType = {
+		name = "GFX_prussiahre_knights_of_the_high_templars_small"
+		texturefile = "gfx/characters/prussiahre/prussiahre_knights_of_the_high_templars_small.dds"
+	}
+	spriteType = {
+		name = "GFX_prussiahre_christinaqueenofsweden_large"
+		texturefile = "gfx/characters/prussiahre/prussiahre_christinaqueenofsweden_large.dds"
+	}
+	spriteType = {
+		name = "GFX_prussiahre_christinaqueenofsweden_small"
+		texturefile = "gfx/characters/prussiahre/prussiahre_christinaqueenofsweden_small.dds"
+	}
 }

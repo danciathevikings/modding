@@ -48,6 +48,14 @@ add_ideas = {
 		elections_allowed = yes
 	}
 }
+1444.1.1 = {
+set_cosmetic_tag = papal_states
+
+set_politics = {
+    ruling_party = neutrality
+}           
+}     
+
 1866.8.1 = {
 	oob = "PAP_1866"
 	starting_train_buffer = 0

@@ -10,8 +10,13 @@ state={
 		1900.1.1 = {
 		victory_points = {
 			7376 1
+		} }
+
+						1648.1.1 = {
+		owner = CAM
+		add_core_of = CAM
 		}
-                }
+		
 		1900.1.1 = {
 		buildings = {
 			infrastructure = 1

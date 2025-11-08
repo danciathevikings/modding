@@ -12,6 +12,12 @@ state={
 			5105 1
 		}
 		}
+		
+														1444.1.1 = {
+				owner = TIM
+                add_core_of = TIM
+		}
+		
 		owner = MUG
 		add_core_of = MUG
 		1789.1.1 = {

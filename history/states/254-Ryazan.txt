@@ -1,3 +1,4 @@
+
 state={
 	id=254
 	name="STATE_254"
@@ -6,17 +7,38 @@ state={
 	state_category = town
 
 	history={
-		owner = MUS
-		add_core_of = MUS
+		owner = RYA
+		add_core_of = RYA
+		1500.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
 		victory_points = {
 			11248 1
-		}
-		1566.6.1.12 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

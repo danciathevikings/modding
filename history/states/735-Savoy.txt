@@ -1,53 +1,69 @@
-state = {
-	id = 735
-	name = "STATE_735"
 
-	state_category = town
+state={
+	id=735
+	name="STATE_735"
 
-	manpower = 907500
-
-	history = {
+	history={
 		owner = SAV
 		add_core_of = SAV
-		add_core_of = OCC
-		add_core_of = FRA
-		add_claim_by = SPM
+		1720.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = SAV
 
-		victory_points = {
-			778 1 # Annecy
 		}
+		1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = SPM
 
-		victory_points = {
-			9909 5 # Nice
 		}
+		1815.1.1 = {
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = FRA
 
+		}
+		1871.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of=SPM
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
+		1919.1.1 = {
+
+		}
+		1946.1.1 = {
+			remove_claim_by = ITA
+
+		}
+		victory_points = {
+			9909 20 
+		}
 		buildings = {
 			infrastructure = 2
-
 			9909 = {
 				naval_base = 2
+
 			}
+
 		}
-		1754.5.1.12 = {
-			owner = SPM
-			remove_core_of = SAV
-		}
-		1812.6.24.12 = {
-			owner = FRA
-		}
-		1848.1.1.12 = {
-			owner = SPM
-		}
-		1861.3.1.12 = {
-			owner = FRA
-		}
+
 	}
 
-	provinces = {
-		764 778 3764 3959 6609 6975 9603 9736 9745 9909 11573 
+	provinces={
+		3959 9909 11891 
 	}
-	
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
+	manpower=213714
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -1,6 +1,13 @@
 ﻿capital = 4 # Vienna
 
+<<<<<<< HEAD
 1444.11.11.1 ={
+=======
+1444.1.1 = { 
+
+ create_faction = "hause von habsburg"
+ }
+>>>>>>> parent of f8e8457 (merger port)
 
 AUS = {  puppet = HUN } 
 AUS = {  puppet = BOH }

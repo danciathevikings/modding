@@ -1,52 +1,84 @@
-state = {
-	id = 613
-	name = "STATE_613" # Shanghai
-	manpower = 17305100
-	
-	state_category = large_city
-	
-	history = {
 
-		owner = CHI
+state={
+	id=613
+	name="STATE_613"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
 		add_core_of = CHI
-		add_core_of = PRC
+		remove_core_of = MNG
+        }
+		1913.1.1 = {
+			owner = CHI
 
+		}
+		1933.1.1 = {
+
+		}
+		
+						1648.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+        }
+		
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            add_core_of = PRC
+
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			infrastructure = 3
+			arms_factory = 3
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+
+			}
+
+		}
+		1933.1.1 = {
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
 			air_base = 6
 			dockyard = 1
 			7014 = {
 				naval_base = 6
 				coastal_bunker = 1
 				bunker = 1
+
 			}
-		}
 
-		victory_points = {
-			11913 20 # Nanjing
 		}
+                }
 		victory_points = {
-			7014 5 # Shanghai
+			11913 30 
 		}
 		victory_points = {
-			10076 3 # Suzhou
+			10076 3 
 		}
-
-		set_demilitarized_zone = yes
-
-		1938.2.7 = {
-			set_demilitarized_zone = no
+		victory_points = {
+			7014 20 
 		}
-
 		1938.10.25 = {
 			controller = JAP
+
 		}
+
 	}
 
-	provinces = {
-		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
+	provinces={
+		996 7014 7120 10034 10076 11913 11982 12052 12076 13142 
 	}
-
-	local_supplies = 0.0 
+	manpower=16000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

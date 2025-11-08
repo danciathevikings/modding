@@ -1,42 +1,53 @@
-state = {
-	id = 928
-	name = "STATE_928"
-	manpower = 43457
-	
-	state_category = rural
-	
-	history = {
-		owner = SWE
-		add_core_of = FIN
 
-		victory_points = { #Kotka
-			3061 2
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+                owner = HUN
+                add_core_of = HUN
+		1600.1.1 = {
+			owner = OTO
 		}
-
-		victory_points = { #Kouvola
-			9183 1
+		1700.1.1 = {
+			owner = HUN
 		}
-
-		victory_points = { #Lappeenranta
-			6082 1
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
 		}
 		
+		1836.1.1 = {owner = HUN add_core_of = HUN}
+		
+		1900.1.1 = {
+			owner = AUH
+                        add_core_of = AUH
+remove_core_of = AUS
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
 		}
-		1754.5.1.12 = {
-			owner = SOV
+		victory_points = {
+			6700 5 
 		}
-		1919.1.1.12 = {
-			owner = FIN
+		1919.1.1 = {
+			owner = HUN
+			controller = HUN
+			add_core_of = HUN
+			remove_core_of = AUH
+
 		}
+
 	}
 
-
-	provinces = {
-		52 139 3061 6082 6186 9183 11056 13105 
+	provinces={
+		679 6670 6700 9656 11625 11646 14236 14243 14247 14249 14251 
 	}
-	
-	local_supplies = 0.0
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }
-

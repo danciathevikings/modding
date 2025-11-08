@@ -1,33 +1,51 @@
+
 state={
 	id=255
 	name="STATE_255"
-	manpower = 2342937
-
-	state_category = town
-
 
 	history={
-		owner = GOL
-		add_core_of = GOL
+		owner = TAT
+		add_core_of = TAT
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = TAT
+
+		}
 		buildings = {
 			infrastructure = 2
+
+		}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
 		victory_points = {
-			9258 3
+			9258 5 
 		}
-		1524.1.1.12 = {
-			owner = MUS
-			add_core_of = MUS
-		}
-		1566.6.1.12 = {
-			owner = SOV
-			add_core_of = SOV
-		}
+
 	}
 
 	provinces={
-		208 257 324 376 380 3221 3266 3317 3360 3371 6248 6291 6329 6343 6353 6382 6391 6409 9258 9276 9286 9324 9344 9380 9409 11240 11262 11269 11309 11335 11364 11393 
+		208 257 380 3221 3266 3360 6248 6291 6329 6353 6382 6409 9258 9324 9380 9409 11240 11269 11335 11364 11393 
 	}
-
-	local_supplies=0.0 
+	manpower=1342937
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

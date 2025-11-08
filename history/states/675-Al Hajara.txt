@@ -1,29 +1,40 @@
-state = {
-	id = 675
-	name = "STATE_675"
-	manpower = 222093
-	
-	state_category = wasteland
 
-	history = {
-		owner = SAU
-		add_core_of = IRQ
+state={
+	id=675
+	name="STATE_675"
 
-		victory_points = {
-			12879 1 # Samawah
-		}
-
+	history={
+		owner = ZZZ
 		buildings = {
-			#infrastructure = 1
+			infrastructure = 0
+
 		}
-		1919.1.1.12 = {
+		1900.1.1 = {
+			owner = SAU
+			add_core_of = IRQ
+
+		}
+		1919.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+		1933.1.1 = {
 			owner = IRQ
+			controller = IRQ
+			remove_core_of = OTO
+
 		}
-	}
-	
-	provinces = {
-		10744 12879 13368
+
 	}
 
-	local_supplies = 0.0 
+	provinces={
+		1631 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
 }

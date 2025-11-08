@@ -1,9 +1,0 @@
-spriteTypes = { 
-	##Icon For: aragon take sardinia
-	SpriteType = { 
-		name = "aragon_take_sardinia-794953"
-		texturefile = "gfx/interface/events/fff_gec-event/aragon_take_sardinia-794953.dds"
-	}
-
- 
- }

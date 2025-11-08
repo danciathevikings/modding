@@ -1,41 +1,72 @@
-state = {
-	id = 882
-	name = "STATE_882"
-	manpower = 230210
-	
-	state_category = rural
-	
-	resources = {
-		chromium = 6 
+
+state={
+	id=882
+	name="STATE_882"
+	resources={
+		aluminium=1.000
 	}
 
-	history = {
-		owner = OIR
-		add_core_of = OIR
-		add_core_of = KAZ
-		buildings = {
-			infrastructure = 2
+	history={
+		owner = SAL
+		add_core_of = SAL
+		1812.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+
+		}
+		1816.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = BAY
+
+		}
+		1805.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = SAL
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
 		}
 		victory_points = {
-			7708 1
+			688 10 
 		}
-		1754.5.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+		buildings = {
+			infrastructure = 2
+
 		}
-		1919.1.1.12 = {
-			owner = KAZ
-			add_core_of = RSS
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
 		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
 	}
 
-	provinces = {
-		1879 4670 4685 7317 7708 10202 10235 10630 12616
+	provinces={
+		688 3675 14595 14602 14615 
 	}
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 0.0 
+	manpower=257226
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

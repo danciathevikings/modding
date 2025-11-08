@@ -1,3 +1,4 @@
+
 state={
 	id=792
 	name="STATE_792"
@@ -6,48 +7,53 @@ state={
 	}
 
 	history={
-		owner = NAV
+		owner = SPR
 		victory_points = {
-			740 10
+			740 10 
 		}
-		add_core_of = NAV
+		1812.1.1 = {
+			controller = FRA
+
+		}
+		1813.1.1 = {
+			controller = SPR
+
+		}
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 1
 			740 = {
 				naval_base = 1
+
 			}
-			air_base = 1
+
 		}
-		1524.1.1.12 = {
-			owner = SPR
-			add_core_of = SPR
+		add_core_of = SPR
+		1900.1.1 = {
+			add_core_of = NAV
+
 		}
-		1812.6.24.12 = {
-			FRA = {	
-				set_province_controller = 740
-				set_province_controller = 3735
-				set_province_controller = 6756
-				set_province_controller = 13233
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				740 = {
+					naval_base = 1
+
+				}
+				air_base = 1
+
 			}
+
 		}
-		1848.1.1.12 = {
-			SPR = {
-				set_province_controller = 740
-				set_province_controller = 3735
-				set_province_controller = 6756
-				set_province_controller = 13233
-			}
-		}
+
 	}
 
 	provinces={
 		740 3735 6756 13233 
 	}
-	manpower=928094
+	manpower=891710
 	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=0.0 
+	state_category=rural
+	local_supplies=0.000
 }

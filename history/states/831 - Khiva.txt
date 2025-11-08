@@ -1,48 +1,58 @@
-state = {
-	id = 831
-	name = "STATE_831"
-	manpower = 258430
 
-	history = {
-		owner = TIM
-		add_core_of = TIM
+state={
+	id=831
+	name="STATE_831"
+
+	history={
 		victory_points = {
-			12465 1
+			12324 1 
 		}
-		add_core_of = SOV
-		add_core_of = UZB
-		add_core_of = KKP
-		add_core_of = KHI
+		owner = TIM
 		buildings = {
 			infrastructure = 2
+
 		}
-		1492.7.1.12 = {
-			owner = UZB
-		}
-		1524.1.1.12 = {
+		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = UZB
+                add_core_of = KKP
+                remove_core_of = KHI
+                }
+		1600.1.1 = {
 			owner = KHI
+			controller = KHI
+			add_core_of = KHI
+			remove_core_of = RUS
+
 		}
-		1900.1.1.12 = {
+		
+														1444.1.1 = {
+				owner = UZB
+                add_core_of = UZB
+		}
+		
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = KHI
-			add_core_of = TKS
-			add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
+		1993.1.1 = {
 			owner = UZB
+			controller = UZB
+			add_core_of = UZB
+			remove_core_of = SOV
+
 		}
+
 	}
 
-	provinces = {
-		10395 10435 12324 12454 12465
+	provinces={
+		10435 12324 
 	}
-	buildings_max_level_factor = 1.000
-	state_category = rural
-
-	local_supplies = 0.0 
+	manpower=258430
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

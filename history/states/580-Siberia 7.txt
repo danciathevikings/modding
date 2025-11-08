@@ -1,30 +1,39 @@
+
 state = {
 	id = 580
-	name = "STATE_580" # Tobolsk
 	manpower = 88126
-	
-	state_category = pastoral
-
+	name = "STATE_580" # Tobolsk
+	state_category = wasteland
+      impassable = yes
 	history = {
-		owner = SIB
-		add_core_of = SIB
+		owner = ZZZ
+		1600.1.1 = {
 		victory_points = {
 			1659 1
 		}
-		buildings = {
-			infrastructure = 1
-		}
+                }
+		1600.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
 		add_core_of = OVO
-		1618.4.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+                }
+		buildings = {
+			infrastructure = 0
+
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

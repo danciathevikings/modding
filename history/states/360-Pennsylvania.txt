@@ -2,46 +2,81 @@
 state={
 	id=360
 	name="STATE_360"
-	manpower = 9631346
-	
-	state_category = megalopolis
-	
 	resources={
-		steel=44 # was: 80
+		steel=44.000
 	}
 
-
 	history={
-		owner = USA
-		buildings = {
-			infrastructure = 4 #was: 8
-			industrial_complex = 5
-			dockyard = 7
-			air_base = 2
-			6845 = {
-				naval_base = 8
+		owner = ZZZ
+		1700.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1700.1.1 = {
+			buildings = {
+				infrastructure = 2
+				6845 = {
+					naval_base = 8
+
+				}
 
 			}
+
 		}
-		add_core_of = USA
-		victory_points = {
-			6845 20
-		}
-		victory_points = {
-			11800 15
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				dockyard = 8
+		1700.1.1 = {
+			victory_points = {
+				6845 20 
 			}
+
+		}
+		1700.1.1 = {
+
+		}
+		1789.1.1 = {
+			owner = USA
+			add_core_of = USA
+
+		}
+		1800.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				dockyard = 7
+				6845 = {
+					naval_base = 8
+
+				}
+
+			}
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				dockyard = 7
+				air_base = 2
+				6845 = {
+					naval_base = 8
+
+				}
+
+			}
+
+		}
+		buildings = {
+			infrastructure = 0
+
 		}
 
 	}
 
 	provinces={
-		822 847 862 891 894 3697 3824 3847 3850 3897 6845 6869 6872 6885 9804 9820 11758 11769 11785 11799 11817 13519
+		862 4218 6705 6845 6869 6899 7348 9820 11680 11799
 	}
-
-	local_supplies=0.0 
+	manpower=5631346
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

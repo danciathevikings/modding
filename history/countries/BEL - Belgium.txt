@@ -1,12 +1,145 @@
-﻿capital = 295 
+﻿1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1961.1.1 }
+        COG={set_cosmetic_tag = COG_BEL}
+	set_autonomy = {
+        target = COG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+        neutrality = 50
+}
+1789.1.1 = {
+set_party_name = { ideology = democratic long_name = BEL_VON_democratic_party_long name = BEL_VON_democratic_party }
+}
+1837.1.1 = {
+set_party_name = { ideology = democratic long_name = BEL_democratic_party_long name = BEL_democratic_party }
+}
+1789.1.1 = {
+recruit_character=BEL_frederickoforangenassau
+}
+1800.1.1 = {
+retire_character=BEL_frederickoforangenassau
+}
+1789.1.1 = {
+recruit_character=BEL_koehler
+}
+1801.1.1 = {
+retire_character=BEL_koehler
+}
+1781.1.1 = {
+recruit_character=BEL_casimir
+promote_character=BEL_casimir
+recruit_character=BEL_charles
+recruit_character=BEL_leopoldi
+recruit_character=BEL_auguste
+recruit_character=BEL_louis
 
+recruit_character=BEL_jan
+recruit_character=BEL_jean
+recruit_character=BEL_van
+recruit_character=BEL_nelis
+}
+1793.1.1 = {
+retire_character=BEL_jan
+}
+1793.1.1 = {
+retire_character=BEL_jean
+}
+1836.1.1 = {
+retire_character=BEL_van
+}
+1793.1.1 = {
+retire_character=BEL_nelis
+}
+1793.1.1 = {
+retire_character=BEL_casimir
+}
+1830.1.1 = {
+promote_character=BEL_leopoldi
+retire_character=BEL_auguste
+}
 1848.1.1 = {
-		set_capital = {
-  state = 1228
-  remember_old_capital = no
+retire_character=BEL_charles
 }
+1866.1.1 = {
+retire_character=BEL_leopoldi
+}
+1900.1.1={
+retire_character=BEL_louis
+}
+2000.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}
+}
+1837.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1832.11.27"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
+set_popularities = {
+	democratic = 83
+	fascism = 11
+	communism = 6
+}
+}
+1936.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1932.11.27"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "BEL_1789"
+}
+}
+1551.1.1 = {
+set_cosmetic_tag = BEL_spanish # Spanish Netherlands
+}
+1740.1.1 = {
+set_cosmetic_tag = BEL_AUS #austrian puppet
+}
+1790.1.1 = {
+set_cosmetic_tag = BEL_republic # United Belgian States
+}
+1836.1.1 = {
+set_cosmetic_tag = BEL # Belgium Kingdom
+}
+capital = 6 # Brussels
+1936.1.1 = {
 IF = {
 	limit = { 
 		has_dlc = "Gotterdammerung"
@@ -33,13 +166,6 @@ IF = {
 		}
 		set_oob = "BEL_1936"
 	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = { bicycle_infantry = 1 }
 }
 
 
@@ -272,7 +398,6 @@ set_variable = { BEL_belgian_resistance_resistance_target = 0.2 } #0.2
 #The Belgian Legion
 set_variable = { BEL_belgian_legion_army_infantry_attack_factor = 0 }
 set_variable = { BEL_belgian_legion_exile_manpower_factor = 0 }
-set_variable = { BEL_belgian_legion_weekly_manpower = 0 }
 
 #Rexist Legion
 set_variable = { BEL_rexist_legion_army_core_attack_factor = 0.1 }
@@ -344,7 +469,6 @@ if = {
 		recruit_character = BEL_georges_timmermans
 		recruit_character = BEL_gilles_wyvekens
 		recruit_character = BEL_fritz_conrad
-		recruit_character = BEL_raoul_van_overstraeten
 		recruit_character = BEL_georges_deffontaine
 		recruit_character = BEL_victor_strydonck_burkel
 		recruit_character = BEL_georges_vereecken
@@ -356,7 +480,6 @@ if = {
 		recruit_character = BEL_leon_degrelle
 		recruit_character = BEL_fritz_lob
 		recruit_character = BEL_jules_iserentant
-		recruit_character = BEL_paul_henri_spaak
 		recruit_character = BEL_gaston_eyskens
 		recruit_character = BEL_paul_van_zeeland
 	}
@@ -424,7 +547,7 @@ IF = {
 }
 
 
-
+}
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription
@@ -590,10 +713,10 @@ IF = {
 	}
 }
 
-
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
+	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -603,7 +726,7 @@ set_popularities = {
 	fascism = 11
 	communism = 6
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

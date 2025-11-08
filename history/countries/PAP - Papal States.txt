@@ -50,13 +50,7 @@ add_ideas = {
 }
 1444.1.1 = {
 set_cosmetic_tag = papal_states
-add_ideas = {battle_of_varna_loss}
 
-load_oob = PAP_1444
-		set_division_template_lock = {
-    division_template = "the holy cruaders"
-    is_locked = yes
-	}
 set_politics = {
     ruling_party = neutrality
 }           

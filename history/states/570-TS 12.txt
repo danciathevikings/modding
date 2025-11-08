@@ -1,36 +1,43 @@
+
 state={
 	id=570
 	name="STATE_570" # Novosibirsk
 	manpower = 1765369
 
-	state_category = town
+	state_category = rural
 
 	history={
-		owner = SIB
-		add_core_of = SIB
+		owner = ZZZ
+		1700.1.1 = {
 		victory_points = {
 			7274 3 
 		}
+                }
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			air_base = 1
 		}
-		1618.4.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+                }
+		buildings = {
+			infrastructure = 0
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
 		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

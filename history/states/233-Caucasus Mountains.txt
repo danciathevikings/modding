@@ -1,55 +1,64 @@
-state = {
-	id = 233
-	name = "STATE_233"
-	manpower = 359990
 
-	resources = {
-		chromium = 10
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		chromium=18.000
 	}
 
-	state_category = rural
+	history={
+		owner = CIR
+		add_core_of = CIR
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
 
-	history = {
-		owner = KCH
-		add_core_of = KCH
-		victory_points = {
-			11678 2
 		}
-		1789.7.14.12 = {
-			owner = CIR
-			add_core_of = CIR
-		}
-		1870.7.1.12 = {
-			owner = SOV
-			add_core_of = SOV
-		}
-		1919.1.1.12 = {
-			owner = KUB
-			add_core_of = RSS
-			add_core_of = KUB
-			add_core_of = MRC
-			MRC = {
-				set_province_controller = 11633
-				set_province_controller = 9649
-				set_province_controller = 11664
-			}
-		}
-		1933.1.30.12 = {
-			owner = SOV
-			SOV = {
-				set_province_controller = 11633
-				set_province_controller = 9649
-				set_province_controller = 11664
-			}
+		1900.1.1 = {
+			remove_core_of = CIR
+
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
+						1919.1.1 = {
+		owner = KUB
+		add_core_of=KUB
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		1840.1.1 = {
+		victory_points = {
+			9663 1 
+		}
+		}
+
 	}
 
-	provinces = {
-		714 6692 9649 9691 11633 11664 11678
+	provinces={
+		9663 
 	}
-
-	local_supplies = 0.0 
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

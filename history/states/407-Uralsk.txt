@@ -1,39 +1,44 @@
+
 state={
 	id=407
 	name="STATE_407"
-	manpower=268572
 
 	history={
-		owner = NOG
-		add_core_of = NOG
+		owner = KAZ
 		add_core_of = KAZ
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			11537 1
-		}
-		1754.5.1.12 = {
+		1900.1.1 = {
+                owner = RUS
+                }
+		1936.1.1 = {
+                add_core_of = TAJ
+                remove_core_of = KAZ
+                }
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = KAZ
-			add_core_of = RSS
+		1993.1.1 = {
+			owner = TAJ
+			controller = TAJ
+			add_core_of = TAJ
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		buildings = {
+			infrastructure = 0
+
 		}
-		2000.1.1.12 = {
-			owner = KAZ
-		}
+
 	}
 
 	provinces={
-		432 468 470 508 545 566 576 1290 1318 3404 3406 3467 3502 3515 3538 4351 6491 6525 6551 6564 6588 7438 9462 9487 9513 9526 9528 9538 9549 11457 11472 11473 11480 11482 11510 11524 11537 11538 11552
+		1919 
 	}
+	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=0.0 
+	state_category=wasteland
+	local_supplies=0.000
 }

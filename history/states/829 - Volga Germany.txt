@@ -1,55 +1,68 @@
-state = {
-	id = 829
-	name = "STATE_829" #Volga Germany
-	manpower = 618530
-	
-	state_category = rural
-	
-	resources = {
-		steel = 14
-		tungsten = 6
+
+state={
+	id=829
+	name="STATE_829"
+	resources={
+		steel=14.000
+		tungsten=6.000
 	}
 
-	history = {
-		owner = GOL
-		add_core_of = GOL
+	history={
+		owner = KAL
+		add_core_of = KAL
+		1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
+		}
 		buildings = {
 			infrastructure = 3
+
 		}
-		victory_points = {
-			11523 2
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
-		victory_points = {
-			9432 1
-		}
-		1524.1.1.12 = {
-			owner = ASK
-			add_core_of = ASK
-		}
-		1566.6.1.12 = {
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1789.7.14.12 = {
-			add_core_of = VGE
+		1946.1.1 = {
+			remove_core_of = VGE
+
 		}
-		1919.1.1.12 = {
-			add_core_of = DON
-			add_core_of = RSS
-			DON = {
-				set_province_controller = 3518
-			}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			SOV = {
-				set_province_controller = 3518
-			}
+		victory_points = {
+			11523 2 
 		}
+		victory_points = {
+			9432 1 
+		}
+
 	}
 
-	provinces = {
-		3517 3518 6479 6506 6539 6575 6601 9432 9475 11395 11460 11523 
+	provinces={
+		499 9432 11421 11460 11523 
 	}
-
-	local_supplies = 9.0 
+	manpower=618530
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=9.000
 }

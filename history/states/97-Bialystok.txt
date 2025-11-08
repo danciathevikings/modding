@@ -1,45 +1,72 @@
+
 state={
 	id=97
 	name="STATE_97"
-	manpower=1157200
 
 	history={
 		owner = LIT
-		victory_points = {
-			11301 3
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = POL
+                add_core_of = POL
 		}
-		victory_points = {
-			3393 3
+		1800.1.1 = {
+			owner = PRE
+                remove_core_of = LIT
 		}
+		1812.1.1 = {
+			owner = RUS
+                add_core_of = RUS
+                remove_core_of = POL
+		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
+		1900.1.1 = {
+			owner = RUS
+		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
+
 		}
-		add_core_of = POL
-		add_core_of = BLR
-		1618.4.1.12 = {
-			owner = POL
 		}
-		1848.1.1.12 = {
-			owner = SOV
+		victory_points = {
+			11301 3 
 		}
-		1919.1.1.12 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+								1919.1.1 = {
 			owner = BLR
+			controller = BLR
+			add_core_of = BLR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
 		}
-		1933.1.30.12 = {
+		1920.1.1 = {
 			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = BLR
+
 		}
-		1945.9.2.12 = {
-			remove_claim_by = SOV
-		}
+
 	}
 
 	provinces={
-		290 347 400 11247 11301 11357 
+		290 318 347 3256 9520 9548 11247 11301 11411 13206 14348 
 	}
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-	local_supplies=5.0 
+	local_supplies=5.000
 }

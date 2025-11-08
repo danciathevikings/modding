@@ -1,44 +1,56 @@
+
 state={
 	id=112
 	name="STATE_112"
-	manpower=1995800
-
 	resources={
-		tungsten= 32
+		tungsten=50.000
 	}
 
 	history={
 		owner = POR
 		victory_points = {
-			11805 20 
+			11805 30 
 		}
 		victory_points = {
 			3798 1 
 		}
-		buildings = {
+		victory_points = {
+			6924 1 
+		}
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 5
 			dockyard = 2
 			11805 = {
 				naval_base = 8
+
 			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			11805 = {
+				naval_base = 8
+
+			}
+
 		}
 		add_core_of = POR
-		1618.4.1.12 = {
-			owner = SPR
-		}
-		1754.5.1.12 = {
-			owner = POR
-		}
+
 	}
 
 	provinces={
-		799 3798 3861 6924 11805 
+		799 3798 3861 6924 11805 13292 13296 
 	}
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=city
-
-	local_supplies=12.0 
+	local_supplies=12.000
 }

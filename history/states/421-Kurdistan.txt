@@ -1,32 +1,61 @@
+
 state={
 	id=421
 	name="STATE_421"
-	manpower = 390139
-	
-	state_category = rural
 
 	history={
 		owner = QAR
 		add_core_of = QAR
-		buildings = {
-			infrastructure = 1
-		}
+		1600.1.1 = {
 		add_core_of = PER
 		add_core_of = KUR
-		1492.7.1.12 = {
-			owner = AQQ
-			add_core_of = AQQ
-			remove_core_of = QAR
+		remove_core_of = QAR
+		owner = OTO
 		}
-		1524.1.1.12 = {
-			owner = PER
-			remove_core_of = AQQ
+		1689.1.1 = {
+		add_core_of = PER
+		owner = PER
 		}
+		
+												1444.1.1 = {
+				owner = AGQ
+                add_core_of = AGQ
+		}
+		
+							    1800.1.1 = {
+		add_core_of = QAJ
+		remove_core_of = PER
+		owner = QAJ
+		}
+		1849.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAJ
+		owner = PER
+		}
+		victory_points = {
+			4943 5 
+		}
+		victory_points = {
+			5098 3 
+		}
+		victory_points = {
+			7604 1 
+		}
+		victory_points = {
+			1822 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
 	}
 
 	provinces={
-		829 5050 10774 
+		829 1636 1822 4943 5098 7604 9816 10774 12773 
 	}
-
-	local_supplies=0.0 
+	manpower=780278
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

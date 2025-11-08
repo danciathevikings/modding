@@ -1,39 +1,27 @@
+
 state={
 	id=988
 	name="STATE_988"
-	manpower = 512000
-
-	state_category = rural
 
 	history={
-		owner = TIM
-		add_core_of = TIM
-		add_core_of = RAJ
-		add_core_of = PAK
-		add_core_of = BLC
+		owner = FRA
 		victory_points = {
-			5105 3 # Quetta
+			13334 10
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
+
 		}
-		1524.1.1.12 = {
-			owner = PER
-		}
-		1754.5.1.12 = {
-			owner = BLC
-		}
-		1848.1.1.12 = {
-			owner = RAJ
-		}
-		1949.12.7.12 = {
-			owner = PAK
-		}
-	}
-	provinces={
-		5075 8013 12761
+		add_core_of = FRA
+
 	}
 
+	provinces={
+		6949 9523 9534 9725 11491 11518 13333 13334 13335 
+	}
+	manpower=2785750
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 	local_supplies=0.000
 }

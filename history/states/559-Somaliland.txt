@@ -1,44 +1,63 @@
+
 state={
 	id=559
 	name="STATE_559"
 
 	history={
-		owner = JWB
-		add_core_of = SOM
+		owner = ZZZ
+		1898.1.1 = {
+		buildings = {
+			infrastructure = 2
+			12991 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		1899.1.1 = {
 		victory_points = {
 			12991 3 
 		}
+		}
+		1900.1.1 = {
+		      owner = ITA
+			controller = ITA
+		add_core_of = SOM
+		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			
 			12991 = {
 				naval_base = 2
+
 			}
+
 		}
-		1618.4.1.12 = {
-			owner = SOM
-		}
-		1900.1.1.12 = {
-			owner = ITA
-		}
-		1945.9.2.12 = {
+                }
+						1945.1.1 = {
 			owner = ENG
+			controller = ENG
+			remove_core_of = ENG
+
 		}
-		1965.3.1.12 = {
+		1961.1.1 = {
 			owner = SOM
+			controller = SOM
+            remove_core_of = EGY
+		}
+		buildings = {
+			infrastructure = 0
 		}
 
 	}
-	
-	resources={
-		steel=1.000
-	}
+
 	provinces={
-		1964 2020 2063 5065 8164 10928 12840 12991 13417 13424 13433 13435 13436 13439 13454 13455 13459 13460 13468 13469 13465 13471 13470 13464
+		1964 2020 2063 5065 8164 10928 12840 12991 
 	}
-	manpower=771671
+	manpower=629495
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

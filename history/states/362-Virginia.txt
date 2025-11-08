@@ -4,10 +4,51 @@ state={
 	name="STATE_362"
 
 	history={
-		owner = USA
+            owner = ZZZ
+		1700.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 6
+			788 = {
+				naval_base = 10
+
+			}
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			788 10 
+		}
+		victory_points = {
+			10412 15
+		}
+		victory_points = {
+			11873 2
+		}
+                }
+		1700.1.1 = {
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1800.1.1 = {
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 2
+			dockyard = 4
+			788 = {
+				naval_base = 10
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3 #was: 6
 			dockyard = 4
 			air_base = 6
 			fuel_silo = 1
@@ -17,40 +58,18 @@ state={
 			}
 
 		}
-		add_core_of = USA
-		1861.3.1.12 = {
-			owner = CSA
-		add_core_of = CSA
+                }
+		buildings = {
+			infrastructure = 0
 		}
-		1870.7.1.12 = {
-			owner = USA
-			remove_core_of = CSA
-		}
-
-
-
-
-
-
-
-
-
-		victory_points = {
-			788 10 
-		}
-		victory_points = {
-			10412 15 
-		}
-
-
 	}
 
 	provinces={
-		788 865 873 951 1506 3823 3917 3925 6846 9931 10343 10412 10439 11738 11841 11873
+		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
 	}
 
 	local_supplies=11.0
-	manpower=2249080
+	manpower=1854184
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 }

@@ -1,67 +1,79 @@
+
 state={
 	id=94
 	name="STATE_94"
-	manpower=1232200
 
 	history={
 		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			add_core_of = POL
+			owner = POL
+
+		}
+		1800.1.1 = {
+			add_core_of = RUS
+			owner = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = BLR
+
+		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			3392 1
+			3392 10 
 		}
 		victory_points = {
-			560 1
+			560 1 
 		}
-		add_core_of = POL
-		add_core_of = BLR
-		1618.4.1.12 = {
+		victory_points = {
+			11528 1 
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
 			owner = POL
+			controller = POL
+			add_core_of = SOV
+			add_core_of = BLR
+                        remove_core_of = POL
+			remove_core_of = UKR
 		}
-		1812.6.24.12 = {
+		1945.1.1 = {
 			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+                        add_core_of = BLR
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
+		1993.1.1 = {
 			owner = BLR
-			SOV = {
-				set_province_controller = 3309
-				set_province_controller = 6280
-				set_province_controller = 560
-				set_province_controller = 11503
-				set_province_controller = 535
-				set_province_controller = 6579
-				set_province_controller = 11285
-				set_province_controller = 3556
-			}
+			controller = BLR
+			add_core_of = BLR
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = POL
-			POL = {
-				set_province_controller = 3309
-				set_province_controller = 6280
-				set_province_controller = 560
-				set_province_controller = 11503
-				set_province_controller = 535
-				set_province_controller = 6579
-				set_province_controller = 11285
-				set_province_controller = 3556
-			}
-		}
-		1945.9.2.12 = {
-			owner = SOV
-			remove_core_of = POL
-		}
-		2000.1.1.12 = {
-			owner = BLR
-		}
+
 	}
 
 	provinces={
-		535 560 3256 3309 3392 3496 3556 6280 6306 6415 6546 6579 9520 11285 11503 11528 
+		535 560 3392 3556 6280 6306 6415 6546 6579 11285 11441 11503 11528 11543 
 	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=0.0 
+	state_category=town
+	local_supplies=0.000
 }

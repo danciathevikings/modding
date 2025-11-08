@@ -1,77 +1,57 @@
+
 state={
 	id=28
-	name="STATE_28" # Alsace-Lorraine
-	manpower = 1915600
-	
-	state_category = city
+	name="STATE_28"
 	resources={
-		steel=42 #was 100 # was: 236
+		steel=100.000
 	}
 
 	history={
-		owner = GER
-		add_dynamic_modifier = {
-			modifier = FRA_maginot_line_dynamic_modifier
+		owner = STS
+		add_core_of = STS
+		1689.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = STS
+
 		}
 		victory_points = {
-			678 5
-		}
-		victory_points = {
-			9503 5
-		}
-		victory_points = {
-			9559 10
+			9503 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			549 = {
-				bunker = 10
-			}
-			678 = {
-				bunker = 10
-			}
-			3629 = {
-				bunker = 10
-			}
-			6529 = {
-				bunker = 10
-			}
+			infrastructure = 5
+
+		}
+		1871.1.1 = {
+			owner = GER
+			add_core_of = GER
+			controller = GER
+
+		}
+		1919.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = GER
+			controller = FRA
+
+		}
+		1900.1.1 = {
+		buildings = {
 			9503 = {
 				bunker = 10
+
 			}
-			9559 = {
-				bunker = 10
-			}
-			11502 = {
-				bunker = 10
-			}
-			anti_air_building = 5
-			air_base = 5
+
 		}
-		add_core_of = FRA
-		1566.6.1.12 = {
-			owner = GER
 		}
-		1754.5.1.12 = {
-			owner = FRA
-		}
-		1900.1.1.12 = {
-			owner = GER
-		}
-		1919.1.1.12 = {
-			owner = FRA
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
+
 	}
 
 	provinces={
-		549 678 1346 3629 6529 9503 9559 11502 
+		9503 
 	}
-
-	local_supplies=14.0 
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=14.000
 }

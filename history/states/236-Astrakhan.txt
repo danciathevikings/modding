@@ -1,45 +1,72 @@
+
 state={
 	id=236
 	name="STATE_236"
-	manpower = 647208
-	
-	state_category = rural
 
 	history={
-		owner = GOL
-		add_core_of = GOL
-		victory_points = {
-			9753 3
+		owner = KAL
+		add_core_of = KAL
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
 		}
 		victory_points = {
-			6620 5
-		}
-		1524.1.1.12 = {
-			victory_points = {
-				9753 5
-			}
-			victory_points = {
-				6620 3
-			}
-			owner = ASK
-			add_core_of = ASK
-		}
-		1566.6.1.12 = {
-			victory_points = {
-				6620 0
-			}
-			owner = SOV
-			add_core_of = SOV
+			9753 3 
 		}
 		buildings = {
 			infrastructure = 2
-			air_base = 1
+
 		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
+		}
+						1936.1.1 = {
+				buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+				}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
 	}
 
 	provinces={
-		618 757 3435 3461 3487 6486 6516 6620 9440 9455 9592 9753 11429 11579 11736 
+		757 3461 3487 9440 9594 9735 9753 11579 11706 
 	}
-
-	local_supplies=0.0 
+	manpower=547208
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

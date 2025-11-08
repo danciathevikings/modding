@@ -1,44 +1,69 @@
 
-state = {
-	id = 39
-	name = "STATE_39"
-	manpower = 298290
-	
-	state_category = town
-	
-	resources = {
-		aluminium = 14 # was: 22
+state={
+	id=39
+	name="STATE_39"
+	resources={
+		aluminium=14.000
 	}
 
-	history = {
-		victory_points = { #Bolzano
-			11598 1
+	history={
+		victory_points = {
+			11598 1 
 		}
+		owner = TYR
+        add_core_of = TYR
+		1500.1.1 = {
 		owner = AUS
+		add_core_of = AUS
+		remove_core_of = STY
+		remove_core_of = TYR
+		remove_core_of = CEL
+		remove_core_of = TRT
+		}
+						1812.1.1 = {
+			owner = BAY
+                add_core_of = BAY
+		}
+				1945.1.1 = {
+		owner = GER
+		}
+		
+						1444.1.1 = {
+			owner = TYR
+			add_core_of = TYR	}
+		
+		1946.1.1 = {
+		owner = ITA
+		}
+		1816.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+                remove_core_of = BAY
+		}
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+
 		}
-		add_core_of = ITA
-		add_core_of = LBV
-		add_claim_by = AUS
-		1566.6.1.12 = {
-			owner = AUS
-		}
-		1812.6.24.12 = {
+		1919.1.1 = {
 			owner = ITA
+			controller = ITA
+			add_core_of = ITA
+			remove_core_of = AUH
+
 		}
-		1848.1.1.12 = {
-			owner = AUS
-		}
-		1919.1.1.12 = {
-			owner = ITA
-		}
+
 	}
 
-	provinces = {
-		656 6675 9630 11598 11615
+	provinces={
+		6675 9630 11598 11615 14576 
 	}
-
-	local_supplies = 0.0 
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

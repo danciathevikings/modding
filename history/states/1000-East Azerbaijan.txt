@@ -1,45 +1,45 @@
 state={
 	id=1000
 	name="STATE_1000"
-	manpower = 715857
-	resources = {
-		steel = 6
-	}
-	
-	state_category = town
+
 	history={
-		owner = QAR
-		add_core_of = QAR
+		owner = ZZZ
+		1900.1.1 = {
+			owner = LBA
+			controller = LBA
+		add_core_of = LBA
+		add_core_of = SUD
+		add_core_of = CYR
+		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 2
+			infrastructure = 0
+
 		}
-		victory_points = {
-			1896 5 
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
 		}
-		add_core_of = PER
-		add_core_of = KUR
-		add_core_of = AZR
-		1492.7.1.12 = {
-			owner = AQQ
-			add_core_of = AQQ
-			remove_core_of = QAR
-		}
-		1524.1.1.12 = {
-			owner = PER
-			remove_core_of = AQQ
-		}
-		1754.5.1.12 = {
-			owner = AZR
-		}
-		1789.7.14.12 = {
-			owner = PER
-		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+						1945.1.1 = {
+                owner = ENG
+                }
+		1936.1.1 = {
+			owner = ITA
+                  remove_core_of = SUD
+			controller = ITA
+            }
 	}
 
 	provinces={
-		1896 2071 4755 4825 12793
+		5004 
 	}
-
-	local_supplies=4.0 
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
 }

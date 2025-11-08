@@ -1,27 +1,29 @@
+
 state={
 	id=846
 	name="STATE_846"
-	manpower = 160553
-	state_category = town
-	resources={
-		aluminium=15 # was: 24 
-	}
 	history={
 		owner = MIL
+		1600.1.1 = {
+			owner = SWI
+                add_core_of = SWI
+                remove_core_of = MIL
+		}
 		victory_points = {
-			9600 1
+			9600 2
 		}
 		buildings = {
-			infrastructure = 2 
+			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = SWI
-		1524.1.1.12 = {
-			owner = SWI
-		}
+		add_core_of = MIL
 	}
+
 	provinces={
-		3641 9600
+		3641 9600 
 	}
-	local_supplies=0.0  
+	manpower=66400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,34 +1,32 @@
+
 state={
 	id=665
 	name="STATE_665"
-	manpower=427824
-	
-	state_category = pastoral
 
 	history={
 		owner = TUN
 		add_core_of = TUN
-		victory_points = {
-			7005 1 
+		
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = EGY
+
 		}
+		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
+
 		}
-		1618.4.1.12 = {
-			owner = TUR
-		}
-		1900.1.1.12 = {
-			owner = FRA
-		}
-		1965.3.1.12 = {
-			owner = TUN
-		}
+
 	}
 
 	provinces={
-		1105 7005 10082 11935 11957 12000 13145 13179
+		1105 3987 4992 9983 10082 12000 13145 13179 
 	}
+	manpower=400000
 	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,36 +1,62 @@
+
 state={
 	id=567
-	name="STATE_567" # Bratsk
-	manpower = 410183
-
-	state_category = rural
-
-	resources={
-		aluminium=26 # was: 34
-	}
+	name="STATE_567"
 
 	history={
-		owner = BYA
-		add_core_of = BYA
+		add_core_of = CIR
+		owner = CIR
+		1867.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1900.1.1 = {
+			add_core_of = ADY
+			remove_core_of = CIR
+
+		}
+		1858.1.1 = {
+		victory_points = {
+			3720 3 
+		}
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+
 		}
-		1754.5.1.12 = {
+						1919.1.1 = {
+		owner = KUB
+		add_core_of=KUB
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
+
 	}
 
 	provinces={
-		1735 1803 1813 1876 4750 4808 7713 7769 7802 7841 7876 7902 10549 10562 10570 10664 10699 12523 
+		3717 3720 6721 6736 9696 11633 
 	}
-
-	local_supplies=0.0 
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

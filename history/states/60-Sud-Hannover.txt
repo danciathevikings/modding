@@ -1,58 +1,80 @@
-state = {
-	id = 60
-	name = "STATE_60"
-	manpower = 3005214
-	state_category = city
-	resources = {
-		steel = 9
-		chromium = 3
-		tungsten = 3
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		steel=13.000
+		chromium=3.000
+		tungsten=3.000
 	}
-	history = {
-		owner = GER
-		add_core_of = GER
+
+	history={
+		owner = THU
 		add_core_of = THU
-		add_core_of = DDR
-		victory_points = { 
-			3561 5 # Erfurt
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
 		}
-		victory_points = { 
-			425 1 # Weimar
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
 		}
-		victory_points = { 
-			538 2 # Jena
+		1950.1.1 = {
+			owner = DDR
+			add_core_of = DDR
+			remove_core_of = GER
+
+		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
+		}
+		victory_points = {
+			538 3 
+		}
+		victory_points = {
+			6501 4 
+		}
+		victory_points = {
+			482 2 
+		}
+		victory_points = {
+			3500 1 
+		}
+		victory_points = {
+			9497 1 
+		}
+		victory_points = {
+			13362 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			arms_factory = 3
+
 		}
-		1812.6.24.12 = {
-			owner = RHI
-		}
-		1848.1.1.12 = {
-			owner = THU
-		}
-		1870.7.1.12 = {
-			owner = GER
-		}
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				arms_factory = 2
-				industrial_complex = 2
-			}
-		}
-		1945.9.2.12 = {
-			owner = DDR
-		}
-		2000.1.1.12 = {
-			owner = GER
-		}
+
 	}
 
-	provinces = {
-		425 482 3500 3561 6524 13116 
+	provinces={
+		482 538 3500 6501 6524 9497 13362 13363 
 	}
-
-	local_supplies = 0.0 
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

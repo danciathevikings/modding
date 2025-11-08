@@ -1,49 +1,82 @@
+
 state={
 	id=197
 	name="STATE_197"
-	manpower = 896311
-	
-	state_category = rural
 
 	history={
-		owner = LIT
-		victory_points = {
-			11683 3
+		1800.1.1 = {
+			victory_points = {
+				11683 10 
+			}
+
+		}
+		owner = WDF
+		add_core_of = WDF
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
+		}
+		1700.1.1 = {
+			add_core_of = RUS
+			remove_core_of = ZAP
+
+		}
+		1776.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
+		1800.1.1 = {
+
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			dockyard = 1
+			infrastructure = 3
+
 		}
-		add_core_of = SOV
-		add_core_of = UKR
-		1566.6.1.12 = {
-			owner = TUR
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
 		}
-		1812.6.24.12 = {
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
+		1993.1.1 = {
 			owner = UKR
-		add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
-			owner = UKR
+			controller = UKR
+			add_core_of = UKR
 			remove_core_of = SOV
+
 		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
+
 	}
 
 	provinces={
-		574 3403 3755 6597 9573 11546 11683
+		9451 11438 11683 
 	}
-
-	local_supplies=5.0 
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=5.000
 }

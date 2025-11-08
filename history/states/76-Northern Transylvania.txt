@@ -1,53 +1,62 @@
-state = {
-	id = 76
-	name = "STATE_76"
-	manpower = 1896700
-	
-	state_category = town
-	
-	history = {
-		owner = HUN
-		add_core_of = ROM
-		add_core_of = TRA
-		add_core_of = HUN
-		victory_points = {
-			6711 5 
-		}
-		victory_points = {
-			9672 2 
-		}
 
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		owner = TRA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
-		1566.6.1.12 = {
-			owner = TRA
+		victory_points = {
+			6711 5 
 		}
-		1754.5.1.12 = {
+		add_core_of = TRA
+		1700.1.1 = {
+			owner = HUN
+		add_core_of = HUN
+                remove_core_of = TRA
+		}
+		1804.1.1 = {
 			owner = AUS
+                add_core_of = AUS
 		}
-		1861.3.1.12 = {
-			owner = HUN
+		
+		1836.1.1 = {owner = HUN add_core_of = HUN}
+		
+		1900.1.1 = {
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
 		}
-		1919.1.1.12 = {
-			owner = HUN
-			ROM = {
-				set_province_controller = 6714
-				set_province_controller = 9672
-				set_province_controller = 6731
-				set_province_controller = 727
-			}
+		1862.1.1 = {
+			add_core_of = ROM
+
 		}
-		1933.1.30.12 = {
+		1919.1.1 = {
 			owner = ROM
-			remove_core_of = HUN
+			controller = ROM
+			remove_core_of = AUH
+
 		}
+		1945.1.1 = {
+			remove_core_of = TRA
+			remove_claim_by = HUN
+
+		}
+				1444.1.1 = {
+			owner = TRA
+			add_core_of = TRA	}
 	}
 
-	provinces = {
-		713 727 746 3696 3709 6711 6714 6731 9672 9687 9704 11676
+	provinces={
+		6711 6714 6731 9672 11676 14257 14265 14269 14276 14281 
 	}
-
-	local_supplies = 9.0 
+	manpower=950000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=9.000
 }

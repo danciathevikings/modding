@@ -4,9 +4,6 @@ recruit_character=BYZ_konstantinpavlovich
 }
 1444.1.1 = {set_oob = BZY_1444
 
-set_technology = {
-gw_artillery = 1
-}
 load_focus_tree = byzantine_focus_tree
 create_faction = "eastern rome"
 

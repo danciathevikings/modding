@@ -1,36 +1,47 @@
-state = {
-	id = 822
-	name = "STATE_822"
-	manpower = 31182
 
-	history = {
-		owner = CKK
-		victory_points = {
-			13063 1 
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1936.1.1 = {
+			add_core_of = FER
+			add_core_of = CKK
+
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
+
 		}
-		add_core_of = CKK
-		add_core_of = FER
-		1789.7.14.12 = {
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = CKK
-			add_core_of = RSS
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
+
 	}
 
-	provinces = {
-		4744 5264 13062 13063 
+	provinces={
+		13063 13204 
 	}
-	buildings_max_level_factor = 1
-	state_category = "pastoral"
-
-	local_supplies = 0.0 
+	manpower=24182
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+      impassable = yes
+	local_supplies=0.000
 }

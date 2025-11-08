@@ -1,13 +1,226 @@
 ﻿capital = 88
+1789.1.1 = {
+recruit_character=POL_jozefgeneral
+recruit_character=POL_dezydgeneral
+recruit_character=POL_chlopgeneral
+recruit_character=POL_konstgeneral
+recruit_character=POL_janhegeneral
 
-1566.6.1 = {
+recruit_character=POL_henrygeneral
+recruit_character=POL_stanigeneral
+recruit_character=POL_fiszegeneral
+recruit_character=POL_cyprigeneral
+recruit_character=POL_hansmgeneral
+
+recruit_character=POL_berekgeneral
+recruit_character=POL_enrykgeneral
+recruit_character=POL_kniazgeneral
+recruit_character=POL_karolgeneral
+recruit_character=POL_jankogeneral
+
+recruit_character=POL_kossageneral
+recruit_character=POL_koziegeneral
+recruit_character=POL_wincegeneral
+recruit_character=POL_jankrgeneral
+recruit_character=POL_tomasgeneral
+
+recruit_character=POL_kazimgeneral
+recruit_character=POL_francgeneral
+recruit_character=POL_niemogeneral
+recruit_character=POL_wladygeneral
+recruit_character=POL_michageneral
+
+recruit_character=POL_poniageneral
+recruit_character=POL_florigeneral
+recruit_character=POL_pradzgeneral
+recruit_character=POL_hierogeneral
+recruit_character=POL_gedeogeneral
+
+recruit_character=POL_maciegeneral
+recruit_character=POL_erazmgeneral
+recruit_character=POL_sokolgeneral
+recruit_character=POL_sowingeneral
+recruit_character=POL_ferdygeneral
+
+recruit_character=POL_antongeneral
+recruit_character=POL_tyszkgeneral
+recruit_character=POL_jannegeneral
+recruit_character=POL_zajacgeneral
+recruit_character=POL_joanngeneral
+}
+1812.1.1 = {
+retire_character=POL_cyprigeneral
+retire_character=POL_berekgeneral
+}
+1836.1.1 = {
+retire_character=POL_janhegeneral
+retire_character=POL_fiszegeneral
+retire_character=POL_hansmgeneral
+retire_character=POL_enrykgeneral
+retire_character=POL_jankogeneral
+retire_character=POL_koziegeneral
+retire_character=POL_michageneral
+retire_character=POL_poniageneral
+retire_character=POL_florigeneral
+retire_character=POL_zajacgeneral
+retire_character=POL_sokolgeneral
+retire_character=POL_sowingeneral
+retire_character=POL_ferdygeneral
+retire_character=POL_hierogeneral
+}
+1848.1.1 = {
+retire_character=POL_jozefgeneral
+retire_character=POL_kniazgeneral
+retire_character=POL_karolgeneral
+retire_character=POL_kossageneral
+retire_character=POL_kazimgeneral
+retire_character=POL_francgeneral
+retire_character=POL_niemogeneral
+retire_character=POL_erazmgeneral
+retire_character=POL_antongeneral
+retire_character=POL_tyszkgeneral
+}
+1859.1.1 = {
+retire_character=POL_chlopgeneral
+retire_character=POL_wincegeneral
+retire_character=POL_jankrgeneral
+retire_character=POL_pradzgeneral
+retire_character=POL_joanngeneral
+retire_character=POL_jannegeneral
+retire_character=POL_gedeogeneral
+}
+1900.1.1 = {
+retire_character=POL_dezydgeneral
+retire_character=POL_konstgeneral
+retire_character=POL_henrygeneral
+retire_character=POL_stanigeneral
+retire_character=POL_tomasgeneral
+retire_character=POL_wladygeneral
+retire_character=POL_maciegeneral
+}
+1569.1.1 = {
+set_cosmetic_tag = POL_LIT # polish lithuanian commonwealth
+}
+1800.1.1 = {
+set_cosmetic_tag = POL # poland
+}
+1561.1.1 = {
+			if = {
+		limit = { has_start_date < 1796.01.01 }
+	set_autonomy = {
+        target = COU
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+recruit_character=POL_pawel
+recruit_character=POL_feliks
+recruit_character=POL_maria
+recruit_character=POL_kazimierz
+
+recruit_character=POL_katarzyna
+recruit_character=POL_anna
+recruit_character=POL_ludwik
+recruit_character=POL_jerzy
+
+recruit_character=POL_eleonora
+recruit_character=POL_elzbieta
+recruit_character=POL_jozef
+}
+1800.1.1 = {
+retire_character=POL_jerzy
+retire_character=POL_eleonora
+retire_character=POL_jozef
+}
+1812.1.1 = {
+retire_character=POL_kazimierz
+retire_character=POL_katarzyna
+retire_character=POL_anna
+retire_character=POL_ludwik
+retire_character=POL_elzbieta
+}
+1836.1.1 = {
+retire_character=POL_pawel
+retire_character=POL_maria
+}
+1852.1.1 = {
+retire_character=POL_feliks
+}
+
+
+
+
+
+
+
+1764.1.1 = {
+recruit_character=POL_stanislawiiaugust
+promote_character=POL_stanislawiiaugust
+recruit_character=POL_frederickaugustusipol
+recruit_character=POL_konstantinpavlovich
+recruit_character=POL_zajac
+recruit_character=POL_ivan
+recruit_character=POL_ponia
+}
+1800.1.1 = {
+promote_character=POL_ponia
+retire_character=POL_stanislawiiaugust
+}
+1812.1.1 = {
+promote_character=POL_frederickaugustusipol
+}
+1814.1.1 = {
+promote_character=POL_konstantinpavlovich
+}
+1821.1.1 = {
+promote_character=POL_zajac
+retire_character=POL_ponia
+}
+1836.1.1 = {
+retire_character=POL_frederickaugustusipol
+retire_character=POL_zajac
+retire_character=POL_konstantinpavlovich
+}
+1859.1.1 = {
+retire_character=POL_ivan
+}
+1926.1.1 = {
+recruit_character=POL_ignacy_moscicki
+promote_character=POL_ignacy_moscicki
+}
+1940.1.1 = {
+retire_character=POL_ignacy_moscicki
+}
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1920.1.1 }
+set_oob = "POL_1919"
+}
+}
+1814.1.1 = {
+set_cosmetic_tag = POL_RUS_only # Kingdom of Poland necessarily Congress Poland
+}
+1815.11.11 = {
+set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland
+}
+1915.1.1 = {
+set_cosmetic_tag = POL # Modern
+}
+1600.1.1 = {
 		set_capital = {
   state = 10
   remember_old_capital = no
 }
 }
-
-
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "POL_1789_1815"
+}
+}
+1936.1.1 = {
 oob = "POL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -36,11 +249,13 @@ if = {
 		}
 	}
 }
+}
 
 set_research_slots = 3
 
 # Starting tech
-set_technology = {
+1936.1.1 = {
+	set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
@@ -55,7 +270,13 @@ set_technology = {
 	synth_oil_experiments = 1
 	basic_train = 1
 }
-
+}
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+}
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -92,6 +313,8 @@ if = {
 		basic_depth_charges = 1
 	}
 }
+}
+1936.1.1 = {
 if = {
 	limit = { has_dlc = "No Step Back" }
 	set_variable = {
@@ -116,11 +339,55 @@ if = {
 		POL_sanation_right_opposition_1
 	}
 }
-
-
+}
+1936.1.1 = {
 85 = {
 	add_dynamic_modifier = { modifier = international_city }
 }
+}
+1940.1.1 = {
+85 = {
+	remove_dynamic_modifier = { modifier = international_city }
+}
+}
+
+
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = POL_JAG_neutrality_party_long name = POL_JAG_neutrality_party }
+}
+1600.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_VAS_neutrality_party_long name = POL_VAS_neutrality_party }
+}
+1700.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
+}
+1776.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_PON_neutrality_party_long name = POL_PON_neutrality_party }
+}
+1801.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
+}
+1800.1.1 = {
+COU={
+set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
+}
+}
+1800.1.1 = {
+			if = {
+		limit = { has_start_date < 1900.1.1 }
+LIT={set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }}
+}
+}
+1814.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_ROS_neutrality_party_long name = POL_ROS_neutrality_party }
+}
+1919.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_neutrality_party_long name = POL_neutrality_party }
+}
+1940.1.1 = {
+set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
+}
+
 
 1939.1.1 = {
 	
@@ -206,13 +473,11 @@ if = {
 				basic_medium_airframe = 1
 				engines_2 = 1
 				improved_small_airframe = 1
-				bba_early_transport_plane = 1
 			}
 		else = {
 			set_air_oob = "POL_1939_air_legacy"
 			set_technology = {
 				tactical_bomber1 = 1
-				early_transport_plane = 1
 			}
 		}
 	}
@@ -233,6 +498,7 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
+		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -252,9 +518,6 @@ if = {
 		concentrated_industry2 = 1
 		concentrated_industry3 = 1
 		concentrated_industry4 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {
@@ -347,7 +610,34 @@ if = {
 
 
 set_convoys = 10
-
+1936.1.1 = {
+    set_autonomy = {
+        target = DNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+1946.1.1 = {
+    set_autonomy = {
+        target = DNZ
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 32
+	fascism = 11
+	communism = 19
+	neutrality = 38
+}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.9.8"
@@ -369,8 +659,35 @@ set_popularities = {
 		neutrality = 78
 	}
 }
-
-recruit_character = POL_ignacy_moscicki
+1950.1.1 = {
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 41
+	fascism = 6
+	communism = 45
+	neutrality = 8
+}
+}
+1993.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1993.9.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 79
+	fascism = 7
+	communism = 7
+	neutrality = 7
+}
+}
+1936.1.1 = {
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
 recruit_character = POL_wladyslaw_gomulka
@@ -447,19 +764,13 @@ if = {
 	recruit_character = POL_henryk_floyar_rajchman
 	recruit_character = POL_sejmik_regency
 }
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	recruit_character = POL_jan_zumbach
-}
 
 if = {
 	limit = {
 		has_dlc = "La Resistance"
 	}
 	create_operative_leader = {
-		name = POL_roman_czerniawsi
+		name = "Roman Czerniawski"
 		GFX = GFX_portrait_roman_czerniawski
 		traits = { }
 		bypass_recruitment = no
@@ -468,7 +779,7 @@ if = {
 	}
 
 	create_operative_leader = {
-		name = POL_krystyna_skarbek
+		name = "Krystyna Skarbek"
 		GFX = GFX_portrait_krystyna_skarbek
 		traits = { operative_commando operative_seducer }
 		bypass_recruitment = no
@@ -477,7 +788,6 @@ if = {
 		nationalities = { POL }
 	}
 }
-
 if = {
 	limit = {
 		NOT = {
@@ -519,35 +829,15 @@ if = {
 			special_type_slot_1 = empty
 		}
 	}
-	if = {
-		limit = {
-			has_dlc = "Poland: United and Ready"
+	create_equipment_variant = {
+		name = "PZL P.23"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
 		}
-		create_equipment_variant = {
-			name = "PZL P.23"
-			type = small_plane_cas_airframe_1
-			modules = {
-				fixed_main_weapon_slot = bomb_locks
-				engine_type_slot = engine_1_1x
-				special_type_slot_1 = lmg_defense_turret
-			}
-			icon = "GFX_POL_CAS1_medium"
-		}		
 	}
-	if = {
-		limit = {
-			NOT = { has_dlc = "Poland: United and Ready" }
-		}
-		create_equipment_variant = {
-			name = "PZL P.23"
-			type = small_plane_cas_airframe_1
-			modules = {
-				fixed_main_weapon_slot = bomb_locks
-				engine_type_slot = engine_1_1x
-				special_type_slot_1 = lmg_defense_turret
-			}
-		}		
-	}	
 }
 
 ### VARIANTS ###
@@ -556,118 +846,59 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-
-	IF = {
-		limit = { has_dlc = "Poland: United and Ready"} 
-
-		create_equipment_variant = {
-			name = "TKS"
-			type = light_tank_chassis_0
-			parent_version = 0
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_fixed_superstructure_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_gasoline_engine
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 1
-				tank_nsb_engine_upgrade = 1
-			}
-			obsolete = yes #used for oob
-			icon = "GFX_POL_basic_light_tank_medium"
+	create_equipment_variant = {
+		name = "TKS"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_fixed_superstructure_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		create_equipment_variant = {
-			name = "7TP dw"
-			type = light_tank_chassis_0
-			parent_version = 1
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_one_man_tank_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_diesel_engine
-				special_type_slot_1 = secondary_turret_hmg
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 2
-				tank_nsb_engine_upgrade = 2
-			}
-			icon = "GFX_POL_improved_light_tank_medium"
+		upgrades = {
+			tank_nsb_armor_upgrade = 1
+			tank_nsb_engine_upgrade = 1
 		}
-		create_equipment_variant = {
-			name = "7TP jw"
-			type = light_tank_chassis_0
-			parent_version = 2
-			modules = {
-				main_armament_slot = tank_high_velocity_cannon
-				turret_type_slot = tank_light_two_man_tank_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_diesel_engine
-				special_type_slot_1 = empty
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 2
-				tank_nsb_engine_upgrade = 2
-			}
-			icon = "GFX_POL_improved_light_tank_medium"
-		}
+		obsolete = yes #used for oob
+		icon = "GFX_POL_basic_light_tank_medium"
 	}
-
-	ELSE = {
-		create_equipment_variant = {
-			name = "TKS"
-			type = light_tank_chassis_0
-			parent_version = 0
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_fixed_superstructure_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_gasoline_engine
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 1
-				tank_nsb_engine_upgrade = 1
-			}
-			obsolete = yes #used for oob
+	create_equipment_variant = {
+		name = "7TP dw"
+		type = light_tank_chassis_0
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = secondary_turret_hmg
 		}
-		create_equipment_variant = {
-			name = "7TP dw"
-			type = light_tank_chassis_0
-			parent_version = 1
-			modules = {
-				main_armament_slot = tank_heavy_machine_gun
-				turret_type_slot = tank_light_one_man_tank_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_diesel_engine
-				special_type_slot_1 = secondary_turret_hmg
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 2
-				tank_nsb_engine_upgrade = 2
-			}
+		upgrades = {
+			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 2
 		}
-		create_equipment_variant = {
-			name = "7TP jw"
-			type = light_tank_chassis_0
-			parent_version = 2
-			modules = {
-				main_armament_slot = tank_high_velocity_cannon
-				turret_type_slot = tank_light_two_man_tank_turret
-				suspension_type_slot = tank_bogie_suspension
-				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_diesel_engine
-				special_type_slot_1 = empty
-			}
-			upgrades = {
-				tank_nsb_armor_upgrade = 2
-				tank_nsb_engine_upgrade = 2
-			}
+		icon = "GFX_POL_improved_light_tank_medium"
+	}
+	create_equipment_variant = {
+		name = "7TP jw"
+		type = light_tank_chassis_0
+		parent_version = 2
+		modules = {
+			main_armament_slot = tank_high_velocity_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			special_type_slot_1 = empty
 		}
+		upgrades = {
+			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 2
+		}
+		icon = "GFX_POL_improved_light_tank_medium"
 	}
 #	add_equipment_to_stockpile = {
 #		type = light_tank_chassis_0
@@ -712,7 +943,7 @@ if = {
 	}
 }
 
-
+}
 # 1939 Start #
 1939.1.1 = {
 	if = {

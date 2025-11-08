@@ -1,41 +1,78 @@
+
 state={
 	id=908
 	name="STATE_908"
 
-	history = {
-		set_variable = {
-			908.ETH_state_development_production_speed = -0.3
+	history={
+		owner = TEU
+		add_core_of = TEU
+		1950.1.1 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
 
 		}
-		set_variable = {
-			ETH_state_development_local_building_slots_factor = -0.3
+		1500.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
 		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_development_dynamic_modifier
+		
+				1444.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		
+		1700.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		1701.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = TEU
+			remove_core_of = BDB
+			remove_core_of = POM
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
 
 		}
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-		}
-		victory_points = {
-			13240 2 
-		}
-		owner = AFA
-		add_core_of = ETH
-		add_core_of = AFA
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
+			infrastructure = 2
 
 		}
 
 	}
 
 	provinces={
-		5041 13236 13240 13418 13421 13444 13447 
+		537 6236 6390 9277 9387 13429 
 	}
-	manpower=560000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

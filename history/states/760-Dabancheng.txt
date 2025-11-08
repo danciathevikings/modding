@@ -2,19 +2,43 @@ state={
 	id=760
 	name="STATE_760"
 	provinces={
-		1838 4843 7732 10839 12524 12598 12671 
+		1838 4704 4843 7732 10839 12524 12598 12671 
 	}
-	manpower=700000
+	manpower=400000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = pastoral
 	history={
-		owner = SIK
+		owner = ZZZ
+		1700.1.1 = {
+        owner = KUM
+		add_core_of = KUM
+        }
+		
+						1444.1.1 = {
+        owner = TFO
+		add_core_of = TFO
+        }
+		
+		1920.1.1 = {
+			owner = SIK
+			controller = SIK
 		add_core_of = SIK
-		add_core_of = CHI
+            remove_core_of = KUM
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = AUH
 		add_core_of = PRC
+                remove_core_of = SIK
+		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
+			infrastructure = 0
 		}
 	}
 

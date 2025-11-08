@@ -1,47 +1,33 @@
+
 state={
 	id=788
 	name="STATE_788"
-
-	resources={
-		tungsten=10.000 #added due to Portugal Setup
-	}
 	history={
-		owner = SPR
+		owner = MOR
+		add_core_of = MOR
+		1500.1.1 = {
+            add_core_of = SPR
+            owner = SPR
+			remove_core_of = MOR
+            }
 		victory_points = {
-			3874 1 
+			12100 2 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-		}
-		add_core_of = SPR
-		1812.6.24.12 = {
-			FRA = {
-				set_province_controller = 794
-				set_province_controller = 874
-				set_province_controller = 3874
-				set_province_controller = 6867
-				set_province_controller = 9770
-				set_province_controller = 13221
+			infrastructure = 2
+			12100 = {
+				naval_base = 3
+
 			}
-		}
-		1848.1.1.12 = {
-			SPR = {
-				set_province_controller = 794
-				set_province_controller = 874
-				set_province_controller = 3874
-				set_province_controller = 6867
-				set_province_controller = 9770
-				set_province_controller = 13221
-			}
+
 		}
 	}
 
 	provinces={
-		794 874 3874 6867 9770 13221 
+		12100 
 	}
-	manpower=364601
+	manpower=70000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

@@ -1,32 +1,53 @@
+
 state={
 	id=222
 	name="STATE_222"
 	manpower = 1218607
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
-		steel=40
-		chromium=8
+		steel=40 # was: 76
+		chromium=8 # was: 12
 	}
 
 	history={
-		owner = LIT
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
+		}
 		victory_points = {
 			9355 10
 		}
-		buildings = {
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			air_base = 4
 		}
-		1524.1.1.12 = {
-			owner = MUS
-			add_core_of = MUS
 		}
-		1566.6.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+		}
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

@@ -1,34 +1,66 @@
+
 state={
 	id=680
 	name="STATE_680"
-	manpower = 204110
-	
-	state_category = wasteland
 
 	history={
-		owner = SYR
+		owner = AGQ
+		add_core_of = AGQ
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
+		
+										1444.1.1 = {
+				owner = QAR
+                add_core_of = QAR
+		}
+		
 		victory_points = {
-			3942 1
+			1549 1 
 		}
 		victory_points = {
-			1549 1
+			6883 1 
 		}
 		buildings = {
 			infrastructure = 1
-		}
-		add_core_of = SYR
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1919.1.1.12 = {
-			owner = SYR
-		}
-	}
 
+		}
+		1900.1.1={
+		add_core_of = SYR
+	}
+		add_core_of = KUR
+
+		1919.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = OTO
+		}
+		1936.1.1 = {
+			owner = SYR
+            }
+		1945.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = SPR
+		}
+
+	}
 
 	provinces={
-		2013 3942 7513 10383 12442
+		901 1549 1578 1606 1634 6883 10882 13743 
 	}
-
-	local_supplies=4.0 
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=4.000
 }

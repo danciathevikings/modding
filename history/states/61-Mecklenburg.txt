@@ -1,51 +1,81 @@
-state = {
-	id = 61
-	name = "STATE_61"
-	manpower = 836353
 
-	state_category = town
+state={
+	id=61
+	name="STATE_61"
 
-	history = {
+	history={
 		owner = MEK
-		add_core_of = GER
 		add_core_of = MEK
+		1950.1.1 = {
+			owner = DDR
+			add_core_of = DDR
+			remove_core_of = GER
 
-		victory_points = {
-			321 5 # Rostocj
 		}
+		2000.1.1 = {
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
 
-		victory_points = {
-			11305 3 # Lübeck
 		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
 
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
+		victory_points = {
+			321 5 
+		}
+		victory_points = {
+			14358 1 
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				dockyard = 1
+				321 = {
+					naval_base = 6
+
+				}
+				air_base = 3
+
+			}
+
+		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
+			arms_factory = 1
+			dockyard = 1
 			321 = {
 				naval_base = 6
+
 			}
-			air_base = 3
+
 		}
-		1812.6.24.12 = {
-			owner = RHI
-		}
-		1848.1.1.12 = {
-			owner = MEK
-		}
-		1870.7.1.12 = {
-			owner = GER
-		}
-		1945.9.2.12 = {
-			owner = DDR
-		}
-		2000.1.1.12 = {
-			owner = GER
-		}
+
 	}
 
 	provinces={
-		268 293 321 9294 11276 11305 
+		268 293 321 9294 11276 14199 14354 14355 14356 14358 14359 14365 
 	}
-
-	local_supplies=3.0 
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=3.000
 }

@@ -1,40 +1,52 @@
+
 state={
 	id=108
 	name="STATE_108"
 	resources={
-		steel=3
+		steel=3.000
 	}
 
 	history={
-		owner = SER
 		victory_points = {
-			9602 3 
+			9602 10 
+		}
+		victory_points = {
+			13775 1 
+		}
+		owner = SER
+		1500.1.1 = {
+			owner = OTO
+
+		}
+		1900.1.1 = {
+			owner = SER
+
+		}
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+			remove_core_of = YUG
+
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SER
-		1492.7.1.12 = {
-			owner = TUR
-		}
-		1900.1.1.12 = {
-			owner = SER
-		}
-		1919.1.1.12 = {
-			owner = YUG
-			add_core_of = YUG
-		}
-		2022.2.23.12 = {
-			owner = SER
-		}
+
 	}
 
 	provinces={
-		630 6970 6998 9602 9756 9906 11887
+		6953 9602 9906 13775 
 	}
-	manpower=540000
+	manpower=400000
 	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=5.0 
+	state_category=pastoral
+	local_supplies=5.000
 }

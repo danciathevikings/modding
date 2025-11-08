@@ -1,58 +1,76 @@
-state = {
-	id = 200
-	name = "STATE_200" # Zaporozhe
-	manpower = 1294082
-	state_category = town
 
-	history = {
+state={
+	id=200
+	name="STATE_200"
+
+	history={
 		owner = CRI
-		add_core_of = UKR
+		add_core_of = CRI
+		1700.1.1 = {
+			remove_core_of = CRI
+			owner = RUS
+			add_core_of = RUS
 
+		}
+		1770.1.1 = {
+			victory_points = {
+				11405 10 
+			}
+
+		}
+						1800.1.1 = {
 		victory_points = {
-			11405 1 # Zaporozhe
+			12163 2
 		}
-
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			air_base = 3
-			# Dnieprostroi Hydroelectric Station
-			11405 = { dam = 1 }
+			infrastructure = 3
+			industrial_complex = 1
+
 		}
-		1789.7.14.12 = {
-			owner = SOV
-			add_core_of = SOV
+		1900.1.1 = {
+			add_core_of = UKR
+
 		}
-		1919.1.1.12 = {
+		1919.1.1 = {
 			owner = MAK
-		add_core_of = RSS
-		add_core_of = MAK
-			RSS = {
-				set_province_controller = 429
-				set_province_controller = 6596
-				set_province_controller = 3767
-				set_province_controller = 9571
-				set_province_controller = 6993
-				set_province_controller = 9729
-				set_province_controller = 11700
-			}
+			add_core_of = MAK
+			remove_core_of = RUS
+			remove_core_of = GLL
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
-			owner = UKR
-			remove_core_of = SOV
-		}
-		1939.1.1 = {
+		1936.1.1 = {
 			buildings = {
+				infrastructure = 3
 				industrial_complex = 1
+				air_base = 3
+
 			}
+
 		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = MAK
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
 	}
 
-	provinces = {
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+	provinces={
+		429 3399 3767 4636 11405 12163 12329 13792 
 	}
-
-	local_supplies = 0.0 
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

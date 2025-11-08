@@ -2,30 +2,27 @@
 state={
 	id=674
 	name="STATE_674"
-	impassable = yes
 
 	history={
-		owner = JWB
-		buildings = {
-			infrastructure = 1
-
-		}
-		1848.1.1.12 = {
-			owner = ENG
-		}
-		1914.1.1.12 = {
+		owner = ZZZ
+		1789.1.1 = {
 			owner = AST
-		add_core_of = AST
+			controller = AST
+            add_core_of = AST
+		}
+		buildings = {
+			infrastructure = 0
+
 		}
 
 	}
 
 	provinces={
-		2133 2177 2186 5138 7623 8134 8155 8237 10473 10979 11013 12904 12912 12915 12926 13132 
+		5206 
 	}
-	manpower=30000
+	manpower=22000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-
-	local_supplies=0.0 
+	impassable = yes
+	local_supplies=0.000
 }

@@ -2,27 +2,62 @@
 state={
 	id=382
 	name="STATE_382"
-	manpower = 1035790
 	resources={
-		oil=14 # was: 20
+		oil=14.000
 	}
-	
-	state_category = town
 
 	history={
-		owner = USA
+		owner = ZZZ
+		1789.1.1 = {
+		victory_points = {
+			1827 5 
+		}
+                }
+						1776.1.1 = {
+        owner = LOU
+		add_core_of = LOU
+        }
+		1789.1.1 = {
+        owner = LOU
+		add_core_of = LOU
+        }
+		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1813.1.1 = {
+        owner = UNO
+        add_core_of = UNO
+		remove_core_of = MRI
+        }
+				1837.1.1 = {
+        owner = USA
+        add_core_of = USA
+		remove_core_of = UNO
+        }
+		1803.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = USA
-
-
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
 	}
 
 	provinces={
-                 1809 1827 3869 7780 11772 12570 12642
+		1809 1827 7780 10588 11772 12570 12642 
 	}
-
-	local_supplies=8.0 
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=8.000
 }

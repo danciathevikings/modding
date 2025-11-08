@@ -1,31 +1,35 @@
+
 state={
 	id=457
-	name="STATE_457" # Arabian Desert
-	manpower = 2194
-	
-	state_category = wasteland
-	
-	history = {
+	name="STATE_457"
+
+	history={
 		owner = EGY
 		buildings = {
-			infrastructure = 1
-		}
+			infrastructure = 0
 
+		}
+		
+								1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		victory_points = {
-			12002 1
+			12002 1 
 		}
-
 		add_core_of = EGY
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1812.6.24.12 = {
-			owner = EGY
-		}
-	}
-	provinces={
-		1080 4068 4910 5069 7156 9957 10126 12002 12889 
+
 	}
 
-	local_supplies=0.0 
+	provinces={
+		1080 2064 4068 4910 5069 7156 9957 10126 10869 12002 12099 12816 12889 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
 }

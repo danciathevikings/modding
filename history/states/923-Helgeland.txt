@@ -1,38 +1,40 @@
-state = {
-	id = 923
-	name = "STATE_923"
-	manpower = 88812
-	
-	state_category = rural
-	
-	resources = {
-		steel = 3 
-		tungsten = 5
-	}
 
-	history = {
-		owner = NOR
-		add_core_of = NOR
-		add_core_of = SMI
-		
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = OTO
+		add_core_of = BYZ
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = BYZ
+		}
+						1789.1.1 = {
+                owner = ALB
+                }
+				1823.1.1 = {
+                owner = OTO
+                }
+		1900.1.1 = {
+		owner = GRE
+		add_core_of = GRE
+		}
 		victory_points = {
-			3048 1
+			3973 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+
 		}
-		1524.1.1.12 = {
-			owner = DEN
-		}
-		1848.1.1.12 = {
-			owner = NOR
-		}
+
 	}
 
-
-	provinces = {
-		173 3048 3088 3126 6071 6111 6187 9208 
+	provinces={
+		863 3864 3973 6930 11786 11895 13797 13798 13799 13801 
 	}
-
-	local_supplies = 0.0
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

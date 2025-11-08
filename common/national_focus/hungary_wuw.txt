@@ -1,32 +1,33 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
-### search_filters = {FOCUS_FILTER_RESEARCH}
-### search_filters = {FOCUS_FILTER_INDUSTRY}
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
-
 focus_tree = {
 	id = wuw_hungarian_focus
-
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
-
 		modifier = {
-			add = 50
+			add = 10
 			tag = HUN
-			always = no
-
-			has_dlc = "Gotterdammerung"
 		}
-	}
-
-	default = no
-
-	continuous_focus_position = { x = 50 y = 1750 }
+	}	
 
 
+			focus = {
+		id = HUN_1444_start
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0	
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+				completion_reward = {	GER = { add_political_power = 150 }}
+		prerequisite = { focus =   }
+        mutually_exclusive = { focus = }
+		available = {  }
 
+	
+	
+	
+}
 
 
 

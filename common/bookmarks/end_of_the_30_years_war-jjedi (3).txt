@@ -4,9 +4,9 @@ bookmarks = {
 		desc = "end_of_the_30_years_war_desc"
 		date = 1648.1.1.12
 	picture = "end_of_the_30_years_war-1"
-		default_country = "AUS"
-		"AUS" = {
-			history = "AUS"
+		default_country = ""
+		"PRE" = {
+			history = "end_of_the_30_years_war_PRE"
 			ideology = neutrality
 		}
 	}

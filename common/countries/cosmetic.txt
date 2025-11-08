@@ -1564,7 +1564,3 @@ AUS_HRE = {
 	 color_ui = rgb { 102 0 102 }
 	}
 
-SPQR_UNIFIED_fascism = { 
-	 color = rgb { 3 6 152 }
-	 color_ui = rgb { 102 0 102 }
-	}

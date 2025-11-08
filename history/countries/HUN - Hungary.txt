@@ -17,7 +17,7 @@ set_oob = "HUN_1789"
 }
 }
 1444.1.1 = {
-add_ideas = {battle_of_varna_loss}
+
 AUS = { #Tag of the overlord
     puppet = HUN
 }

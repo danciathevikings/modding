@@ -1,36 +1,52 @@
-state = {
-	id = 465
-	name = "STATE_465"
-	manpower = 475020
+
+state={
+	id=465
+	name="STATE_465"
+	manpower = 400000
 	
-	state_category = rural
+	state_category = pastoral
 
-	history = {
+	history={
 
+		owner = ZZZ
+                1700.1.1 = {
+			owner = FRA
+			controller = FRA
+		}
+        1776.1.1 = {
 		owner = CAN
-		add_core_of = CAN
-
+		add_core_of=CAN
+		}
+                1738.1.1 = {
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			infrastructure = 1
 			4285 = {
 				naval_base = 2
 			}
 		}
-
-		victory_points = {
-			1424 2 
 		}
-
-		victory_points = {
-			4285 1 
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
 		}
-		
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+			4285 = {
+				naval_base = 2
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
 	}
 
-	provinces = {
-		634 1424 4285 4342 4432 7379 12289 
+	provinces={
+		634 1424 4285 4342 4362 4432 7379 12289 
 	}
 
-	local_supplies = 0.0 
+	local_supplies=0.0 
 }

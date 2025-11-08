@@ -1,45 +1,78 @@
-state = {
-	id = 582
-	name = "STATE_582"
-	manpower = 1044991
 
-	resources = {
-		steel = 40
-		oil = 6
+state={
+	id=582
+	name="STATE_582"
+	resources={
+		steel=40.000
+		oil=6.000
 	}
 
-	history = {
-		owner = UZB
-		add_core_of = UZB
-		victory_points = {
-			10256 3 # Magnitogorsk
-		}
-		victory_points = {
-			4311 1 # Beloretsk
+	history={
+		owner = TAT
+		add_core_of = TAT
+		1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2
+
 		}
-		1524.1.1.12 = {
-			owner = KAZ
+						1789.1.1 = {
+			owner = BSK
+		add_core_of = BSK
+		remove_core_of = ZAP
+		remove_core_of = RUS
+		remove_core_of = POL
 		}
-		1861.3.1.12 = {
+		1800.1.1 = {
+			owner = RUS
+		remove_core_of = ZAP
+		remove_core_of = KIE
+		remove_core_of = POL
+		}
+		1801.1.1 = {
+		add_core_of = RUS
+		}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			add_core_of = BSK
+			remove_core_of = TAT
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = RSS
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		victory_points = {
+			10329 1 
 		}
+
 	}
 
-	provinces = {
-		1334 1406 4215 4261 4265 4311 4383 4411 7281 7328 7373 7401 10185 10196 10224 10256 12200 
+	provinces={
+		4261 4265 4311 4383 7300 7373 10185 10329 11223 12200 
 	}
-	buildings_max_level_factor = 1.000
-	state_category = rural
-
-	local_supplies = 0.0 
+	manpower=1044991
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

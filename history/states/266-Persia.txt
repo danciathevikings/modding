@@ -1,48 +1,42 @@
+
 state={
 	id=266
 	name="STATE_266" # Tehran
 	manpower = 3446250
-	resources = {
-		aluminium = 2
-		tungsten = 2
-	}
 	
-	state_category = city
+	state_category = pastoral
 
 	history={
 		owner = TIM
 		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
+		owner = PER
+		}
+	    1789.1.1 = {
+		add_core_of = QAJ
+		remove_core_of = PER
+		owner = QAJ
+		}
+		1849.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAJ
+		owner = PER
+		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
 			air_base = 3
-			
-			10837 = {
-                landmark_sadabad_complex = {
-                    level = 1
-                    allowed = {
-                        has_dlc = "Graveyard of Empires"
-                    }
+		}
                 }
-			}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
 		}
 		victory_points = {
-			10837 10 
-		}
-		add_core_of = PER
-		1492.7.1.12 = {
-			owner = AQQ
-			add_core_of = AQQ
-		}
-		1524.1.1.12 = {
-			owner = PER
-		}
-		1754.5.1.12 = {
-			owner = AZR
-		}
-		1789.7.14.12 = {
-			owner = PER
+			10837 20 
 		}
 	}
 
@@ -50,5 +44,5 @@ state={
 		4580 7602 10385 10768 10837 
 	}
 
-	local_supplies=5.0 
+	local_supplies=0.0 
 }

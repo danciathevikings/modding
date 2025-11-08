@@ -1,37 +1,46 @@
+
 state={
 	id=513
-	name="STATE_513" # Tlmecen
-	manpower = 811486
-	
-	state_category = wasteland
+	name="STATE_513"
 
 	history={
-		owner = TLE
-		add_core_of = TLE
+		owner = ALG
 		add_core_of = ALG
-		victory_points = {
-			12034 1 
+		1836.1.1 = {
+                owner = FRA
+                }
+				
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = EGY
+
 		}
+				
+		1962.1.1 = {
+                owner = ALG
+                add_core_of = ALG
+                }
 		victory_points = {
-			4150 5 
+			7132 5 
 		}
 		buildings = {
 			infrastructure = 1
+			7132 = {
+				naval_base = 6
+
+			}
+
 		}
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1848.1.1.12 = {
-			owner = FRA
-		}
-		1965.3.1.12 = {
-			owner = ALG
-		}
+
 	}
 
 	provinces={
-		1128 1141 3991 4150 7008 7033 7040 7149 9960 10045 10059 12020 12034 12888
+		1013 4116 4150 7132 9964 11923 
 	}
-
-	local_supplies=0.0 
+	manpower=811486
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

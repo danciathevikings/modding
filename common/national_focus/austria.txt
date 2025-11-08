@@ -8,15 +8,12 @@ focus_tree = {
 			tag = AUS
 		}
 	}
-	default = no
-initial_show_position = { focus = AUS_1444_start}
-		
-		
+
 		focus = {
 		id = AUS_1444_start
 		icon = GFX_goal_unknown
-		x = 24
-		y = 2
+		x = 12
+		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -28,21 +25,28 @@ initial_show_position = { focus = AUS_1444_start}
 		available = { }
 	}
 			focus = {
-		id = AUS_1444_aftermath_of_varna
+		id = AUS_1444_the_empire
 		icon = GFX_goal_unknown
-		x = 0
+		x = 22
 		y = 1
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+<<<<<<< HEAD
 		relative_position_id = AUS_1444_start
 		completion_reward = {    	 }
 		prerequisite = { focus = AUS_1444_start  }
+=======
+		
+		completion_reward = {    	 }
+		prerequisite = { focus =  AUS_1444_start }
+>>>>>>> parent of f8e8457 (merger port)
         mutually_exclusive = { focus =   }
 		available = { }
 	}
 	
+<<<<<<< HEAD
 	#####HRE PATH
 	
 			focus = {
@@ -78,6 +82,8 @@ initial_show_position = { focus = AUS_1444_start}
 		available = { }
 	}
 
+=======
+>>>>>>> parent of f8e8457 (merger port)
 
 	
 	

@@ -1,32 +1,24 @@
-state = {
-	id = 462
-	name = "STATE_462"
-	manpower = 1415552
-	
-	state_category = wasteland
 
-	history = {
+state={
+	id=462
+	name="STATE_462"
+
+	history={
 		owner = MOR
 		add_core_of = MOR
-
-		victory_points = {
-			4108 3 # Marrakesh
-		}
-
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
+
 		}
-		1914.1.1.12 = {
-			owner = FRA
-		}
-		1965.3.1.12 = {
-			owner = MOR
-		}
+
 	}
 
-	provinces = {
-		1102 1152 1207 4108 4154 7958 10107
+	provinces={
+		1989 4022 4933 7908 7958 
 	}
-
-	local_supplies = 0.0 
+	manpower=63271
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
 }

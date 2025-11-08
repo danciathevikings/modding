@@ -2,35 +2,47 @@
 state={
 	id=376
 	name="STATE_376"
-	manpower = 423316
-	
-	state_category = rural
-	
 	resources={
-		oil=14 # was: 20
-		aluminium=30 # was: 52
+		oil=14.000
+		aluminium=30.000
 	}
 
-
 	history={
-		owner = SPR
+                owner = ZZZ
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+										1776.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+		1850.1.1 = {
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
 
-		}
-		add_core_of = USA
-		1789.7.14.12 = {
-			owner = MEX
-		}
-		1848.1.1.12 = {
-			owner = USA
 		}
 	}
 
 	provinces={
-		1972 3883 4975 10645 10914 12552
+		1972 5044 10645 10914 12552 
 	}
-	
-
-	local_supplies=0.0 
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,58 +1,89 @@
-state = {
-	id = 196
-	name = "STATE_196"
-	manpower = 728363
-	
-	state_category = rural
-	
-	resources = {
-		chromium = 15 # was: 22
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		chromium=15.000
 	}
 
-	history = {
-		owner = CRI
-
+	history={
+		1779.1.1 = {
 		victory_points = {
-			737 1
+			3755 10 
 		}
-		
+		}
+		owner = WDF
+		add_core_of = WDF
+		1600.1.1 = {
+			owner = OTO
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
+		}
+		1700.1.1 = {
+			add_core_of = RUS
+			remove_core_of = ZAP
+
+		}
+		1776.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
+		1900.1.1 = {
+			add_core_of = UKR
+
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			air_base = 3
-			737 = { dam = 1 }
+			infrastructure = 2
+
 		}
-		add_core_of = UKR
-		add_core_of = CRI
-		1789.7.14.12 = {
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				air_base = 3
+
+			}
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
+		1993.1.1 = {
 			owner = UKR
-			add_core_of = RSS
-			RSS = {
-				set_province_controller = 9712
-				set_province_controller = 767
-				set_province_controller = 6771
-			}
-		}
-		1933.1.30.12 = {
-			owner = SOV
-			SOV = {
-				set_province_controller = 9712
-				set_province_controller = 767
-				set_province_controller = 6771
-			}
-		}
-		2000.1.1.12 = {
-			owner = UKR
+			controller = UKR
+			add_core_of = UKR
 			remove_core_of = SOV
+
 		}
+
 	}
 
-	provinces = {
-		568 721 737 767 3573 6771 9712 11715 
+	provinces={
+		3755 
 	}
-
-	local_supplies = 0.0 
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,5 +1,8 @@
-﻿capital = 538 # Leopoldville/Kinshaasa
-
+﻿capital = 295 # Leopoldville/Kinshaasa
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
 set_oob = "COG_1936"
 
 # Starting tech
@@ -160,6 +163,7 @@ IF = {
 }
 
 # Setup 1936 politics 
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

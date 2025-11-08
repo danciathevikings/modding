@@ -1,68 +1,97 @@
-state = {
-	id = 807
-	name = "STATE_807"
-	manpower = 713370
-	
-	state_category = city
 
-	history = {
+state={
+	id=807
+	name="STATE_807"
+
+	history={
 		owner = TEU
 		add_core_of = TEU
-		add_core_of = POL
-		add_core_of = KSH
-		add_claim_by = PRE
+		1950.1.1 = {
+			remove_claim_by = GER
 
-		victory_points = {
-			9263 5 # Gdynia
 		}
+		1500.1.1 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = PRE
+			remove_core_of = TEU
 
-		victory_points = {
-			3295 5 # Torun
 		}
+		1945.1.1 = {
+			owner = GER
 
-		victory_points = {
-			279 1 # Bydgoszcz
 		}
+		1946.1.1 = {
+			owner = POL
 
+		}
+		1776.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = POL
+
+		}
+		1871.1.1 = {
+			add_core_of = GER
+			owner = GER
+
+		}
+		1919.1.1 = {
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				air_base = 2
+				9263 = {
+					naval_base = 1
+
+				}
+
+			}
+
+		}
+		victory_points = {
+			9263 5 
+		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 2
 			9263 = {
 				naval_base = 1
+
 			}
+
 		}
-		1492.7.1.12 = {
+		1920.1.1 = {
 			owner = POL
-			remove_core_of = TEU
-		}
-		1789.7.14.12 = {
-			owner = PRE
-		}
-		1870.7.1.12 = {
-			owner = GER
-		}
-		1919.1.1.12 = {
-			owner = GER
-			set_demilitarized_zone = yes
-		}
-		1933.1.30.12 = {
-			owner = POL
-			set_demilitarized_zone = no
+			add_core_of = POL
+			remove_core_of = GER
+			controller = POL
+
 		}
 		1938.3.12 = {
 			add_claim_by = GER
+
 		}
-		1945.9.2.12 = {
-			remove_claim_by = GER
-			remove_claim_by = PRE
-		}
+
 	}
 
-	provinces = {
-		243 279 334 389 3295 3324 6347 9263
+	provinces={
+		334 389 3324 9263 13437 13439 13442 13444 13449 
 	}
-
-	local_supplies = 0.0 
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

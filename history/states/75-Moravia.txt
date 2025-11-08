@@ -1,49 +1,94 @@
+
 state={
 	id=75
 	name="STATE_75"
-	manpower = 2598400
 	resources={
-		steel=4 # was: 6
-		oil = 2 # was: 4
+		steel=4.000
+		oil=3.000
 	}
 
-	state_category = city
-
 	history={
-		owner = CZE
-		victory_points = {
-			3569 20
+		owner = MRV
+		add_core_of = MRV
+		1500.1.1 = {
+		owner = BOH
+		add_core_of = BOH
+                remove_core_of = MRV
+                }
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS}
+		
+			1836.1.1 = {owner = BOH
+		add_core_of = BOH}
+						1444.1.1 = 
+		{owner = BOH
+		add_core_of = BOH}
+		
+		
+		
+		
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+                        add_core_of = CZE
+			remove_core_of = AUH
+                        remove_core_of = BOH
+
+		}
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			air_base = 5
+
+		}
 		}
 		victory_points = {
-			6562 5
+			3569 20 
+		}
+		victory_points = {
+			6590 10
+		}
+		victory_points = {
+			6562 5 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
-			air_base = 5
-		}
-		add_core_of = CZE
-		1566.6.1.12 = {
-			owner = AUS
-		}
-		1919.1.1.12 = {
-			owner = CZE
+			industrial_complex = 6
 		}
 		1939.3.14 = {
-			owner = GER
+			owner = RCZ
+			controller = RCZ
+
 		}
-		1945.9.2.12 = {
+		1946.1.1 = {
 			owner = CZE
+			controller = CZE
+			add_core_of = CZE
+			remove_core_of = GER
+
 		}
+<<<<<<< HEAD
 				1444.11.11.1 = {
 			owner = BOH
 			add_core_of = BOH
 		}
+=======
+
+>>>>>>> parent of f8e8457 (merger port)
 	}
 
 	provinces={
-		569 3553 3569 6562 6576 6590 11511 
+		569 3553 3569 6562 6576 6590 11511 14668 14670 14671 14687 14688 14692 
 	}
-
-	local_supplies=3.0 
+	manpower=2598400
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=3.000
 }

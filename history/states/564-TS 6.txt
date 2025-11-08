@@ -1,39 +1,53 @@
+
 state={
 	id=564
 	name="STATE_564" # Ulan Ude
-	manpower = 370893
-
-	state_category = rural
-
+	manpower = 200000
+	state_category = pastoral
 	resources={
-		steel=10
-		chromium=12
-		tungsten=10
-		aluminium=4
+		steel=10 # was: 20
+		chromium=12 # was: 34
+		tungsten=10 # was: 28
+		aluminium=4 # was: 8
 	}
 
 	history={
-		owner = BYA
+		owner = ZZZ
+		1700.1.1 = {
 		victory_points = {
 			7835 2 
 		}
 		victory_points = {
 			12644 1 
 		}
+                }
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = BYA
+                }
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BYA
-		1754.5.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+                }
+		buildings = {
+			infrastructure = 0
+
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

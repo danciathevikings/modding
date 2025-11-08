@@ -1,49 +1,58 @@
-state = {
-	id = 926
-	name = "STATE_926"
-	manpower = 529300
-	
-	state_category = town
-	
-	history = {
-		owner = SWE
-		add_core_of = FIN
-		
-		victory_points = { #Turku
-			3083 3
-		}
 
-		victory_points = { #Pori
-			3117 2 
-		}
+state={
+	id=926
+	name="STATE_926"
 
-		victory_points = { #Rauma
-			169 1 
+	history={
+		victory_points = {
+			13830 5 
+		}
+		victory_points = {
+			13656 1 
+		}
+		victory_points = {
+			11583 1 
+		}
+		victory_points = {
+			13648 1
+		}
+		victory_points = {
+			3609 1
+		}
+		owner = SER
+		1919.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+
+		}
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
 		}
 		
+		2007.1.1 = {
+			owner = SER
+			controller = SER
+			remove_core_of = YUG
+
+		}
 		buildings = {
-			infrastructure = 2 #MM: Was 3
-			arms_factory = 1
+			infrastructure = 2
 			industrial_complex = 1
-			dockyard = 1
-			air_base = 2
-			
-			3083 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
+
 		}
-		1812.6.24.12 = {
-			owner = SOV
-		}
-		1919.1.1.12 = {
-			owner = FIN
-		}
+		add_core_of = SER
+
 	}
 
-	provinces = {
-		32 169 3009 3083 3117 6066 9094 9194 13101 
+	provinces={
+		797 3609 3939 3956 6998 9599 11583 13648 13649 13653 13656 13829 13830 13832 
 	}
-	
-	local_supplies = 0.0
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

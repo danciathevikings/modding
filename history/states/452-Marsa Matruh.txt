@@ -1,37 +1,40 @@
+
 state={
 	id=452
 	name="STATE_452"
-	manpower = 52556
-	
-	state_category = wasteland
 
 	history={
 		owner = EGY
+		1946.1.1 = {
+			owner = EGY
+			controller = EGY
+			remove_core_of = SPR
+
+		}
+		
+								1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
 		buildings = {
 			infrastructure = 2
-		}
 
+		}
 		victory_points = {
-			10061 2 # Mersa Matruh
+			9989 1 
 		}
-
-		victory_points = {
-			9989 1 #Sidi Barrani
-		}
-
 		add_core_of = EGY
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1812.6.24.12 = {
-			owner = EGY
-		}
+
 	}
 
 	provinces={
-		7079 7148 9989 10061 11910 11967 5078 12033 12091 13523
+		7079 9989 10061 11910 11967 12091 
 	}
-
-
-	local_supplies=9.0 
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=9.000
 }

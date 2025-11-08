@@ -1,3 +1,4 @@
+
 state={
 	id=240
 	name="STATE_240" # Belgorod
@@ -9,18 +10,31 @@ state={
 		victory_points = {
 			9449 1
 		}
-		owner = LIT
+		owner = CHE
+		add_core_of = CHE
+		1600.1.1 = {
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = SOV
-		1524.1.1.12 = {
-			owner = MUS
-			add_core_of = MUS
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
-		1566.6.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 		1939.1.1 = {
 			buildings = {

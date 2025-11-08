@@ -1,56 +1,63 @@
-state = {
-	id = 405
-	name = "STATE_405"
-	manpower = 4137910
 
-	history = {
-		owner = TIM
-		add_core_of = TIM
-		victory_points = {
-			1459 3 
-		}
-		victory_points = {
-			10488 1 
-		}
-		add_core_of = SOV
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = UZB
 		add_core_of = UZB
+		1900.1.1 = {
+                owner = RUS
+                }
+		victory_points = {
+			1459 20 
+		}
+				1936.1.1 = {
+                add_core_of = UZB
+                remove_core_of = KAZ
+                }
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 2
-			air_base = 1
+
 		}
-		1524.1.1.12 = {
-			owner = BUK
+				1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
 		}
-		1754.5.1.12 = {
-			owner = UZB
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+
 		}
-		1900.1.1.12 = {
+		}
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = TKS
-			add_core_of = TKS
-			add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
-		2000.1.1.12 = {
+		1993.1.1 = {
 			owner = UZB
+			controller = UZB
+			add_core_of = UZB
+			remove_core_of = SOV
+
 		}
+
 	}
 
-	provinces = {
-		1459 4629 7682 10488 11687
+	provinces={
+		1459 
 	}
-	buildings_max_level_factor = 1.000
-	state_category = city
-
-	local_supplies = 2.0 
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=2.000
 }

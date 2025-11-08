@@ -1,37 +1,69 @@
+
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
-	
-	state_category = wasteland
 
 	history={
-		owner = EGY
-		victory_points = {
-			1130 5 
+		owner = ZZZ
+				1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = CYR
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
 		}
-		buildings = {
-			infrastructure = 1
-			air_base = 4
-			1130 = {
-				naval_base = 6
-			}
-		}
+		1900.1.1 = {
+			owner = OTO
+			controller = OTO
 		add_core_of = LBA
-		1524.1.1.12 = {
-			owner = TUR
+		add_core_of = CYR
+
 		}
-		1914.1.1.12 = {
-			owner = ITA
+		
+		1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = EGY
+
 		}
-		1965.3.1.12 = {
+		
+		1911.1.1 = {
 			owner = LBA
+			controller = LBA
+
 		}
+								1945.1.1 = {
+                owner = ENG
+                }
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
+		buildings = {
+			infrastructure = 0
+		}
+
+
 	}
 
 	provinces={
-		1130 1204 4136 4151 7082 9992 10120 12094 
+		1057 1062 1186 4060 4063 4133 7063 7076 7139 7206 7985 9977 10754 10785 10884 11951 12022 12025 12079 12082 13078 13236 13240 13241 13243 
 	}
-
-	local_supplies=4.0 
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
 }

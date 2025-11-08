@@ -1,44 +1,74 @@
+
 state={
 	id=447
 	name="STATE_447"
-	manpower = 3859239
 	resources={
-		oil=1
-		tungsten = 3
-		steel = 3
+		oil=1.000
 	}
-	
-	state_category = town
 
 	history={
 		owner = EGY
-		victory_points = {
-			4076 10 
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 6
+				4076 = {
+					naval_base = 8
+
+				}
+
+			}
+
 		}
 		
+						1648.1.1 = {
+			owner = OTO
+			controller = OTO
+			remove_core_of = EGY
+
+		}
+		
+		1946.1.1 = {
+			owner = EGY
+			controller = EGY
+			remove_core_of = SPR
+
+		}
+		victory_points = {
+			4076 25 
+		}
+		victory_points = {
+			3996 10 
+		}
 		victory_points = {
 			1071 1 
-		}		
+		}
+		victory_points = {
+			13249 3 
+		}
+		victory_points = {
+			1068 3 
+		}
+		victory_points = {
+			11974 1 
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			air_base = 6
+			infrastructure = 3
 			4076 = {
 				naval_base = 8
+
 			}
+
 		}
 		add_core_of = EGY
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1812.6.24.12 = {
-			owner = EGY
-		}
+
 	}
 
 	provinces={
-		1071 4076 4145 7091 7164 10073 11964  
+		992 1068 1071 1143 1151 3996 4055 4076 4143 4145 5078 7030 7091 7117 7144 7148 7164 7188 10005 10028 10031 10073 10097 10127 11964 11974 12004 12033 12044 12764 13245 13246 13247 13248 13249 13250 
 	}
-
-	local_supplies=0.0 
+	manpower=3576999
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

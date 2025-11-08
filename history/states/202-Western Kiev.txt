@@ -1,57 +1,92 @@
+
 state={
 	id=202
 	name="STATE_202"
-	manpower = 2495352
-
-	resources={
-		oil=8
-		aluminium=7
-	}
-	
-	state_category = city
 
 	history={
-		owner = LIT
+		owner = KIE
+		add_core_of = KIE
+		1600.1.1 = {
+			owner = POL
+                add_core_of = ZAP
+	    remove_core_of = KIE
+		}
+		
+				1444.1.1 = {
+			owner = LIT
+            add_core_of = LIT
+		}
+		
+		1689.1.1 = {
+			owner = ZAP
+		add_core_of = ZAP
+		remove_core_of = LIT
+		remove_core_of = POL
+		}
+		1776.1.1 = {
+			owner = KIE
+		add_core_of = KIE
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = KIE
+		remove_core_of = POL
+		}
 		victory_points = {
-			525 25
+			525 30 
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
-			arms_factory = 2
-			industrial_complex = 3
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		1900.1.1 = {
+		add_core_of = UKR
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
 			fuel_silo = 1
 			air_base = 8
+                        }
+
 		}
-		add_core_of = UKR
-		1618.4.1.12 = {
-			owner = POL
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
 		}
-		1812.6.24.12 = {
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
+		1993.1.1 = {
 			owner = UKR
-		add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
-			owner = UKR
+			controller = UKR
+			add_core_of = UKR
 			remove_core_of = SOV
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 3
-			}
+
 		}
 	}
 
 	provinces={
-		489 504 525 582 3494 3543 6497 9465 9543 9568 11557 
+		525 
 	}
-
-	local_supplies=0.0 
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

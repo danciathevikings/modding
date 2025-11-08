@@ -1,49 +1,52 @@
-state = {
-	id = 832
-	name = "STATE_832"
-	manpower = 133065
 
-	state_category = pastoral
+state={
+	id=832
+	name="STATE_832"
 
-	history = {
+	history={
 		owner = TIM
-		add_core_of = TIM
 		victory_points = {
-			1493 1
+			10485 1 
 		}
-		add_core_of = SOV
-		add_core_of = TMS
-		add_core_of = KHI
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 0
+
 		}
-		1492.7.1.12 = {
-			owner = UZB
-		}
-		1524.1.1.12 = {
+		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = TMS
+                remove_core_of = KHI
+                }
+
+		1600.1.1 = {
 			owner = KHI
+			controller = KHI
+			add_core_of = KHI
+			remove_core_of = RUS
+
 		}
-		1900.1.1.12 = {
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = KHI
-			add_core_of = TKS
-			add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
+		1993.1.1 = {
 			owner = TMS
+			controller = TMS
+			add_core_of = TMS
+			remove_core_of = SOV
+
 		}
+
 	}
 
-	provinces = {
-		1493 1649 7618 10485
+	provinces={
+		10485 
 	}
-	buildings_max_level_factor = 1.000
-
-	local_supplies = 4.0
+	manpower=44523
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
 }

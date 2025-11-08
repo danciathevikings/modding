@@ -1,32 +1,57 @@
-state = {
-	id = 575
-	name = "STATE_575" # Kirensk
-	manpower = 146494
-	
-	state_category = wasteland
 
-	history = {
-		owner = EVE
-		add_core_of = EVE
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+		add_core_of = CIR
+		owner = CIR
+		1867.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1900.1.1 = {
+			add_core_of = KRC
+			remove_core_of = CIR
+
+		}
 		buildings = {
 			infrastructure = 1
+
 		}
-		1754.5.1.12 = {
+		1919.1.1 = {
+		owner = DAG
+		add_core_of=DAG
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
 			owner = SOV
+			controller = SOV
 			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
 		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
+
 	}
 
-	provinces = {
-		1792 4703 4737 7726 7828 10557 10628 10688 12531 12608 12668 12681 13059 
+	provinces={
+		714 6674 6692 9691 11664 
 	}
-
-	local_supplies = 5.0 
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

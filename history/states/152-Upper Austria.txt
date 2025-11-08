@@ -1,38 +1,60 @@
-state = {
-	id = 152
-	name = "STATE_152"
-	manpower = 575377
-	
-	state_category = city
-	
-	resources = {
-		steel = 15
-		aluminium = 1
+
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		steel=5.000
+		aluminium=1.000
 	}
 
-	history = {
+	history={
 		owner = AUS
 		add_core_of = AUS
+		1900.1.1 = {
+			owner = AUH
+			add_core_of = AUH
+			remove_core_of = AUS
+
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
+
 		}
 		victory_points = {
-			9665 3
+			9665 3 
+		}
+		victory_points = {
+			732 10 
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
 		}
 		1938.3.12 = {
 			owner = GER
+			controller = GER
 			add_core_of = GER
+
 		}
-		1945.9.2.12 = {
+		1956.1.1 = {
 			owner = AUS
+			controller = AUS
+			add_core_of = AUS
 			remove_core_of = GER
+
 		}
+
 	}
 
-	provinces = {
-		3684 3703 6691 6708 9665
+	provinces={
+		732 3684 9665 14616 14624 
 	}
-
-	local_supplies = 0.0 
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

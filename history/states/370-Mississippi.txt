@@ -2,31 +2,52 @@
 state={
 	id=370
 	name="STATE_370"
-	manpower = 2009820
-	
-	state_category = city
 
 	history={
-		owner = USA
-		buildings = {
-			infrastructure = 2
-
+                owner = ZZZ
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+                owner = UNO
+		add_core_of = UNO
+                }
+						        1776.1.1 = {
+		owner = CAN
+		add_core_of=CAN
 		}
+				        1789.1.1 = {
+		remove_core_of=CAN
+		}
+				1812.1.1 = {
+                owner = MSP
+		add_core_of = MSP
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+						1813.1.1 = {
+                owner = USA
 		add_core_of = USA
-		1861.3.1.12 = {
-			owner = CSA
-		add_core_of = CSA
-		}
-		1870.7.1.12 = {
-			owner = USA
-			remove_core_of = CSA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=MSP
+                }
+		buildings = {
+			infrastructure = 0
+
 		}
 	}
 
 	provinces={
-		4510 4565 7464 8110 10410 10753 11717 12328 12429 
+		1528 1587 4510 4565 7464 7640 8110 10410 10753 11717 12328 12429 
 	}
-	
-
-	local_supplies=0.0 
+	manpower=828697	
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

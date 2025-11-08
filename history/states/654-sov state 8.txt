@@ -1,3 +1,4 @@
+
 state={
 	id=654
 	name="STATE_654" # Gorno-Altaysk
@@ -6,26 +7,45 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = OIR
-		add_core_of = OIR
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = SOV
-		add_core_of = ALT
+		owner = ZZZ
+		1825.1.1 = {
 		victory_points = {
-			4800 1
+			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
-		1754.5.1.12 = {
-			owner = SOV
-			add_core_of = SOV
+                }
+				
+												1444.1.1 = {
+        owner = TFO
+		add_core_of = TFO
+        }
+				
+		1776.1.1 = {
+		add_core_of=MON
+                owner = QIN
+                }
+						1859.1.1 = {
+		add_core_of = RUS
+		remove_core_of= MON
+		remove_core_of= QNG
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = ALT
+                }
+		buildings = {
+			infrastructure = 0
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

@@ -1,46 +1,35 @@
-state = {
-	id = 852
-	name = "STATE_852"
-	manpower = 125850
 
-	state_category = town 
+state={
+	id=852
+	name="STATE_852"
 
-	history = {
-		owner = VNR
+	history={
+		owner = ZZZ
+		1900.1.1 = {
 		victory_points = {
-			11564 1 
+			10976 1 
 		}
+                }
+		1900.1.1 = {
+                owner = ENG
+                add_core_of = KEN
+                add_core_of = SOM
+                }
+						1961.1.1 = {
+        owner = KEN
+		add_core_of = KEN
+        }
 		buildings = {
-			infrastructure = 3
-			dockyard = 1
-			11564 = {
-				naval_base = 2
-			}
-		}
-		add_core_of = ITA
-		add_core_of = CRO
-		add_core_of = LBV
-		1812.6.24.12 = {
-			owner = FRA
-		}
-		1848.1.1.12 = {
-			owner = AUS
-		}
-		1919.1.1.12 = {
-			owner = ITA
-			add_core_of = YUG
-		}
-		1945.9.2.12 = {
-			owner = YUG
-		}
-		2000.1.1.12 = {
-			owner = CRO
+			infrastructure = 0
+
 		}
 	}
 
-	provinces = {
-		11564 11735
+	provinces={
+		8133 10761 10976 12927 14149 14153 
 	}
-
-	local_supplies = 0.0 
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

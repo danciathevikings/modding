@@ -1,3 +1,4 @@
+
 state={
 	id=809
 	name="STATE_809"
@@ -5,47 +6,62 @@ state={
 	history={
 		owner = LIV
 		add_core_of = LIV
-		victory_points = {
-			310 3 #Daugavpils
+		1900.1.1 = {
+			add_core_of = LAT
+
+		}
+		1600.1.1 = {
+			owner = COU
+			add_core_of = COU
+			remove_core_of = LIV
+
+		}
+		1800.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = LIV
+			remove_core_of = COU
+
 		}
 		victory_points = {
-			222 1 #Rezekne
+			14423 3 
+		}
+		victory_points = {
+			3255 1 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+
 		}
-		add_core_of = LAT
-		1566.6.1.12 = {
+		1919.1.1 = {
 			owner = LAT
-			remove_core_of = LIV
-		}
-		1812.6.24.12 = {
-			owner = SOV
-		}
-		1919.1.1.12 = {
-			owner = LAT
-			SOV = {
-				set_province_controller = 3255
-				set_province_controller = 11358
-			}
-		}
-		1933.1.30.12 = {
 			controller = LAT
+			add_core_of = LAT
+			remove_core_of = RUS
+
 		}
-		1945.9.2.12 = {
+		1945.1.1 = {
 			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
-		2000.1.1.12 = {
+		1993.1.1 = {
 			owner = LAT
+			controller = LAT
+			add_core_of = LAT
+			remove_core_of = SOV
+
 		}
+
 	}
 
 	provinces={
-		265 3255 3525 6222 6342 11358
+		265 3255 6342 11358 14397 14406 14414 14415 14420 14423 
 	}
-	manpower=215500
+	manpower=44500
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
+	local_supplies=0.000
 }

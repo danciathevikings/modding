@@ -1,40 +1,63 @@
+
 state={
 	id=907
 	name="STATE_907"
-	manpower = 6454865
-
-	state_category=town
 
 	history={
-		owner = EGY
+		owner = MIL
+		add_core_of = MIL
+		1750.1.1 = {
+			add_core_of = SPM
+			owner = SPM
+			remove_core_of = MIL
+
+		}
+		1800.1.1 = {
+			add_core_of = SAV
+			owner = SAV
+
+		}
+		1812.1.1 = {
+			remove_core_of = SAV
+			add_core_of = ITA
+			owner = ITA
+
+		}
+		1816.1.1 = {
+			add_core_of = SPM
+			owner = SPM
+			remove_core_of = ITA
+
+		}
+		1871.1.1 = {
+			owner = ITA
+			add_core_of = ITA
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
+		victory_points = {
+			13879 1 
+		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 5
+			infrastructure = 2
+			arms_factory = 2
+
 		}
-		victory_points = {
-			7011 20 
-		}
-		
-		victory_points = {
-			3996 5 
-		}
-		
-		victory_points = {
-			1068 3 
-		}
-		add_core_of = EGY
-		1524.1.1.12 = {
-			owner = TUR
-		}
-		1812.6.24.12 = {
-			owner = EGY
-		}
+
 	}
+
 	provinces={
-		992 1068 3996 4055 4143 7011 7117 7188 10005 10031 12004
+		13879 14565 
 	}
-	
+	manpower=600000
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

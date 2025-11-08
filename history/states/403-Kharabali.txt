@@ -1,3 +1,4 @@
+
 state={
 	id=403
 	name="STATE_403" # Tyumen
@@ -6,30 +7,35 @@ state={
 	state_category = rural
 
 	history={
-		owner = SIB
-		add_core_of = SIB
+		owner = ZZZ
+		1600.1.1 = {
 		victory_points = {
-			7774 2
+			4824 1
 		}
+                }
+		1600.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
 		buildings = {
-			infrastructure = 2
+			infrastructure = 2 
 		}
-		1618.4.1.12 = {
-			owner = SOV
-			add_core_of = SOV
-			victory_points = {
-				4824 1
-			}
-			victory_points = {
-				7774 0
-			}
+                }
+		buildings = {
+			infrastructure = 0
 		}
-		1919.1.1.12 = {
-			owner = RSS
-			add_core_of = RSS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
 		}
-		1933.1.30.12 = {
-			owner = SOV
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
 		}
 	}
 

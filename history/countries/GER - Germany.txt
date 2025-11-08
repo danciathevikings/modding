@@ -1,5 +1,410 @@
-﻿capital = 1221 # Berlin/Brandeburg
+﻿1914.6.28 = {
+	set_politics = {
+	ruling_party = neutrality
+	last_election = "1912.1.12"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 8
+	fascism = 10
+	communism = 2
+	neutrality = 80
+}
+}
+1934.6.28 = {
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 35
+	fascism = 40
+	communism = 10
+	neutrality = 15
+}
+}
+1944.1.1 = {
+		if = {
+		limit = { has_start_date < 1946.1.1 }
+    set_autonomy = {
+        target = RHO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = DEN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = RNO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = RCZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	    set_autonomy = {
+        target = RPO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = RLV
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = CRO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = HUN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+ITA={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+CRO={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+HUN={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+SLO={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+DEN={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+RLV={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+RNO={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+RCZ={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+RPO={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+RHO={
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+	declare_war_on = {
+		target = YUG
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = SOV
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BEL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUX
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+}
+}
 
+set_technology = {
+	infantry_weapons = 1
+}
+capital = 64 # Berlin/Brandeburg
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -177,9 +582,8 @@ set_variable = { GER_change_monthly_CG_vichy_france = 0.005 } #Changing monthly 
 set_variable = { GER_change_monthly_CG_price_controls = 0.005 } #Changing monthly CG when taking Price Controls focus
 set_variable = { GER_change_monthly_CG_occupied_states = 0.005 } #Changing monthly CG based on none-core states
 set_variable = { GER_expected_consumer_goods_penalty = 0.1} #Consumer Goods penalty when hitting 100% CGFF
-set_variable = { GER_factory_output_penalty = 0.2 } #Factory output penalty when hitting 100% CGFF
-set_variable = { GER_dockyard_output_penalty = 0.2 } #Dockyard output penalty when hitting 100% CGFF
-set_variable = { GER_reduce_russian_CG_bonus = 0 } #Used to reduce Soviet Gold Reserves if Germany has taken gold from various Soviet cities before capping them
+set_variable = { GER_factory_output_penalty = 0.15 } #Factory output penalty when hitting 100% CGFF
+set_variable = { GER_dockyard_output_penalty = 0.15 } #Dockyard output penalty when hitting 100% CGFF
 
 #INDUSTRAY: MEFO Bills/Economy of Conquest/Recovering Economy/Wirtschaftswunder
 #REMINDER to always update the fake NS if these numbers are altered!
@@ -208,7 +612,6 @@ set_variable = { GER_industrial_production_factory_start_efficiency_factor = 0 }
 set_variable = { GER_industrial_line_change_production_efficiency_factor = 0 }
 set_variable = { GER_industrial_equipment_conversion_speed = 0 }
 set_variable = { GER_industrial_consumer_goods_expected_value = 0 }
-set_variable = { GER_economic_crash_consumer_goods = 0.75 } #Amount of CGFF if the MEFO Bills gets canceled one way or another
 add_dynamic_modifier = { modifier = GER_mefo_bills_modifier }
 
 #WUNDERWAFFEN
@@ -297,10 +700,6 @@ set_variable = { GER_military_air_strategic_bomber_bombing_factor = 0 }
 set_variable = { GER_military_air_range_factor = 0 }
 set_variable = { GER_military_air_fuel_consumption_factor = 0 }
 add_dynamic_modifier = { modifier = GER_airforce_modifier }
-
-#CROSSING THE ATLANTIC
-set_variable = { number_of_states_getting_dockyards = 0 }
-set_variable = { crossing_the_atlantic_max_states_for_dockyards = 10 }
 
 #FORT CONSTRUCTION COST
 set_variable = { GER_fort_construction_cp_cost = 25 }
@@ -423,8 +822,7 @@ IF = {
 	}
 }
 set_war_support = 0.3
-
-
+}
 # SETUP THE 1939 SCENARIO
 1939.1.1 = {
 
@@ -645,7 +1043,7 @@ set_war_support = 0.3
 
 	complete_special_project = {
 		project = sp:sp_naval_midget_submarine
-		scientist = GER_hellmuth_walter
+		scientist = GER_helmuth_walter
 		state = 56
 	}
 
@@ -713,8 +1111,9 @@ set_war_support = 0.3
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 		basic_fortification_tech = 1
+
 	}
-	
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 		scientist = GER_konrad_zuse
@@ -802,9 +1201,13 @@ set_popularities = {
 }
 
 # Wowow nice faction
+1936.1.1 = {
+		if = {
+limit = { has_start_date < 1946.1.1 }
 create_faction = Axis
 add_to_faction = GER
-
+}
+}
 # Setup of National Spirits
 add_ideas = {
 	sour_loser
@@ -931,7 +1334,6 @@ recruit_character = GER_ulrich_gabler
 recruit_character = GER_hans_von_ohain
 recruit_character = GER_max_kramer
 recruit_character = GER_kurt_tank
-recruit_character = GER_hellmuth_walter
 recruit_character = GER_manfred_von_ardenne
 recruit_character = GER_konrad_zuse
 
@@ -950,12 +1352,7 @@ if = {
 	recruit_character = GER_oberste_heeresleitung_character
 	recruit_character = GER_franz_ritter_von_epp
 	recruit_character = GER_walter_ulbricht
-	if = {
-		limit = {
-			has_dlc = "La Resistance"
-		}
-		recruit_character = GER_wilhelm_zaisser
-	}
+	recruit_character = GER_wilhelm_zaisser
 	recruit_character = GER_otto_ruhle
 	recruit_character = GER_hermann_duncker
 	recruit_character = GER_august_thalheimer
@@ -1012,6 +1409,7 @@ if = {
 		}
 		obsolete = yes
 	}
+	# Heavy Cruisers #
 	create_equipment_variant = {
 		name = "Deutschland"
 		type = heavy_cruiser_1
@@ -1132,7 +1530,7 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland"
 		type = ship_hull_cruiser_panzerschiff
-		name_group = GER_PZ_HISTORICAL
+		name_group = GER_CA_HISTORICAL
 		parent_version = 0
 		modules = {
         	fixed_ship_anti_air_slot = ship_anti_air_1
@@ -1219,7 +1617,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Königsberg"
-		type = ship_hull_cruiser_1
+		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -1328,7 +1726,7 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland"
 		type = ship_hull_pre_dreadnought
-		name_group = GER_PZ_HISTORICAL
+		name_group = GER_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1503,7 +1901,7 @@ if = {
 		icon = "GFX_GER_naval_bomber1_medium"
 	}
 }
-
+}
 ## 1939 Start ##
 1939.1.1 = {
 	if = {
@@ -1655,7 +2053,7 @@ if = {
 				tank_nsb_armor_upgrade = 2
 			}
 			obsolete = yes
-			icon = "GFX_CZE_basic_light_tank_medium"
+			icon = "GFX_CZE_imp_light_tank"
 		}
 		create_equipment_variant = {
 			name = "Panzer 38(t)"
@@ -1677,7 +2075,7 @@ if = {
 				tank_nsb_armor_upgrade = 3
 			}
 			
-			icon = "GFX_CZE_improved_light_tank_medium"
+			icon = "GFX_CZE_basic_main_tank"
 		}
 	}
 

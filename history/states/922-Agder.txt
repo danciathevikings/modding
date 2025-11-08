@@ -1,40 +1,65 @@
-state = {
-	id = 922
-	name = "STATE_922"
-	manpower = 396425
-	state_category = town
-	resources = {
-		aluminium = 5
-	}
 
-	history = {
+state={
+	id=922
+	name="STATE_922"
+
+	history={
+		owner = SAV
+		add_core_of = SAV
+		1720.1.1 = {
+			add_core_of = SPM
+			owner = SPM
+			remove_core_of = SAV
+
+		}
+		1800.1.1 = {
+			add_core_of = SAV
+			owner = SAV
+
+		}
+		1812.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = SAV
+			add_core_of = FRA
+			owner = FRA
+
+		}
+		1816.1.1 = {
+			add_core_of = SPM
+			owner = SPM
+			remove_core_of = ITA
+			remove_core_of = FRA
+			remove_core_of = SAV
+
+		}
+		1871.1.1 = {
+			owner = ITA
+			add_core_of = ITA
+
+		}
+		1919.1.1 = {
+			remove_core_of = SPM
+			remove_core_of = PAP
+			remove_core_of = TOS
+			remove_core_of = TTS
+			remove_core_of = LBV
+
+		}
 		victory_points = {
-			9296 3 
+			611 1 
 		}
-		
-		owner = NOR
-		add_core_of = NOR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			9296 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
+			infrastructure = 2
+
 		}
-		1524.1.1.12 = {
-			owner = DEN
-		}
-		1848.1.1.12 = {
-			owner = NOR
-		}
+
 	}
 
-	provinces = {
-		3049 3129 6072 9096 9196 9296 11176 11367 11101
+	provinces={
+		611 14553 
 	}
-
-	local_supplies = 0.0
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

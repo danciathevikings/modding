@@ -1,46 +1,54 @@
-state = {
-	id = 404
-	name = "STATE_404"
-	manpower = 447020
 
-	history = {
-		owner = TIM
-		add_core_of = TIM
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = UZB
+		add_core_of = UZB
+		1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
+		}
+		1848.1.1 = {
+                owner = RUS
+                }
 		victory_points = {
-			7597 1
+			7597 1 
 		}
-		add_core_of = KAZ
+		1919.1.1 = {
+		owner = KAZ
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = SOV
+
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
+
 		}
-		add_core_of = SOV
-		1524.1.1.12 = {
-			owner = KAZ
-		}
-		1861.3.1.12 = {
-			owner = SOV
-		}
-		1900.1.1.12 = {
-			owner = SOV
-		}
-		1919.1.1.12 = {
-			owner = TKS
-			add_core_of = TKS
-			add_core_of = RSS
-		}
-		1933.1.30.12 = {
-			owner = SOV
-		}
-		2000.1.1.12 = {
-			owner = KAZ
-		}
+
 	}
 
-	provinces = {
-		4578 4636 4686 7556 7597 7657 7706 7777 10148 10353 10366 10452 10506 10601 10603 12329 12340 12397 12640 12658
+	provinces={
+		7597 10452 
 	}
-	buildings_max_level_factor = 1.000
-	state_category = pastoral
-
-	local_supplies = 0.0 
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
 }

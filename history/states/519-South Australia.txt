@@ -4,27 +4,37 @@ state={
 	name="STATE_519"
 
 	history={
-		owner = JWB
+		owner = ZZZ
+		1789.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
+		}
+		1836.1.1 = {
+		victory_points = {
+			12910 20 
+		}
+		}
+		1835.1.1 = {
 		buildings = {
 			infrastructure = 1
+			12910 = {
+				naval_base = 2
 
-		}
-		1848.1.1.12 = {
-			owner = ENG
-		}
-		1914.1.1.12 = {
-			owner = AST
-		add_core_of = AST
+			}
 		}
 
-	}
+		}
+		buildings = {
+			infrastructure = 0
 
+                }
+		}
 	provinces={
-		5183 5197 8165 8220 13169 13170 
+		1773 2219 7567 8165 8186 8220 12910 12918 12924 
 	}
-	manpower=200800
+	manpower=200000
 	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=0.0 
+	state_category=pastoral
+	local_supplies=0.000
 }
